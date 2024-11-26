@@ -7,12 +7,12 @@
 ![Commit Activity](https://img.shields.io/github/commit-activity/m/Redot-Engine/redot-website?color=FFA726&label=commits&style=for-the-badge)
 ![Last Commit](https://img.shields.io/github/last-commit/Redot-Engine/redot-website?color=FFA726&label=last%20commit&style=for-the-badge)
 
-
 <div align="center">
 
 <h1 align="center">Redot Engine Website</h1>
 
 This is the official website for the **Redot Engine**, providing information, resources, and updates about the engine.
+
 </div>
 
 ## Build from source
