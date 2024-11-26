@@ -2,7 +2,7 @@ echo '🚨 Validating the branch name before pushing the code'
 
 local_branch="$(git rev-parse --abbrev-ref HEAD)"
 
-valid_branch_regex="/^(feat|feature|fix|docs|style|refactor|test|chore)\/[a-zA-Z0-9#]+([-_#][a-zA-Z0-9#]+)*$/gm"
+valid_branch_regex="^(feat|feature|fix|docs|style|refactor|test|chore)\/[a-zA-Z0-9#]+([-_#][a-zA-Z0-9#]+)*$"
 
 if [[ ! $local_branch =~ $valid_branch_regex ]]
 then
