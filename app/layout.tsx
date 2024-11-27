@@ -22,7 +22,6 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${dmSans.className} bg-[#EAEEFE] antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="light">
-          disableTransitionOnChange
           {children}
         </ThemeProvider>
       </body>
