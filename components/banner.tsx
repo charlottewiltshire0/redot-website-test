@@ -1,14 +1,16 @@
-import IconArrowRight from "@tabler/icons-react";
-import Link from "next/link";
-import { motion } from "framer-motion";
+"use client";
 
-interface WarningProps {
+import { IconArrowRight } from "@tabler/icons-react";
+import Link from "next/link";
+import { motion } from "motion/react";
+
+interface BannerProps {
   mainMessage?: string;
   subMessage?: string;
   link?: string;
 }
 
-export const Banner = ({ mainMessage, subMessage, link }: WarningProps) => {
+export default function Banner({ mainMessage, subMessage, link }: BannerProps) {
   if (!mainMessage) return null;
 
   return (
@@ -24,12 +26,12 @@ export const Banner = ({ mainMessage, subMessage, link }: WarningProps) => {
               className="inline-flex items-center gap-1"
             >
               <p>{mainMessage}</p>
-              <motion.svg
+              <motion.div
                 whileHover={{ scale: 1.1 }}
                 transition={{ ease: "easeOut", duration: 0.3 }}
               >
                 <IconArrowRight className="inline-flex h-4 w-4 items-center justify-center" />
-              </motion.svg>
+              </motion.div>
             </Link>
           ) : (
             <p>{mainMessage}</p>
@@ -38,4 +40,4 @@ export const Banner = ({ mainMessage, subMessage, link }: WarningProps) => {
       )}
     </div>
   );
-};
+}
