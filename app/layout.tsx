@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
 
-const inter = Inter({
+const dmSans = DM_Sans({
   subsets: ["latin"],
   display: "swap",
 });
@@ -20,12 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} antialiased`}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
+      <body className={`${dmSans.className} bg-[#EAEEFE] antialiased`}>
+        <ThemeProvider attribute="class" defaultTheme="light">
           disableTransitionOnChange
-        >
           {children}
         </ThemeProvider>
       </body>
