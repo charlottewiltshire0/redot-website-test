@@ -1,7 +1,9 @@
+import { Hero } from "@/components/sections/hero";
+
 export default function Home() {
   return (
     <div>
-      <h1 className="text-2xl">Init</h1>
+      <Hero />
     </div>
   );
 }
