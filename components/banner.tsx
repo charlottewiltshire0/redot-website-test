@@ -15,7 +15,7 @@ export default function Banner({ mainMessage, subMessage, link }: BannerProps) {
 
   return (
     <div className="flex items-center justify-center gap-3 bg-black py-3 text-sm font-medium text-white">
-      <p className="text-white/60">{subMessage}</p>
+      <p className="hidden text-white/60 md:block">{subMessage}</p>
       {subMessage && (
         <div>
           {link ? (
