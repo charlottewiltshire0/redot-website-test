@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { DM_Sans } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
+import { GoogleTagManager } from "@next/third-parties/google";
 
-const dmSans = DM_Sans({
+const inter = Inter({
   subsets: ["latin"],
   display: "swap",
 });
@@ -20,7 +21,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${dmSans.className} bg-[#FEF1EA] antialiased`}>
+      <GoogleTagManager gtmId="G-PLVV7BPX1T" />
+      <body className={`${inter.className} bg-[#FEEAEA] antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="light">
           {children}
         </ThemeProvider>
