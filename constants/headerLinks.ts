@@ -16,4 +16,8 @@ export const headerLinks: HeaderLink[] = [
     label: "Proposals",
     href: "https://proposals.redotengine.org/",
   },
+  {
+    label: "Community",
+    href: "/community/",
+  },
 ];
