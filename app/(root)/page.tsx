@@ -4,6 +4,8 @@ import dynamic from "next/dynamic";
 import { Hero } from "@/components/sections/landing/hero";
 import { ProductShowcase } from "@/components/sections/landing/product-showcase";
 
+export const runtime = "edge";
+
 const Features = dynamic(
   () =>
     import("@/components/sections/landing/features").then(
