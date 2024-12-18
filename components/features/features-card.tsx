@@ -1,4 +1,4 @@
-import { FeaturesList } from "@/constants/featuresList";
+import { FeaturesList } from "@/constants/features-list";
 
 export const FeaturesCard = ({ icon, label }: FeaturesList) => {
   return (

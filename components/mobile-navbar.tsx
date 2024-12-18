@@ -1,6 +1,6 @@
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import Link from "next/link";
-import { headerLinks } from "@/constants/headerLinks";
+import { headerLinks } from "@/constants/header-links";
 import { IconMenu } from "@tabler/icons-react";
 
 export const MobileSidebar = () => {

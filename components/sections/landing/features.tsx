@@ -3,7 +3,7 @@
 import { motion } from "motion/react";
 import { useInView } from "react-intersection-observer";
 import Marquee from "@/components/ui/marquee";
-import { featuresList } from "@/constants/featuresList";
+import { featuresList } from "@/constants/features-list";
 import { FeaturesCard } from "@/components/features/features-card";
 import FeaturesHighlight from "@/components/features/features-highlight";
 import { IconCommand } from "@tabler/icons-react";

@@ -1,7 +1,7 @@
 import Banner from "@/components/banner";
 import Link from "next/link";
 import Image from "next/image";
-import { headerLinks } from "@/constants/headerLinks";
+import { headerLinks } from "@/constants/header-links";
 import { Button } from "@/components/ui/button";
 import { MobileSidebar } from "@/components/mobile-navbar";
 
