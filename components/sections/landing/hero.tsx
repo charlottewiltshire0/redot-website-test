@@ -88,12 +88,7 @@ export const Hero = () => {
               className="h-auto w-auto rounded-lg object-cover"
               priority
               fill
-              srcSet="
-                /cover.webp 320w,
-                /cover.webp 640w,
-                /cover.webp 1024w
-              "
-              sizes="(max-width: 640px) 320px, 100vw"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           </motion.div>
         </div>

@@ -1,16 +1,14 @@
 "use client";
 
-import { motion, MotionProps } from "framer-motion";
+import { motion } from "motion/react";
 import { useEffect, useState } from "react";
 
-interface DisableAnimationsProps extends MotionProps {
+interface DisableAnimationsProps {
   children: React.ReactNode;
+  [key: string]: any;
 }
 
-const DisableAnimations: React.FC<DisableAnimationsProps> = ({
-  children,
-  ...rest
-}) => {
+const DisableAnimations = ({ children, ...rest }: DisableAnimationsProps) => {
   const [disableAnimations, setDisableAnimations] = useState(false);
 
   useEffect(() => {
@@ -30,11 +28,7 @@ const DisableAnimations: React.FC<DisableAnimationsProps> = ({
   }, []);
 
   if (disableAnimations) {
-    return (
-      <div {...rest} style={{ ...rest.style }}>
-        {children}
-      </div>
-    );
+    return <div {...rest}>{children}</div>;
   }
 
   return <motion.div {...rest}>{children}</motion.div>;
