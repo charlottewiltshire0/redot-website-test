@@ -14,7 +14,7 @@ export const Header = () => {
         link="https://www.redotengine.org/news/release-4-3-stable"
       />
       <div className="py-5">
-        <div className="container">
+        <div className="w-full px-5 lg:px-40">
           <div className="flex items-center justify-between">
             <Link
               href="/"
@@ -27,12 +27,12 @@ export const Header = () => {
                 height={30}
               />
             </Link>
-            <div className="hidden lg:block">
+            <div className="hidden md:block">
               <nav className="flex items-center gap-3 md:gap-6">
                 {headerLinks.map((link) => (
                   <Link
                     key={link.label}
-                    className="font-medium text-black/60 transition-colors duration-300 hover:text-black"
+                    className="text-base font-medium text-black/60 transition-colors duration-300 hover:text-black"
                     href={link.href}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -45,7 +45,7 @@ export const Header = () => {
                 </Button>
               </nav>
             </div>
-            <div className="block lg:hidden">
+            <div className="block md:hidden">
               <MobileSidebar />
             </div>
           </div>
