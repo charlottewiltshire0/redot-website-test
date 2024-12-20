@@ -16,7 +16,7 @@ export const Review = () => {
   const secondRow = reviews.slice(reviews.length / 2);
 
   return (
-    <section ref={ref} className="overflow-x-clip pt-24">
+    <section ref={ref} className="overflow-x-clip bg-background pt-24">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -62,7 +62,7 @@ export const Review = () => {
           className="mt-10"
         >
           <div className="hidden md:block">
-            <div className="relative flex w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background">
+            <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
               <Marquee pauseOnHover className="[--duration:20s]">
                 {firstRow.map((review) => (
                   <ReviewCard

@@ -1,5 +1,5 @@
-import Image from "next/image";
 import { cn } from "@/lib/utils";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 interface ReviewsProps {
   className?: string;
@@ -17,26 +17,27 @@ export const ReviewCard = ({
   className,
 }: ReviewsProps) => {
   return (
-    <figure
+    <div
       className={cn(
-        "relative cursor-pointer overflow-hidden rounded-xl border border-background/[.1] bg-background/[.01] p-4 hover:bg-background/[.05]",
+        "relative cursor-pointer overflow-hidden rounded-xl border border-gray-950/[.1] bg-gray-950/[.01] p-4 hover:bg-gray-950/[.05]",
         className
       )}
     >
       <div className="flex flex-row items-center gap-2">
-        <Image
-          className="rounded-full"
-          width="32"
-          height="32"
-          alt="User avatar"
-          src={avatar}
-        />
+        <Avatar>
+          <AvatarImage src={avatar} />
+          <AvatarFallback>
+            {name ? name.charAt(0).toUpperCase() : ""}
+          </AvatarFallback>
+        </Avatar>
         <div className="flex flex-col">
-          <figcaption className="text-sm font-medium">{name}</figcaption>
+          <p className="text-sm font-medium">{name}</p>
           <p className="text-xs font-medium">{username}</p>
         </div>
       </div>
-      <blockquote className="mt-2 text-sm">{body}</blockquote>
-    </figure>
+      <p className="mt-2 line-clamp-3 overflow-hidden text-ellipsis text-sm">
+        {body}
+      </p>
+    </div>
   );
 };
