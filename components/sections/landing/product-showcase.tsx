@@ -37,7 +37,7 @@ export const ProductShowcase = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="mt-5 text-center text-3xl font-bold tracking-tighter sm:text-[54px] sm:leading-[60px]"
+            className="mt-5 text-center text-4xl font-bold tracking-tighter md:text-[54px] md:leading-[60px]"
           >
             Powering Your <br /> Game Development
           </motion.h2>
@@ -46,7 +46,7 @@ export const ProductShowcase = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.6 }}
-            className="mt-5 text-center text-base tracking-tighter text-black/60 sm:text-[22px] sm:leading-[30px]"
+            className="mt-5 text-center text-xl tracking-tighter text-black/60 md:text-[22px] md:leading-[30px]"
           >
             Unlock endless possibilities with our flexible and high-performance
             game engine for every creator.
