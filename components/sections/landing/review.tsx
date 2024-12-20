@@ -39,7 +39,7 @@ export const Review = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="mt-5 text-center text-3xl font-bold tracking-tighter sm:text-[54px] sm:leading-[60px]"
+            className="mt-5 text-center text-4xl font-bold tracking-tighter md:text-[54px] md:leading-[60px]"
           >
             What our users say
           </motion.h2>
@@ -48,7 +48,7 @@ export const Review = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.6 }}
-            className="mt-5 text-center text-base tracking-tighter text-black/60 sm:text-[22px] sm:leading-[30px]"
+            className="mt-5 text-center text-xl tracking-tighter text-black/60 md:text-[22px] md:leading-[30px]"
           >
             Redot Engine empowers developers with flexibility and performance
             for creating amazing games.
@@ -86,11 +86,11 @@ export const Review = () => {
             </div>
           </div>
           <div className="block md:hidden">
-            <div className="relative flex flex-row items-center justify-center overflow-hidden rounded-lg border bg-background">
+            <div className="relative flex flex-row items-center justify-center overflow-hidden">
               <Marquee
                 pauseOnHover
                 vertical
-                className="w-full [--duration:20s]"
+                className="h-[700] w-full [--duration:20s]"
               >
                 {firstRow.map((review) => (
                   <ReviewCard
