@@ -23,16 +23,18 @@ export const ReviewCard = ({
         className
       )}
     >
-      <div className="flex flex-row items-center gap-2">
-        <Avatar>
-          <AvatarImage src={avatar} />
-          <AvatarFallback>
-            {name ? name.charAt(0).toUpperCase() : ""}
-          </AvatarFallback>
-        </Avatar>
-        <div className="flex flex-col">
-          <p className="text-sm font-medium">{name}</p>
-          <p className="text-xs font-medium">{username}</p>
+      <div className="flex flex-row items-center">
+        <div className="flex items-center space-x-2">
+          <Avatar>
+            <AvatarImage src={avatar} />
+            <AvatarFallback>
+              {name ? name.charAt(0).toUpperCase() : ""}
+            </AvatarFallback>
+          </Avatar>
+          <div className="flex flex-col space-y-1">
+            <p className="text-sm font-medium leading-none">{name}</p>
+            <p className="text-xs text-muted-foreground">{username}</p>
+          </div>
         </div>
       </div>
       <p className="mt-2 line-clamp-3 overflow-hidden text-ellipsis text-sm">
