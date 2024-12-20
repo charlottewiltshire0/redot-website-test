@@ -41,7 +41,7 @@ export const Features = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="mt-5 text-center text-3xl font-bold tracking-tighter sm:text-[54px] sm:leading-[60px]"
+            className="mt-5 text-center text-4xl font-bold tracking-tighter md:text-[54px] md:leading-[60px]"
           >
             Redot Engine&apos;s <br /> Powerful Features
           </motion.h2>
@@ -50,7 +50,7 @@ export const Features = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.6 }}
-            className="mt-5 text-center text-base tracking-tighter text-black/60 sm:text-[22px] sm:leading-[30px]"
+            className="mt-5 text-center text-xl tracking-tighter text-black/60 md:text-[22px] md:leading-[30px]"
           >
             Discover cutting-edge tools and capabilities designed to bring your
             game ideas to life effortlessly.
@@ -80,9 +80,9 @@ export const Features = () => {
         </motion.div>
 
         <div className="mt-6">
-          <div className="relative flex max-h-[50rem] min-h-[40rem] w-full items-center justify-center bg-white bg-grid-black/[0.2] dark:bg-black dark:bg-grid-white/[0.2]">
+          <div className="relative flex w-full items-center justify-center bg-white bg-grid-black/[0.2] dark:bg-black dark:bg-grid-white/[0.2]">
             <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black"></div>
-            <div className="relative grid h-full place-items-center gap-16 p-16 md:grid-cols-2 lg:gap-32 lg:p-32">
+            <div className="relative grid h-full place-items-center gap-20 p-12 md:grid-cols-2 lg:gap-32 lg:p-32">
               {featuresHighlightLists.map((feature, index) => (
                 <motion.div
                   key={feature.header}
