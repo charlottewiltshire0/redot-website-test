@@ -21,7 +21,7 @@ export const Hero = () => {
           type="image/webp"
         />
       </Head>
-      <section className="bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#FF1300,#FFFFFF_66%)] pb-20 pt-8">
+      <section className="bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#FF4E40,#FFFFFF_80%)] pb-20 pt-8">
         <div className="px-5 lg:px-40">
           <div className="grid grid-cols-1 gap-10 md:grid-cols-12 md:items-center md:justify-between">
             <div className="md:col-span-6 md:col-start-2">
