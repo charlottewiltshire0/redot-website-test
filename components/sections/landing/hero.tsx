@@ -23,8 +23,8 @@ export const Hero = () => {
       </Head>
       <section className="bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#FF1300,#FFFFFF_66%)] pb-20 pt-8">
         <div className="px-5 lg:px-40">
-          <div className="items-center justify-center gap-24 md:flex">
-            <div className="md:w-[478px]">
+          <div className="grid grid-cols-1 gap-10 md:grid-cols-12 md:items-center md:justify-between">
+            <div className="md:col-span-6 md:col-start-2">
               <motion.div
                 className="z-10 flex pt-1"
                 initial={{ opacity: 0, y: 20 }}
@@ -81,26 +81,27 @@ export const Hero = () => {
                 >
                   <Button variant="link" asChild className="w-full md:w-auto">
                     <Link href="https://docs.redotengine.org/">
-                      Learn more
+                      Explore Redot Engine Docs
                       <IconArrowRight className="h-5 w-5" />
                     </Link>
                   </Button>
                 </motion.div>
               </div>
             </div>
+
             <motion.div
-              className="relative mt-20 aspect-video h-full md:mt-0 md:flex-1"
+              className="relative md:col-span-5"
               initial={{ opacity: 0, x: 40 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.7, delay: 0.2 }}
             >
-              {/* TODO: Replace the image with a video showcasing the game footage from the game jam. */}
               <Image
                 src="https://image.redotengine.org/cover.webp"
                 alt="Hero cover"
-                className="h-auto w-auto rounded-lg object-cover"
+                className="h-auto w-full rounded-lg object-cover md:h-full"
                 priority
-                fill
+                width="1200"
+                height="800"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             </motion.div>
