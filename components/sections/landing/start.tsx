@@ -15,7 +15,7 @@ export const Start = () => {
   return (
     <section
       ref={ref}
-      className="overflow-x-clip bg-gradient-to-b from-[#ffffff] to-[#FFD2D2] py-32"
+      className="overflow-x-clip bg-gradient-to-b from-[#ffffff] to-[#FFD2D2] py-16 md:py-32"
     >
       <motion.div
         initial={{ opacity: 0, y: 50 }}
