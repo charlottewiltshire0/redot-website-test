@@ -8,28 +8,28 @@ import {
 
 export interface SocialLink {
   url: string;
-  icon: React.ReactNode;
+  icon: string;
 }
 
 export const socials: SocialLink[] = [
   {
     url: "https://x.com/Redot_Engine",
-    icon: <IconBrandXFilled className="h-6 w-6" />,
+    icon: "x.svg",
   },
   {
     url: "https://discord.gg/redot",
-    icon: <IconBrandDiscordFilled className="h-6 w-6" />,
+    icon: "discord.svg",
   },
   {
     url: "https://github.com/Redot-Engine",
-    icon: <IconBrandGithubFilled className="h-6 w-6" />,
+    icon: "github.svg",
   },
   {
     url: "https://www.youtube.com/@RedotEngine",
-    icon: <IconBrandYoutubeFilled className="h-6 w-6" />,
+    icon: "youtube.svg",
   },
   {
     url: "https://www.reddit.com/r/RedotGameEngineMain",
-    icon: <IconBrandReddit className="h-6 w-6" />,
+    icon: "reddit.svg",
   },
 ];
