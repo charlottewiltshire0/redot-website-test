@@ -33,9 +33,9 @@ export const Footer = () => {
 
   return (
     <footer className="relative bottom-0 z-[50] w-full bg-black text-white">
-      <div className="px-5 py-16 lg:px-40">
+      <div className="px-10 py-16 lg:px-40">
         <div className="flex flex-col gap-10">
-          <div className="mt-2 flex flex-row justify-between">
+          <div className="mb-2 flex flex-col justify-between gap-6 md:flex-row">
             <div className="flex flex-col gap-8">
               <div className="dark">
                 <Popover open={open} onOpenChange={setOpen}>
@@ -110,14 +110,19 @@ export const Footer = () => {
                     href={social.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-white/60 transition-all duration-300 hover:text-white/70"
                   >
-                    {social.icon}
+                    <Image
+                      src={`/socials/${social.icon}`}
+                      alt="Social logo"
+                      width={28}
+                      height={28}
+                      className="opacity-60 transition-all duration-300 hover:opacity-70"
+                    />
                   </Link>
                 ))}
               </div>
             </div>
-            <div className="grid grid-cols-1 gap-8 lg:grid-cols-4">
+            <div className="grid grid-cols-2 gap-16 lg:grid-cols-4">
               {footer.map((category, index) => (
                 <div key={index} className="text-sm">
                   <h3 className="font-medium text-white/80">
@@ -140,29 +145,36 @@ export const Footer = () => {
             </div>
           </div>
 
-          <Separator className="bg-white/30" />
+          <div className="flex flex-col gap-8">
+            <Separator className="bg-white/30" />
 
-          <div className="flex items-center justify-between">
-            <Image
-              src="/logo.webp"
-              alt="Redot Engine Logo"
-              width={36}
-              height={36}
-            />
-            <span className="text-center text-sm text-white/60">
-              © 2024-present by the Redot community. Website&nbsp;
-              <Link
-                href={links.websiteGithub}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline underline-offset-4 transition-all duration-300 hover:text-white/70"
-              >
-                source code on Github
-              </Link>
-            </span>
-            <Button variant="secondary" asChild>
-              <Link href="/settings">Settings</Link>
-            </Button>
+            <div className="flex flex-wrap items-center justify-between gap-8">
+              <Image
+                src="/logo.webp"
+                alt="Redot Engine Logo"
+                width={36}
+                height={36}
+              />
+
+              <span className="order-first w-full text-center text-sm text-white/60 md:order-none md:w-auto">
+                © 2024-present by the Redot community.
+                <span className="block lg:inline">
+                  Website&nbsp;
+                  <Link
+                    href={links.websiteGithub}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline underline-offset-4 transition-all duration-300 hover:text-white/70"
+                  >
+                    source code on Github
+                  </Link>
+                </span>
+              </span>
+
+              <Button variant="secondary" asChild>
+                <Link href="/settings">Settings</Link>
+              </Button>
+            </div>
           </div>
         </div>
       </div>
