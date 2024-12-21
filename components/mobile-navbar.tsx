@@ -1,6 +1,6 @@
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import Link from "next/link";
-import { headerLinks } from "@/constants/header-links";
+import { header } from "@/constants/header";
 import { IconMenu } from "@tabler/icons-react";
 
 export const MobileSidebar = () => {
@@ -11,7 +11,7 @@ export const MobileSidebar = () => {
       </SheetTrigger>
       <SheetContent side="left">
         <div className="flex flex-col items-start justify-start gap-2">
-          {headerLinks.map((link) => (
+          {header.map((link) => (
             <Link key={link.label} href={link.href}>
               <span className="block text-xl font-medium">{link.label}</span>
             </Link>
