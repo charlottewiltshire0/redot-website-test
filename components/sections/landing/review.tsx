@@ -86,11 +86,11 @@ export const Review = () => {
             </div>
           </div>
           <div className="block md:hidden">
-            <div className="relative flex flex-row items-center justify-center overflow-hidden">
+            <div className="relative flex h-[30rem] flex-row items-center justify-center overflow-hidden">
               <Marquee
                 pauseOnHover
                 vertical
-                className="h-[700] w-full [--duration:20s]"
+                className="h-[30rem] w-full [--duration:20s]"
               >
                 {firstRow.map((review) => (
                   <ReviewCard
