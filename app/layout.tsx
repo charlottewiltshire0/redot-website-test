@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <GoogleTagManager gtmId="G-PLVV7BPX1T" />
-      <body className={`${inter.className} bg-[#FEEAEA] antialiased`}>
+      <body className={`${inter.className} bg-background antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="light">
           {children}
         </ThemeProvider>
