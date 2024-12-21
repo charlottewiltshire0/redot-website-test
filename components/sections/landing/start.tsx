@@ -5,6 +5,7 @@ import { useInView } from "react-intersection-observer";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { IconArrowRight } from "@tabler/icons-react";
+import { links } from "@/constants/links";
 
 export const Start = () => {
   const { ref, inView } = useInView({
@@ -61,7 +62,7 @@ export const Start = () => {
               className="w-full md:w-auto"
             >
               <Button variant="link" className="w-full md:w-auto" asChild>
-                <Link href="https://docs.redotengine.org/">
+                <Link href={links.documentation}>
                   Explore Redot Engine Docs
                   <IconArrowRight className="h-5 w-5" />
                 </Link>

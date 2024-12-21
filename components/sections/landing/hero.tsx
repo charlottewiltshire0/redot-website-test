@@ -8,6 +8,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "motion/react";
 import Head from "next/head";
+import { links } from "@/constants/links";
 
 export const Hero = () => {
   return (
@@ -80,7 +81,7 @@ export const Hero = () => {
                   className="w-full md:w-auto"
                 >
                   <Button variant="link" asChild className="w-full md:w-auto">
-                    <Link href="https://docs.redotengine.org/">
+                    <Link href={links.documentation}>
                       Explore Redot Engine Docs
                       <IconArrowRight className="h-5 w-5" />
                     </Link>
