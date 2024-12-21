@@ -21,6 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="preconnect" href="https://image.redotengine.org" />
+      </head>
       <GoogleTagManager gtmId="G-PLVV7BPX1T" />
       <body className={`${inter.className} bg-background antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="light">

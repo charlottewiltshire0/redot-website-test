@@ -1,0 +1,13 @@
+export const links = {
+  github: "https://github.com/Redot-Engine",
+  status: "https://redotengine.instatus.com/",
+  documentation: "https://docs.redotengine.org/",
+  proposals: "https://proposals.redotengine.org/",
+  pressKit:
+    "https://download.redotengine.org/web/Redot%20Engine%20-%20Brand%20Kit%20(v.1.1).zip",
+  contribute: "https://docs.redotengine.org/contributing/how_to_contribute",
+  websiteGithub: "https://github.com/Redot-Engine/redot-website",
+  donation: "https://ko-fi.com/redotengine",
+  feedback: "https://forum.redotengine.org/t/feedback",
+  academy: "https://academy.redotengine.com/",
+};

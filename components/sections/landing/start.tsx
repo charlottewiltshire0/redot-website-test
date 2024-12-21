@@ -5,6 +5,7 @@ import { useInView } from "react-intersection-observer";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { IconArrowRight } from "@tabler/icons-react";
+import { links } from "@/constants/links";
 
 export const Start = () => {
   const { ref, inView } = useInView({
@@ -15,7 +16,7 @@ export const Start = () => {
   return (
     <section
       ref={ref}
-      className="overflow-x-clip bg-gradient-to-b from-[#ffffff] to-[#FFD2D2] py-16 md:py-32"
+      className="overflow-x-clip bg-gradient-to-b from-[#ffffff] to-[#FFD2D2] py-20 md:py-36"
     >
       <motion.div
         initial={{ opacity: 0, y: 50 }}
@@ -28,7 +29,7 @@ export const Start = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="mt-5 bg-gradient-to-b from-black to-[#7F0000] bg-clip-text text-center text-3xl font-bold tracking-tighter text-transparent sm:text-[54px] sm:leading-[60px]"
+            className="mt-5 bg-gradient-to-b from-black to-[#7F0000] bg-clip-text text-center text-4xl font-bold tracking-tighter text-transparent md:text-[54px] md:leading-[60px]"
           >
             Ready to create?
           </motion.h2>
@@ -37,19 +38,20 @@ export const Start = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.6 }}
-            className="mt-5 text-center text-base tracking-tighter text-black/60 sm:text-[22px] sm:leading-[30px]"
+            className="mt-5 text-center text-xl tracking-tighter text-black/60 md:text-[22px] md:leading-[30px]"
           >
             Create captivating 2D and 3D games with Redot Engine for
             cross-platform immersive experiences.
           </motion.p>
 
-          <div className="mt-[38px] flex flex-row items-center justify-center gap-1">
+          <div className="mt-[38px] flex flex-col items-center justify-center gap-1 md:flex-row">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
+              className="w-full md:w-auto"
             >
-              <Button asChild>
+              <Button className="w-full md:w-auto" asChild>
                 <Link href="/download">Download</Link>
               </Button>
             </motion.div>
@@ -57,10 +59,11 @@ export const Start = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.2 }}
+              className="w-full md:w-auto"
             >
-              <Button variant="link" asChild>
-                <Link href="https://docs.redotengine.org/">
-                  Learn more
+              <Button variant="link" className="w-full md:w-auto" asChild>
+                <Link href={links.documentation}>
+                  Explore Redot Engine Docs
                   <IconArrowRight className="h-5 w-5" />
                 </Link>
               </Button>

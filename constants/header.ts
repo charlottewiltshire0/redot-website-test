@@ -1,12 +1,14 @@
+import { links } from "@/constants/links";
+
 interface HeaderLink {
   label: string;
   href: string;
 }
 
-export const headerLinks: HeaderLink[] = [
+export const header: HeaderLink[] = [
   {
     label: "Documentation",
-    href: "https://docs.redotengine.org/",
+    href: links.documentation,
   },
   {
     label: "Blog",
@@ -14,7 +16,7 @@ export const headerLinks: HeaderLink[] = [
   },
   {
     label: "Proposals",
-    href: "https://proposals.redotengine.org/",
+    href: links.proposals,
   },
   {
     label: "Community",

@@ -1,7 +1,7 @@
 import Banner from "@/components/banner";
 import Link from "next/link";
 import Image from "next/image";
-import { headerLinks } from "@/constants/header-links";
+import { header } from "@/constants/header";
 import { Button } from "@/components/ui/button";
 import { MobileSidebar } from "@/components/mobile-navbar";
 
@@ -29,7 +29,7 @@ export const Header = () => {
             </Link>
             <div className="hidden md:block">
               <nav className="flex items-center gap-3 md:gap-6">
-                {headerLinks.map((link) => (
+                {header.map((link) => (
                   <Link
                     key={link.label}
                     className="text-base font-medium text-black/60 transition-colors duration-300 hover:text-black"
