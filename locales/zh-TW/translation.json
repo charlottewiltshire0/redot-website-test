@@ -113,5 +113,10 @@
         "contributionGuidelines": "貢獻指南"
       }
     }
+  },
+  "notFound": {
+    "title": "哎呀！頁面找不到",
+    "description": "看起來你進入了未知的領域…我們也不確定這個頁面跑去哪了！",
+    "goBack": "返回"
   }
 }

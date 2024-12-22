@@ -113,5 +113,10 @@
         "contributionGuidelines": "贡献指南"
       }
     }
+  },
+  "notFound": {
+    "title": "哎呀！页面未找到",
+    "description": "看起来您已经进入了未知区域...我们也不确定这个页面去了哪里！",
+    "goBack": "返回"
   }
 }

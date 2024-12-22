@@ -113,5 +113,10 @@
         "contributionGuidelines": "Wytyczne dotyczące wkładu"
       }
     }
+  },
+  "notFound": {
+    "title": "Ups! Strona Nieznaleziona",
+    "description": "Wygląda na to, że zapuściłeś się w nieznane... sami nie wiemy, gdzie ta strona zniknęła!",
+    "goBack": "Wróć"
   }
 }

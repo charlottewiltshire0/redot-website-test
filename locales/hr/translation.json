@@ -113,5 +113,10 @@
         "contributionGuidelines": "Smjernice za doprinos"
       }
     }
+  },
+  "notFound": {
+    "title": "Ups! Stranica nije pronađena",
+    "description": "Izgleda da ste zalutali... ni mi nismo sigurni kamo je ova stranica nestala!",
+    "goBack": "Vrati se"
   }
 }

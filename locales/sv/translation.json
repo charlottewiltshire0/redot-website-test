@@ -113,5 +113,10 @@
         "contributionGuidelines": "Bidragsriktlinjer"
       }
     }
+  },
+  "notFound": {
+    "title": "Hoppsan! Sidan Hittades Inte",
+    "description": "Det verkar som om du har vandrat in i det okända... vi är inte heller säkra på var den här sidan tog vägen!",
+    "goBack": "Gå Tillbaka"
   }
 }

@@ -113,5 +113,10 @@
         "contributionGuidelines": "Osallistumissuositukset"
       }
     }
+  },
+  "notFound": {
+    "title": "Hups! Sivua ei löytynyt",
+    "description": "Näyttää siltä, että olet eksynyt tuntemattomaan... emme ole varmoja, minne tämä sivu meni!",
+    "goBack": "Palaa takaisin"
   }
 }

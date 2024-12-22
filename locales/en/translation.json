@@ -113,5 +113,10 @@
         "contributionGuidelines": "Contribution Guidelines"
       }
     }
+  },
+  "notFound": {
+    "title": "Oops! Page Not Found",
+    "description": "Looks like you’ve ventured into the unknown... we’re not sure where this page went either!",
+    "goBack": "Go Back"
   }
 }

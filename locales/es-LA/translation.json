@@ -113,5 +113,10 @@
         "contributionGuidelines": "Guías de Contribución"
       }
     }
+  },
+  "notFound": {
+    "title": "¡Vaya! Página No Encontrada",
+    "description": "Parece que has llegado a un lugar desconocido... ¡nosotros tampoco sabemos dónde fue esta página!",
+    "goBack": "Regresar"
   }
 }

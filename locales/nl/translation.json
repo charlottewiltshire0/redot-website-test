@@ -113,5 +113,10 @@
         "contributionGuidelines": "Bijdrage-richtlijnen"
       }
     }
+  },
+  "notFound": {
+    "title": "Oeps! Pagina Niet Gevonden",
+    "description": "Het lijkt erop dat je in het onbekende terecht bent gekomen... we weten ook niet waar deze pagina heen is!",
+    "goBack": "Teruggaan"
   }
 }

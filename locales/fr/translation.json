@@ -113,5 +113,10 @@
         "contributionGuidelines": "Directives de contribution"
       }
     }
+  },
+  "notFound": {
+    "title": "Oups! Page non trouvée",
+    "description": "On dirait que vous vous êtes aventuré dans l'inconnu... nous ne savons pas non plus où est passée cette page !",
+    "goBack": "Retourner"
   }
 }

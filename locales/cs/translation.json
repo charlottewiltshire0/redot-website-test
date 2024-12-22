@@ -113,5 +113,10 @@
         "contributionGuidelines": "Pravidla přispívání"
       }
     }
+  },
+  "notFound": {
+    "title": "Ups! Stránka nebyla nalezena",
+    "description": "Vypadá to, že jste se vydali do neznáma... také nevíme, kam tato stránka zmizela!",
+    "goBack": "Zpět"
   }
 }

@@ -113,5 +113,10 @@
         "contributionGuidelines": "Contribution Guidelines"
       }
     }
+  },
+  "notFound": {
+    "title": "Oi! Siden ble ikke funnet",
+    "description": "Ser ut som du har ventet til et ukjent sted... vi er heller ikke sikre på hvor denne siden har blitt av!",
+    "goBack": "Gå tilbake"
   }
 }

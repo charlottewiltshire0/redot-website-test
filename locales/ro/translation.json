@@ -95,5 +95,10 @@
         "contributionGuidelines": "Ghiduri de contribuție"
       }
     }
+  },
+  "notFound": {
+    "title": "Oups! Pagina nu a fost găsită",
+    "description": "Se pare că ai ajuns într-un loc necunoscut... nici noi nu știm unde a dispărut această pagină!",
+    "goBack": "Înapoi"
   }
 }

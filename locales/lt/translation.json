@@ -113,5 +113,10 @@
         "contributionGuidelines": "Linee Guida per i Contributi"
       }
     }
+  },
+  "notFound": {
+    "title": "Oho! Puslapis nerastas",
+    "description": "Atrodo, kad nukeliavote į nežinomą vietą... mes taip pat nesame tikri, kur dingo šis puslapis!",
+    "goBack": "Grįžti atgal"
   }
 }

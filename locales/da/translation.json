@@ -113,5 +113,10 @@
         "contributionGuidelines": "Bidragsretningslinjer"
       }
     }
+  },
+  "notFound": {
+    "title": "Ups! Side Ikke Fundet",
+    "description": "Det ser ud til, at du har bevæget dig ind i det ukendte... vi er heller ikke sikre på, hvor denne side er blevet af!",
+    "goBack": "Gå Tilbage"
   }
 }

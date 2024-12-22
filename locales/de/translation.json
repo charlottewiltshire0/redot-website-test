@@ -113,5 +113,10 @@
         "contributionGuidelines": "Beitragsrichtlinien"
       }
     }
+  },
+  "notFound": {
+    "title": "Hoppla! Seite Nicht Gefunden",
+    "description": "Es sieht so aus, als ob du in das Unbekannte vorgedrungen bist... Wir sind uns auch nicht sicher, wohin diese Seite gegangen ist!",
+    "goBack": "Zurückgehen"
   }
 }

@@ -113,5 +113,10 @@
         "contributionGuidelines": "Katkı Kuralları"
       }
     }
+  },
+  "notFound": {
+    "title": "Hups! Sayfa Bulunamadı",
+    "description": "Görünüşe göre bilinmeyene doğru bir yolculuğa çıktınız... Biz de bu sayfanın nereye gittiğini bilemiyoruz!",
+    "goBack": "Geri Dön"
   }
 }

@@ -113,5 +113,10 @@
         "contributionGuidelines": "Hướng dẫn đóng góp"
       }
     }
+  },
+  "notFound": {
+    "title": "Ôi! Trang không tìm thấy",
+    "description": "Có vẻ như bạn đã lạc vào nơi không xác định... chúng tôi cũng không chắc trang này đi đâu!",
+    "goBack": "Quay lại"
   }
 }

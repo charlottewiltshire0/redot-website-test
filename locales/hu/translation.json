@@ -113,5 +113,10 @@
         "contributionGuidelines": "Hozzájárulási Útmutatók"
       }
     }
+  },
+  "notFound": {
+    "title": "Hoppá! Az oldal nem található",
+    "description": "Úgy tűnik, hogy a lehetetlenbe kalandoztál... mi sem vagyunk biztosak abban, hogy hová tűnt ez az oldal!",
+    "goBack": "Vissza"
   }
 }
