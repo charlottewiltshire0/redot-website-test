@@ -1,4 +1,117 @@
 {
-  "language": "pl",
-  "translations": {}
+  "header": {
+    "banner": {
+      "subMessage": "Zaktualizuj do najnowszej wersji.",
+      "mainMessage": "Silnik Redot jest teraz stabilny!"
+    },
+    "downloadButton": "Pobierz",
+    "links": {
+      "documentation": "Dokumentacja",
+      "blog": "Blog",
+      "proposals": "Propozycje",
+      "community": "Społeczność"
+    }
+  },
+  "heroSection": {
+    "heading": "Silnik gier,<br />Zmiana gry",
+    "description": "Twórz gry 2D i 3D, projekty międzyplatformowe lub odkrywaj innowacyjne pomysły w technologii XR z Redot Engine!",
+    "buttons": {
+      "primary": "Pobierz Redot Engine na Windows",
+      "secondary": "Zbadaj dokumentację Redot Engine"
+    },
+    "bannerMessage": "🎉 Stabilna wersja jest już dostępna"
+  },
+  "productShowcaseSection": {
+    "badge": "🪁 Napędza Twój rozwój gier",
+    "title": "Napędza Twój<br />Rozwój Gier",
+    "description": "Odblokuj nieograniczone możliwości z naszym elastycznym i wydajnym silnikiem gier dla każdego twórcy."
+  },
+  "featuresSection": {
+    "badge": "🤖 Projektowanie gier nowej generacji",
+    "title": "Potężne funkcje Redot Engine",
+    "description": "Odkryj nowoczesne narzędzia i funkcjonalności zaprojektowane, aby ożywić Twoje pomysły na gry w sposób bez wysiłku.",
+    "highlights": {
+      "sceneDrivenDesign": {
+        "header": "Projektowanie napędzane scenami",
+        "description": "Twórz wielokrotnego użytku sceny z węzłami, skryptami i logicznymi regułami gry za pomocą hierarchii węzłów."
+      },
+      "crossPlatform": {
+        "header": "Międzyplatformowość",
+        "description": "Twórz na różnych platformach. Szybko wdrażaj swoją grę na komputerach stacjonarnych, urządzeniach mobilnych i w Internecie."
+      },
+      "2D3DEngines": {
+        "header": "Silniki 2D i 3D",
+        "description": "Twórz wydajne gry 2D z silnikiem 2D Redot i łatwo buduj bogate światy 3D."
+      },
+      "openSource": {
+        "header": "Open Source",
+        "description": "Doświadcz otwartego rozwoju z Redot Engine, gdzie wszyscy współpracownicy dzielą się równo."
+      }
+    }
+  },
+  "reviewSection": {
+    "badge": "🎉 Stabilna wersja jest już dostępna",
+    "title": "Co mówią nasi użytkownicy",
+    "description": "Redot Engine daje deweloperom elastyczność i wydajność w tworzeniu niesamowitych gier."
+  },
+  "startSection": {
+    "title": "Gotowy do tworzenia?",
+    "description": "Twórz fascynujące gry 2D i 3D z Redot Engine dla międzyplatformowych, immersyjnych doświadczeń.",
+    "buttons": {
+      "download": "Pobierz",
+      "documentation": "Zbadaj dokumentację Redot Engine"
+    }
+  },
+  "footer": {
+    "languageSelector": {
+      "searchPlaceholder": "Szukaj języka...",
+      "noResults": "Nie znaleziono języka."
+    },
+    "copyright": {
+      "text": "© 2024–teraz przez społeczność Redot.",
+      "website": "Strona internetowa",
+      "sourceCode": "strona internetowa, kod źródłowy na Github"
+    },
+    "buttons": {
+      "settings": "Ustawienia"
+    },
+    "product": {
+      "title": "Produkt",
+      "children": {
+        "download": "Pobierz",
+        "status": "Status",
+        "donate": "Przekaż darowiznę",
+        "documentation": "Dokumentacja",
+        "sourceCode": "Kod źródłowy"
+      }
+    },
+    "resources": {
+      "title": "Zasoby",
+      "children": {
+        "news": "Aktualności",
+        "feedback": "Opinie",
+        "community": "Społeczność",
+        "pressKit": "Zestaw prasowy",
+        "contact": "Kontakt"
+      }
+    },
+    "betaPrograms": {
+      "title": "Programy Beta",
+      "children": {
+        "launcher": "Launcher",
+        "academy": "Akademia",
+        "engineExperimental": "Silnik Eksperymentalny"
+      }
+    },
+    "policies": {
+      "title": "Polityki",
+      "children": {
+        "terms": "Warunki",
+        "privacy": "Prywatność",
+        "cookieSettings": "Ustawienia plików cookie",
+        "licenses": "Licencje",
+        "contributionGuidelines": "Wytyczne dotyczące wkładu"
+      }
+    }
+  }
 }

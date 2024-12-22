@@ -1,4 +1,117 @@
 {
-  "language": "zh-TW",
-  "translations": {}
+  "header": {
+    "banner": {
+      "subMessage": "升級到最新版本。",
+      "mainMessage": "Redot 引擎現在穩定！"
+    },
+    "downloadButton": "下載",
+    "links": {
+      "documentation": "文件",
+      "blog": "部落格",
+      "proposals": "提案",
+      "community": "社群"
+    }
+  },
+  "heroSection": {
+    "heading": "遊戲引擎，<br />遊戲改變者",
+    "description": "使用 Redot 引擎創建 2D 和 3D 遊戲、跨平台項目，或探索 XR 技術中的創新想法！",
+    "buttons": {
+      "primary": "下載 Redot 引擎 (Windows)",
+      "secondary": "探索 Redot 引擎文檔"
+    },
+    "bannerMessage": "🎉 穩定版本已經到來"
+  },
+  "productShowcaseSection": {
+    "badge": "🪁 支持你的遊戲開發",
+    "title": "支持你的<br />遊戲開發",
+    "description": "利用我們靈活且高效的遊戲引擎，為每個創作者開啟無盡可能性。"
+  },
+  "featuresSection": {
+    "badge": "🤖 下一代遊戲設計",
+    "title": "Redot 引擎的 <br /> 強大功能",
+    "description": "發現設計來輕鬆實現你遊戲想法的前沿工具與能力。",
+    "highlights": {
+      "sceneDrivenDesign": {
+        "header": "場景驅動設計",
+        "description": "通過節點層級創建可重用場景，使用腳本和清晰的遊戲邏輯。"
+      },
+      "crossPlatform": {
+        "header": "跨平台",
+        "description": "在多個平台上開發。快速將你的遊戲部署到桌面、移動和網頁。"
+      },
+      "2D3DEngines": {
+        "header": "2D 和 3D 引擎",
+        "description": "使用 Redot 的 2D 引擎創建高效的 2D 遊戲，輕鬆構建豐富的 3D 世界。"
+      },
+      "openSource": {
+        "header": "開源",
+        "description": "體驗 Redot 引擎的開放開發，所有貢獻者共同分享成果。"
+      }
+    }
+  },
+  "reviewSection": {
+    "badge": "🎉 穩定版本已經到來",
+    "title": "我們的用戶怎麼說",
+    "description": "Redot 引擎為開發者提供靈活性和高效性能，幫助創建令人驚豔的遊戲。"
+  },
+  "startSection": {
+    "title": "準備好創建了嗎？",
+    "description": "使用 Redot 引擎創建引人入勝的 2D 和 3D 遊戲，打造跨平台沉浸式體驗。",
+    "buttons": {
+      "download": "下載",
+      "documentation": "探索 Redot 引擎文檔"
+    }
+  },
+  "footer": {
+    "languageSelector": {
+      "searchPlaceholder": "搜尋語言...",
+      "noResults": "找不到語言。"
+    },
+    "copyright": {
+      "text": "© 2024-present 由 Redot 社群提供。",
+      "website": "網站",
+      "sourceCode": "GitHub 上的原始碼"
+    },
+    "buttons": {
+      "settings": "設定"
+    },
+    "product": {
+      "title": "產品",
+      "children": {
+        "download": "下載",
+        "status": "狀態",
+        "donate": "捐贈",
+        "documentation": "文件",
+        "sourceCode": "原始碼"
+      }
+    },
+    "resources": {
+      "title": "資源",
+      "children": {
+        "news": "新聞",
+        "feedback": "回饋",
+        "community": "社群",
+        "pressKit": "媒體資料包",
+        "contact": "聯繫"
+      }
+    },
+    "betaPrograms": {
+      "title": "Beta 項目",
+      "children": {
+        "launcher": "啟動器",
+        "academy": "學院",
+        "engineExperimental": "引擎實驗"
+      }
+    },
+    "policies": {
+      "title": "政策",
+      "children": {
+        "terms": "條款",
+        "privacy": "隱私",
+        "cookieSettings": "Cookie 設定",
+        "licenses": "授權",
+        "contributionGuidelines": "貢獻指南"
+      }
+    }
+  }
 }

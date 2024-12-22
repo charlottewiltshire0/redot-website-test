@@ -1,4 +1,117 @@
 {
-  "language": "fi",
-  "translations": {}
+  "header": {
+    "banner": {
+      "subMessage": "Päivitä uusimpaan versioon.",
+      "mainMessage": "Redot Engine on nyt vakaa!"
+    },
+    "downloadButton": "Lataa",
+    "links": {
+      "documentation": "Dokumentaatio",
+      "blog": "Blogi",
+      "proposals": "Ehdotukset",
+      "community": "Yhteisö"
+    }
+  },
+  "heroSection": {
+    "heading": "Pelimoottori,<br />Muutoksen tekijä",
+    "description": "Luo 2D- ja 3D-pelejäsi, monialustaisia projekteja tai tutustu innovatiivisiin XR-teknologian ideoihin Redot Engine -moottorilla!",
+    "buttons": {
+      "primary": "Hanki Redot Engine Windowsille",
+      "secondary": "Tutustu Redot Engine -dokumentaatioon"
+    },
+    "bannerMessage": "🎉 Vakaa versio on täällä"
+  },
+  "productShowcaseSection": {
+    "badge": "🪁 Tukee pelinkehitystäsi",
+    "title": "Tukee<br />Pelinkehitystäsi",
+    "description": "Avaa loputtomat mahdollisuudet joustavalla ja suorituskykyisellä pelimoottorillamme jokaiselle luojalle."
+  },
+  "featuresSection": {
+    "badge": "🤖 Seuraavan sukupolven pelisuunnittelu",
+    "title": "Redot Engine:n<br />Tehokkaat ominaisuudet",
+    "description": "Tutustu huippuluokan työkaluihin ja ominaisuuksiin, jotka on suunniteltu tuomaan peli-ideasi eloon vaivattomasti.",
+    "highlights": {
+      "sceneDrivenDesign": {
+        "header": "Kohtaukseen perustuva suunnittelu",
+        "description": "Luo uudelleenkäytettäviä kohtauksia solmuilla, skripteillä ja selkeällä pelilogikalla solmuhierarkian kautta."
+      },
+      "crossPlatform": {
+        "header": "Monialustainen",
+        "description": "Kehitä eri alustoilla. Julkaise pelisi nopeasti tietokoneille, mobiililaitteille ja verkkoon."
+      },
+      "2D3DEngines": {
+        "header": "2D- ja 3D-moottorit",
+        "description": "Luo suorituskykyisiä 2D-pelejä Redot Engine:n 2D-moottorilla ja rakenna helposti rikkaita 3D-maailmoja."
+      },
+      "openSource": {
+        "header": "Avoin lähdekoodi",
+        "description": "Koe avoin kehitys Redot Engine -moottorilla, jossa kaikki osallistujat jakavat tasapuolisesti."
+      }
+    }
+  },
+  "reviewSection": {
+    "badge": "🎉 Vakaa versio on täällä",
+    "title": "Mitä käyttäjämme sanovat",
+    "description": "Redot Engine antaa kehittäjille joustavuutta ja suorituskykyä hämmästyttävien pelien luomiseen."
+  },
+  "startSection": {
+    "title": "Valmis luomaan?",
+    "description": "Luo vangitsevia 2D- ja 3D-pelejä Redot Engine -moottorilla ja tarjoa monialustaisia immersiivisiä kokemuksia.",
+    "buttons": {
+      "download": "Lataa",
+      "documentation": "Tutustu Redot Engine -dokumentaatioon"
+    }
+  },
+  "footer": {
+    "languageSelector": {
+      "searchPlaceholder": "Hae kieltä...",
+      "noResults": "Kieltä ei löytynyt."
+    },
+    "copyright": {
+      "text": "© 2024-nykypäivä Redot-yhteisön toimesta.",
+      "website": "Verkkosivusto",
+      "sourceCode": "Lähdekoodi GitHubissa"
+    },
+    "buttons": {
+      "settings": "Asetukset"
+    },
+    "product": {
+      "title": "Tuote",
+      "children": {
+        "download": "Lataa",
+        "status": "Tila",
+        "donate": "Lahjoita",
+        "documentation": "Dokumentaatio",
+        "sourceCode": "Lähdekoodi"
+      }
+    },
+    "resources": {
+      "title": "Resurssit",
+      "children": {
+        "news": "Uutiset",
+        "feedback": "Palaute",
+        "community": "Yhteisö",
+        "pressKit": "Lehdistöpaketti",
+        "contact": "Yhteystiedot"
+      }
+    },
+    "betaPrograms": {
+      "title": "Beta-ohjelmat",
+      "children": {
+        "launcher": "Käynnistysohjelma",
+        "academy": "Akatemia",
+        "engineExperimental": "Moottorin kokeiluversio"
+      }
+    },
+    "policies": {
+      "title": "Käytännöt",
+      "children": {
+        "terms": "Ehdot",
+        "privacy": "Yksityisyys",
+        "cookieSettings": "Evästeasetukset",
+        "licenses": "Lisenssit",
+        "contributionGuidelines": "Osallistumissuositukset"
+      }
+    }
+  }
 }

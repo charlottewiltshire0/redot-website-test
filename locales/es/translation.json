@@ -1,4 +1,117 @@
 {
-  "language": "es",
-  "translations": {}
+  "header": {
+    "banner": {
+      "subMessage": "Actualiza a la última versión.",
+      "mainMessage": "¡Redot Engine ahora está estable!"
+    },
+    "downloadButton": "Descargar",
+    "links": {
+      "documentation": "Documentación",
+      "blog": "Blog",
+      "proposals": "Propuestas",
+      "community": "Comunidad"
+    }
+  },
+  "heroSection": {
+    "heading": "Motor de Juegos,<br />Cambiador de Juegos",
+    "description": "¡Crea tus juegos 2D y 3D, proyectos multiplataforma o explora ideas innovadoras en tecnología XR con Redot Engine!",
+    "buttons": {
+      "primary": "Obtener Redot Engine para Windows",
+      "secondary": "Explorar la documentación de Redot Engine"
+    },
+    "bannerMessage": "🎉 La versión estable ya está aquí"
+  },
+  "productShowcaseSection": {
+    "badge": "🪁 Impulsando tu Desarrollo de Juegos",
+    "title": "Impulsando tu<br />Desarrollo de Juegos",
+    "description": "Desbloquea posibilidades infinitas con nuestro motor de juegos flexible y de alto rendimiento para cada creador."
+  },
+  "featuresSection": {
+    "badge": "🤖 Diseño de Juegos de Próxima Generación",
+    "title": "Potentes Características de Redot Engine",
+    "description": "Descubre herramientas y capacidades de vanguardia diseñadas para dar vida a tus ideas de juegos sin esfuerzo.",
+    "highlights": {
+      "sceneDrivenDesign": {
+        "header": "Diseño basado en escenas",
+        "description": "Crea escenas reutilizables con nodos, scripts y lógica de juego clara a través de la jerarquía de nodos."
+      },
+      "crossPlatform": {
+        "header": "Multiplataforma",
+        "description": "Desarrolla en varias plataformas. Despliega tu juego en escritorio, móvil y web rápidamente."
+      },
+      "2D3DEngines": {
+        "header": "Motores 2D y 3D",
+        "description": "Crea juegos 2D de alto rendimiento con el motor 2D de Redot y construye mundos 3D ricos fácilmente."
+      },
+      "openSource": {
+        "header": "Código Abierto",
+        "description": "Experimenta el desarrollo abierto con Redot Engine, donde todos los contribuyentes comparten por igual."
+      }
+    }
+  },
+  "reviewSection": {
+    "badge": "🎉 La versión estable ya está aquí",
+    "title": "Lo que dicen nuestros usuarios",
+    "description": "Redot Engine otorga flexibilidad y rendimiento a los desarrolladores para crear juegos increíbles."
+  },
+  "startSection": {
+    "title": "¿Listo para crear?",
+    "description": "Crea juegos cautivadores en 2D y 3D con Redot Engine para experiencias inmersivas multiplataforma.",
+    "buttons": {
+      "download": "Descargar",
+      "documentation": "Explorar la documentación de Redot Engine"
+    }
+  },
+  "footer": {
+    "languageSelector": {
+      "searchPlaceholder": "Buscar idioma...",
+      "noResults": "No se encontró el idioma."
+    },
+    "copyright": {
+      "text": "© 2024-presente por la comunidad Redot.",
+      "website": "Sitio web",
+      "sourceCode": "código fuente en Github"
+    },
+    "buttons": {
+      "settings": "Configuraciones"
+    },
+    "product": {
+      "title": "Producto",
+      "children": {
+        "download": "Descargar",
+        "status": "Estado",
+        "donate": "Donar",
+        "documentation": "Documentación",
+        "sourceCode": "Código fuente"
+      }
+    },
+    "resources": {
+      "title": "Recursos",
+      "children": {
+        "news": "Noticias",
+        "feedback": "Comentarios",
+        "community": "Comunidad",
+        "pressKit": "Kit de prensa",
+        "contact": "Contacto"
+      }
+    },
+    "betaPrograms": {
+      "title": "Programas Beta",
+      "children": {
+        "launcher": "Lanzador",
+        "academy": "Academia",
+        "engineExperimental": "Motor Experimental"
+      }
+    },
+    "policies": {
+      "title": "Políticas",
+      "children": {
+        "terms": "Términos",
+        "privacy": "Privacidad",
+        "cookieSettings": "Configuración de cookies",
+        "licenses": "Licencias",
+        "contributionGuidelines": "Guías de contribución"
+      }
+    }
+  }
 }

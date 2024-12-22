@@ -1,4 +1,117 @@
 {
-  "language": "da",
-  "translations": {}
+  "header": {
+    "banner": {
+      "subMessage": "Opgrader til den nyeste version.",
+      "mainMessage": "Redot Engine er nu stabil!"
+    },
+    "downloadButton": "Download",
+    "links": {
+      "documentation": "Dokumentation",
+      "blog": "Blog",
+      "proposals": "Forslag",
+      "community": "Fællesskab"
+    }
+  },
+  "heroSection": {
+    "heading": "Spilmotor,<br />Game Changer",
+    "description": "Skab dine 2D- og 3D-spil, platformuafhængige projekter eller udforsk innovative ideer inden for XR-teknologi med Redot Engine!",
+    "buttons": {
+      "primary": "Få Redot Engine til Windows",
+      "secondary": "Udforsk Redot Engine Dokumentation"
+    },
+    "bannerMessage": "🎉 Stabil version er her"
+  },
+  "productShowcaseSection": {
+    "badge": "🪁 Gør din spiludvikling mulig",
+    "title": "Muliggør din<br />Spiludvikling",
+    "description": "Lås op for uendelige muligheder med vores fleksible og højtydende spilmotor til enhver skaber."
+  },
+  "featuresSection": {
+    "badge": "🤖 Next-Gen Spildesign",
+    "title": "Redot Engines <br /> Kraftfulde Funktioner",
+    "description": "Opdag banebrydende værktøjer og funktioner designet til at bringe dine spilidéer til live uden besvær.",
+    "highlights": {
+      "sceneDrivenDesign": {
+        "header": "Scene-drevet design",
+        "description": "Skab genanvendelige scener med noder, scripts og klar spillogik via nodehierarki."
+      },
+      "crossPlatform": {
+        "header": "Platformuafhængig",
+        "description": "Udvikl på forskellige platforme. Udgiv dit spil hurtigt på desktop, mobil og web."
+      },
+      "2D3DEngines": {
+        "header": "2D- og 3D-motorer",
+        "description": "Skab ydeevne-stærke 2D-spil med Redots 2D-motor og byg rige 3D-verdener nemt."
+      },
+      "openSource": {
+        "header": "Open Source",
+        "description": "Oplev åben udvikling med Redot Engine, hvor alle bidragydere deler lige."
+      }
+    }
+  },
+  "reviewSection": {
+    "badge": "🎉 Stabil version er her",
+    "title": "Hvad vores brugere siger",
+    "description": "Redot Engine giver udviklere fleksibilitet og ydeevne til at skabe fantastiske spil."
+  },
+  "startSection": {
+    "title": "Klar til at skabe?",
+    "description": "Skab fængslende 2D- og 3D-spil med Redot Engine for platformuafhængige, immersive oplevelser.",
+    "buttons": {
+      "download": "Download",
+      "documentation": "Udforsk Redot Engine Dokumentation"
+    }
+  },
+  "footer": {
+    "languageSelector": {
+      "searchPlaceholder": "Søg efter sprog...",
+      "noResults": "Intet sprog fundet."
+    },
+    "copyright": {
+      "text": "© 2024-nu af Redot-fællesskabet.",
+      "website": "Website",
+      "sourceCode": "website source code on Github"
+    },
+    "buttons": {
+      "settings": "Indstillinger"
+    },
+    "product": {
+      "title": "Produkt",
+      "children": {
+        "download": "Download",
+        "status": "Status",
+        "donate": "Donér",
+        "documentation": "Dokumentation",
+        "sourceCode": "Kildekode"
+      }
+    },
+    "resources": {
+      "title": "Ressourcer",
+      "children": {
+        "news": "Nyheder",
+        "feedback": "Feedback",
+        "community": "Fællesskab",
+        "pressKit": "Pressekit",
+        "contact": "Kontakt"
+      }
+    },
+    "betaPrograms": {
+      "title": "Beta-programmer",
+      "children": {
+        "launcher": "Launcher",
+        "academy": "Akademi",
+        "engineExperimental": "Eksperimentel Motor"
+      }
+    },
+    "policies": {
+      "title": "Politikker",
+      "children": {
+        "terms": "Betingelser",
+        "privacy": "Privatliv",
+        "cookieSettings": "Cookie Indstillinger",
+        "licenses": "Licenser",
+        "contributionGuidelines": "Bidragsretningslinjer"
+      }
+    }
+  }
 }

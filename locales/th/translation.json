@@ -1,4 +1,47 @@
 {
-  "language": "th",
-  "translations": {}
+  "footer": {
+    "copyright": {
+      "text": "© 2024-present โดยชุมชน Redot.",
+      "website": "เว็บไซต์",
+      "sourceCode": "โค้ดต้นฉบับบน Github"
+    },
+    "product": {
+      "title": "ผลิตภัณฑ์",
+      "children": {
+        "download": "ดาวน์โหลด",
+        "status": "สถานะ",
+        "donate": "บริจาค",
+        "documentation": "เอกสาร",
+        "sourceCode": "โค้ดต้นฉบับ"
+      }
+    },
+    "resources": {
+      "title": "แหล่งข้อมูล",
+      "children": {
+        "news": "ข่าวสาร",
+        "feedback": "ข้อเสนอแนะ",
+        "community": "ชุมชน",
+        "pressKit": "ชุดสื่อ",
+        "contact": "ติดต่อ"
+      }
+    },
+    "betaPrograms": {
+      "title": "โปรแกรมเบต้า",
+      "children": {
+        "launcher": "ตัวเปิด",
+        "academy": "อคาเดมี",
+        "engineExperimental": "เครื่องมือทดลอง"
+      }
+    },
+    "policies": {
+      "title": "นโยบาย",
+      "children": {
+        "terms": "ข้อกำหนด",
+        "privacy": "ความเป็นส่วนตัว",
+        "cookieSettings": "การตั้งค่า Cookie",
+        "licenses": "ใบอนุญาต",
+        "contributionGuidelines": "แนวทางการมีส่วนร่วม"
+      }
+    }
+  }
 }

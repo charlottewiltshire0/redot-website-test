@@ -1,4 +1,117 @@
 {
-  "language": "en-GB",
-  "translations": {}
+  "header": {
+    "banner": {
+      "subMessage": "Upgrade to the latest version.",
+      "mainMessage": "Redot Engine is now stable!"
+    },
+    "downloadButton": "Download",
+    "links": {
+      "documentation": "Documentation",
+      "blog": "Blog",
+      "proposals": "Proposals",
+      "community": "Community"
+    }
+  },
+  "heroSection": {
+    "heading": "Game Engine,<br />Game Changer",
+    "description": "Create your 2D and 3D games, cross-platform projects, or explore innovative ideas in XR technology with Redot Engine!",
+    "buttons": {
+      "primary": "Get Redot Engine for Windows",
+      "secondary": "Explore Redot Engine Docs"
+    },
+    "bannerMessage": "🎉 Stable version is here"
+  },
+  "productShowcaseSection": {
+    "badge": "🪁 Powering Your Game Development",
+    "title": "Powering Your<br />Game Development",
+    "description": "Unlock endless possibilities with our flexible and high-performance game engine for every creator."
+  },
+  "featuresSection": {
+    "badge": "🤖 Next-Gen Game Design",
+    "title": "Redot Engine's <br /> Powerful Features",
+    "description": "Discover cutting-edge tools and capabilities designed to bring your game ideas to life effortlessly.",
+    "highlights": {
+      "sceneDrivenDesign": {
+        "header": "Scene-driven design",
+        "description": "Create reusable scenes with nodes, scripts, and clear game logic via node hierarchy."
+      },
+      "crossPlatform": {
+        "header": "Cross platform",
+        "description": "Develop on various platforms. Deploy your game on desktop, mobile, and web quickly."
+      },
+      "2D3DEngines": {
+        "header": "2D and 3D engines",
+        "description": "Create performant 2D games with Redot's 2D engine and build rich 3D worlds easily."
+      },
+      "openSource": {
+        "header": "Open Source",
+        "description": "Experience open development with Redot Engine, where all contributors share equally."
+      }
+    }
+  },
+  "reviewSection": {
+    "badge": "🎉 Stable version is here",
+    "title": "What our users say",
+    "description": "Redot Engine empowers developers with flexibility and performance for creating amazing games."
+  },
+  "startSection": {
+    "title": "Ready to create?",
+    "description": "Create captivating 2D and 3D games with Redot Engine for cross-platform immersive experiences.",
+    "buttons": {
+      "download": "Download",
+      "documentation": "Explore Redot Engine Docs"
+    }
+  },
+  "footer": {
+    "languageSelector": {
+      "searchPlaceholder": "Search language...",
+      "noResults": "No language found."
+    },
+    "copyright": {
+      "text": "© 2024-present by the Redot community.",
+      "website": "Website",
+      "sourceCode": "Website source code on GitHub"
+    },
+    "buttons": {
+      "settings": "Settings"
+    },
+    "product": {
+      "title": "Product",
+      "children": {
+        "download": "Download",
+        "status": "Status",
+        "donate": "Donate",
+        "documentation": "Documentation",
+        "sourceCode": "Source Code"
+      }
+    },
+    "resources": {
+      "title": "Resources",
+      "children": {
+        "news": "News",
+        "feedback": "Feedback",
+        "community": "Community",
+        "pressKit": "Press Kit",
+        "contact": "Contact"
+      }
+    },
+    "betaPrograms": {
+      "title": "Beta Programs",
+      "children": {
+        "launcher": "Launcher",
+        "academy": "Academy",
+        "engineExperimental": "Engine Experimental"
+      }
+    },
+    "policies": {
+      "title": "Policies",
+      "children": {
+        "terms": "Terms",
+        "privacy": "Privacy",
+        "cookieSettings": "Cookie Settings",
+        "licenses": "Licenses",
+        "contributionGuidelines": "Contribution Guidelines"
+      }
+    }
+  }
 }

@@ -1,4 +1,117 @@
 {
-  "language": "nl",
-  "translations": {}
+  "header": {
+    "banner": {
+      "subMessage": "Upgrade naar de nieuwste versie.",
+      "mainMessage": "Redot Engine is nu stabiel!"
+    },
+    "downloadButton": "Downloaden",
+    "links": {
+      "documentation": "Documentatie",
+      "blog": "Blog",
+      "proposals": "Voorstellen",
+      "community": "Gemeenschap"
+    }
+  },
+  "heroSection": {
+    "heading": "Game Engine,<br />Game Changer",
+    "description": "Maak je 2D- en 3D-games, cross-platform projecten, of verken innovatieve ideeën in XR-technologie met Redot Engine!",
+    "buttons": {
+      "primary": "Krijg Redot Engine voor Windows",
+      "secondary": "Verken de Redot Engine Docs"
+    },
+    "bannerMessage": "🎉 De stabiele versie is hier"
+  },
+  "productShowcaseSection": {
+    "badge": "🪁 Kracht voor je Game-ontwikkeling",
+    "title": "Kracht voor je<br />Game-ontwikkeling",
+    "description": "Ontgrendel eindeloze mogelijkheden met onze flexibele en krachtige game-engine voor elke maker."
+  },
+  "featuresSection": {
+    "badge": "🤖 Next-Gen Game Design",
+    "title": "De Krachtige Features van Redot Engine",
+    "description": "Ontdek geavanceerde tools en mogelijkheden die zijn ontworpen om je game-ideeën moeiteloos tot leven te brengen.",
+    "highlights": {
+      "sceneDrivenDesign": {
+        "header": "Scène-gedreven ontwerp",
+        "description": "Maak herbruikbare scènes met knooppunten, scripts en duidelijke game-logica via knooppunthierarchie."
+      },
+      "crossPlatform": {
+        "header": "Cross-platform",
+        "description": "Ontwikkel op verschillende platforms. Zet je game snel in op desktop, mobiel en web."
+      },
+      "2D3DEngines": {
+        "header": "2D- en 3D-engines",
+        "description": "Maak krachtige 2D-games met de 2D-engine van Redot en bouw rijke 3D-werelden eenvoudig."
+      },
+      "openSource": {
+        "header": "Open Source",
+        "description": "Ervaar open ontwikkeling met Redot Engine, waar alle bijdragers gelijk delen."
+      }
+    }
+  },
+  "reviewSection": {
+    "badge": "🎉 De stabiele versie is hier",
+    "title": "Wat onze gebruikers zeggen",
+    "description": "Redot Engine biedt ontwikkelaars flexibiliteit en prestaties voor het creëren van geweldige games."
+  },
+  "startSection": {
+    "title": "Klaar om te creëren?",
+    "description": "Maak boeiende 2D- en 3D-games met Redot Engine voor cross-platform meeslepende ervaringen.",
+    "buttons": {
+      "download": "Downloaden",
+      "documentation": "Verken de Redot Engine Docs"
+    }
+  },
+  "footer": {
+    "languageSelector": {
+      "searchPlaceholder": "Zoek taal...",
+      "noResults": "Geen taal gevonden."
+    },
+    "copyright": {
+      "text": "© 2024-present door de Redot-gemeenschap.",
+      "website": "Website",
+      "sourceCode": "source code op Github"
+    },
+    "buttons": {
+      "settings": "Instellingen"
+    },
+    "product": {
+      "title": "Product",
+      "children": {
+        "download": "Downloaden",
+        "status": "Status",
+        "donate": "Doneren",
+        "documentation": "Documentatie",
+        "sourceCode": "Source code op Github"
+      }
+    },
+    "resources": {
+      "title": "Hulpbronnen",
+      "children": {
+        "news": "Nieuws",
+        "feedback": "Feedback",
+        "community": "Gemeenschap",
+        "pressKit": "Press Kit",
+        "contact": "Contact"
+      }
+    },
+    "betaPrograms": {
+      "title": "Beta-programma's",
+      "children": {
+        "launcher": "Launcher",
+        "academy": "Academy",
+        "engineExperimental": "Engine Experimental"
+      }
+    },
+    "policies": {
+      "title": "Beleid",
+      "children": {
+        "terms": "Voorwaarden",
+        "privacy": "Privacy",
+        "cookieSettings": "Cookie-instellingen",
+        "licenses": "Licenties",
+        "contributionGuidelines": "Bijdrage-richtlijnen"
+      }
+    }
+  }
 }

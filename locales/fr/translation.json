@@ -1,4 +1,117 @@
 {
-  "language": "fr",
-  "translations": {}
+  "header": {
+    "banner": {
+      "subMessage": "Mettez à jour vers la dernière version.",
+      "mainMessage": "Redot Engine est maintenant stable !"
+    },
+    "downloadButton": "Télécharger",
+    "links": {
+      "documentation": "Documentation",
+      "blog": "Blog",
+      "proposals": "Propositions",
+      "community": "Communauté"
+    }
+  },
+  "heroSection": {
+    "heading": "Moteur de jeu,<br />Révolutionnaire",
+    "description": "Créez vos jeux 2D et 3D, vos projets multiplateformes, ou explorez des idées innovantes en technologie XR avec Redot Engine !",
+    "buttons": {
+      "primary": "Obtenez Redot Engine pour Windows",
+      "secondary": "Explorez la documentation de Redot Engine"
+    },
+    "bannerMessage": "🎉 La version stable est arrivée"
+  },
+  "productShowcaseSection": {
+    "badge": "🪁 Au service de votre développement de jeux",
+    "title": "Au service de votre<br />développement de jeux",
+    "description": "Libérez des possibilités infinies avec notre moteur de jeu flexible et performant pour tous les créateurs."
+  },
+  "featuresSection": {
+    "badge": "🤖 Conception de jeu nouvelle génération",
+    "title": "Les <br /> Fonctions puissantes de Redot Engine",
+    "description": "Découvrez des outils et des capacités de pointe conçus pour donner vie à vos idées de jeux sans effort.",
+    "highlights": {
+      "sceneDrivenDesign": {
+        "header": "Conception basée sur des scènes",
+        "description": "Créez des scènes réutilisables avec des nœuds, des scripts et une logique de jeu claire via la hiérarchie des nœuds."
+      },
+      "crossPlatform": {
+        "header": "Multiplateforme",
+        "description": "Développez sur diverses plateformes. Déployez rapidement votre jeu sur ordinateur, mobile et web."
+      },
+      "2D3DEngines": {
+        "header": "Moteurs 2D et 3D",
+        "description": "Créez des jeux 2D performants avec le moteur 2D de Redot et construisez facilement des mondes 3D riches."
+      },
+      "openSource": {
+        "header": "Open Source",
+        "description": "Profitez d’un développement ouvert avec Redot Engine, où tous les contributeurs partagent également."
+      }
+    }
+  },
+  "reviewSection": {
+    "badge": "🎉 La version stable est arrivée",
+    "title": "Ce que nos utilisateurs disent",
+    "description": "Redot Engine offre flexibilité et performance aux développeurs pour créer des jeux incroyables."
+  },
+  "startSection": {
+    "title": "Prêt à créer ?",
+    "description": "Créez des jeux captivants en 2D et 3D avec Redot Engine pour des expériences immersives multiplateformes.",
+    "buttons": {
+      "download": "Télécharger",
+      "documentation": "Explorez la documentation de Redot Engine"
+    }
+  },
+  "footer": {
+    "languageSelector": {
+      "searchPlaceholder": "Rechercher une langue...",
+      "noResults": "Aucune langue trouvée."
+    },
+    "copyright": {
+      "text": "© 2024-présent par la communauté Redot.",
+      "website": "Site web",
+      "sourceCode": "Site web du code source sur Github"
+    },
+    "buttons": {
+      "settings": "Paramètres"
+    },
+    "product": {
+      "title": "Produit",
+      "children": {
+        "download": "Télécharger",
+        "status": "Statut",
+        "donate": "Faire un don",
+        "documentation": "Documentation",
+        "sourceCode": "Code Source"
+      }
+    },
+    "resources": {
+      "title": "Ressources",
+      "children": {
+        "news": "Actualités",
+        "feedback": "Commentaires",
+        "community": "Communauté",
+        "pressKit": "Kit de presse",
+        "contact": "Contact"
+      }
+    },
+    "betaPrograms": {
+      "title": "Programmes Beta",
+      "children": {
+        "launcher": "Lanceur",
+        "academy": "Académie",
+        "engineExperimental": "Moteur Expérimental"
+      }
+    },
+    "policies": {
+      "title": "Politiques",
+      "children": {
+        "terms": "Conditions",
+        "privacy": "Confidentialité",
+        "cookieSettings": "Paramètres des cookies",
+        "licenses": "Licences",
+        "contributionGuidelines": "Directives de contribution"
+      }
+    }
+  }
 }
