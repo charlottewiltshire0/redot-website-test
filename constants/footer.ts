@@ -8,41 +8,56 @@ interface Footer {
 
 export const footer: Footer[] = [
   {
-    title: "Product",
+    title: "product.title",
     children: [
-      { title: "Download", href: "/download" },
-      { title: "Status", href: links.status },
-      { title: "Donate", href: links.donation },
-      { title: "Documentation", href: links.documentation },
-      { title: "Source Code", href: links.github },
+      { title: "product.children.download", href: "/download" },
+      { title: "product.children.status", href: links.status },
+      { title: "product.children.donate", href: links.donation },
+      {
+        title: "product.children.documentation",
+        href: links.documentation,
+      },
+      { title: "product.children.sourceCode", href: links.github },
     ],
   },
   {
-    title: "Resources",
+    title: "resources.title",
     children: [
-      { title: "News", href: "/news" },
-      { title: "Feedback", href: links.feedback },
-      { title: "Community", href: "/community" },
-      { title: "Press Kit", href: links.pressKit },
-      { title: "Contact", href: "/contact" },
+      { title: "resources.children.news", href: "/news" },
+      { title: "resources.children.feedback", href: links.feedback },
+      { title: "resources.children.community", href: "/community" },
+      { title: "resources.children.pressKit", href: links.pressKit },
+      { title: "resources.children.contact", href: "/contact" },
     ],
   },
   {
-    title: "Beta Programs",
+    title: "betaPrograms.title",
     children: [
-      { title: "Launcher", href: "/beta/launcher" },
-      { title: "Academy", href: links.academy },
-      { title: "Engine Experimental", href: "/beta/engine-experimental" },
+      {
+        title: "betaPrograms.children.launcher",
+        href: "https://github.com/Redot-Experimental/launcher",
+      },
+      { title: "betaPrograms.children.academy", href: links.academy },
+      {
+        title: "betaPrograms.children.engineExperimental",
+        href: "https://github.com/Redot-Experimental",
+      },
     ],
   },
   {
-    title: "Policies",
+    title: "policies.title",
     children: [
-      { title: "Terms", href: "/terms" },
-      { title: "Privacy", href: "/privacy" },
-      { title: "Cookie Settings", href: "/cookie-settings" },
-      { title: "Licenses", href: "/license" },
-      { title: "Contribution Guidelines", href: links.contribute },
+      { title: "policies.children.terms", href: "/terms" },
+      { title: "policies.children.privacy", href: "/privacy" },
+      {
+        title: "policies.children.cookieSettings",
+        href: "/cookie-settings",
+      },
+      { title: "policies.children.licenses", href: "/license" },
+      {
+        title: "policies.children.contributionGuidelines",
+        href: links.contribute,
+      },
     ],
   },
 ];
