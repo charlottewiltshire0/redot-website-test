@@ -7,19 +7,19 @@ interface HeaderLink {
 
 export const header: HeaderLink[] = [
   {
-    label: "Documentation",
+    label: "links.documentation",
     href: links.documentation,
   },
   {
-    label: "Blog",
+    label: "links.blog",
     href: "/blog/",
   },
   {
-    label: "Proposals",
+    label: "links.proposals",
     href: links.proposals,
   },
   {
-    label: "Community",
+    label: "links.community",
     href: "/community/",
   },
 ];

@@ -4,13 +4,16 @@ import Image from "next/image";
 import { header } from "@/constants/header";
 import { Button } from "@/components/ui/button";
 import { MobileSidebar } from "@/components/mobile-navbar";
+import { useTranslations } from "next-intl";
 
 export const Header = () => {
+  const t = useTranslations("header");
+
   return (
     <header className="sticky top-0 z-[50] w-full backdrop-blur-sm">
       <Banner
-        subMessage="Upgrade to the latest version."
-        mainMessage="Redot Engine is now stable!"
+        subMessage={t("banner.subMessage")}
+        mainMessage={t("banner.mainMessage")}
         link="https://www.redotengine.org/news/release-4-3-stable"
       />
       <div className="py-5">
@@ -37,11 +40,11 @@ export const Header = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {link.label}
+                    {t(link.label)}
                   </Link>
                 ))}
                 <Button asChild>
-                  <Link href="/download">Download</Link>
+                  <Link href="/download">{t("downloadButton")}</Link>
                 </Button>
               </nav>
             </div>
