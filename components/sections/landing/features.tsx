@@ -8,12 +8,16 @@ import { FeaturesCard } from "@/components/features/features-card";
 import FeaturesHighlight from "@/components/features/features-highlight";
 import { IconCommand } from "@tabler/icons-react";
 import { featuresHighlightLists } from "@/constants/features-highlight-list";
+import { useTranslations } from "next-intl";
+import HeaderSection from "@/components/header-section";
 
 export const Features = () => {
   const { inView, ref } = useInView({
     threshold: 0.1,
     triggerOnce: true,
   });
+
+  const t = useTranslations("featuresSection");
 
   const firstRow = featuresList.slice(0, featuresList.length / 2);
 
@@ -25,37 +29,7 @@ export const Features = () => {
         transition={{ duration: 0.6 }}
         className="px-5 lg:px-40"
       >
-        <div className="mx-auto max-w-[540px]">
-          <div className="flex justify-center">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              className="flex h-9 items-center rounded-md border border-input bg-background px-3 text-center text-sm font-medium hover:bg-accent"
-            >
-              🤖 Next-Gen Game Design
-            </motion.div>
-          </div>
-
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.4 }}
-            className="mt-5 text-center text-4xl font-bold tracking-tighter md:text-[54px] md:leading-[60px]"
-          >
-            Redot Engine&apos;s <br /> Powerful Features
-          </motion.h2>
-
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.6 }}
-            className="mt-5 text-center text-xl tracking-tighter text-black/60 md:text-[22px] md:leading-[30px]"
-          >
-            Discover cutting-edge tools and capabilities designed to bring your
-            game ideas to life effortlessly.
-          </motion.p>
-        </div>
+        <HeaderSection section="featuresSection" />
 
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
@@ -95,8 +69,8 @@ export const Features = () => {
                 >
                   <FeaturesHighlight
                     icon={feature.icon || <IconCommand className="h-6 w-6" />}
-                    header={feature.header}
-                    description={feature.description}
+                    header={t(feature.header)}
+                    description={t(feature.description)}
                   />
                 </motion.div>
               ))}
