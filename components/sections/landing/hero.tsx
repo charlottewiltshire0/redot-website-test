@@ -9,8 +9,11 @@ import Image from "next/image";
 import { motion } from "motion/react";
 import Head from "next/head";
 import { links } from "@/constants/links";
+import { useTranslations } from "next-intl";
 
 export const Hero = () => {
+  const t = useTranslations("heroSection");
+
   return (
     <>
       <Head>
@@ -38,7 +41,7 @@ export const Hero = () => {
                   )}
                 >
                   <AnimatedShinyText className="inline-flex items-center justify-center px-4 py-1 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400">
-                    <span>🎉 Stable version is here</span>
+                    <span>{t("bannerMessage")}</span>
                     <IconArrowRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
                   </AnimatedShinyText>
                 </div>
@@ -49,9 +52,8 @@ export const Hero = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4 }}
-              >
-                Game Engine, <br /> Game Changer
-              </motion.h1>
+                dangerouslySetInnerHTML={{ __html: t("heading") }}
+              />
 
               <motion.p
                 className="text-xl tracking-tight"
@@ -59,8 +61,7 @@ export const Hero = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
               >
-                Create your 2D and 3D games, cross-platform projects, or explore
-                innovative ideas in XR technology with Redot Engine!
+                {t("description")}
               </motion.p>
 
               <div className="mt-[38px] flex flex-col items-center gap-1 md:flex-row">
@@ -71,7 +72,7 @@ export const Hero = () => {
                   className="w-full md:w-auto"
                 >
                   <Button asChild className="w-full md:w-auto">
-                    <Link href="/download">Get Redot Engine for Windows</Link>
+                    <Link href="/download">{t("buttons.primary")}</Link>
                   </Button>
                 </motion.div>
                 <motion.div
@@ -82,7 +83,7 @@ export const Hero = () => {
                 >
                   <Button variant="link" asChild className="w-full md:w-auto">
                     <Link href={links.documentation}>
-                      Explore Redot Engine Docs
+                      {t("buttons.secondary")}
                       <IconArrowRight className="h-5 w-5" />
                     </Link>
                   </Button>
