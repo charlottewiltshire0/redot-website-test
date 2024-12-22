@@ -18,11 +18,20 @@ import { Check } from "lucide-react";
 import { cn } from "@/lib/utils";
 import * as React from "react";
 import { useTranslations } from "next-intl";
-import setLanguage from "@/actions/set-language";
+import { setLanguage } from "@/actions/language";
+import { getLanguage } from "@/actions/language";
 
 export default function LanguageSwitcher() {
   const [open, setOpen] = React.useState(false);
   const [value, setValue] = React.useState("en");
+
+  React.useEffect(() => {
+    const fetchLanguage = async () => {
+      const currentLanguage = await getLanguage();
+      setValue(currentLanguage);
+    };
+    fetchLanguage();
+  }, []);
 
   const t = useTranslations("footer");
 
