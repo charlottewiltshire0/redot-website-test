@@ -51,6 +51,7 @@ export default function LanguageSwitcher() {
             <button
               role="combobox"
               aria-expanded={open}
+              aria-controls="language-selector-list"
               className="flex items-center justify-between gap-2 text-white/80"
               disabled={!value}
             >
