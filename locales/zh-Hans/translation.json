@@ -1,4 +1,122 @@
 {
-  "language": "zh-Hans",
-  "translations": {}
+  "header": {
+    "banner": {
+      "subMessage": "升级到最新版本。",
+      "mainMessage": "Redot 引擎现已稳定！"
+    },
+    "downloadButton": "下载",
+    "links": {
+      "documentation": "文档",
+      "blog": "博客",
+      "proposals": "提案",
+      "community": "社区"
+    }
+  },
+  "heroSection": {
+    "heading": "游戏引擎，<br />游戏改变者",
+    "description": "使用 Redot 引擎创建您的 2D 和 3D 游戏、跨平台项目，或探索 XR 技术中的创新想法！",
+    "buttons": {
+      "primary": "下载 Redot 引擎（Windows）",
+      "secondary": "探索 Redot 引擎文档"
+    },
+    "bannerMessage": "🎉 稳定版本已发布"
+  },
+  "productShowcaseSection": {
+    "badge": "🪁 为您的游戏开发提供动力",
+    "title": "为您的<br />游戏开发提供动力",
+    "description": "使用我们的灵活且高性能的游戏引擎，解锁无尽可能性，为每一位创作者提供支持。"
+  },
+  "featuresSection": {
+    "badge": "🤖 下一代游戏设计",
+    "title": "Redot 引擎的 <br /> 强大功能",
+    "description": "探索尖端工具和功能，轻松将您的游戏创意变为现实。",
+    "highlights": {
+      "sceneDrivenDesign": {
+        "header": "场景驱动设计",
+        "description": "通过节点层次结构创建可重用的场景，包含脚本和清晰的游戏逻辑。"
+      },
+      "crossPlatform": {
+        "header": "跨平台",
+        "description": "在多个平台上开发，快速将游戏部署到桌面、移动设备和 Web。"
+      },
+      "2D3DEngines": {
+        "header": "2D 和 3D 引擎",
+        "description": "使用 Redot 的 2D 引擎创建高性能 2D 游戏，轻松构建丰富的 3D 世界。"
+      },
+      "openSource": {
+        "header": "开源",
+        "description": "体验 Redot 引擎的开源开发，所有贡献者平等分享。"
+      }
+    }
+  },
+  "reviewSection": {
+    "badge": "🎉 稳定版本已发布",
+    "title": "用户评价",
+    "description": "Redot 引擎为开发者提供灵活性和性能，用于创造精彩的游戏。"
+  },
+  "startSection": {
+    "title": "准备开始创造了吗？",
+    "description": "使用 Redot 引擎创建迷人的 2D 和 3D 游戏，实现跨平台的沉浸式体验。",
+    "buttons": {
+      "download": "下载",
+      "documentation": "探索 Redot 引擎文档"
+    }
+  },
+  "footer": {
+    "languageSelector": {
+      "searchPlaceholder": "搜索语言...",
+      "noResults": "未找到语言。"
+    },
+    "copyright": {
+      "text": "© 2024-present 由 Redot 社区提供。",
+      "website": "网站",
+      "sourceCode": "在 Github 上查看源代码"
+    },
+    "buttons": {
+      "settings": "设置"
+    },
+    "product": {
+      "title": "产品",
+      "children": {
+        "download": "下载",
+        "status": "状态",
+        "donate": "捐赠",
+        "documentation": "文档",
+        "sourceCode": "源代码"
+      }
+    },
+    "resources": {
+      "title": "资源",
+      "children": {
+        "news": "新闻",
+        "feedback": "反馈",
+        "community": "社区",
+        "pressKit": "媒体包",
+        "contact": "联系"
+      }
+    },
+    "betaPrograms": {
+      "title": "测试计划",
+      "children": {
+        "launcher": "启动器",
+        "academy": "学院",
+        "engineExperimental": "引擎实验"
+      }
+    },
+    "policies": {
+      "title": "政策",
+      "children": {
+        "terms": "条款",
+        "privacy": "隐私",
+        "cookieSettings": "Cookie 设置",
+        "licenses": "许可证",
+        "contributionGuidelines": "贡献指南"
+      }
+    }
+  },
+  "notFound": {
+    "title": "哎呀！页面未找到",
+    "description": "看起来您已经进入了未知区域...我们也不确定这个页面去了哪里！",
+    "goBack": "返回"
+  }
 }

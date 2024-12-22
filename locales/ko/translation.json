@@ -1,4 +1,122 @@
 {
-  "language": "ko",
-  "translations": {}
+  "header": {
+    "banner": {
+      "subMessage": "최신 버전으로 업그레이드하세요.",
+      "mainMessage": "Redot Engine이 안정화되었습니다!"
+    },
+    "downloadButton": "다운로드",
+    "links": {
+      "documentation": "문서",
+      "blog": "블로그",
+      "proposals": "제안",
+      "community": "커뮤니티"
+    }
+  },
+  "heroSection": {
+    "heading": "게임 엔진,<br />게임 체인저",
+    "description": "2D 및 3D 게임을 제작하거나, 크로스 플랫폼 프로젝트를 개발하거나, XR 기술에서 혁신적인 아이디어를 탐구하세요. Redot Engine과 함께라면 가능합니다!",
+    "buttons": {
+      "primary": "Windows용 Redot Engine 받기",
+      "secondary": "Redot Engine 문서 탐색"
+    },
+    "bannerMessage": "🎉 안정화 버전이 출시되었습니다"
+  },
+  "productShowcaseSection": {
+    "badge": "🪁 게임 개발을 지원합니다",
+    "title": "게임 개발을<br />지원합니다",
+    "description": "모든 크리에이터를 위한 유연하고 고성능의 게임 엔진으로 끝없는 가능성을 열어보세요."
+  },
+  "featuresSection": {
+    "badge": "🤖 차세대 게임 디자인",
+    "title": "Redot Engine의<br />강력한 기능",
+    "description": "게임 아이디어를 손쉽게 실현할 수 있도록 설계된 최첨단 도구와 기능들을 만나보세요.",
+    "highlights": {
+      "sceneDrivenDesign": {
+        "header": "씬 기반 디자인",
+        "description": "노드 계층을 통해 노드, 스크립트, 명확한 게임 로직을 사용하여 재사용 가능한 씬을 만드세요."
+      },
+      "crossPlatform": {
+        "header": "크로스 플랫폼",
+        "description": "다양한 플랫폼에서 개발하고, 데스크탑, 모바일 및 웹에 게임을 빠르게 배포하세요."
+      },
+      "2D3DEngines": {
+        "header": "2D 및 3D 엔진",
+        "description": "Redot의 2D 엔진으로 성능이 뛰어난 2D 게임을 제작하고, 풍부한 3D 세계를 쉽게 구축하세요."
+      },
+      "openSource": {
+        "header": "오픈 소스",
+        "description": "모든 기여자가 동등하게 공유하는 Redot Engine의 오픈 개발 환경을 경험하세요."
+      }
+    }
+  },
+  "reviewSection": {
+    "badge": "🎉 안정화 버전이 출시되었습니다",
+    "title": "사용자들의 평가",
+    "description": "Redot Engine은 유연성과 성능으로 개발자들이 놀라운 게임을 만들 수 있도록 돕습니다."
+  },
+  "startSection": {
+    "title": "만들 준비가 되셨나요?",
+    "description": "Redot Engine으로 크로스 플랫폼 몰입형 경험을 제공하는 매력적인 2D 및 3D 게임을 제작하세요.",
+    "buttons": {
+      "download": "다운로드",
+      "documentation": "Redot Engine 문서 탐색"
+    }
+  },
+  "footer": {
+    "languageSelector": {
+      "searchPlaceholder": "언어 검색...",
+      "noResults": "언어를 찾을 수 없습니다."
+    },
+    "copyright": {
+      "text": "© 2024-현재 Redot 커뮤니티.",
+      "website": "웹사이트",
+      "sourceCode": "Github에서 웹사이트 소스 코드"
+    },
+    "buttons": {
+      "settings": "설정"
+    },
+    "product": {
+      "title": "제품",
+      "children": {
+        "download": "다운로드",
+        "status": "상태",
+        "donate": "기부",
+        "documentation": "문서",
+        "sourceCode": "소스 코드"
+      }
+    },
+    "resources": {
+      "title": "리소스",
+      "children": {
+        "news": "뉴스",
+        "feedback": "피드백",
+        "community": "커뮤니티",
+        "pressKit": "보도 자료",
+        "contact": "문의"
+      }
+    },
+    "betaPrograms": {
+      "title": "베타 프로그램",
+      "children": {
+        "launcher": "런처",
+        "academy": "아카데미",
+        "engineExperimental": "엔진 실험적 버전"
+      }
+    },
+    "policies": {
+      "title": "정책",
+      "children": {
+        "terms": "이용 약관",
+        "privacy": "개인정보 보호",
+        "cookieSettings": "쿠키 설정",
+        "licenses": "라이선스",
+        "contributionGuidelines": "기여 가이드라인"
+      }
+    }
+  },
+  "notFound": {
+    "title": "오ops! 페이지를 찾을 수 없습니다",
+    "description": "알 수 없는 곳으로 여행을 떠난 것 같아요... 이 페이지가 어디로 갔는지 저희도 잘 모르겠어요!",
+    "goBack": "뒤로 가기"
+  }
 }

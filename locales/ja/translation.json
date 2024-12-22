@@ -1,4 +1,122 @@
 {
-  "language": "ja",
-  "translations": {}
+  "header": {
+    "banner": {
+      "subMessage": "最新バージョンにアップグレードしてください。",
+      "mainMessage": "Redot Engineはついに安定版になりました！"
+    },
+    "downloadButton": "ダウンロード",
+    "links": {
+      "documentation": "ドキュメント",
+      "blog": "ブログ",
+      "proposals": "提案",
+      "community": "コミュニティ"
+    }
+  },
+  "heroSection": {
+    "heading": "ゲームエンジン,<br />ゲームチェンジャー",
+    "description": "2D・3Dゲーム、クロスプラットフォームプロジェクトの作成や、XR技術の革新的なアイデアをRedot Engineで探求しましょう！",
+    "buttons": {
+      "primary": "Redot EngineをWindows用にダウンロード",
+      "secondary": "Redot Engineのドキュメントを探す"
+    },
+    "bannerMessage": "🎉 安定版リリース"
+  },
+  "productShowcaseSection": {
+    "badge": "🪁 ゲーム開発を支える",
+    "title": "ゲーム開発を<br />支える力",
+    "description": "柔軟で高性能なゲームエンジンで、すべてのクリエイターに無限の可能性を提供します。"
+  },
+  "featuresSection": {
+    "badge": "🤖 次世代のゲームデザイン",
+    "title": "Redot Engineの<br />強力な機能",
+    "description": "ゲームアイデアを簡単に具現化するための最先端のツールと機能を発見しましょう。",
+    "highlights": {
+      "sceneDrivenDesign": {
+        "header": "シーン駆動の設計",
+        "description": "ノード階層を使った再利用可能なシーン、スクリプト、明確なゲームロジックを作成。"
+      },
+      "crossPlatform": {
+        "header": "クロスプラットフォーム",
+        "description": "様々なプラットフォームで開発。デスクトップ、モバイル、Webへの迅速なデプロイが可能。"
+      },
+      "2D3DEngines": {
+        "header": "2Dと3Dエンジン",
+        "description": "Redotの2Dエンジンで高性能な2Dゲームを作成し、リッチな3Dワールドを簡単に構築可能。"
+      },
+      "openSource": {
+        "header": "オープンソース",
+        "description": "Redot Engineの開発はオープンで、すべての貢献者が平等に共有します。"
+      }
+    }
+  },
+  "reviewSection": {
+    "badge": "🎉 安定版リリース",
+    "title": "ユーザーの声",
+    "description": "Redot Engineは、柔軟性と性能を備えたツールで素晴らしいゲームを作る力を開発者に与えます。"
+  },
+  "startSection": {
+    "title": "制作を始める準備はできていますか？",
+    "description": "Redot Engineでクロスプラットフォームの没入型体験を提供する魅力的な2D・3Dゲームを作成しましょう。",
+    "buttons": {
+      "download": "ダウンロード",
+      "documentation": "Redot Engineのドキュメントを探す"
+    }
+  },
+  "footer": {
+    "languageSelector": {
+      "searchPlaceholder": "言語を検索...",
+      "noResults": "該当する言語が見つかりませんでした。"
+    },
+    "copyright": {
+      "text": "© 2024年以降 Redot コミュニティによる。",
+      "website": "ウェブサイト",
+      "sourceCode": "Githubでソースコードを見る"
+    },
+    "buttons": {
+      "settings": "設定"
+    },
+    "product": {
+      "title": "製品",
+      "children": {
+        "download": "ダウンロード",
+        "status": "ステータス",
+        "donate": "寄付",
+        "documentation": "ドキュメント",
+        "sourceCode": "ソースコード"
+      }
+    },
+    "resources": {
+      "title": "リソース",
+      "children": {
+        "news": "ニュース",
+        "feedback": "フィードバック",
+        "community": "コミュニティ",
+        "pressKit": "プレスキット",
+        "contact": "お問い合わせ"
+      }
+    },
+    "betaPrograms": {
+      "title": "ベータプログラム",
+      "children": {
+        "launcher": "ランチャー",
+        "academy": "アカデミー",
+        "engineExperimental": "実験的エンジン"
+      }
+    },
+    "policies": {
+      "title": "ポリシー",
+      "children": {
+        "terms": "利用規約",
+        "privacy": "プライバシー",
+        "cookieSettings": "クッキー設定",
+        "licenses": "ライセンス",
+        "contributionGuidelines": "貢献ガイドライン"
+      }
+    }
+  },
+  "notFound": {
+    "title": "おっと！ページが見つかりません",
+    "description": "どうやら未知の世界に足を踏み入れてしまったようです...このページがどこに行ったのか、私たちにもわかりません！",
+    "goBack": "戻る"
+  }
 }

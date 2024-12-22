@@ -16,27 +16,23 @@ export interface FeaturesHighlightList {
 
 export const featuresHighlightLists: FeaturesHighlightList[] = [
   {
-    header: "Scene-driven design",
-    description:
-      "Create reusable scenes with nodes, scripts, and clear game logic via node hierarchy.",
+    header: "highlights.sceneDrivenDesign.header",
+    description: "highlights.sceneDrivenDesign.description",
     icon: <IconCamera className="h-6 w-6" />,
   },
   {
-    header: "Cross platform",
-    description:
-      "Develop on various platforms. Deploy your game on desktop, mobile, and web quickly.",
+    header: "highlights.crossPlatform.header",
+    description: "highlights.crossPlatform.description",
     icon: <IconDeviceDesktop className="h-6 w-6" />,
   },
   {
-    header: "2D and 3D engines",
-    description:
-      "Create performant 2D games with Redot's 2D engine and build rich 3D worlds easily.",
+    header: "highlights.2D3DEngines.header",
+    description: "highlights.2D3DEngines.description",
     icon: <Icon3dCubeSphere className="h-6 w-6" />,
   },
   {
-    header: "Open Source",
-    description:
-      "Experience open development with Redot Engine, where all contributors share equally.",
+    header: "highlights.openSource.header",
+    description: "highlights.openSource.description",
     icon: <IconBrandGithub className="h-6 w-6" />,
   },
 ];

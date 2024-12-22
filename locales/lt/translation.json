@@ -1,4 +1,122 @@
 {
-  "language": "lt",
-  "translations": {}
+  "header": {
+    "banner": {
+      "subMessage": "Aggiorna all'ultima versione.",
+      "mainMessage": "Redot Engine è ora stabile!"
+    },
+    "downloadButton": "Scarica",
+    "links": {
+      "documentation": "Documentazione",
+      "blog": "Blog",
+      "proposals": "Proposte",
+      "community": "Community"
+    }
+  },
+  "heroSection": {
+    "heading": "Motore di gioco,<br />Cambia le regole del gioco",
+    "description": "Crea i tuoi giochi 2D e 3D, progetti multipiattaforma o esplora idee innovative nella tecnologia XR con Redot Engine!",
+    "buttons": {
+      "primary": "Scarica Redot Engine per Windows",
+      "secondary": "Esplora la Documentazione di Redot Engine"
+    },
+    "bannerMessage": "🎉 La versione stabile è qui"
+  },
+  "productShowcaseSection": {
+    "badge": "🪁 Potenzia il tuo sviluppo di giochi",
+    "title": "Potenzia il tuo<br />Sviluppo di giochi",
+    "description": "Sblocca infinite possibilità con il nostro motore di gioco flessibile e ad alte prestazioni per ogni creatore."
+  },
+  "featuresSection": {
+    "badge": "🤖 Progettazione di giochi di nuova generazione",
+    "title": "Le <br /> Potenti Caratteristiche di Redot Engine",
+    "description": "Scopri strumenti all'avanguardia e capacità progettate per dare vita alle tue idee di gioco senza sforzo.",
+    "highlights": {
+      "sceneDrivenDesign": {
+        "header": "Design guidato dalle scene",
+        "description": "Crea scene riutilizzabili con nodi, script e logica di gioco chiara tramite la gerarchia dei nodi."
+      },
+      "crossPlatform": {
+        "header": "Multipiattaforma",
+        "description": "Sviluppa su varie piattaforme. Distribuisci il tuo gioco su desktop, dispositivi mobili e web rapidamente."
+      },
+      "2D3DEngines": {
+        "header": "Motori 2D e 3D",
+        "description": "Crea giochi 2D performanti con il motore 2D di Redot e costruisci mondi 3D ricchi con facilità."
+      },
+      "openSource": {
+        "header": "Open Source",
+        "description": "Vivi uno sviluppo aperto con Redot Engine, dove tutti i contributori condividono equamente."
+      }
+    }
+  },
+  "reviewSection": {
+    "badge": "🎉 La versione stabile è qui",
+    "title": "Cosa dicono i nostri utenti",
+    "description": "Redot Engine offre agli sviluppatori flessibilità e prestazioni per creare giochi straordinari."
+  },
+  "startSection": {
+    "title": "Pronto a creare?",
+    "description": "Crea giochi 2D e 3D avvincenti con Redot Engine per esperienze immersive multipiattaforma.",
+    "buttons": {
+      "download": "Scarica",
+      "documentation": "Esplora la Documentazione di Redot Engine"
+    }
+  },
+  "footer": {
+    "languageSelector": {
+      "searchPlaceholder": "Cerca lingua...",
+      "noResults": "Nessuna lingua trovata."
+    },
+    "copyright": {
+      "text": "© 2024-presente dalla community di Redot.",
+      "website": "Sito web",
+      "sourceCode": "Codice sorgente su Github"
+    },
+    "buttons": {
+      "settings": "Impostazioni"
+    },
+    "product": {
+      "title": "Prodotto",
+      "children": {
+        "download": "Scarica",
+        "status": "Stato",
+        "donate": "Dona",
+        "documentation": "Documentazione",
+        "sourceCode": "Codice Sorgente"
+      }
+    },
+    "resources": {
+      "title": "Risorse",
+      "children": {
+        "news": "Notizie",
+        "feedback": "Feedback",
+        "community": "Community",
+        "pressKit": "Press Kit",
+        "contact": "Contatti"
+      }
+    },
+    "betaPrograms": {
+      "title": "Programmi Beta",
+      "children": {
+        "launcher": "Launcher",
+        "academy": "Accademia",
+        "engineExperimental": "Motore Sperimentale"
+      }
+    },
+    "policies": {
+      "title": "Politiche",
+      "children": {
+        "terms": "Termini",
+        "privacy": "Privacy",
+        "cookieSettings": "Impostazioni Cookie",
+        "licenses": "Licenze",
+        "contributionGuidelines": "Linee Guida per i Contributi"
+      }
+    }
+  },
+  "notFound": {
+    "title": "Oho! Puslapis nerastas",
+    "description": "Atrodo, kad nukeliavote į nežinomą vietą... mes taip pat nesame tikri, kur dingo šis puslapis!",
+    "goBack": "Grįžti atgal"
+  }
 }

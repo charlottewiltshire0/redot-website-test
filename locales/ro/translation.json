@@ -1,4 +1,104 @@
 {
-  "language": "ro",
-  "translations": {}
+  "header": {
+    "banner": {
+      "subMessage": "Actualizează la cea mai recentă versiune.",
+      "mainMessage": "Redot Engine este acum stabil!"
+    },
+    "downloadButton": "Descarcă",
+    "links": {
+      "documentation": "Documentație",
+      "blog": "Blog",
+      "proposals": "Proiecte",
+      "community": "Comunitate"
+    }
+  },
+  "heroSection": {
+    "heading": "Motor de jocuri,<br />Schimbător de jocuri",
+    "description": "Creează jocuri 2D și 3D, proiecte multiplatformă sau explorează idei inovative în tehnologia XR cu Redot Engine!",
+    "buttons": {
+      "primary": "Descarcă Redot Engine pentru Windows",
+      "secondary": "Explorează documentația Redot Engine"
+    },
+    "bannerMessage": "🎉 Versiunea stabilă este aici"
+  },
+  "productShowcaseSection": {
+    "badge": "🪁 Alimentând dezvoltarea jocurilor tale",
+    "title": "Alimentând dezvoltarea jocurilor tale",
+    "description": "Deschide posibilități infinite cu motorul nostru de jocuri flexibil și performant pentru fiecare creator."
+  },
+  "featuresSection": {
+    "badge": "🤖 Design de jocuri de nouă generație",
+    "title": "Caracteristici puternice ale Redot Engine",
+    "description": "Descoperă instrumente și capabilități de ultimă oră concepute pentru a-ți aduce ideile de jocuri la viață fără efort."
+  },
+  "reviewSection": {
+    "badge": "🎉 Versiunea stabilă este aici",
+    "title": "Ce spun utilizatorii noștri",
+    "description": "Redot Engine oferă dezvoltatorilor flexibilitate și performanță pentru a crea jocuri uimitoare."
+  },
+  "startSection": {
+    "title": "Pregătit să creezi?",
+    "description": "Creează jocuri captivante 2D și 3D cu Redot Engine pentru experiențe interactive multiplatformă.",
+    "buttons": {
+      "download": "Descarcă",
+      "documentation": "Explorează documentația Redot Engine"
+    }
+  },
+  "footer": {
+    "languageSelector": {
+      "searchPlaceholder": "Căutare limbă...",
+      "noResults": "Nicio limbă găsită."
+    },
+    "copyright": {
+      "text": "© 2024-prezent de către comunitatea Redot.",
+      "website": "Site-ul web",
+      "sourceCode": "codul sursă al site-ului pe Github"
+    },
+    "buttons": {
+      "settings": "Setări"
+    },
+    "product": {
+      "title": "Produs",
+      "children": {
+        "download": "Descarcă",
+        "status": "Status",
+        "donate": "Donează",
+        "documentation": "Documentație",
+        "sourceCode": "Cod sursă"
+      }
+    },
+    "resources": {
+      "title": "Resurse",
+      "children": {
+        "news": "Știri",
+        "feedback": "Feedback",
+        "community": "Comunitate",
+        "pressKit": "Kit de presă",
+        "contact": "Contact"
+      }
+    },
+    "betaPrograms": {
+      "title": "Programe Beta",
+      "children": {
+        "launcher": "Launcher",
+        "academy": "Academie",
+        "engineExperimental": "Motor Experimental"
+      }
+    },
+    "policies": {
+      "title": "Politici",
+      "children": {
+        "terms": "Termeni",
+        "privacy": "Confidențialitate",
+        "cookieSettings": "Setări Cookie",
+        "licenses": "Licențe",
+        "contributionGuidelines": "Ghiduri de contribuție"
+      }
+    }
+  },
+  "notFound": {
+    "title": "Oups! Pagina nu a fost găsită",
+    "description": "Se pare că ai ajuns într-un loc necunoscut... nici noi nu știm unde a dispărut această pagină!",
+    "goBack": "Înapoi"
+  }
 }

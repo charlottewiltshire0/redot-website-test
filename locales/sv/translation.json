@@ -1,4 +1,122 @@
 {
-  "language": "sv",
-  "translations": {}
+  "header": {
+    "banner": {
+      "subMessage": "Uppgradera till den senaste versionen.",
+      "mainMessage": "Redot Engine är nu stabil!"
+    },
+    "downloadButton": "Ladda ner",
+    "links": {
+      "documentation": "Dokumentation",
+      "blog": "Blogg",
+      "proposals": "Förslag",
+      "community": "Gemenskap"
+    }
+  },
+  "heroSection": {
+    "heading": "Spelmotor,<br />Spelväxlare",
+    "description": "Skapa dina 2D- och 3D-spel, plattformsövergripande projekt eller utforska innovativa idéer inom XR-teknologi med Redot Engine!",
+    "buttons": {
+      "primary": "Hämta Redot Engine för Windows",
+      "secondary": "Utforska Redot Engine Dokumentation"
+    },
+    "bannerMessage": "🎉 Stabil version är här"
+  },
+  "productShowcaseSection": {
+    "badge": "🪁 Driver din spelutveckling",
+    "title": "Driver din<br />Spelutveckling",
+    "description": "Lås upp oändliga möjligheter med vår flexibla och högpresterande spelmotor för varje skapare."
+  },
+  "featuresSection": {
+    "badge": "🤖 Nästa generations speldesign",
+    "title": "Redot Engines <br /> Kraftfulla funktioner",
+    "description": "Upptäck banbrytande verktyg och funktioner designade för att föra dina spelidéer till liv enkelt.",
+    "highlights": {
+      "sceneDrivenDesign": {
+        "header": "Scen-driven design",
+        "description": "Skapa återanvändbara scener med noder, skript och tydlig spel-logik via nodhierarki."
+      },
+      "crossPlatform": {
+        "header": "Plattformsövergripande",
+        "description": "Utveckla på olika plattformar. Distribuera ditt spel på skrivbord, mobil och web snabbt."
+      },
+      "2D3DEngines": {
+        "header": "2D och 3D-motorer",
+        "description": "Skapa prestandaorienterade 2D-spel med Redots 2D-motor och bygg rika 3D-världar enkelt."
+      },
+      "openSource": {
+        "header": "Öppen källkod",
+        "description": "Upplev öppen utveckling med Redot Engine, där alla bidragsgivare delar lika."
+      }
+    }
+  },
+  "reviewSection": {
+    "badge": "🎉 Stabil version är här",
+    "title": "Vad våra användare säger",
+    "description": "Redot Engine ger utvecklare flexibilitet och prestanda för att skapa fantastiska spel."
+  },
+  "startSection": {
+    "title": "Redo att skapa?",
+    "description": "Skapa fängslande 2D- och 3D-spel med Redot Engine för plattformsövergripande uppslukande upplevelser.",
+    "buttons": {
+      "download": "Ladda ner",
+      "documentation": "Utforska Redot Engine Dokumentation"
+    }
+  },
+  "footer": {
+    "languageSelector": {
+      "searchPlaceholder": "Sök språk...",
+      "noResults": "Inget språk hittades."
+    },
+    "copyright": {
+      "text": "© 2024-present av Redot-gemenskapen.",
+      "website": "Webbplats",
+      "sourceCode": "källa kod på Github"
+    },
+    "buttons": {
+      "settings": "Inställningar"
+    },
+    "product": {
+      "title": "Produkt",
+      "children": {
+        "download": "Ladda ner",
+        "status": "Status",
+        "donate": "Donera",
+        "documentation": "Dokumentation",
+        "sourceCode": "Källkod"
+      }
+    },
+    "resources": {
+      "title": "Resurser",
+      "children": {
+        "news": "Nyheter",
+        "feedback": "Feedback",
+        "community": "Gemenskap",
+        "pressKit": "Presskit",
+        "contact": "Kontakt"
+      }
+    },
+    "betaPrograms": {
+      "title": "Beta-program",
+      "children": {
+        "launcher": "Launcher",
+        "academy": "Academy",
+        "engineExperimental": "Engine Experimental"
+      }
+    },
+    "policies": {
+      "title": "Policyer",
+      "children": {
+        "terms": "Villkor",
+        "privacy": "Integritet",
+        "cookieSettings": "Cookie-inställningar",
+        "licenses": "Licenser",
+        "contributionGuidelines": "Bidragsriktlinjer"
+      }
+    }
+  },
+  "notFound": {
+    "title": "Hoppsan! Sidan Hittades Inte",
+    "description": "Det verkar som om du har vandrat in i det okända... vi är inte heller säkra på var den här sidan tog vägen!",
+    "goBack": "Gå Tillbaka"
+  }
 }

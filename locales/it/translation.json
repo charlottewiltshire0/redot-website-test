@@ -1,4 +1,122 @@
 {
-  "language": "it",
-  "translations": {}
+  "header": {
+    "banner": {
+      "subMessage": "Atsisiųskite naujausią versiją.",
+      "mainMessage": "Redot Engine dabar stabilus!"
+    },
+    "downloadButton": "Atsisiųsti",
+    "links": {
+      "documentation": "Dokumentacija",
+      "blog": "Blogas",
+      "proposals": "Pasiūlymai",
+      "community": "Bendruomenė"
+    }
+  },
+  "heroSection": {
+    "heading": "Žaidimų variklis,<br />Žaidimų keitiklis",
+    "description": "Kurkite savo 2D ir 3D žaidimus, tarpplatforminius projektus arba tyrinėkite inovatyvias XR technologijas su Redot Engine!",
+    "buttons": {
+      "primary": "Gaukite Redot Engine Windows sistemai",
+      "secondary": "Tyrinėti Redot Engine dokumentaciją"
+    },
+    "bannerMessage": "🎉 Stabilus versija jau čia"
+  },
+  "productShowcaseSection": {
+    "badge": "🪁 Galia Jūsų Žaidimų Kūrimui",
+    "title": "Galia Jūsų<br />Žaidimų Kūrimui",
+    "description": "Atraskite beribes galimybes su mūsų lanksčiu ir aukštos kokybės žaidimų varikliu kiekvienam kūrėjui."
+  },
+  "featuresSection": {
+    "badge": "🤖 Kitos kartos žaidimų dizainas",
+    "title": "Redot Engine<br />Galingos Funkcijos",
+    "description": "Atraskite pažangias priemones ir galimybes, skirtas lengvai įgyvendinti Jūsų žaidimų idėjas.",
+    "highlights": {
+      "sceneDrivenDesign": {
+        "header": "Scenos pagrindu kuriamas dizainas",
+        "description": "Kurkite pernaudojamas scenas su mazgais, scenarijais ir aiškia žaidimo logika per mazgų hierarchiją."
+      },
+      "crossPlatform": {
+        "header": "Tarpplatforminis",
+        "description": "Kurkite įvairiose platformose. Greitai diekite savo žaidimą staliniuose, mobiliuosiuose ir žiniatinklio įrenginiuose."
+      },
+      "2D3DEngines": {
+        "header": "2D ir 3D varikliai",
+        "description": "Kurkite našius 2D žaidimus su Redot 2D varikliu ir lengvai statykite turtingus 3D pasaulius."
+      },
+      "openSource": {
+        "header": "Atviro kodo",
+        "description": "Patirkite atvirojo kūrimo procesą su Redot Engine, kur visi prisidedantys dalyviai dalijasi lygiomis teisėmis."
+      }
+    }
+  },
+  "reviewSection": {
+    "badge": "🎉 Stabilus versija jau čia",
+    "title": "Ką sako mūsų vartotojai",
+    "description": "Redot Engine suteikia kūrėjams lankstumo ir našumo kuriant nuostabius žaidimus."
+  },
+  "startSection": {
+    "title": "Pasiruošę kurti?",
+    "description": "Kurkite įspūdingus 2D ir 3D žaidimus su Redot Engine, skirtus tarpplatforminėms įtraukiančioms patirtims.",
+    "buttons": {
+      "download": "Atsisiųsti",
+      "documentation": "Tyrinėti Redot Engine dokumentaciją"
+    }
+  },
+  "footer": {
+    "languageSelector": {
+      "searchPlaceholder": "Ieškoti kalbos...",
+      "noResults": "Kalba nerasta."
+    },
+    "copyright": {
+      "text": "© 2024-iki šiol Redot bendruomenės.",
+      "website": "Svetainė",
+      "sourceCode": "Šaltinio kodas GitHub"
+    },
+    "buttons": {
+      "settings": "Nustatymai"
+    },
+    "product": {
+      "title": "Produktas",
+      "children": {
+        "download": "Atsisiųsti",
+        "status": "Būklė",
+        "donate": "Paaukoti",
+        "documentation": "Dokumentacija",
+        "sourceCode": "Šaltinio kodas"
+      }
+    },
+    "resources": {
+      "title": "Ištekliai",
+      "children": {
+        "news": "Naujienos",
+        "feedback": "Atsiliepimai",
+        "community": "Bendruomenė",
+        "pressKit": "Spaudos rinkinys",
+        "contact": "Kontaktai"
+      }
+    },
+    "betaPrograms": {
+      "title": "Beta programos",
+      "children": {
+        "launcher": "Paleidiklis",
+        "academy": "Akademija",
+        "engineExperimental": "Eksperimentinė variklio versija"
+      }
+    },
+    "policies": {
+      "title": "Politikos",
+      "children": {
+        "terms": "Sąlygos",
+        "privacy": "Privatumas",
+        "cookieSettings": "Slapukų nustatymai",
+        "licenses": "Licencijos",
+        "contributionGuidelines": "Prisidėjimo gairės"
+      }
+    }
+  },
+  "notFound": {
+    "title": "Oho! Puslapis nerastas",
+    "description": "Atrodo, kad nuklydote į nežinomą... mes taip pat nesame tikri, kur dingo šis puslapis!",
+    "goBack": "Grįžti"
+  }
 }

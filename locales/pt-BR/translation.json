@@ -1,4 +1,122 @@
 {
-  "language": "pt-BR",
-  "translations": {}
+  "header": {
+    "banner": {
+      "subMessage": "Atualize para a versão mais recente.",
+      "mainMessage": "Redot Engine agora está estável!"
+    },
+    "downloadButton": "Baixar",
+    "links": {
+      "documentation": "Documentação",
+      "blog": "Blog",
+      "proposals": "Propostas",
+      "community": "Comunidade"
+    }
+  },
+  "heroSection": {
+    "heading": "Game Engine,<br />Revolução nos Jogos",
+    "description": "Crie seus jogos 2D e 3D, projetos multiplataforma ou explore ideias inovadoras em tecnologia XR com o Redot Engine!",
+    "buttons": {
+      "primary": "Baixar Redot Engine para Windows",
+      "secondary": "Explorar Documentação do Redot Engine"
+    },
+    "bannerMessage": "🎉 A versão estável chegou"
+  },
+  "productShowcaseSection": {
+    "badge": "🪁 Impulsionando o Seu Desenvolvimento de Jogos",
+    "title": "Impulsionando Seu<br />Desenvolvimento de Jogos",
+    "description": "Desbloqueie possibilidades infinitas com nosso motor de jogo flexível e de alto desempenho para todos os criadores."
+  },
+  "featuresSection": {
+    "badge": "🤖 Design de Jogos de Próxima Geração",
+    "title": "Recursos Poderosos do Redot Engine",
+    "description": "Descubra ferramentas e capacidades de ponta projetadas para dar vida às suas ideias de jogos com facilidade.",
+    "highlights": {
+      "sceneDrivenDesign": {
+        "header": "Design orientado a cenas",
+        "description": "Crie cenas reutilizáveis com nós, scripts e lógica de jogo clara por meio de hierarquia de nós."
+      },
+      "crossPlatform": {
+        "header": "Multiplataforma",
+        "description": "Desenvolva em várias plataformas. Implemente seu jogo rapidamente no desktop, dispositivos móveis e web."
+      },
+      "2D3DEngines": {
+        "header": "Motores 2D e 3D",
+        "description": "Crie jogos 2D de alto desempenho com o motor 2D do Redot e construa mundos 3D ricos facilmente."
+      },
+      "openSource": {
+        "header": "Código Aberto",
+        "description": "Experimente o desenvolvimento aberto com o Redot Engine, onde todos os colaboradores compartilham igualmente."
+      }
+    }
+  },
+  "reviewSection": {
+    "badge": "🎉 A versão estável chegou",
+    "title": "O que nossos usuários dizem",
+    "description": "O Redot Engine capacita os desenvolvedores com flexibilidade e desempenho para criar jogos incríveis."
+  },
+  "startSection": {
+    "title": "Pronto para criar?",
+    "description": "Crie jogos 2D e 3D cativantes com o Redot Engine para experiências imersivas multiplataforma.",
+    "buttons": {
+      "download": "Baixar",
+      "documentation": "Explorar Documentação do Redot Engine"
+    }
+  },
+  "footer": {
+    "languageSelector": {
+      "searchPlaceholder": "Pesquisar idioma...",
+      "noResults": "Nenhum idioma encontrado."
+    },
+    "copyright": {
+      "text": "© 2024-presente pela comunidade Redot.",
+      "website": "Site",
+      "sourceCode": "código fonte no Github"
+    },
+    "buttons": {
+      "settings": "Configurações"
+    },
+    "product": {
+      "title": "Produto",
+      "children": {
+        "download": "Baixar",
+        "status": "Status",
+        "donate": "Doar",
+        "documentation": "Documentação",
+        "sourceCode": "Código Fonte"
+      }
+    },
+    "resources": {
+      "title": "Recursos",
+      "children": {
+        "news": "Notícias",
+        "feedback": "Feedback",
+        "community": "Comunidade",
+        "pressKit": "Press Kit",
+        "contact": "Contato"
+      }
+    },
+    "betaPrograms": {
+      "title": "Programas Beta",
+      "children": {
+        "launcher": "Launcher",
+        "academy": "Academia",
+        "engineExperimental": "Engine Experimental"
+      }
+    },
+    "policies": {
+      "title": "Políticas",
+      "children": {
+        "terms": "Termos",
+        "privacy": "Privacidade",
+        "cookieSettings": "Configurações de Cookies",
+        "licenses": "Licenças",
+        "contributionGuidelines": "Diretrizes de Contribuição"
+      }
+    }
+  },
+  "notFound": {
+    "title": "Ops! Página Não Encontrada",
+    "description": "Parece que você se aventurou no desconhecido... também não sabemos para onde essa página foi!",
+    "goBack": "Voltar"
+  }
 }

@@ -1,4 +1,122 @@
 {
-  "language": "cs",
-  "translations": {}
+  "header": {
+    "banner": {
+      "subMessage": "Aktualizujte na nejnovější verzi.",
+      "mainMessage": "Redot Engine je nyní stabilní!"
+    },
+    "downloadButton": "Stáhnout",
+    "links": {
+      "documentation": "Dokumentace",
+      "blog": "Blog",
+      "proposals": "Návrhy",
+      "community": "Komunita"
+    }
+  },
+  "heroSection": {
+    "heading": "Herní Engine,<br />Změna hry",
+    "description": "Vytvářejte své 2D a 3D hry, multiplatformní projekty nebo objevujte inovativní nápady v XR technologii s Redot Engine!",
+    "buttons": {
+      "primary": "Stáhněte si Redot Engine pro Windows",
+      "secondary": "Prozkoumejte dokumentaci Redot Engine"
+    },
+    "bannerMessage": "🎉 Stabilní verze je zde"
+  },
+  "productShowcaseSection": {
+    "badge": "🪁 Podpora vaší herní tvorby",
+    "title": "Podpora vaší<br />herní tvorby",
+    "description": "Odemkněte nekonečné možnosti s naším flexibilním a výkonným herním enginem pro každého tvůrce."
+  },
+  "featuresSection": {
+    "badge": "🤖 Herní design nové generace",
+    "title": "Výkonné funkce<br />Redot Engine",
+    "description": "Objevte špičkové nástroje a schopnosti navržené k tomu, aby vaše herní nápady ožily bez námahy.",
+    "highlights": {
+      "sceneDrivenDesign": {
+        "header": "Návrh založený na scénách",
+        "description": "Vytvářejte znovu použitelné scény s uzly, skripty a jasnou herní logikou díky hierarchii uzlů."
+      },
+      "crossPlatform": {
+        "header": "Multiplatformní",
+        "description": "Vyvíjejte na různých platformách. Rychle nasazujte svou hru na stolních počítačích, mobilních zařízeních i webu."
+      },
+      "2D3DEngines": {
+        "header": "2D a 3D engine",
+        "description": "Vytvářejte výkonné 2D hry s enginem Redot a jednoduše stavte bohaté 3D světy."
+      },
+      "openSource": {
+        "header": "Open Source",
+        "description": "Zažijte otevřený vývoj s Redot Engine, kde všichni přispěvatelé sdílejí rovnocenně."
+      }
+    }
+  },
+  "reviewSection": {
+    "badge": "🎉 Stabilní verze je zde",
+    "title": "Co říkají naši uživatelé",
+    "description": "Redot Engine dává vývojářům flexibilitu a výkon pro tvorbu úžasných her."
+  },
+  "startSection": {
+    "title": "Připraveni tvořit?",
+    "description": "Vytvářejte poutavé 2D a 3D hry s Redot Engine pro multiplatformní pohlcující zážitky.",
+    "buttons": {
+      "download": "Stáhnout",
+      "documentation": "Prozkoumejte dokumentaci Redot Engine"
+    }
+  },
+  "footer": {
+    "languageSelector": {
+      "searchPlaceholder": "Hledat jazyk...",
+      "noResults": "Jazyk nenalezen."
+    },
+    "copyright": {
+      "text": "© 2024-dosud Redot komunita.",
+      "website": "Webové stránky",
+      "sourceCode": "Webový zdrojový kód na Githubu"
+    },
+    "buttons": {
+      "settings": "Nastavení"
+    },
+    "product": {
+      "title": "Produkt",
+      "children": {
+        "download": "Stáhnout",
+        "status": "Stav",
+        "donate": "Přispět",
+        "documentation": "Dokumentace",
+        "sourceCode": "Zdrojový kód"
+      }
+    },
+    "resources": {
+      "title": "Zdroje",
+      "children": {
+        "news": "Novinky",
+        "feedback": "Zpětná vazba",
+        "community": "Komunita",
+        "pressKit": "Tisková sada",
+        "contact": "Kontakt"
+      }
+    },
+    "betaPrograms": {
+      "title": "Beta Programy",
+      "children": {
+        "launcher": "Launcher",
+        "academy": "Akademie",
+        "engineExperimental": "Experimentální Engine"
+      }
+    },
+    "policies": {
+      "title": "Zásady",
+      "children": {
+        "terms": "Podmínky",
+        "privacy": "Soukromí",
+        "cookieSettings": "Nastavení cookies",
+        "licenses": "Licence",
+        "contributionGuidelines": "Pravidla přispívání"
+      }
+    }
+  },
+  "notFound": {
+    "title": "Ups! Stránka nebyla nalezena",
+    "description": "Vypadá to, že jste se vydali do neznáma... také nevíme, kam tato stránka zmizela!",
+    "goBack": "Zpět"
+  }
 }

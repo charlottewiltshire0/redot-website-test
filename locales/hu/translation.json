@@ -1,4 +1,122 @@
 {
-  "language": "hu",
-  "translations": {}
+  "header": {
+    "banner": {
+      "subMessage": "Frissítsen a legújabb verzióra.",
+      "mainMessage": "A Redot Engine mostantól stabil!"
+    },
+    "downloadButton": "Letöltés",
+    "links": {
+      "documentation": "Dokumentáció",
+      "blog": "Blog",
+      "proposals": "Javaslatok",
+      "community": "Közösség"
+    }
+  },
+  "heroSection": {
+    "heading": "Játékmotor,<br />Mérföldkő",
+    "description": "Készítsen 2D és 3D játékokat, cross-platform projekteket, vagy fedezze fel az innovatív XR technológiát a Redot Engine segítségével!",
+    "buttons": {
+      "primary": "Redot Engine letöltése Windowsra",
+      "secondary": "Redot Engine Dokumentáció felfedezése"
+    },
+    "bannerMessage": "🎉 Itt a stabil verzió"
+  },
+  "productShowcaseSection": {
+    "badge": "🪁 Támogatjuk a játékfejlesztést",
+    "title": "Támogatjuk a<br />Játékfejlesztést",
+    "description": "Oldja fel a végtelen lehetőségeket rugalmas és nagy teljesítményű játékmotorunkkal minden alkotó számára."
+  },
+  "featuresSection": {
+    "badge": "🤖 Következő generációs játéktervezés",
+    "title": "A Redot Engine <br /> Erőteljes Funkciói",
+    "description": "Fedezze fel az innovatív eszközöket és képességeket, amelyekkel egyszerűen valóra válthatja játékötleteit.",
+    "highlights": {
+      "sceneDrivenDesign": {
+        "header": "Jelenetvezérelt tervezés",
+        "description": "Készítsen újrahasznosítható jeleneteket csomópontokkal, szkriptekkel és világos játékmenet-logikával a csomóponti hierarchia segítségével."
+      },
+      "crossPlatform": {
+        "header": "Cross-platform",
+        "description": "Fejlesszen különféle platformokon. Telepítse játékát gyorsan asztali gépre, mobilra és webre."
+      },
+      "2D3DEngines": {
+        "header": "2D és 3D motorok",
+        "description": "Készítsen hatékony 2D játékokat a Redot 2D motorjával, és építsen könnyedén gazdag 3D világokat."
+      },
+      "openSource": {
+        "header": "Nyílt Forráskódú",
+        "description": "Tapasztalja meg a nyílt fejlesztést a Redot Engine-nel, ahol minden közreműködő egyenlően osztozik."
+      }
+    }
+  },
+  "reviewSection": {
+    "badge": "🎉 Itt a stabil verzió",
+    "title": "Mit mondanak a felhasználóink?",
+    "description": "A Redot Engine rugalmasságot és teljesítményt kínál a lenyűgöző játékok létrehozásához."
+  },
+  "startSection": {
+    "title": "Készen áll az alkotásra?",
+    "description": "Készítsen lenyűgöző 2D és 3D játékokat a Redot Engine-nel, és élvezze a cross-platform élményeket.",
+    "buttons": {
+      "download": "Letöltés",
+      "documentation": "Redot Engine Dokumentáció felfedezése"
+    }
+  },
+  "footer": {
+    "languageSelector": {
+      "searchPlaceholder": "Nyelv keresése...",
+      "noResults": "Nincs találat."
+    },
+    "copyright": {
+      "text": "© 2024-napjainkig a Redot közösség által.",
+      "website": "Weboldal",
+      "sourceCode": "forráskód a Githubon"
+    },
+    "buttons": {
+      "settings": "Beállítások"
+    },
+    "product": {
+      "title": "Termék",
+      "children": {
+        "download": "Letöltés",
+        "status": "Állapot",
+        "donate": "Adomány",
+        "documentation": "Dokumentáció",
+        "sourceCode": "Forráskód"
+      }
+    },
+    "resources": {
+      "title": "Források",
+      "children": {
+        "news": "Hírek",
+        "feedback": "Visszajelzés",
+        "community": "Közösség",
+        "pressKit": "Sajtókészlet",
+        "contact": "Kapcsolat"
+      }
+    },
+    "betaPrograms": {
+      "title": "Béta Programok",
+      "children": {
+        "launcher": "Indító",
+        "academy": "Akadémia",
+        "engineExperimental": "Kísérleti Motor"
+      }
+    },
+    "policies": {
+      "title": "Irányelvek",
+      "children": {
+        "terms": "Feltételek",
+        "privacy": "Adatvédelem",
+        "cookieSettings": "Süti Beállítások",
+        "licenses": "Licenszek",
+        "contributionGuidelines": "Hozzájárulási Útmutatók"
+      }
+    }
+  },
+  "notFound": {
+    "title": "Hoppá! Az oldal nem található",
+    "description": "Úgy tűnik, hogy a lehetetlenbe kalandoztál... mi sem vagyunk biztosak abban, hogy hová tűnt ez az oldal!",
+    "goBack": "Vissza"
+  }
 }

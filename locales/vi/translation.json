@@ -1,4 +1,122 @@
 {
-  "language": "vi",
-  "translations": {}
+  "header": {
+    "banner": {
+      "subMessage": "Nâng cấp lên phiên bản mới nhất.",
+      "mainMessage": "Redot Engine đã ổn định!"
+    },
+    "downloadButton": "Tải về",
+    "links": {
+      "documentation": "Tài liệu",
+      "blog": "Blog",
+      "proposals": "Đề xuất",
+      "community": "Cộng đồng"
+    }
+  },
+  "heroSection": {
+    "heading": "Game Engine,<br />Thay đổi Cách Chơi",
+    "description": "Tạo game 2D và 3D, dự án đa nền tảng, hoặc khám phá những ý tưởng sáng tạo trong công nghệ XR với Redot Engine!",
+    "buttons": {
+      "primary": "Tải Redot Engine cho Windows",
+      "secondary": "Khám phá Tài liệu Redot Engine"
+    },
+    "bannerMessage": "🎉 Phiên bản ổn định đã có mặt"
+  },
+  "productShowcaseSection": {
+    "badge": "🪁 Đẩy mạnh phát triển game của bạn",
+    "title": "Đẩy mạnh phát triển<br />game của bạn",
+    "description": "Mở khóa vô vàn khả năng với game engine linh hoạt và hiệu suất cao của chúng tôi dành cho mọi nhà sáng tạo."
+  },
+  "featuresSection": {
+    "badge": "🤖 Thiết kế game thế hệ mới",
+    "title": "Các tính năng mạnh mẽ của Redot Engine",
+    "description": "Khám phá các công cụ tiên tiến và khả năng được thiết kế để mang lại ý tưởng game của bạn một cách dễ dàng.",
+    "highlights": {
+      "sceneDrivenDesign": {
+        "header": "Thiết kế dựa trên cảnh",
+        "description": "Tạo cảnh tái sử dụng với các nút, kịch bản và logic game rõ ràng thông qua cấu trúc phân cấp nút."
+      },
+      "crossPlatform": {
+        "header": "Đa nền tảng",
+        "description": "Phát triển trên nhiều nền tảng. Triển khai game của bạn nhanh chóng trên desktop, di động và web."
+      },
+      "2D3DEngines": {
+        "header": "Công cụ 2D và 3D",
+        "description": "Tạo game 2D hiệu suất cao với công cụ 2D của Redot và xây dựng thế giới 3D phong phú một cách dễ dàng."
+      },
+      "openSource": {
+        "header": "Mã nguồn mở",
+        "description": "Trải nghiệm phát triển mở với Redot Engine, nơi tất cả người đóng góp đều chia sẻ công bằng."
+      }
+    }
+  },
+  "reviewSection": {
+    "badge": "🎉 Phiên bản ổn định đã có mặt",
+    "title": "Nhận xét từ người dùng",
+    "description": "Redot Engine mang lại cho các nhà phát triển sự linh hoạt và hiệu suất để tạo ra những game tuyệt vời."
+  },
+  "startSection": {
+    "title": "Sẵn sàng để sáng tạo?",
+    "description": "Tạo ra các game 2D và 3D hấp dẫn với Redot Engine cho những trải nghiệm đa nền tảng đầy ấn tượng.",
+    "buttons": {
+      "download": "Tải về",
+      "documentation": "Khám phá Tài liệu Redot Engine"
+    }
+  },
+  "footer": {
+    "languageSelector": {
+      "searchPlaceholder": "Tìm kiếm ngôn ngữ...",
+      "noResults": "Không tìm thấy ngôn ngữ."
+    },
+    "copyright": {
+      "text": "© 2024-nay bởi cộng đồng Redot.",
+      "website": "Trang web",
+      "sourceCode": "Mã nguồn trên Github"
+    },
+    "buttons": {
+      "settings": "Cài đặt"
+    },
+    "product": {
+      "title": "Sản phẩm",
+      "children": {
+        "download": "Tải về",
+        "status": "Trạng thái",
+        "donate": "Quyên góp",
+        "documentation": "Tài liệu",
+        "sourceCode": "Mã nguồn"
+      }
+    },
+    "resources": {
+      "title": "Tài nguyên",
+      "children": {
+        "news": "Tin tức",
+        "feedback": "Phản hồi",
+        "community": "Cộng đồng",
+        "pressKit": "Bộ công cụ truyền thông",
+        "contact": "Liên hệ"
+      }
+    },
+    "betaPrograms": {
+      "title": "Chương trình Beta",
+      "children": {
+        "launcher": "Trình khởi động",
+        "academy": "Học viện",
+        "engineExperimental": "Redot Engine Experimental"
+      }
+    },
+    "policies": {
+      "title": "Chính sách",
+      "children": {
+        "terms": "Điều khoản",
+        "privacy": "Quyền riêng tư",
+        "cookieSettings": "Cài đặt cookie",
+        "licenses": "Giấy phép",
+        "contributionGuidelines": "Hướng dẫn đóng góp"
+      }
+    }
+  },
+  "notFound": {
+    "title": "Ôi! Trang không tìm thấy",
+    "description": "Có vẻ như bạn đã lạc vào nơi không xác định... chúng tôi cũng không chắc trang này đi đâu!",
+    "goBack": "Quay lại"
+  }
 }

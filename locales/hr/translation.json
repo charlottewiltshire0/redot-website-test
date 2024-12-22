@@ -1,4 +1,122 @@
 {
-  "language": "hr",
-  "translations": {}
+  "header": {
+    "banner": {
+      "subMessage": "Nadogradite na najnoviju verziju.",
+      "mainMessage": "Redot Engine je sada stabilan!"
+    },
+    "downloadButton": "Preuzmi",
+    "links": {
+      "documentation": "Dokumentacija",
+      "blog": "Blog",
+      "proposals": "Prijedlozi",
+      "community": "Zajednica"
+    }
+  },
+  "heroSection": {
+    "heading": "Igraći engine,<br />Promjena igre",
+    "description": "Stvarajte svoje 2D i 3D igre, cross-platform projekte ili istražujte inovativne ideje u XR tehnologiji s Redot Engineom!",
+    "buttons": {
+      "primary": "Preuzmi Redot Engine za Windows",
+      "secondary": "Istraži dokumentaciju Redot Enginea"
+    },
+    "bannerMessage": "🎉 Stabilna verzija je ovdje"
+  },
+  "productShowcaseSection": {
+    "badge": "🪁 Pokreće vašu razvoj igara",
+    "title": "Pokreće vaš<br />Razvoj igara",
+    "description": "Otključajte beskrajne mogućnosti s našim fleksibilnim i visokoučinkovitim engineom za svakog kreatora."
+  },
+  "featuresSection": {
+    "badge": "🤖 Dizajn igara nove generacije",
+    "title": "Snažne značajke<br />Redot Enginea",
+    "description": "Otkrijte najnovije alate i mogućnosti dizajnirane za jednostavno oživljavanje vaših ideja za igre.",
+    "highlights": {
+      "sceneDrivenDesign": {
+        "header": "Dizajn vođen scenama",
+        "description": "Kreirajte višekratno upotrebljive scene s čvorovima, skriptama i jasnom logikom igre putem hijerarhije čvorova."
+      },
+      "crossPlatform": {
+        "header": "Cross-platforma",
+        "description": "Razvijajte na raznim platformama. Brzo implementirajte svoju igru na desktop, mobilne uređaje i web."
+      },
+      "2D3DEngines": {
+        "header": "2D i 3D engine",
+        "description": "Stvarajte učinkovite 2D igre s 2D engineom Redota i lako gradite bogate 3D svjetove."
+      },
+      "openSource": {
+        "header": "Otvoreni kod",
+        "description": "Doživite otvoreni razvoj s Redot Engineom, gdje svi suradnici dijele jednako."
+      }
+    }
+  },
+  "reviewSection": {
+    "badge": "🎉 Stabilna verzija je ovdje",
+    "title": "Što kažu naši korisnici",
+    "description": "Redot Engine omogućuje programerima fleksibilnost i performanse za stvaranje nevjerojatnih igara."
+  },
+  "startSection": {
+    "title": "Spremni za stvaranje?",
+    "description": "Stvarajte privlačne 2D i 3D igre s Redot Engineom za cross-platform iskustva.",
+    "buttons": {
+      "download": "Preuzmi",
+      "documentation": "Istraži dokumentaciju Redot Enginea"
+    }
+  },
+  "footer": {
+    "languageSelector": {
+      "searchPlaceholder": "Pretraži jezik...",
+      "noResults": "Nije pronađen nijedan jezik."
+    },
+    "copyright": {
+      "text": "© 2024-danas od strane zajednice Redot.",
+      "website": "Web stranica",
+      "sourceCode": "Izvorni kod na Githubu"
+    },
+    "buttons": {
+      "settings": "Postavke"
+    },
+    "product": {
+      "title": "Proizvod",
+      "children": {
+        "download": "Preuzmi",
+        "status": "Status",
+        "donate": "Doniraj",
+        "documentation": "Dokumentacija",
+        "sourceCode": "Izvorni kod"
+      }
+    },
+    "resources": {
+      "title": "Resursi",
+      "children": {
+        "news": "Novosti",
+        "feedback": "Povratne informacije",
+        "community": "Zajednica",
+        "pressKit": "Press Kit",
+        "contact": "Kontakt"
+      }
+    },
+    "betaPrograms": {
+      "title": "Beta programi",
+      "children": {
+        "launcher": "Launcher",
+        "academy": "Akademija",
+        "engineExperimental": "Eksperimentalni engine"
+      }
+    },
+    "policies": {
+      "title": "Politike",
+      "children": {
+        "terms": "Uvjeti",
+        "privacy": "Privatnost",
+        "cookieSettings": "Postavke kolačića",
+        "licenses": "Licence",
+        "contributionGuidelines": "Smjernice za doprinos"
+      }
+    }
+  },
+  "notFound": {
+    "title": "Ups! Stranica nije pronađena",
+    "description": "Izgleda da ste zalutali... ni mi nismo sigurni kamo je ova stranica nestala!",
+    "goBack": "Vrati se"
+  }
 }

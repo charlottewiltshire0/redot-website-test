@@ -6,12 +6,15 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { IconArrowRight } from "@tabler/icons-react";
 import { links } from "@/constants/links";
+import { useTranslations } from "next-intl";
 
 export const Start = () => {
   const { ref, inView } = useInView({
     threshold: 0.1,
     triggerOnce: true,
   });
+
+  const t = useTranslations("startSection");
 
   return (
     <section
@@ -31,7 +34,7 @@ export const Start = () => {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="mt-5 bg-gradient-to-b from-black to-[#7F0000] bg-clip-text text-center text-4xl font-bold tracking-tighter text-transparent md:text-[54px] md:leading-[60px]"
           >
-            Ready to create?
+            {t("title")}
           </motion.h2>
 
           <motion.p
@@ -40,8 +43,7 @@ export const Start = () => {
             transition={{ duration: 0.5, delay: 0.6 }}
             className="mt-5 text-center text-xl tracking-tighter text-black/60 md:text-[22px] md:leading-[30px]"
           >
-            Create captivating 2D and 3D games with Redot Engine for
-            cross-platform immersive experiences.
+            {t("description")}
           </motion.p>
 
           <div className="mt-[38px] flex flex-col items-center justify-center gap-1 md:flex-row">
@@ -52,7 +54,7 @@ export const Start = () => {
               className="w-full md:w-auto"
             >
               <Button className="w-full md:w-auto" asChild>
-                <Link href="/download">Download</Link>
+                <Link href="/download">{t("buttons.download")}</Link>
               </Button>
             </motion.div>
             <motion.div
@@ -63,7 +65,7 @@ export const Start = () => {
             >
               <Button variant="link" className="w-full md:w-auto" asChild>
                 <Link href={links.documentation}>
-                  Explore Redot Engine Docs
+                  {t("buttons.documentation")}
                   <IconArrowRight className="h-5 w-5" />
                 </Link>
               </Button>
