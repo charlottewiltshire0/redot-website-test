@@ -19,7 +19,8 @@ export default function Download() {
   const rawPlatform =
     browser.os?.toLowerCase().replace(/\d+/g, "").trim().replace(/\s+/g, "") ||
     "";
-  const detectedPlatform = platformMapping[rawPlatform] || rawPlatform;
+  const detectedPlatform =
+    platformMapping[rawPlatform as keyof typeof platformMapping] || rawPlatform;
 
   if (detectedPlatform) {
     router.push(`/download/${detectedPlatform}`);
