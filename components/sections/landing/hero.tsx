@@ -10,9 +10,11 @@ import { motion } from "motion/react";
 import Head from "next/head";
 import { links } from "@/constants/links";
 import { useTranslations } from "next-intl";
+import useOS from "@/hooks/useOS";
 
 export const Hero = () => {
   const t = useTranslations("heroSection");
+  const os = useOS();
 
   return (
     <>
@@ -72,7 +74,11 @@ export const Hero = () => {
                   className="w-full md:w-auto"
                 >
                   <Button asChild className="w-full md:w-auto">
-                    <Link href="/download">{t("buttons.primary")}</Link>
+                    <Link href="/download">
+                      {t("buttons.primary", {
+                        os: os.charAt(0).toUpperCase() + os.slice(1),
+                      })}
+                    </Link>
                   </Button>
                 </motion.div>
                 <motion.div
