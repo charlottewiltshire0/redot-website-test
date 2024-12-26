@@ -11,6 +11,7 @@ import { links } from "@/constants/links";
 import { footer } from "@/constants/footer";
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "@/components/language-switcher";
+import { IconArrowUpRight } from "@tabler/icons-react";
 
 export const Footer = () => {
   const t = useTranslations("footer");
@@ -52,9 +53,14 @@ export const Footer = () => {
                       <li key={idx}>
                         <Link
                           href={item.href || "#"}
-                          className="text-white/60 transition duration-300 hover:text-white"
+                          className="flex items-center text-white/60 transition duration-300 hover:text-white"
+                          target={item.newTab ? "_blank" : "_self"}
+                          rel={item.newTab ? "noopener noreferrer" : undefined}
                         >
                           {t(item.title)}
+                          {item.newTab && (
+                            <IconArrowUpRight className="ml-2 h-4 w-4" />
+                          )}
                         </Link>
                       </li>
                     ))}
