@@ -1,7 +1,7 @@
 {
   "header": {
     "banner": {
-      "subMessage": "Actualizează la cea mai recentă versiune.",
+      "subMessage": "Actualizați la cea mai recentă versiune.",
       "mainMessage": "Redot Engine este acum stabil!"
     },
     "downloadButton": "Descarcă",
@@ -14,45 +14,63 @@
   },
   "heroSection": {
     "heading": "Motor de jocuri,<br />Schimbător de jocuri",
-    "description": "Creează jocuri 2D și 3D, proiecte multiplatformă sau explorează idei inovative în tehnologia XR cu Redot Engine!",
+    "description": "Creează jocuri 2D și 3D, proiecte cross-platform sau explorează idei inovative în tehnologia XR cu Redot Engine!",
     "buttons": {
-      "primary": "Descarcă Redot Engine pentru Windows",
-      "secondary": "Explorează documentația Redot Engine"
+      "primary": "Obține Redot Engine pentru {os}",
+      "secondary": "Explorează Documentația Redot Engine"
     },
     "bannerMessage": "🎉 Versiunea stabilă este aici"
   },
   "productShowcaseSection": {
-    "badge": "🪁 Alimentând dezvoltarea jocurilor tale",
-    "title": "Alimentând dezvoltarea jocurilor tale",
-    "description": "Deschide posibilități infinite cu motorul nostru de jocuri flexibil și performant pentru fiecare creator."
+    "badge": "🪁 Puterea dezvoltării jocurilor tale",
+    "title": "Puterea dezvoltării<br />Jocurilor tale",
+    "description": "Deblochează posibilități infinite cu motorul nostru de jocuri flexibil și performant pentru fiecare creator."
   },
   "featuresSection": {
     "badge": "🤖 Design de jocuri de nouă generație",
-    "title": "Caracteristici puternice ale Redot Engine",
-    "description": "Descoperă instrumente și capabilități de ultimă oră concepute pentru a-ți aduce ideile de jocuri la viață fără efort."
+    "title": "Caracteristicile <br />Puternice ale Redot Engine",
+    "description": "Descoperă instrumentele și capabilitățile de ultimă generație, concepute pentru a da viață ideilor tale de jocuri cu ușurință.",
+    "highlights": {
+      "sceneDrivenDesign": {
+        "header": "Design bazat pe scene",
+        "description": "Creează scene reutilizabile cu noduri, scripturi și logică clară de joc prin ierarhia nodurilor."
+      },
+      "crossPlatform": {
+        "header": "Cross platform",
+        "description": "Dezvoltă pe diverse platforme. Lansează jocul pe desktop, mobil și web rapid."
+      },
+      "2D3DEngines": {
+        "header": "Motoare 2D și 3D",
+        "description": "Creează jocuri 2D performante cu motorul 2D al Redot și construiește lumi 3D complexe cu ușurință."
+      },
+      "openSource": {
+        "header": "Open Source",
+        "description": "Experimentează dezvoltarea deschisă cu Redot Engine, unde toți contribuitorii sunt egali."
+      }
+    }
   },
   "reviewSection": {
     "badge": "🎉 Versiunea stabilă este aici",
     "title": "Ce spun utilizatorii noștri",
-    "description": "Redot Engine oferă dezvoltatorilor flexibilitate și performanță pentru a crea jocuri uimitoare."
+    "description": "Redot Engine oferă dezvoltatorilor flexibilitate și performanță pentru crearea de jocuri uimitoare."
   },
   "startSection": {
     "title": "Pregătit să creezi?",
-    "description": "Creează jocuri captivante 2D și 3D cu Redot Engine pentru experiențe interactive multiplatformă.",
+    "description": "Creează jocuri captivante 2D și 3D cu Redot Engine pentru experiențe cross-platform imersive.",
     "buttons": {
       "download": "Descarcă",
-      "documentation": "Explorează documentația Redot Engine"
+      "documentation": "Explorează Documentația Redot Engine"
     }
   },
   "footer": {
     "languageSelector": {
-      "searchPlaceholder": "Căutare limbă...",
-      "noResults": "Nicio limbă găsită."
+      "searchPlaceholder": "Căutați limba...",
+      "noResults": "Nici o limbă găsită."
     },
     "copyright": {
-      "text": "© 2024-prezent de către comunitatea Redot.",
-      "website": "Site-ul web",
-      "sourceCode": "codul sursă al site-ului pe Github"
+      "text": "© 2024-prezent de comunitatea Redot.",
+      "website": "Website",
+      "sourceCode": "cod sursă pe Github"
     },
     "buttons": {
       "settings": "Setări"
@@ -61,7 +79,7 @@
       "title": "Produs",
       "children": {
         "download": "Descarcă",
-        "status": "Status",
+        "status": "Stare",
         "donate": "Donează",
         "documentation": "Documentație",
         "sourceCode": "Cod sursă"
@@ -80,7 +98,7 @@
     "betaPrograms": {
       "title": "Programe Beta",
       "children": {
-        "launcher": "Launcher",
+        "launcher": "Lansator",
         "academy": "Academie",
         "engineExperimental": "Motor Experimental"
       }
@@ -97,8 +115,77 @@
     }
   },
   "notFound": {
-    "title": "Oups! Pagina nu a fost găsită",
-    "description": "Se pare că ai ajuns într-un loc necunoscut... nici noi nu știm unde a dispărut această pagină!",
+    "title": "Oops! Pagina nu a fost găsită",
+    "description": "Se pare că ai ajuns într-o zonă necunoscută... nici noi nu știm unde a dispărut această pagină!",
     "goBack": "Înapoi"
+  },
+  "downloadHero": {
+    "downloadForOS": "Descarcă redot pentru {platform}",
+    "igniteYourImagination": "Aprinde-ți Imaginația",
+    "downloadDescription": "Descarcă Redot Engine, platforma puternică pentru construirea de jocuri 2D și 3D cross-platform și experiențe interactive.",
+    "buttons": {
+      "downloadLatest": "Descarcă ultima versiune",
+      "downloadMono": "Descarcă Mono",
+      "moreDownloadOptions": "Mai multe opțiuni de descărcare"
+    }
+  },
+  "downloadThreeSteps": {
+    "badge": "",
+    "title": "Creează cu Redot",
+    "description": "Construiește-ți jocul ușor cu Redot Engine - rapid, flexibil și open-source pentru toți dezvoltatorii.",
+    "steps": {
+      "step1": {
+        "title": "1. Alege versiunea Redot",
+        "description": "Poți alege ultima versiune Redot Engine, o versiune mai veche sau poți încerca o versiune beta.",
+        "links": {
+          "archive": "Vizitează arhiva de descărcare"
+        }
+      },
+      "step2": {
+        "title": "2. Descarcă Redot Engine",
+        "description": "Urmează instrucțiunile pentru a finaliza instalarea și configurarea.",
+        "links": {
+          "windows": "Descarcă pentru Windows",
+          "mac": "Descarcă pentru Mac",
+          "linux": "Descarcă pentru Linux",
+          "android": "Descarcă pentru Android"
+        }
+      },
+      "step3": {
+        "title": "3. Începe proiectul tău",
+        "description": "Începe proiectul de la zero sau alege un șablon. Alătură-te comunității noastre de pe Discord pentru a te conecta!",
+        "links": {
+          "discord": "Alătură-te comunității noastre Discord"
+        }
+      }
+    }
+  },
+  "downloadSupportedPlatform": {
+    "badge": "",
+    "title": "Platforme suportate",
+    "description": "Redot Engine rulează perfect pe diverse platforme, asigurând compatibilitatea."
+  },
+  "downloadInformation": {
+    "systemRequirements": {
+      "title": "Cerințe de sistem Redot Engine",
+      "description": {
+        "general": "Recomandat: Hardware compatibil Vulkan 1.0. Minim: Hardware compatibil OpenGL 3.3 / OpenGL ES 3.0.",
+        "dotnet": "Cerințe suplimentare pentru versiunea .NET:",
+        "dotnetLink": ".NET SDK"
+      }
+    },
+    "about": {
+      "title": "Ce este Redot Engine?",
+      "description": "Redot Engine este o platformă de dezvoltare de jocuri gratuită și open-source pentru proiecte 2D și 3D. Bazată pe Godot, oferă flexibilitate și ușurință în utilizare pentru dezvoltatori de toate nivelele, cu suport cross-platform și o comunitate colaborativă.",
+      "learnMoreButton": "Află mai multe despre Redot Engine"
+    }
+  },
+  "downloadHelp": {
+    "title": "Ai nevoie de ajutor?",
+    "description": "Alătură-te serverului nostru Discord pentru ajutor, idei și pentru a te conecta cu comunitatea noastră!",
+    "buttons": {
+      "discord": "Alătură-te Discord",
+      "documentation": "Explorează Documentația Redot Engine"
+    }
   }
 }
