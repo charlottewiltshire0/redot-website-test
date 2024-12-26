@@ -3,6 +3,7 @@ import { links } from "@/constants/links";
 interface Footer {
   title: string;
   href?: string;
+  newTab?: boolean;
   children?: Footer[];
 }
 
@@ -12,19 +13,27 @@ export const footer: Footer[] = [
     children: [
       { title: "product.children.download", href: "/download" },
       { title: "product.children.status", href: links.status },
-      { title: "product.children.donate", href: links.donation },
+      { title: "product.children.donate", href: links.donation, newTab: true },
       {
         title: "product.children.documentation",
         href: links.documentation,
       },
-      { title: "product.children.sourceCode", href: links.github },
+      {
+        title: "product.children.sourceCode",
+        href: links.github,
+        newTab: true,
+      },
     ],
   },
   {
     title: "resources.title",
     children: [
       { title: "resources.children.news", href: "/news" },
-      { title: "resources.children.feedback", href: links.feedback },
+      {
+        title: "resources.children.feedback",
+        href: links.feedback,
+        newTab: true,
+      },
       { title: "resources.children.community", href: "/community" },
       { title: "resources.children.pressKit", href: links.pressKit },
       { title: "resources.children.contact", href: "/contact" },
@@ -37,7 +46,11 @@ export const footer: Footer[] = [
         title: "betaPrograms.children.launcher",
         href: "https://github.com/Redot-Experimental/launcher",
       },
-      { title: "betaPrograms.children.academy", href: links.academy },
+      {
+        title: "betaPrograms.children.academy",
+        href: links.academy,
+        newTab: true,
+      },
       {
         title: "betaPrograms.children.engineExperimental",
         href: "https://github.com/Redot-Experimental",
@@ -57,6 +70,7 @@ export const footer: Footer[] = [
       {
         title: "policies.children.contributionGuidelines",
         href: links.contribute,
+        newTab: true,
       },
     ],
   },
