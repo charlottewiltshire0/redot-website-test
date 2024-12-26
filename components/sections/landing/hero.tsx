@@ -76,7 +76,9 @@ export const Hero = () => {
                   <Button asChild className="w-full md:w-auto">
                     <Link href="/download">
                       {t("buttons.primary", {
-                        os: os.charAt(0).toUpperCase() + os.slice(1),
+                        os: os
+                          ? os.charAt(0).toUpperCase() + os.slice(1)
+                          : "Unknown",
                       })}
                     </Link>
                   </Button>
