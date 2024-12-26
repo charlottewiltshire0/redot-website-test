@@ -13,7 +13,7 @@ import {
   getPlatformDownloadLink,
 } from "@/lib/platformDownloadLink";
 
-export const DownloadHero = ({ platform }: string) => {
+export const DownloadHero = ({ platform }: { platform: string }) => {
   const { ref, inView } = useInView({
     threshold: 0.1,
     triggerOnce: true,
