@@ -1,10 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
 
+export const dynamic = "force-static";
+
 export async function GET(
   req: NextRequest,
-  { params }: { params: { mirrorlist: string } }
+  { params }: { params: Promise<{ mirrorlist: string }> }
 ) {
-  const { mirrorlist } = await params;
+  const mirrorlist = (await params).mirrorlist;
 
   if (!mirrorlist.endsWith(".json")) {
     return NextResponse.json(
