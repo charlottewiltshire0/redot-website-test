@@ -86,7 +86,7 @@ export const DownloadHero = ({ platform }: { platform: string }) => {
                     {t("buttons.downloadLatest")}
                   </Link>
                   <Image
-                    src={`/platform/${platformIcons[platform]}.svg`}
+                    src={`/platform/${platformIcons[platform as keyof typeof platformIcons]}.svg`}
                     alt="OS Logo"
                     width={16}
                     height={16}
@@ -106,7 +106,7 @@ export const DownloadHero = ({ platform }: { platform: string }) => {
                   {t("buttons.downloadMono")}
                 </Link>
                 <Image
-                  src={`/platform/${platformIcons[platform]}.svg`}
+                  src={`/platform/${platformIcons[platform as keyof typeof platformIcons]}.svg`}
                   alt="OS Logo"
                   width={16}
                   height={16}
