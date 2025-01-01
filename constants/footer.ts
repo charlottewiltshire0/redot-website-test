@@ -28,7 +28,7 @@ export const footer: Footer[] = [
   {
     title: "resources.title",
     children: [
-      { title: "resources.children.news", href: "/news" },
+      { title: "resources.children.blog", href: "/blog" },
       {
         title: "resources.children.feedback",
         href: links.feedback,
