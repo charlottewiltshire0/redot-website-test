@@ -12,7 +12,21 @@ const nextConfig: NextConfig = {
         hostname: "image.redotengine.org",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "cdn.sanity.io",
+        pathname: "/images/qqvmmpgb/production/**",
+      },
     ],
+  },
+  async redirects() {
+    return [
+      {
+        source: "/news/:slug",
+        destination: "/blog/:slug",
+        permanent: true,
+      },
+    ];
   },
 };
 
