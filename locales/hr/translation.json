@@ -88,7 +88,7 @@
     "resources": {
       "title": "Resursi",
       "children": {
-        "news": "Novosti",
+        "blog": "Novosti",
         "feedback": "Povratne informacije",
         "community": "Zajednica",
         "pressKit": "Press Kit",

@@ -88,7 +88,7 @@
     "resources": {
       "title": "Ресурси",
       "children": {
-        "news": "Новини",
+        "blog": "Новини",
         "feedback": "Обратна връзка",
         "community": "Общество",
         "pressKit": "Прес комплект",

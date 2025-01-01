@@ -88,7 +88,7 @@
     "resources": {
       "title": "資源",
       "children": {
-        "news": "新聞",
+        "blog": "新聞",
         "feedback": "反饋",
         "community": "社群",
         "pressKit": "新聞稿套件",

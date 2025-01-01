@@ -88,7 +88,7 @@
     "resources": {
       "title": "Ressources",
       "children": {
-        "news": "Actualités",
+        "blog": "Actualités",
         "feedback": "Retour d'information",
         "community": "Communauté",
         "pressKit": "Kit de presse",
