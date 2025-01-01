@@ -26,7 +26,7 @@ export const Information = () => {
       >
         <div className="flex flex-col items-center justify-center gap-16">
           {/* System Requirements Section */}
-          <div className="mb-8 grid grid-flow-row grid-cols-12 place-items-center gap-8 md:grid-flow-col md:gap-4">
+          <div className="mb-8 grid grid-flow-row grid-cols-12 place-items-center gap-4 lg:grid-flow-col">
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={inView ? { opacity: 1, scale: 1 } : {}}
@@ -68,7 +68,7 @@ export const Information = () => {
           </div>
 
           {/* About Section */}
-          <div className="grid grid-flow-row grid-cols-12 place-items-center gap-8 md:grid-flow-col md:gap-4">
+          <div className="grid grid-flow-row grid-cols-12 place-items-center gap-4 lg:grid-flow-col">
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={inView ? { opacity: 1, scale: 1 } : {}}
@@ -90,8 +90,8 @@ export const Information = () => {
               transition={{ duration: 0.6 }}
               className="relative col-span-12 px-0 pb-6 md:col-span-5 md:col-start-1 md:px-5 md:pb-0"
             >
-              <div className="flex flex-col justify-center gap-4">
-                <h3 className="text-2xl font-bold md:text-3xl">
+              <div className="flex w-full flex-col justify-center gap-4">
+                <h3 className="w-full text-2xl font-bold md:text-3xl">
                   {t("about.title")}
                 </h3>
                 <p className="flex flex-col gap-2 text-base text-black/60">
@@ -102,8 +102,9 @@ export const Information = () => {
                   animate={inView ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.6, delay: 0.2 }}
                 >
-                  <Button className="w-fit" asChild>
+                  <Button asChild>
                     <Link
+                      className="h-fit text-wrap"
                       href={
                         links.documentation +
                         "en/stable/about/introduction#about-redot-engine"
