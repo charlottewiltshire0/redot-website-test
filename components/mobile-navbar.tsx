@@ -9,6 +9,7 @@ import { header } from "@/constants/header";
 import { IconMenu } from "@tabler/icons-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 export const MobileSidebar = () => {
   const t = useTranslations("header");
@@ -35,6 +36,11 @@ export const MobileSidebar = () => {
               <span className="block text-lg">{t(link.label)}</span>
             </Link>
           ))}
+          <Button size="sm" asChild>
+            <Link className="mt-2 w-full" href="/download">
+              {t("downloadButton")}
+            </Link>
+          </Button>
         </div>
       </SheetContent>
     </Sheet>

@@ -88,7 +88,7 @@
     "resources": {
       "title": "संसाधन",
       "children": {
-        "news": "समाचार",
+        "blog": "समाचार",
         "feedback": "प्रतिक्रिया",
         "community": "समुदाय",
         "pressKit": "प्रेस किट",

@@ -5,8 +5,6 @@ import { useEffect } from "react";
 import { detect } from "detect-browser";
 import { platformMapping } from "@/constants/platformMapping";
 
-export const runtime = "edge";
-
 export default function Download() {
   const router = useRouter();
 

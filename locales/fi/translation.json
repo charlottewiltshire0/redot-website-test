@@ -88,7 +88,7 @@
     "resources": {
       "title": "Resurssit",
       "children": {
-        "news": "Uutiset",
+        "blog": "Uutiset",
         "feedback": "Palaute",
         "community": "Yhteisö",
         "pressKit": "Lehdistötiedote",

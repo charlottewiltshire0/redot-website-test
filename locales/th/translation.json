@@ -88,7 +88,7 @@
     "resources": {
       "title": "ทรัพยากร",
       "children": {
-        "news": "ข่าว",
+        "blog": "ข่าว",
         "feedback": "ข้อเสนอแนะ",
         "community": "ชุมชน",
         "pressKit": "ชุดสื่อ",
