@@ -187,5 +187,23 @@
       "discord": "Join Discord",
       "documentation": "Explore Redot Engine Docs"
     }
+  },
+  "blog": {
+    "allPosts": "All Posts",
+    "searchPlaceholder": "Search..."
+  },
+  "tags": {
+    "tagAllPosts": "All Posts"
+  },
+  "latestBlogHero": {
+    "readMore": "Read more"
+  },
+  "articleNotFound": {
+    "title": "Article Not Found",
+    "description": "The article you are looking for could not be found.",
+    "backButton": "Back"
+  },
+  "articleSplash": {
+    "backButton": "Back"
   }
 }

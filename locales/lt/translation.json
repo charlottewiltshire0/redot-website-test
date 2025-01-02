@@ -187,5 +187,23 @@
       "discord": "Prisijunkite prie Discord",
       "documentation": "Tyrinėkite Redot Engine Dokumentaciją"
     }
+  },
+  "blog": {
+    "allPosts": "Visi įrašai",
+    "searchPlaceholder": "Ieškoti..."
+  },
+  "tags": {
+    "tagAllPosts": "Visi įrašai"
+  },
+  "latestBlogHero": {
+    "readMore": "Skaityti daugiau"
+  },
+  "articleNotFound": {
+    "title": "Straipsnis nerastas",
+    "description": "Straipsnio, kurio ieškote, nepavyko rasti.",
+    "backButton": "Atgal"
+  },
+  "articleSplash": {
+    "backButton": "Atgal"
   }
 }

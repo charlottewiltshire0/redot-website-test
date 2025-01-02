@@ -187,5 +187,23 @@
       "discord": "Ενταχθείτε στο Discord",
       "documentation": "Εξερευνήστε την Τεκμηρίωση της Redot Engine"
     }
+  },
+  "blog": {
+    "allPosts": "Όλες οι Αναρτήσεις",
+    "searchPlaceholder": "Αναζήτηση..."
+  },
+  "tags": {
+    "tagAllPosts": "Όλες οι Αναρτήσεις"
+  },
+  "latestBlogHero": {
+    "readMore": "Διαβάστε περισσότερα"
+  },
+  "articleNotFound": {
+    "title": "Άρθρο Δεν Βρέθηκε",
+    "description": "Το άρθρο που αναζητάτε δεν βρέθηκε.",
+    "backButton": "Πίσω"
+  },
+  "articleSplash": {
+    "backButton": "Πίσω"
   }
 }

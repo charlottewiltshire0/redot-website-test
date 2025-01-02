@@ -187,5 +187,23 @@
       "discord": "Gå med i Discord",
       "documentation": "Utforska Redot Engine Docs"
     }
+  },
+  "blog": {
+    "allPosts": "Alla inlägg",
+    "searchPlaceholder": "Sök..."
+  },
+  "tags": {
+    "tagAllPosts": "Alla inlägg"
+  },
+  "latestBlogHero": {
+    "readMore": "Läs mer"
+  },
+  "articleNotFound": {
+    "title": "Artikel inte hittad",
+    "description": "Artikeln du söker kunde inte hittas.",
+    "backButton": "Tillbaka"
+  },
+  "articleSplash": {
+    "backButton": "Tillbaka"
   }
 }

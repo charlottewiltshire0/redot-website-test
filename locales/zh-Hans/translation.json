@@ -187,5 +187,23 @@
       "discord": "加入 Discord",
       "documentation": "探索 Redot Engine 文档"
     }
+  },
+  "blog": {
+    "allPosts": "所有文章",
+    "searchPlaceholder": "搜索..."
+  },
+  "tags": {
+    "tagAllPosts": "所有文章"
+  },
+  "latestBlogHero": {
+    "readMore": "阅读更多"
+  },
+  "articleNotFound": {
+    "title": "文章未找到",
+    "description": "您正在寻找的文章未能找到。",
+    "backButton": "返回"
+  },
+  "articleSplash": {
+    "backButton": "返回"
   }
 }
