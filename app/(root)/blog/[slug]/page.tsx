@@ -1,7 +1,20 @@
+"use client";
+
 import { getPostBySlug } from "@/lib/blog";
 import { ArticleSplash } from "@/components/blog/article-splash";
-import { ArticleContent } from "@/components/blog/article-content";
 import { ArticleNotFoundPage } from "@/components/blog/article-not-found";
+import dynamic from "next/dynamic";
+import { Post } from "@/sanity/schemaTypes/postType";
+
+const ArticleContentClient = dynamic<{
+  article: Post;
+}>(
+  () =>
+    import("@/components/blog/article-content").then(
+      (mod) => mod.ArticleContent
+    ),
+  { ssr: false }
+);
 
 export default async function Article({
   params,
@@ -21,7 +34,7 @@ export default async function Article({
       <div className="flex flex-col items-center justify-center">
         <div className="max-w-[800px]">
           <ArticleSplash article={post[0]} />
-          <ArticleContent article={post[0]} />
+          <ArticleContentClient article={post[0]} />
         </div>
       </div>
     </div>
