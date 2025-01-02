@@ -187,5 +187,23 @@
       "discord": "Dołącz do Discord",
       "documentation": "Zbadaj dokumentację Redot Engine"
     }
+  },
+  "blog": {
+    "allPosts": "Wszystkie posty",
+    "searchPlaceholder": "Szukaj..."
+  },
+  "tags": {
+    "tagAllPosts": "Wszystkie posty"
+  },
+  "latestBlogHero": {
+    "readMore": "Czytaj więcej"
+  },
+  "articleNotFound": {
+    "title": "Artykuł nie znaleziony",
+    "description": "Artykuł, którego szukasz, nie został znaleziony.",
+    "backButton": "Wróć"
+  },
+  "articleSplash": {
+    "backButton": "Wróć"
   }
 }

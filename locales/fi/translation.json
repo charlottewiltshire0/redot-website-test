@@ -187,5 +187,23 @@
       "discord": "Liity Discordiin",
       "documentation": "Tutustu Redot Engine -dokumentaatioon"
     }
+  },
+  "blog": {
+    "allPosts": "Kaikki artikkelit",
+    "searchPlaceholder": "Etsi..."
+  },
+  "tags": {
+    "tagAllPosts": "Kaikki artikkelit"
+  },
+  "latestBlogHero": {
+    "readMore": "Lue lisää"
+  },
+  "articleNotFound": {
+    "title": "Artikkelia ei löydy",
+    "description": "Etsimääsi artikkelia ei löydy.",
+    "backButton": "Takaisin"
+  },
+  "articleSplash": {
+    "backButton": "Takaisin"
   }
 }

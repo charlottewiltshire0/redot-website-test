@@ -184,5 +184,23 @@
       "discord": "Csatlakozz a Discordhoz",
       "documentation": "Fedezd fel a Redot Engine dokumentációt"
     }
+  },
+  "blog": {
+    "allPosts": "Minden bejegyzés",
+    "searchPlaceholder": "Keresés..."
+  },
+  "tags": {
+    "tagAllPosts": "Minden bejegyzés"
+  },
+  "latestBlogHero": {
+    "readMore": "Bővebben"
+  },
+  "articleNotFound": {
+    "title": "Cikk nem található",
+    "description": "A keresett cikk nem található.",
+    "backButton": "Vissza"
+  },
+  "articleSplash": {
+    "backButton": "Vissza"
   }
 }

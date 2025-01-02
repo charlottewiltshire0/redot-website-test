@@ -187,5 +187,23 @@
       "discord": "Deltag i Discord",
       "documentation": "Udforsk Redot Engine Docs"
     }
+  },
+  "blog": {
+    "allPosts": "Alle indlæg",
+    "searchPlaceholder": "Søg..."
+  },
+  "tags": {
+    "tagAllPosts": "Alle indlæg"
+  },
+  "latestBlogHero": {
+    "readMore": "Læs mere"
+  },
+  "articleNotFound": {
+    "title": "Artikel ikke fundet",
+    "description": "Den artikel, du leder efter, kunne ikke findes.",
+    "backButton": "Tilbage"
+  },
+  "articleSplash": {
+    "backButton": "Tilbage"
   }
 }

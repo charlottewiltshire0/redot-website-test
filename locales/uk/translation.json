@@ -187,5 +187,23 @@
       "discord": "Приєднатись до Discord",
       "documentation": "Дослідити документацію Redot Engine"
     }
+  },
+  "blog": {
+    "allPosts": "Усі пости",
+    "searchPlaceholder": "Пошук..."
+  },
+  "tags": {
+    "tagAllPosts": "Усі пости"
+  },
+  "latestBlogHero": {
+    "readMore": "Читати далі"
+  },
+  "articleNotFound": {
+    "title": "Статтю не знайдено",
+    "description": "Статтю, яку ви шукаєте, не вдалося знайти.",
+    "backButton": "Назад"
+  },
+  "articleSplash": {
+    "backButton": "Назад"
   }
 }

@@ -187,5 +187,23 @@
       "discord": "Discordに参加",
       "documentation": "Redot Engineのドキュメントを探索"
     }
+  },
+  "blog": {
+    "allPosts": "すべての投稿",
+    "searchPlaceholder": "検索..."
+  },
+  "tags": {
+    "tagAllPosts": "すべての投稿"
+  },
+  "latestBlogHero": {
+    "readMore": "続きを読む"
+  },
+  "articleNotFound": {
+    "title": "記事が見つかりません",
+    "description": "お探しの記事は見つかりませんでした。",
+    "backButton": "戻る"
+  },
+  "articleSplash": {
+    "backButton": "戻る"
   }
 }

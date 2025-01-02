@@ -187,5 +187,23 @@
       "discord": "Sluit je aan bij Discord",
       "documentation": "Verken Redot Engine Docs"
     }
+  },
+  "blog": {
+    "allPosts": "Alle berichten",
+    "searchPlaceholder": "Zoeken..."
+  },
+  "tags": {
+    "tagAllPosts": "Alle berichten"
+  },
+  "latestBlogHero": {
+    "readMore": "Lees meer"
+  },
+  "articleNotFound": {
+    "title": "Artikel niet gevonden",
+    "description": "Het artikel dat je zoekt kon niet gevonden worden.",
+    "backButton": "Terug"
+  },
+  "articleSplash": {
+    "backButton": "Terug"
   }
 }

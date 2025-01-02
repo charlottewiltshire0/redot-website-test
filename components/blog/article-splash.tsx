@@ -4,20 +4,35 @@ import { Tag as SchemaTag } from "@/sanity/schemaTypes/tagType";
 import { formatDate } from "@/lib/utils";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Post } from "@/sanity/schemaTypes/postType";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import { IconArrowLeft } from "@tabler/icons-react";
+import { useTranslations } from "next-intl";
 
 export const ArticleSplash = ({ article }: { article: Post }) => {
+  const t = useTranslations("articleSplash");
+
   return (
-    <div className="gap flex flex-col gap-5">
-      {article.imageUrl && (
-        <div className="relative aspect-video w-full">
-          <Image
-            src={article.imageUrl}
-            alt={article.title}
-            className="h-full w-full rounded-xl object-cover"
-            fill
-          />
-        </div>
-      )}
+    <div className="flex flex-col gap-5">
+      <div className="space-y-2">
+        <Button variant="link" size="sm" asChild>
+          <Link href="/blog">
+            <IconArrowLeft className="h-5 w-5" />
+            {t("backButton")}
+          </Link>
+        </Button>
+        {article.imageUrl && (
+          <div className="relative aspect-video w-full">
+            <Image
+              src={article.imageUrl}
+              alt={article.title}
+              className="h-full w-full rounded-xl object-cover"
+              fill
+            />
+          </div>
+        )}
+      </div>
+
       {article.tags && article.tags.length > 0 && (
         <div className="flex flex-wrap items-center gap-2">
           {article.tags?.map((tag: SchemaTag) => (

@@ -187,5 +187,23 @@
       "discord": "Připojte se na Discord",
       "documentation": "Prozkoumat dokumentaci Redot Engine"
     }
+  },
+  "blog": {
+    "allPosts": "Všechny příspěvky",
+    "searchPlaceholder": "Hledat..."
+  },
+  "tags": {
+    "tagAllPosts": "Všechny příspěvky"
+  },
+  "latestBlogHero": {
+    "readMore": "Přečíst více"
+  },
+  "articleNotFound": {
+    "title": "Článek nenalezen",
+    "description": "Článek, který hledáte, nebyl nalezen.",
+    "backButton": "Zpět"
+  },
+  "articleSplash": {
+    "backButton": "Zpět"
   }
 }

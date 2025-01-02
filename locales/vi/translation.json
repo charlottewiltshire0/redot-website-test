@@ -187,5 +187,23 @@
       "discord": "Tham gia Discord",
       "documentation": "Khám phá Tài liệu Redot Engine"
     }
+  },
+  "blog": {
+    "allPosts": "Tất cả bài viết",
+    "searchPlaceholder": "Tìm kiếm..."
+  },
+  "tags": {
+    "tagAllPosts": "Tất cả bài viết"
+  },
+  "latestBlogHero": {
+    "readMore": "Đọc thêm"
+  },
+  "articleNotFound": {
+    "title": "Không tìm thấy bài viết",
+    "description": "Bài viết bạn đang tìm không thể tìm thấy.",
+    "backButton": "Quay lại"
+  },
+  "articleSplash": {
+    "backButton": "Quay lại"
   }
 }

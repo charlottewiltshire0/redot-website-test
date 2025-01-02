@@ -187,5 +187,23 @@
       "discord": "Pridružite se Discordu",
       "documentation": "Istraži Redot Engine Dokumentaciju"
     }
+  },
+  "blog": {
+    "allPosts": "Svi postovi",
+    "searchPlaceholder": "Pretraži..."
+  },
+  "tags": {
+    "tagAllPosts": "Svi postovi"
+  },
+  "latestBlogHero": {
+    "readMore": "Pročitaj više"
+  },
+  "articleNotFound": {
+    "title": "Članak nije pronađen",
+    "description": "Članak koji tražite nije moguće pronaći.",
+    "backButton": "Natrag"
+  },
+  "articleSplash": {
+    "backButton": "Natrag"
   }
 }

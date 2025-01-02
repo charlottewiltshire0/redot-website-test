@@ -9,6 +9,7 @@ import { formatDate } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Skeleton } from "@/components/ui/skeleton";
+import { useTranslations } from "next-intl";
 
 export const LatestBlogHero = ({
   latestBlog,
@@ -21,6 +22,8 @@ export const LatestBlogHero = ({
     threshold: 0.1,
     triggerOnce: true,
   });
+
+  const t = useTranslations("latestBlogHero");
 
   if (isLoading) {
     return (
@@ -61,6 +64,7 @@ export const LatestBlogHero = ({
                   src={latestBlog.imageUrl}
                   alt={latestBlog.title}
                   className="h-full w-full rounded-lg object-cover"
+                  priority
                   fill
                 />
               </div>
@@ -99,7 +103,7 @@ export const LatestBlogHero = ({
                 >
                   <Button className="w-fit" variant="outline" asChild>
                     <Link href={`/blog/${latestBlog.slug.current}`}>
-                      Read more
+                      {t("readMore")}
                     </Link>
                   </Button>
                 </motion.div>

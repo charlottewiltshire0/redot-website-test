@@ -187,5 +187,23 @@
       "discord": "Discord में शामिल हों",
       "documentation": "Redot Engine दस्तावेज़ एक्सप्लोर करें"
     }
+  },
+  "blog": {
+    "allPosts": "सभी पोस्ट",
+    "searchPlaceholder": "खोजें..."
+  },
+  "tags": {
+    "tagAllPosts": "सभी पोस्ट"
+  },
+  "latestBlogHero": {
+    "readMore": "और पढ़ें"
+  },
+  "articleNotFound": {
+    "title": "लेख नहीं मिला",
+    "description": "आप जो लेख ढूंढ रहे हैं, वह नहीं मिल पाया।",
+    "backButton": "वापस"
+  },
+  "articleSplash": {
+    "backButton": "वापस"
   }
 }

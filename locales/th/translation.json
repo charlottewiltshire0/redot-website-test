@@ -188,5 +188,23 @@
       "discord": "เข้าร่วม Discord",
       "documentation": "สำรวจเอกสารของ Redot Engine"
     }
+  },
+  "blog": {
+    "allPosts": "โพสต์ทั้งหมด",
+    "searchPlaceholder": "ค้นหา..."
+  },
+  "tags": {
+    "tagAllPosts": "โพสต์ทั้งหมด"
+  },
+  "latestBlogHero": {
+    "readMore": "อ่านเพิ่มเติม"
+  },
+  "articleNotFound": {
+    "title": "ไม่พบบทความ",
+    "description": "ไม่พบบทความที่คุณกำลังค้นหา",
+    "backButton": "กลับ"
+  },
+  "articleSplash": {
+    "backButton": "กลับ"
   }
 }

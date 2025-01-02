@@ -187,5 +187,23 @@
       "discord": "Присоединиться к Discord",
       "documentation": "Изучить документацию Redot Engine"
     }
+  },
+  "blog": {
+    "allPosts": "Все записи",
+    "searchPlaceholder": "Поиск..."
+  },
+  "tags": {
+    "tagAllPosts": "Все записи"
+  },
+  "latestBlogHero": {
+    "readMore": "Читать далее"
+  },
+  "articleNotFound": {
+    "title": "Статья не найдена",
+    "description": "Статья, которую вы ищете, не найдена.",
+    "backButton": "Назад"
+  },
+  "articleSplash": {
+    "backButton": "Назад"
   }
 }

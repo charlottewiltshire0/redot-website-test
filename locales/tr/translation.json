@@ -187,5 +187,23 @@
       "discord": "Discord'a Katıl",
       "documentation": "Redot Engine Dokümanlarını Keşfet"
     }
+  },
+  "blog": {
+    "allPosts": "Tüm Yazılar",
+    "searchPlaceholder": "Ara..."
+  },
+  "tags": {
+    "tagAllPosts": "Tüm Yazılar"
+  },
+  "latestBlogHero": {
+    "readMore": "Daha fazla oku"
+  },
+  "articleNotFound": {
+    "title": "Makale Bulunamadı",
+    "description": "Aradığınız makale bulunamadı.",
+    "backButton": "Geri"
+  },
+  "articleSplash": {
+    "backButton": "Geri"
   }
 }

@@ -187,5 +187,23 @@
       "discord": "Alătură-te Discord",
       "documentation": "Explorează Documentația Redot Engine"
     }
+  },
+  "blog": {
+    "allPosts": "Toate Postările",
+    "searchPlaceholder": "Căutare..."
+  },
+  "tags": {
+    "tagAllPosts": "Toate Postările"
+  },
+  "latestBlogHero": {
+    "readMore": "Citește mai mult"
+  },
+  "articleNotFound": {
+    "title": "Articolul Nu A Fost Găsit",
+    "description": "Articolul pe care îl căutați nu a fost găsit.",
+    "backButton": "Înapoi"
+  },
+  "articleSplash": {
+    "backButton": "Înapoi"
   }
 }
