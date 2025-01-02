@@ -118,7 +118,12 @@ export default function BlogClient({
                 delay: index * 0.2,
               }}
             >
-              <ArticleCard article={post} />
+              <div className="hidden md:block">
+                <ArticleCard article={post} />
+              </div>
+              <div className="block md:hidden">
+                <ArticleCard article={post} size="small" />
+              </div>
             </motion.div>
           ))}
         </div>
