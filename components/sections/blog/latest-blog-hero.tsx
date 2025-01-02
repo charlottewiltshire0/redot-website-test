@@ -22,6 +22,8 @@ export const LatestBlogHero = ({
     triggerOnce: true,
   });
 
+  const t = useTranslations("latestBlogHero");
+
   if (isLoading) {
     return (
       <section ref={ref}>
@@ -61,6 +63,7 @@ export const LatestBlogHero = ({
                   src={latestBlog.imageUrl}
                   alt={latestBlog.title}
                   className="h-full w-full rounded-lg object-cover"
+                  priority
                   fill
                 />
               </div>
@@ -99,7 +102,7 @@ export const LatestBlogHero = ({
                 >
                   <Button className="w-fit" variant="outline" asChild>
                     <Link href={`/blog/${latestBlog.slug.current}`}>
-                      Read more
+                      {t("readMore")}
                     </Link>
                   </Button>
                 </motion.div>
