@@ -3,8 +3,6 @@ import { ArticleSplash } from "@/components/blog/article-splash";
 import { ArticleContent } from "@/components/blog/article-content";
 import { ArticleNotFoundPage } from "@/components/blog/article-not-found";
 
-export const runtime = "edge";
-
 export default async function Article({
   params,
 }: {
