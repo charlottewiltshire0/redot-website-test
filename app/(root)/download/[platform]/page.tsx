@@ -4,8 +4,6 @@ import { SupportedPlatform } from "@/components/sections/download/supported-plat
 import { Help } from "@/components/sections/download/help";
 import { Information } from "@/components/sections/download/information";
 
-export const runtime = "edge";
-
 export default async function DownloadPlatform({
   params,
 }: {

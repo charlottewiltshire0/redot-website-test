@@ -1,8 +1,6 @@
 import { getUsedTags, getLatestArticle, getPosts } from "@/lib/blog";
 import BlogClient from "@/components/sections/blog/blog-client";
 
-export const runtime = "edge";
-
 export default async function Blog() {
   const tags = await getUsedTags();
 
