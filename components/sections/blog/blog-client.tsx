@@ -11,6 +11,7 @@ import { useInView } from "react-intersection-observer";
 import { motion } from "motion/react";
 import { getPosts } from "@/lib/blog";
 import { sanitizeInput } from "@/lib/utils";
+import { useTranslations } from "next-intl";
 
 export default function BlogClient({
   posts: initialPosts,
@@ -25,6 +26,7 @@ export default function BlogClient({
     threshold: 0.1,
     triggerOnce: true,
   });
+  const t = useTranslations("blog");
 
   const searchParams = useSearchParams();
   const router = useRouter();
@@ -81,7 +83,7 @@ export default function BlogClient({
         <div className="flex flex-row flex-wrap gap-2">
           <Tag
             key="all-posts"
-            name="All Posts"
+            name={t("allPosts")}
             isActive={selectedTag === ""}
             onClick={() => handleTagClick("all-posts")}
           />
@@ -96,7 +98,7 @@ export default function BlogClient({
         </div>
         <Input
           type="text"
-          placeholder="Search..."
+          placeholder={t("searchPlaceholder")}
           value={search}
           onChange={handleSearchChange}
           className="w-full md:w-fit"
