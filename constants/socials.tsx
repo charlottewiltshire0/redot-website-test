@@ -1,11 +1,3 @@
-import {
-  IconBrandDiscordFilled,
-  IconBrandGithubFilled,
-  IconBrandReddit,
-  IconBrandXFilled,
-  IconBrandYoutubeFilled,
-} from "@tabler/icons-react";
-
 export interface SocialLink {
   url: string;
   icon: string;
