@@ -12,7 +12,7 @@ const capitalizeFirstLetter = (string: string) => {
 
 export function generateStaticParams() {
   return Object.keys(platformMapping).map(
-    (platform) => platformMapping[platform]
+    (platform) => platformMapping[platform as keyof typeof platformMapping]
   );
 }
 
