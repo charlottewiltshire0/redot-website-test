@@ -18,9 +18,9 @@ export default function BlogClient({
   latestBlog: initialLatestBlog,
   tags,
 }: {
-  posts: Post[];
-  latestBlog: Post | null;
-  tags: { _id: string; name: string; slug: { current: string } }[];
+  readonly posts: Post[];
+  readonly latestBlog: Post | null;
+  readonly tags: { _id: string; name: string; slug: { current: string } }[];
 }) {
   const { ref, inView } = useInView({
     threshold: 0.1,

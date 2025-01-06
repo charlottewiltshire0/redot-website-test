@@ -13,7 +13,7 @@ export const ArticleCard = ({
   article: Post;
   size?: "default" | "small";
 }) => {
-  const titleClasses = cn("text-lg font-medium", {
+  const titleClasses = cn("text-lg font-medium whitespace-normal", {
     "text-base": size === "small",
   });
 

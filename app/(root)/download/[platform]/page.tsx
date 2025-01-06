@@ -4,20 +4,13 @@ import { DownloadSupportedPlatform } from "@/components/sections/download/Downlo
 import { DownloadHelp } from "@/components/sections/download/DownloadHelp";
 import { DownloadInformation } from "@/components/sections/download/DownloadInformation";
 import { Metadata } from "next";
-import { platformMapping } from "@/constants/platformMapping";
 
-const capitalizeFirstLetter = (string: string) => {
+const capitalizeFirstLe tter = (string: string) => {
   return string.charAt(0).toUpperCase() + string.slice(1);
 };
 
-export function generateStaticParams() {
-  return Object.keys(platformMapping).map(
-    (platform) => platformMapping[platform as keyof typeof platformMapping]
-  );
-}
-
 export async function generateMetadata(props: {
-  params: Promise<{ platform: string }>;
+  readonly params: Promise<{ platform: string }>;
 }): Promise<Metadata> {
   const params = await props.params;
   const platform = params.platform;

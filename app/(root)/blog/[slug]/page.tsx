@@ -14,7 +14,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata(props: {
-  params: Promise<{ slug: string }>;
+  readonly params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const params = await props.params;
   const slug = await params.slug;
@@ -56,7 +56,7 @@ export async function generateMetadata(props: {
 export default async function Article({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  readonly params: Promise<{ slug: string }>;
 }) {
   const slug = (await params).slug;
 

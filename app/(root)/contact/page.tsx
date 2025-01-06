@@ -41,7 +41,7 @@ export default function Contact() {
         <div className="grid grid-rows-4 gap-8 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-4 lg:grid-rows-1">
           {contactCardsData.map((card, index) => (
             <motion.div
-              key={index}
+              key={card.id}
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={cardVariants}
@@ -67,7 +67,7 @@ export default function Contact() {
           </h2>
           <Accordion type="single" className="w-full md:w-[600px]" collapsible>
             {faqList.map((faq, index) => (
-              <AccordionItem key={index} value={`item-${index + 1}`}>
+              <AccordionItem key={faq.question} value={`item-${index + 1}`}>
                 <AccordionTrigger className="text-left">
                   {t(`faq.${faq.question}`)}
                 </AccordionTrigger>

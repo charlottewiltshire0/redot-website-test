@@ -5,12 +5,16 @@ import Link from "next/link";
 import { motion } from "motion/react";
 
 interface BannerProps {
-  mainMessage?: string;
-  subMessage?: string;
-  link?: string;
+  readonly mainMessage?: string;
+  readonly subMessage?: string;
+  readonly link?: string;
 }
 
-export default function Banner({ mainMessage, subMessage, link }: BannerProps) {
+export default function Banner({
+  mainMessage,
+  subMessage,
+  link,
+}: Readonly<BannerProps>) {
   if (!mainMessage) return null;
 
   return (

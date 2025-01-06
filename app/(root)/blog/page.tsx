@@ -10,8 +10,8 @@ export default async function Blog() {
   const tags = await getUsedTags();
 
   const searchParams = new URLSearchParams();
-  const selectedTag = searchParams.get("tag") || "";
-  const search = searchParams.get("search") || "";
+  const selectedTag = searchParams.get("tag") ?? "";
+  const search = searchParams.get("search") ?? "";
 
   const posts = await getPosts(selectedTag, search);
   const latestBlog = await getLatestArticle();

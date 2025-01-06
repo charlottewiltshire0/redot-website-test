@@ -22,6 +22,13 @@ const Review = dynamic(
   }
 );
 
+const News = dynamic(
+  () => import("@/components/sections/landing/News").then((mod) => mod.News),
+  {
+    ssr: false,
+  }
+);
+
 const Start = dynamic(
   () => import("@/components/sections/landing/Start").then((mod) => mod.Start),
   {
@@ -34,8 +41,8 @@ export default function Landing() {
     <div>
       <Hero />
       <ProductShowcase />
-      {/* TODO: Implement a news/blog system */}
       <Features />
+      <News />
       <Review />
       <Start />
     </div>
