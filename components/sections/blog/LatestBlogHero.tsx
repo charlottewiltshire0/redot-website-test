@@ -73,7 +73,7 @@ export const LatestBlogHero = ({
               initial={{ opacity: 0, x: -50 }}
               animate={inView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.6 }}
-              className="relative col-span-12 px-0 pb-6 md:col-span-5 md:col-start-1 md:pb-0"
+              className="relative col-span-12 w-full px-0 pb-6 md:col-span-5 md:col-start-1 md:pb-0"
             >
               <div className="flex flex-col justify-center gap-4">
                 <div className="flex flex-row items-center gap-4">
