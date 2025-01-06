@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 
-export const ArticleNotFoundPage = () => {
+export default function NotFound() {
   const t = useTranslations("articleNotFound");
 
   return (
@@ -35,4 +35,4 @@ export const ArticleNotFoundPage = () => {
       </div>
     </section>
   );
-};
+}
