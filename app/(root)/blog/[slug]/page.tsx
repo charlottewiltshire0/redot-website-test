@@ -1,14 +1,21 @@
-import { getPostBySlug } from "@/lib/blog";
+import { getPostBySlug, getPosts } from "@/lib/blog";
 import { ArticleSplash } from "@/components/blog/ArticleSplash";
-import { ArticleNotFoundPage } from "@/components/blog/ArticleNotFound";
-import ArticleContentWrapper from "@/components/blog/ArticleContentWrapper";
 import { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { ArticleContent } from "@/components/blog/ArticleContent";
 
-export async function generateMetadata({
-  params,
-}: {
-  params: { slug: string };
+export async function generateStaticParams() {
+  const posts = await getPosts();
+
+  return posts.map((post) => ({
+    slug: post.slug.current,
+  }));
+}
+
+export async function generateMetadata(props: {
+  params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
+  const params = await props.params;
   const slug = await params.slug;
   const post = await getPostBySlug(slug);
 
@@ -22,7 +29,6 @@ export async function generateMetadata({
   const postData = post[0];
 
   return {
-    applicationName: "Redot Engine",
     title: postData.title ?? "Untitled Post",
     description: postData.excerpt ?? "No description provided.",
     openGraph: {
@@ -31,6 +37,7 @@ export async function generateMetadata({
       images: postData.imageUrl ? [{ url: postData.imageUrl }] : [],
       url: `https://www.redotengine.org//blog/${slug}`,
       type: "article",
+      siteName: "Redot Engine",
       publishedTime: postData.publishedAt
         ? new Date(postData.publishedAt).toISOString()
         : undefined,
@@ -55,15 +62,17 @@ export default async function Article({
   const post = await getPostBySlug(slug);
 
   if (!post || post.length === 0) {
-    return <ArticleNotFoundPage />;
+    notFound();
   }
+
+  const postData = post[0];
 
   return (
     <div className="mb-24 px-5 lg:px-40">
       <div className="flex flex-col items-center justify-center">
         <div className="max-w-[800px] md:w-[800px]">
-          <ArticleSplash article={post[0]} />
-          <ArticleContentWrapper article={post[0]} />
+          <ArticleSplash article={postData} />
+          <ArticleContent article={postData} />
         </div>
       </div>
     </div>
