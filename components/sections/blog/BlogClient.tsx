@@ -2,7 +2,7 @@
 
 import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
-import { LatestBlogHero } from "@/components/sections/blog/latest-blog-hero";
+import { LatestBlogHero } from "@/components/sections/blog/LatestBlogHero";
 import { Post } from "@/sanity/schemaTypes/postType";
 import { Tag } from "@/components/blog/Tag";
 import { Input } from "@/components/ui/input";
@@ -120,7 +120,7 @@ export default function BlogClient({
                 delay: index * 0.2,
               }}
             >
-              <div className="hidden md:block">
+              <div className="hidden h-full md:block">
                 <ArticleCard article={post} />
               </div>
               <div className="block md:hidden">
