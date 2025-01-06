@@ -1,8 +1,12 @@
 import type { MetadataRoute } from "next";
 import { getPosts } from "@/lib/blog";
 import { platformMapping } from "@/constants/platformMapping";
+import { Post } from "@/sanity/schemaTypes/postType";
 
-export default async function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  if (!process.env.NEXT_PUBLIC_BASE_URL) {
+    throw new Error("NEXT_PUBLIC_BASE_URL environment variable is not set");
+  }
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
 
   const staticRoutes: MetadataRoute.Sitemap = [
@@ -41,7 +45,7 @@ export default async function sitemap(): MetadataRoute.Sitemap {
   try {
     const posts = await getPosts();
 
-    const blogPostRoutes = posts.map((post) => ({
+    const blogPostRoutes = posts.map((post: Post) => ({
       url: `${baseUrl}/blog/${post.slug.current}`,
       lastModified: new Date(post.publishedAt),
       changeFrequency: "weekly",
