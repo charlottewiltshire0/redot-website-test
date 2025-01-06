@@ -16,9 +16,9 @@ export const ThreeStepsItem = ({
       <h3 className="text-xl font-medium">{title}</h3>
       <p className="text-black/60">{description}</p>
       <div className="flex flex-col gap-2">
-        {links.map((link, index) => (
+        {links.map((link) => (
           <Link
-            key={index}
+            key={link.text}
             href={link.url}
             target="_blank"
             rel="noopener noreferrer"
