@@ -1,50 +1,48 @@
 "use client";
 
-import HeaderSection from "@/components/header-section";
+import SectionHeader from "@/components/SectionHeader";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { Start } from "@/components/sections/landing/start";
+import { Start } from "@/components/sections/landing/Start";
+import { LicenseContent } from "@/components/licenses/LicenseContent";
+
+const licensesUrl =
+  "https://raw.githubusercontent.com/Redot-Engine/redot-engine/refs/heads/master/";
+const licenseTypes = ["LICENSE", "COPYRIGHT", "LOGO_LICENSE"];
 
 export default function License() {
-  const [files, setFiles] = useState<{ [key: string]: string }>({
-    LICENSE: "",
-    COPYRIGHT: "",
-    LOGO_LICENSE: "",
+  const [licenses, setLicenses] = useState<{ [key: string]: string | null }>({
+    LICENSE: null,
+    COPYRIGHT: null,
+    LOGO_LICENSE: null,
   });
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const fileUrls = {
-      LICENSE:
-        "https://raw.githubusercontent.com/Redot-Engine/redot-engine/refs/heads/master/LICENSE.txt",
-      COPYRIGHT:
-        "https://raw.githubusercontent.com/Redot-Engine/redot-engine/refs/heads/master/COPYRIGHT.txt",
-      LOGO_LICENSE:
-        "https://raw.githubusercontent.com/Redot-Engine/redot-engine/refs/heads/master/LOGO_LICENSE.txt",
-    };
-
-    const fetchFiles = async () => {
+    const fetchLicenses = async () => {
       try {
         const responses = await Promise.all(
-          Object.entries(fileUrls).map(async ([key, url]) => {
-            const response = await axios.get(url);
-            return { key, content: response.data };
+          licenseTypes.map(async (type) => {
+            const url = `${licensesUrl}${type}.txt`;
+            try {
+              const response = await axios.get(url);
+              return { [type]: response.data };
+            } catch (innerError) {
+              console.error(`Error fetching ${type}:`, innerError);
+              return { [type]: null };
+            }
           })
         );
-        const newFiles = responses.reduce(
-          (acc, { key, content }) => {
-            acc[key] = content;
-            return acc;
-          },
-          {} as { [key: string]: string }
-        );
 
-        setFiles(newFiles);
+        setLicenses(Object.assign({}, ...responses));
+        setIsLoading(false);
       } catch (error) {
-        console.error("Error fetching files:", error);
+        console.error("Error fetching licenses:", error);
+        setIsLoading(false);
       }
     };
 
-    fetchFiles();
+    fetchLicenses();
   }, []);
 
   return (
@@ -53,25 +51,20 @@ export default function License() {
         {/* Radial gradient for the container to give a faded look */}
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black"></div>
         <div className="relative z-20 px-5 pb-5 pt-10 lg:px-40">
-          <HeaderSection section="licenses" />
+          <SectionHeader section="licenses" />
         </div>
       </div>
 
       <div className="mt-24 flex flex-col gap-8 px-5 lg:px-40">
-        <div className="flex flex-col gap-4">
-          <h3 className="text-xl font-medium">LICENSE</h3>
-          <pre>{files.LICENSE}</pre>
-        </div>
-        <div className="flex flex-col gap-4">
-          <h3 className="text-xl">COPYRIGHT</h3>
-          <pre>{files.COPYRIGHT}</pre>
-        </div>
-        <div className="flex flex-col gap-4">
-          <h3 className="text-xl">LOGO LICENSE</h3>
-          <pre>{files.LOGO_LICENSE}</pre>
-        </div>
+        {licenseTypes.map((type) => (
+          <LicenseContent
+            key={type}
+            type={type}
+            content={licenses[type]}
+            isLoading={isLoading}
+          />
+        ))}
       </div>
-
       <Start />
     </div>
   );

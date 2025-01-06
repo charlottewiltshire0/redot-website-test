@@ -9,8 +9,14 @@
 
 import { NextStudio } from "next-sanity/studio";
 import config from "../../../../sanity.config";
+import { Metadata } from "next";
 
-export { metadata, viewport } from "next-sanity/studio";
+export const metadata: Metadata = {
+  robots: {
+    index: false,
+    follow: true,
+  },
+};
 
 export default function StudioPage() {
   return <NextStudio config={config} />;

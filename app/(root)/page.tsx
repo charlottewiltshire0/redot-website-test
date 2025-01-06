@@ -1,12 +1,12 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { Hero } from "@/components/sections/landing/hero";
-import { ProductShowcase } from "@/components/sections/landing/product-showcase";
+import { Hero } from "@/components/sections/landing/Hero";
+import { ProductShowcase } from "@/components/sections/landing/ProductShowcase";
 
 const Features = dynamic(
   () =>
-    import("@/components/sections/landing/features").then(
+    import("@/components/sections/landing/Features").then(
       (mod) => mod.Features
     ),
   {
@@ -16,14 +16,21 @@ const Features = dynamic(
 
 const Review = dynamic(
   () =>
-    import("@/components/sections/landing/review").then((mod) => mod.Review),
+    import("@/components/sections/landing/Review").then((mod) => mod.Review),
+  {
+    ssr: false,
+  }
+);
+
+const News = dynamic(
+  () => import("@/components/sections/landing/News").then((mod) => mod.News),
   {
     ssr: false,
   }
 );
 
 const Start = dynamic(
-  () => import("@/components/sections/landing/start").then((mod) => mod.Start),
+  () => import("@/components/sections/landing/Start").then((mod) => mod.Start),
   {
     ssr: false,
   }
@@ -34,8 +41,8 @@ export default function Landing() {
     <div>
       <Hero />
       <ProductShowcase />
-      {/* TODO: Implement a news/blog system */}
       <Features />
+      <News />
       <Review />
       <Start />
     </div>

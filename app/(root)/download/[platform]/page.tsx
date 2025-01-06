@@ -1,8 +1,26 @@
-import { DownloadHero } from "@/components/sections/download/hero";
-import { ThreeSteps } from "@/components/sections/download/three-steps";
-import { SupportedPlatform } from "@/components/sections/download/supported-platform";
-import { Help } from "@/components/sections/download/help";
-import { Information } from "@/components/sections/download/information";
+import { DownloadHero } from "@/components/sections/download/DownloadHero";
+import { DownloadThreeSteps } from "@/components/sections/download/DownloadThreeSteps";
+import { DownloadSupportedPlatform } from "@/components/sections/download/DownloadSupportedPlatform";
+import { DownloadInformation } from "@/components/sections/download/DownloadInformation";
+import { Metadata } from "next";
+import { links } from "@/constants/links";
+import { SectionWithButtons } from "@/components/SectionWithButtons";
+
+const capitalizeFirstLetter = (string: string) => {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+};
+
+export async function generateMetadata(props: {
+  readonly params: Promise<{ platform: string }>;
+}): Promise<Metadata> {
+  const params = await props.params;
+  const platform = params.platform;
+  const capitalizedPlatform = capitalizeFirstLetter(platform);
+
+  return {
+    title: `Download for ${capitalizedPlatform}`,
+  };
+}
 
 export default async function DownloadPlatform({
   params,
@@ -13,10 +31,20 @@ export default async function DownloadPlatform({
   return (
     <div>
       <DownloadHero platform={platform} />
-      <ThreeSteps />
-      <SupportedPlatform />
-      <Information />
-      <Help />
+      <DownloadThreeSteps />
+      <DownloadSupportedPlatform />
+      <DownloadInformation />
+      <SectionWithButtons
+        titleKey="downloadHelp.title"
+        descriptionKey="downloadHelp.description"
+        buttonLinks={[
+          { href: "/discord", labelKey: "downloadHelp.buttons.discord" },
+          {
+            href: links.documentation,
+            labelKey: "downloadHelp.buttons.documentation",
+          },
+        ]}
+      />
     </div>
   );
 }

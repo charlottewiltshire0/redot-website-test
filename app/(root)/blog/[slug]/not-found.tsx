@@ -1,18 +1,15 @@
-import { useTranslations } from "next-intl";
+"use client";
+
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
-import Image from "next/image";
-
-export const runtime = "edge";
+import { useTranslations } from "next-intl";
 
 export default function NotFound() {
-  const t = useTranslations("notFound");
+  const t = useTranslations("articleNotFound");
 
   return (
     <section className="flex min-h-screen flex-col">
-      <Header />
       <div className="flex-grow overflow-x-clip bg-gradient-to-b from-[#ffffff] to-[#FFD2D2] py-32">
         <div className="mx-auto max-w-[540px]">
           <div className="flex flex-col items-center justify-center gap-4">
@@ -31,12 +28,11 @@ export default function NotFound() {
               </p>
             </div>
             <Button asChild>
-              <Link href="/">{t("goBack")}</Link>
+              <Link href="/blog">{t("backButton")}</Link>
             </Button>
           </div>
         </div>
       </div>
-      <Footer />
     </section>
   );
 }

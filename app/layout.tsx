@@ -14,8 +14,14 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Redot Engine",
+  title: {
+    default: "Redot Engine",
+    template: "%s - Redot Engine",
+  },
   description: "Redot Engine: Open source game engine for everyone.",
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default async function RootLayout({
@@ -32,7 +38,7 @@ export default async function RootLayout({
       <head>
         <link rel="preconnect" href="https://image.redotengine.org" />
       </head>
-      <GoogleTagManager gtmId="G-PLVV7BPX1T" />
+      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID ?? ""} />
       <body className={`${inter.className} bg-background antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="light">
           <NextIntlClientProvider messages={messages}>

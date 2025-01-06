@@ -1,9 +1,9 @@
 "use client";
 
-import HeaderSection from "@/components/header-section";
-import { ContactCard } from "@/components/contact/contact-card";
+import SectionHeader from "@/components/SectionHeader";
+import { ContactCard } from "@/components/contact/ContactCard";
 import { contactCardsData } from "@/constants/contactCardsData";
-import { Start } from "@/components/sections/landing/start";
+import { Start } from "@/components/sections/landing/Start";
 import { useInView } from "react-intersection-observer";
 import { motion } from "motion/react";
 import { faqList } from "@/constants/faq";
@@ -34,14 +34,14 @@ export default function Contact() {
         {/* Radial gradient for the container to give a faded look */}
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black"></div>
         <div className="relative z-20 px-5 pb-5 pt-10 lg:px-40">
-          <HeaderSection section="contact" />
+          <SectionHeader section="contact" />
         </div>
       </div>
       <div className="mt-10 px-5 lg:px-40">
         <div className="grid grid-rows-4 gap-8 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-4 lg:grid-rows-1">
           {contactCardsData.map((card, index) => (
             <motion.div
-              key={index}
+              key={card.id}
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={cardVariants}
@@ -67,7 +67,7 @@ export default function Contact() {
           </h2>
           <Accordion type="single" className="w-full md:w-[600px]" collapsible>
             {faqList.map((faq, index) => (
-              <AccordionItem key={index} value={`item-${index + 1}`}>
+              <AccordionItem key={faq.question} value={`item-${index + 1}`}>
                 <AccordionTrigger className="text-left">
                   {t(`faq.${faq.question}`)}
                 </AccordionTrigger>
