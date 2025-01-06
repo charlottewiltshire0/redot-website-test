@@ -9,11 +9,9 @@
 
 import { NextStudio } from "next-sanity/studio";
 import config from "../../../../sanity.config";
-import { Metadata as MetadataNext } from "next";
+import { Metadata } from "next";
 
-export { metadata, viewport } from "next-sanity/studio";
-
-export const metadata: MetadataNext = {
+export const metadata: Metadata = {
   robots: {
     index: false,
     follow: true,
