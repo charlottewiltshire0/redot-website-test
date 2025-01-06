@@ -8,7 +8,7 @@ import { links } from "@/constants/links";
 import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
 
-export const Information = () => {
+export const DownloadInformation = () => {
   const { ref, inView } = useInView({
     threshold: 0.1,
     triggerOnce: true,

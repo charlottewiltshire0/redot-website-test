@@ -6,7 +6,7 @@ import SectionHeader from "@/components/SectionHeader";
 import { SupportedPlatformItem } from "@/components/download/SupportedPlatformItem";
 import { supportedPlatformsData } from "@/constants/supportedPlatformsData";
 
-export const SupportedPlatform = () => {
+export const DownloadSupportedPlatform = () => {
   const { ref, inView } = useInView({
     threshold: 0.1,
     triggerOnce: true,

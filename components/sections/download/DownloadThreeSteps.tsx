@@ -9,7 +9,7 @@ import { socialsLinks } from "@/constants/socials";
 import { getPlatformDownloadLink } from "@/lib/platformDownloadLink";
 import { useTranslations } from "next-intl";
 
-export const ThreeSteps = () => {
+export const DownloadThreeSteps = () => {
   const { ref, inView } = useInView({
     threshold: 0.1,
     triggerOnce: true,

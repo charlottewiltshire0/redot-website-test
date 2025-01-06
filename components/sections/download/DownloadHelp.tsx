@@ -9,7 +9,7 @@ import { links } from "@/constants/links";
 import { useTranslations } from "next-intl";
 import { socialsLinks } from "@/constants/socials";
 
-export const Help = () => {
+export const DownloadHelp = () => {
   const { ref, inView } = useInView({
     threshold: 0.1,
     triggerOnce: true,
