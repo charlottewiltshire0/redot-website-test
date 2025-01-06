@@ -14,7 +14,6 @@ export const News = () => {
   const { ref, inView } = useInView({
     threshold: 0.1,
     triggerOnce: true,
-    suspense: true,
   });
 
   const [posts, setPosts] = useState<Post[] | null>(null);
