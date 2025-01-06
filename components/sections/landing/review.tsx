@@ -2,10 +2,10 @@
 
 import { motion } from "motion/react";
 import { useInView } from "react-intersection-observer";
-import { ReviewCard } from "@/components/review/review-card";
+import { ReviewCard } from "@/components/landing/ReviewCard";
 import Marquee from "@/components/ui/marquee";
 import { reviews } from "@/constants/reviews";
-import HeaderSection from "@/components/header-section";
+import SectionHeader from "@/components/SectionHeader";
 
 export const Review = () => {
   const { ref, inView } = useInView({
@@ -24,7 +24,7 @@ export const Review = () => {
         transition={{ duration: 0.6 }}
         className="px-5 lg:px-40"
       >
-        <HeaderSection section="reviewSection" />
+        <SectionHeader section="reviewSection" />
 
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}

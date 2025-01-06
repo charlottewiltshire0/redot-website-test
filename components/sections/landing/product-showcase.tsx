@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { motion } from "motion/react";
 import { useInView } from "react-intersection-observer";
-import HeaderSection from "@/components/header-section";
+import SectionHeader from "@/components/SectionHeader";
 
 export const ProductShowcase = () => {
   const { ref, inView } = useInView({
@@ -22,7 +22,7 @@ export const ProductShowcase = () => {
         transition={{ duration: 0.6 }}
         className="px-5 lg:px-40"
       >
-        <HeaderSection section="productShowcaseSection" />
+        <SectionHeader section="productShowcaseSection" />
 
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}

@@ -1,7 +1,7 @@
 "use client";
 
-import HeaderSection from "@/components/header-section";
-import { ContactCard } from "@/components/contact/contact-card";
+import SectionHeader from "@/components/SectionHeader";
+import { ContactCard } from "@/components/contact/ContactCard";
 import { contactCardsData } from "@/constants/contactCardsData";
 import { Start } from "@/components/sections/landing/start";
 import { useInView } from "react-intersection-observer";
@@ -34,7 +34,7 @@ export default function Contact() {
         {/* Radial gradient for the container to give a faded look */}
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black"></div>
         <div className="relative z-20 px-5 pb-5 pt-10 lg:px-40">
-          <HeaderSection section="contact" />
+          <SectionHeader section="contact" />
         </div>
       </div>
       <div className="mt-10 px-5 lg:px-40">

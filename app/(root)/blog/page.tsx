@@ -1,5 +1,10 @@
 import { getUsedTags, getLatestArticle, getPosts } from "@/lib/blog";
 import BlogClient from "@/components/sections/blog/blog-client";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Blog",
+};
 
 export default async function Blog() {
   const tags = await getUsedTags();
