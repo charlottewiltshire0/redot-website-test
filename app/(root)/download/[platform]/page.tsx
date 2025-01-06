@@ -1,8 +1,8 @@
-import { DownloadHero } from "@/components/sections/download/hero";
-import { ThreeSteps } from "@/components/sections/download/three-steps";
-import { SupportedPlatform } from "@/components/sections/download/supported-platform";
-import { Help } from "@/components/sections/download/help";
-import { Information } from "@/components/sections/download/information";
+import { DownloadHero } from "@/components/sections/download/DownloadHero";
+import { DownloadThreeSteps } from "@/components/sections/download/DownloadThreeSteps";
+import { DownloadSupportedPlatform } from "@/components/sections/download/DownloadSupportedPlatform";
+import { DownloadHelp } from "@/components/sections/download/DownloadHelp";
+import { DownloadInformation } from "@/components/sections/download/DownloadInformation";
 import { Metadata } from "next";
 import { platformMapping } from "@/constants/platformMapping";
 
@@ -37,10 +37,10 @@ export default async function DownloadPlatform({
   return (
     <div>
       <DownloadHero platform={platform} />
-      <ThreeSteps />
-      <SupportedPlatform />
-      <Information />
-      <Help />
+      <DownloadThreeSteps />
+      <DownloadSupportedPlatform />
+      <DownloadInformation />
+      <DownloadHelp />
     </div>
   );
 }

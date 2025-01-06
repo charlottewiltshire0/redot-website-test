@@ -3,7 +3,7 @@
 import SectionHeader from "@/components/SectionHeader";
 import { ContactCard } from "@/components/contact/ContactCard";
 import { contactCardsData } from "@/constants/contactCardsData";
-import { Start } from "@/components/sections/landing/start";
+import { Start } from "@/components/sections/landing/Start";
 import { useInView } from "react-intersection-observer";
 import { motion } from "motion/react";
 import { faqList } from "@/constants/faq";

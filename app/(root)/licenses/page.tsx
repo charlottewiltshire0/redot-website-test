@@ -3,7 +3,7 @@
 import SectionHeader from "@/components/SectionHeader";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { Start } from "@/components/sections/landing/start";
+import { Start } from "@/components/sections/landing/Start";
 import { LicenseContent } from "@/components/licenses/LicenseContent";
 
 const licensesUrl =

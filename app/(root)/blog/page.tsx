@@ -1,5 +1,5 @@
 import { getUsedTags, getLatestArticle, getPosts } from "@/lib/blog";
-import BlogClient from "@/components/sections/blog/blog-client";
+import BlogClient from "@/components/sections/blog/BlogClient";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
