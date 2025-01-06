@@ -1,6 +1,6 @@
 import { getPlatformDownloadLink } from "@/lib/platformDownloadLink";
 
-export const supportedPlatforms = [
+export const supportedPlatformsData = [
   {
     label: "Android",
     href: "/download/android",

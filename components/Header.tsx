@@ -1,9 +1,9 @@
-import Banner from "@/components/banner";
+import Banner from "@/components/Banner";
 import Link from "next/link";
 import Image from "next/image";
 import { header } from "@/constants/header";
 import { Button } from "@/components/ui/button";
-import { MobileSidebar } from "@/components/mobile-navbar";
+import { MobileSidebar } from "@/components/MobileSidebar";
 import { useTranslations } from "next-intl";
 import { IconArrowUpRight } from "@tabler/icons-react";
 

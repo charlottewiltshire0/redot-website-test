@@ -2,19 +2,17 @@ import {
   Icon3dCubeSphere,
   IconBrandGithub,
   IconCamera,
-  IconCommand,
   IconDeviceDesktop,
-  IconDeviceHeartMonitor,
 } from "@tabler/icons-react";
 import React from "react";
 
 export interface FeaturesHighlightList {
-  header: string;
-  description: string;
-  icon?: React.ReactNode;
+  readonly header: string;
+  readonly description: string;
+  readonly icon?: React.ReactNode;
 }
 
-export const featuresHighlightLists: FeaturesHighlightList[] = [
+export const featuresHighlightLists: Readonly<FeaturesHighlightList[]> = [
   {
     header: "highlights.sceneDrivenDesign.header",
     description: "highlights.sceneDrivenDesign.description",
