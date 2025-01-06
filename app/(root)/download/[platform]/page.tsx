@@ -1,9 +1,10 @@
 import { DownloadHero } from "@/components/sections/download/DownloadHero";
 import { DownloadThreeSteps } from "@/components/sections/download/DownloadThreeSteps";
 import { DownloadSupportedPlatform } from "@/components/sections/download/DownloadSupportedPlatform";
-import { DownloadHelp } from "@/components/sections/download/DownloadHelp";
 import { DownloadInformation } from "@/components/sections/download/DownloadInformation";
 import { Metadata } from "next";
+import { links } from "@/constants/links";
+import { SectionWithButtons } from "@/components/SectionWithButtons";
 
 const capitalizeFirstLetter = (string: string) => {
   return string.charAt(0).toUpperCase() + string.slice(1);
@@ -33,7 +34,17 @@ export default async function DownloadPlatform({
       <DownloadThreeSteps />
       <DownloadSupportedPlatform />
       <DownloadInformation />
-      <DownloadHelp />
+      <SectionWithButtons
+        titleKey="downloadHelp.title"
+        descriptionKey="downloadHelp.description"
+        buttonLinks={[
+          { href: "/discord", labelKey: "downloadHelp.buttons.discord" },
+          {
+            href: links.documentation,
+            labelKey: "downloadHelp.buttons.documentation",
+          },
+        ]}
+      />
     </div>
   );
 }
