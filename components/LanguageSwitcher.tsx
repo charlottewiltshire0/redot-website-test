@@ -84,7 +84,7 @@ export default function LanguageSwitcher() {
                   >
                     <Image
                       src={`/flags/${lang.code}.svg`}
-                      alt={lang.label}
+                      alt={`${lang.label} language`}
                       width="20"
                       height="15"
                       className="rounded"
