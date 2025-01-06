@@ -4,7 +4,7 @@ import { Post } from "@/sanity/schemaTypes/postType";
 
 const ArticleContent = dynamic<{ article: Post }>(
   () =>
-    import("@/components/blog/article-content").then(
+    import("@/components/blog/ArticleContent").then(
       (mod) => mod.ArticleContent
     ),
   { ssr: false }

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Tag } from "@/components/blog/tag";
+import { Tag } from "@/components/blog/Tag";
 import { Tag as SchemaTag } from "@/sanity/schemaTypes/tagType";
 import { formatDate } from "@/lib/utils";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";

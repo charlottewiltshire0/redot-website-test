@@ -1,4 +1,4 @@
-import { Tag } from "@/components/blog/tag";
+import { Tag } from "@/components/blog/Tag";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { cn, formatDate } from "@/lib/utils";
 import Image from "next/image";
@@ -11,7 +11,7 @@ export const ArticleCard = ({
   size = "default",
 }: {
   article: Post;
-  size?: string;
+  size?: "default" | "small";
 }) => {
   const titleClasses = cn("text-lg font-medium", {
     "text-base": size === "small",
