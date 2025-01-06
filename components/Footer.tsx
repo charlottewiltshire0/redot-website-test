@@ -10,7 +10,7 @@ import { socials } from "@/constants/socials";
 import { links } from "@/constants/links";
 import { footer } from "@/constants/footer";
 import { useTranslations } from "next-intl";
-import LanguageSwitcher from "@/components/language-switcher";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { IconArrowUpRight } from "@tabler/icons-react";
 
 export const Footer = () => {
@@ -24,16 +24,16 @@ export const Footer = () => {
             <div className="flex flex-col gap-8">
               <LanguageSwitcher />
               <div className="flex flex-row gap-4">
-                {socials.map((social, index) => (
+                {socials.map((social) => (
                   <Link
-                    key={index}
+                    key={social.url}
                     href={social.url}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <Image
                       src={`/socials/${social.icon}`}
-                      alt="Social logo"
+                      alt={`${social.icon} logo`}
                       width={28}
                       height={28}
                       className="opacity-60 transition-all duration-300 hover:opacity-70"
@@ -43,16 +43,16 @@ export const Footer = () => {
               </div>
             </div>
             <div className="grid grid-cols-2 gap-16 lg:grid-cols-4">
-              {footer.map((category, index) => (
-                <div key={index} className="text-sm">
+              {footer.map((category) => (
+                <div key={category.title} className="text-sm">
                   <h3 className="font-medium text-white/80">
                     {t(category.title)}
                   </h3>
                   <ul className="mt-4 space-y-2">
-                    {category.children?.map((item, idx) => (
-                      <li key={idx}>
+                    {category.children?.map((item) => (
+                      <li key={item.title}>
                         <Link
-                          href={item.href || "#"}
+                          href={item.href ?? "#"}
                           className="flex items-center text-white/60 transition duration-300 hover:text-white"
                           target={item.newTab ? "_blank" : "_self"}
                           rel={item.newTab ? "noopener noreferrer" : undefined}
