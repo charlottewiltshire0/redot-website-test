@@ -1,13 +1,21 @@
+"use client";
+
+import { Post } from "@/sanity/schemaTypes/postType";
+import { useEffect, useState } from "react";
 import { remark } from "remark";
 import html from "remark-html";
-import { Post } from "@/sanity/schemaTypes/postType";
 
-export const ArticleContent = async ({ article }: { article: Post }) => {
-  const processedContent = await remark().use(html).process(article.body);
-  console.log(article.body);
+export const ArticleContent = ({ article }: { article: Post }) => {
+  const [contentHtml, setContentHtml] = useState("");
 
-  const contentHtml = processedContent.toString();
+  useEffect(() => {
+    const processContent = async () => {
+      const processedContent = await remark().use(html).process(article.body);
+      setContentHtml(processedContent.toString());
+    };
 
+    processContent();
+  }, [article]);
   return (
     <div>
       <article
