@@ -14,8 +14,14 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Redot Engine",
+  title: {
+    default: "Redot Engine",
+    template: "%s - Redot Engine",
+  },
   description: "Redot Engine: Open source game engine for everyone.",
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default async function RootLayout({
