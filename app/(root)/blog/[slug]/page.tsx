@@ -3,11 +3,12 @@ import { ArticleSplash } from "@/components/blog/ArticleSplash";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArticleContent } from "@/components/blog/ArticleContent";
+import { Post } from "@/sanity/schemaTypes/postType";
 
 export async function generateStaticParams() {
   const posts = await getPosts();
 
-  return posts.map((post) => ({
+  return posts.map((post: Post) => ({
     slug: post.slug.current,
   }));
 }
@@ -41,7 +42,7 @@ export async function generateMetadata(props: {
       publishedTime: postData.publishedAt
         ? new Date(postData.publishedAt).toISOString()
         : undefined,
-      authors: postData.author ? [{ name: postData.author.name }] : [],
+      authors: postData.author ? [postData.author.name] : [],
     },
     twitter: {
       card: "summary_large_image",
