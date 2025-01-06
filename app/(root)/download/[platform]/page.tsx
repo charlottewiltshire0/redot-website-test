@@ -5,7 +5,7 @@ import { DownloadHelp } from "@/components/sections/download/DownloadHelp";
 import { DownloadInformation } from "@/components/sections/download/DownloadInformation";
 import { Metadata } from "next";
 
-const capitalizeFirstLe tter = (string: string) => {
+const capitalizeFirstLetter = (string: string) => {
   return string.charAt(0).toUpperCase() + string.slice(1);
 };
 
