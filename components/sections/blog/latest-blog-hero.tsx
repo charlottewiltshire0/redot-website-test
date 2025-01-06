@@ -3,7 +3,7 @@
 import { useInView } from "react-intersection-observer";
 import { motion } from "motion/react";
 import Image from "next/image";
-import { Tag } from "@/components/blog/tag";
+import { Tag } from "@/components/blog/Tag";
 import { Tag as SchemaTag } from "@/sanity/schemaTypes/tagType";
 import { formatDate } from "@/lib/utils";
 import { Button } from "@/components/ui/button";

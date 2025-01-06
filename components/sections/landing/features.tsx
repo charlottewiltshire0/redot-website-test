@@ -3,13 +3,13 @@
 import { motion } from "motion/react";
 import { useInView } from "react-intersection-observer";
 import Marquee from "@/components/ui/marquee";
-import { featuresList } from "@/constants/features-list";
-import { FeaturesCard } from "@/components/features/features-card";
-import FeaturesHighlight from "@/components/features/features-highlight";
+import { featuresList } from "@/constants/featuresList";
+import { FeatureItem } from "@/components/landing/FeatureItem";
+import FeaturesHighlight from "@/components/landing/FeaturesHighlight";
 import { IconCommand } from "@tabler/icons-react";
-import { featuresHighlightLists } from "@/constants/features-highlight-list";
+import { featuresHighlightLists } from "@/constants/featuresHighlightList";
 import { useTranslations } from "next-intl";
-import HeaderSection from "@/components/header-section";
+import SectionHeader from "@/components/SectionHeader";
 
 export const Features = () => {
   const { inView, ref } = useInView({
@@ -29,7 +29,7 @@ export const Features = () => {
         transition={{ duration: 0.6 }}
         className="px-5 lg:px-40"
       >
-        <HeaderSection section="featuresSection" />
+        <SectionHeader section="featuresSection" />
 
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
@@ -40,12 +40,12 @@ export const Features = () => {
           <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
             <Marquee pauseOnHover className="[--duration:15s]">
               {firstRow.map((feature) => (
-                <FeaturesCard key={feature.label} {...feature} />
+                <FeatureItem key={feature.label} {...feature} />
               ))}
             </Marquee>
             <Marquee reverse pauseOnHover className="[--duration:15s]">
               {firstRow.map((feature) => (
-                <FeaturesCard key={feature.label} {...feature} />
+                <FeatureItem key={feature.label} {...feature} />
               ))}
             </Marquee>
             <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white"></div>

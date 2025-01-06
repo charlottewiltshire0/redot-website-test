@@ -2,8 +2,8 @@
 
 import { motion } from "motion/react";
 import { useInView } from "react-intersection-observer";
-import HeaderSection from "@/components/header-section";
-import { ThreeStepsItem } from "@/components/three-steps/three-steps-item";
+import SectionHeader from "@/components/SectionHeader";
+import { ThreeStepsItem } from "@/components/download/ThreeStepsItem";
 import { links } from "@/constants/links";
 import { socialsLinks } from "@/constants/socials";
 import { getPlatformDownloadLink } from "@/lib/platformDownloadLink";
@@ -25,7 +25,7 @@ export const ThreeSteps = () => {
         transition={{ duration: 0.6 }}
         className="px-5 lg:px-40"
       >
-        <HeaderSection section="downloadThreeSteps" />
+        <SectionHeader section="downloadThreeSteps" />
 
         <div className="mt-10 grid grid-cols-12 gap-4 md:gap-8">
           <motion.div

@@ -1,8 +1,8 @@
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { Header } from "@/components/header";
-import { Footer } from "@/components/footer";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 import Image from "next/image";
 
 export const runtime = "edge";
