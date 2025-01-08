@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "Всички публикации",
-    "searchPlaceholder": "Търсене..."
+    "searchPlaceholder": "Търсене...",
+    "noPostsFound": {
+      "title": "Статията не е намерена",
+      "description": "Статията, която търсите, не може да бъде намерена."
+    }
   },
   "tags": {
     "tagAllPosts": "Всички публикации"

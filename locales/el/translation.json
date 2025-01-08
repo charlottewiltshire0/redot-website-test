@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "Όλες οι Αναρτήσεις",
-    "searchPlaceholder": "Αναζήτηση..."
+    "searchPlaceholder": "Αναζήτηση...",
+    "noPostsFound": {
+      "title": "Άρθρο Δεν Βρέθηκε",
+      "description": "Το άρθρο που αναζητάτε δεν βρέθηκε."
+    }
   },
   "tags": {
     "tagAllPosts": "Όλες οι Αναρτήσεις"

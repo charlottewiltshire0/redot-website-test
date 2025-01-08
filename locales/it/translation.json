@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "Tutti i post",
-    "searchPlaceholder": "Cerca..."
+    "searchPlaceholder": "Cerca...",
+    "noPostsFound": {
+      "title": "Articolo non trovato",
+      "description": "L'articolo che stai cercando non è stato trovato."
+    }
   },
   "tags": {
     "tagAllPosts": "Tutti i post"

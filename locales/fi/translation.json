@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "Kaikki artikkelit",
-    "searchPlaceholder": "Etsi..."
+    "searchPlaceholder": "Etsi...",
+    "noPostsFound": {
+      "title": "Artikkelia ei löytynyt",
+      "description": "Etsimääsi artikkelia ei löytynyt."
+    }
   },
   "tags": {
     "tagAllPosts": "Kaikki artikkelit"

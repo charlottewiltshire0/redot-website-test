@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "Alla inlägg",
-    "searchPlaceholder": "Sök..."
+    "searchPlaceholder": "Sök...",
+    "noPostsFound": {
+      "title": "Artikel ej funnen",
+      "description": "Artikeln du söker kunde inte hittas."
+    }
   },
   "tags": {
     "tagAllPosts": "Alla inlägg"

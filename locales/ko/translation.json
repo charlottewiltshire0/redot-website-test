@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "모든 게시물",
-    "searchPlaceholder": "검색..."
+    "searchPlaceholder": "검색...",
+    "noPostsFound": {
+      "title": "게시물을 찾을 수 없음",
+      "description": "찾고 있는 게시물을 찾을 수 없습니다."
+    }
   },
   "tags": {
     "tagAllPosts": "모든 게시물"

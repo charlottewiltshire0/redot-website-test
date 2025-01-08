@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "Усі пости",
-    "searchPlaceholder": "Пошук..."
+    "searchPlaceholder": "Пошук...",
+    "noPostsFound": {
+      "title": "Стаття не знайдена",
+      "description": "Стаття, яку ви шукаєте, не знайдена."
+    }
   },
   "tags": {
     "tagAllPosts": "Усі пости"

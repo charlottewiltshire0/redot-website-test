@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "Tất cả bài viết",
-    "searchPlaceholder": "Tìm kiếm..."
+    "searchPlaceholder": "Tìm kiếm...",
+    "noPostsFound": {
+      "title": "Không tìm thấy bài viết",
+      "description": "Bài viết bạn đang tìm kiếm không thể tìm thấy."
+    }
   },
   "tags": {
     "tagAllPosts": "Tất cả bài viết"

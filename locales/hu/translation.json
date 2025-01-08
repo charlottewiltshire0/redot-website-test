@@ -187,7 +187,11 @@
   },
   "blog": {
     "allPosts": "Minden bejegyzés",
-    "searchPlaceholder": "Keresés..."
+    "searchPlaceholder": "Keresés...",
+    "noPostsFound": {
+      "title": "Cikk nem található",
+      "description": "A keresett cikk nem található."
+    }
   },
   "tags": {
     "tagAllPosts": "Minden bejegyzés"

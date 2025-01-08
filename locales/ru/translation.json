@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "Все записи",
-    "searchPlaceholder": "Поиск..."
+    "searchPlaceholder": "Поиск...",
+    "noPostsFound": {
+      "title": "Статья не найдена",
+      "description": "Статья, которую вы ищете, не найдена."
+    }
   },
   "tags": {
     "tagAllPosts": "Все записи"

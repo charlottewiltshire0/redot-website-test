@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "All Posts",
-    "searchPlaceholder": "Search..."
+    "searchPlaceholder": "Search...",
+    "noPostsFound": {
+      "title": "Article Not Found",
+      "description": "The article you are looking for could not be found."
+    }
   },
   "tags": {
     "tagAllPosts": "All Posts"

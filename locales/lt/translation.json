@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "Visi įrašai",
-    "searchPlaceholder": "Ieškoti..."
+    "searchPlaceholder": "Ieškoti...",
+    "noPostsFound": {
+      "title": "Straipsnis nerastas",
+      "description": "Straipsnio, kurio ieškote, nepavyko rasti."
+    }
   },
   "tags": {
     "tagAllPosts": "Visi įrašai"

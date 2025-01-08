@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "Toate Postările",
-    "searchPlaceholder": "Căutare..."
+    "searchPlaceholder": "Căutare...",
+    "noPostsFound": {
+      "title": "Articolul nu a fost găsit",
+      "description": "Articolul pe care îl căutați nu a fost găsit."
+    }
   },
   "tags": {
     "tagAllPosts": "Toate Postările"

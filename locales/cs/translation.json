@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "Všechny příspěvky",
-    "searchPlaceholder": "Hledat..."
+    "searchPlaceholder": "Hledat...",
+    "noPostsFound": {
+      "title": "Článek nenalezen",
+      "description": "Článek, který hledáte, nebyl nalezen."
+    }
   },
   "tags": {
     "tagAllPosts": "Všechny příspěvky"

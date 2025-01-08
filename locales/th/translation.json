@@ -191,7 +191,11 @@
   },
   "blog": {
     "allPosts": "โพสต์ทั้งหมด",
-    "searchPlaceholder": "ค้นหา..."
+    "searchPlaceholder": "ค้นหา...",
+    "noPostsFound": {
+      "title": "ไม่พบบทความ",
+      "description": "ไม่สามารถหาบทความที่คุณกำลังมองหาได้"
+    }
   },
   "tags": {
     "tagAllPosts": "โพสต์ทั้งหมด"

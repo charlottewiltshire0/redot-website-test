@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "Alle Beiträge",
-    "searchPlaceholder": "Suchen..."
+    "searchPlaceholder": "Suchen...",
+    "noPostsFound": {
+      "title": "Artikel Nicht Gefunden",
+      "description": "Der Artikel, den Sie suchen, konnte nicht gefunden werden."
+    }
   },
   "tags": {
     "tagAllPosts": "Alle Beiträge"

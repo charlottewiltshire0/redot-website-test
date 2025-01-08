@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "Svi postovi",
-    "searchPlaceholder": "Pretraži..."
+    "searchPlaceholder": "Pretraži...",
+    "noPostsFound": {
+      "title": "Članak nije pronađen",
+      "description": "Članak koji tražite nije pronađen."
+    }
   },
   "tags": {
     "tagAllPosts": "Svi postovi"

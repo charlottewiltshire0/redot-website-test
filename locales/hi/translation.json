@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "सभी पोस्ट",
-    "searchPlaceholder": "खोजें..."
+    "searchPlaceholder": "खोजें...",
+    "noPostsFound": {
+      "title": "लेख नहीं मिला",
+      "description": "जिस लेख को आप ढूंढ रहे हैं, वह नहीं मिला।"
+    }
   },
   "tags": {
     "tagAllPosts": "सभी पोस्ट"

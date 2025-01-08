@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "Tüm Yazılar",
-    "searchPlaceholder": "Ara..."
+    "searchPlaceholder": "Ara...",
+    "noPostsFound": {
+      "title": "Makale Bulunamadı",
+      "description": "Aradığınız makale bulunamadı."
+    }
   },
   "tags": {
     "tagAllPosts": "Tüm Yazılar"

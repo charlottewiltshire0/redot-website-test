@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "所有文章",
-    "searchPlaceholder": "搜尋..."
+    "searchPlaceholder": "搜尋...",
+    "noPostsFound": {
+      "title": "文章未找到",
+      "description": "找不到您正在尋找的文章。"
+    }
   },
   "tags": {
     "tagAllPosts": "所有文章"

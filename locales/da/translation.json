@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "Alle indlæg",
-    "searchPlaceholder": "Søg..."
+    "searchPlaceholder": "Søg...",
+    "noPostsFound": {
+      "title": "Artikel ikke fundet",
+      "description": "Den artikel, du leder efter, kunne ikke findes."
+    }
   },
   "tags": {
     "tagAllPosts": "Alle indlæg"

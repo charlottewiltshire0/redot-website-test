@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "Alle berichten",
-    "searchPlaceholder": "Zoeken..."
+    "searchPlaceholder": "Zoeken...",
+    "noPostsFound": {
+      "title": "Artikel niet gevonden",
+      "description": "Het artikel dat je zoekt kon niet worden gevonden."
+    }
   },
   "tags": {
     "tagAllPosts": "Alle berichten"
