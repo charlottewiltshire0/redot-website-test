@@ -238,5 +238,36 @@
     "badge": "",
     "title": "Licenze",
     "description": "Redot Engine utilizza librerie e font open-source, ciascuno con la propria licenza, elencata su questa pagina."
+  },
+  "community": {
+    "badge": "",
+    "title": "Comunità",
+    "description": "Redot Engine ha una comunità vivace dove gli sviluppatori condividono idee.",
+    "socialPlatforms": "Piattaforme Social",
+    "communitySpaces": "Spazi Comunitari",
+    "supportAndContributions": "Supporto e Contributi",
+    "socialLinks": {
+      "reddit": "Discussioni e aggiornamenti.",
+      "youtube": "Tutorial e vetrine.",
+      "x": "Ultime notizie e annunci.",
+      "xCommunity": "Unisciti alle discussioni su X.",
+      "linkedin": "Aggiornamenti professionali.",
+      "bsky": "Aggiornamenti social alternativi."
+    },
+    "communitySpacesLinks": {
+      "discord": "Chatta e collabora.",
+      "discordCommunity": "Esplora eventi della comunità."
+    },
+    "contributionsLinks": {
+      "kofi": "Sostienici direttamente.",
+      "itch": "Scarica ed esplora progetti.",
+      "github": "Progetti di sviluppo principali.",
+      "engineExperimental": "Funzionalità e progetti sperimentali."
+    }
+  },
+  "underConstruction": {
+    "title": "Pagina in costruzione",
+    "description": "Stiamo lavorando duramente dietro le quinte. Forse anche più della macchina del caffè!",
+    "backButton": "Indietro"
   }
 }

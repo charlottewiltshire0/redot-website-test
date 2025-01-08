@@ -238,5 +238,36 @@
     "badge": "",
     "title": "Licenser",
     "description": "Redot Engine använder öppen källkodsbibliotek och teckensnitt, var och en med sin egen licens, listade på den här sidan."
+  },
+  "community": {
+    "badge": "",
+    "title": "Gemenskap",
+    "description": "Redot Engine har en livlig gemenskap där utvecklare delar idéer.",
+    "socialPlatforms": "Sociala plattformar",
+    "communitySpaces": "Gemenskapsutrymmen",
+    "supportAndContributions": "Stöd och bidrag",
+    "socialLinks": {
+      "reddit": "Diskussioner och uppdateringar.",
+      "youtube": "Tutorials och presentationer.",
+      "x": "Senaste nyheter och tillkännagivanden.",
+      "xCommunity": "Gå med i diskussioner på X.",
+      "linkedin": "Professionella uppdateringar.",
+      "bsky": "Alternativa sociala uppdateringar."
+    },
+    "communitySpacesLinks": {
+      "discord": "Chatt och samarbeta.",
+      "discordCommunity": "Utforska gemenskapsarrangemang."
+    },
+    "contributionsLinks": {
+      "kofi": "Stöd oss direkt.",
+      "itch": "Ladda ner och utforska projekt.",
+      "github": "Huvudutvecklingsprojekt.",
+      "engineExperimental": "Experimentella funktioner och projekt."
+    }
+  },
+  "underConstruction": {
+    "title": "Sidan är under konstruktion",
+    "description": "Vi arbetar hårt bakom kulisserna. Kanske till och med mer än kaffemaskinen!",
+    "backButton": "Tillbaka"
   }
 }

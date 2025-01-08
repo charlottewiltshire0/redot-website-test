@@ -238,5 +238,36 @@
     "badge": "",
     "title": "Licence",
     "description": "Redot Engine využívá open-source knihovny a fonty, z nichž každá má vlastní licenci, uvedenou na této stránce."
+  },
+  "community": {
+    "badge": "",
+    "title": "Komunita",
+    "description": "Redot Engine má živou komunitu, kde si vývojáři vyměňují nápady.",
+    "socialPlatforms": "Sociální platformy",
+    "communitySpaces": "Komunitní prostory",
+    "supportAndContributions": "Podpora a příspěvky",
+    "socialLinks": {
+      "reddit": "Diskuze a novinky.",
+      "youtube": "Tutoriály a ukázky.",
+      "x": "Nejnovější zprávy a oznámení.",
+      "xCommunity": "Připojte se k diskuzím na X.",
+      "linkedin": "Profesní novinky.",
+      "bsky": "Alternativní sociální novinky."
+    },
+    "communitySpacesLinks": {
+      "discord": "Chatujte a spolupracujte.",
+      "discordCommunity": "Prozkoumejte komunitní akce."
+    },
+    "contributionsLinks": {
+      "kofi": "Podpořte nás přímo.",
+      "itch": "Stahujte a zkoumejte projekty.",
+      "github": "Projekty jádrového vývoje.",
+      "engineExperimental": "Experimentální funkce a projekty."
+    }
+  },
+  "underConstruction": {
+    "title": "Stránka je ve výstavbě",
+    "description": "Usilovně pracujeme v pozadí. Možná více než kávovar!",
+    "backButton": "Zpět"
   }
 }

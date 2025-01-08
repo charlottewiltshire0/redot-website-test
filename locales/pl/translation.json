@@ -238,5 +238,36 @@
     "badge": "",
     "title": "Licencje",
     "description": "Silnik Redot korzysta z bibliotek open-source i czcionek, z których każda ma swoją własną licencję, wymienioną na tej stronie."
+  },
+  "community": {
+    "badge": "",
+    "title": "Społeczność",
+    "description": "Redot Engine ma dynamiczną społeczność, w której deweloperzy dzielą się pomysłami.",
+    "socialPlatforms": "Platformy społecznościowe",
+    "communitySpaces": "Przestrzenie społecznościowe",
+    "supportAndContributions": "Wsparcie i Wkład",
+    "socialLinks": {
+      "reddit": "Dyskusje i aktualizacje.",
+      "youtube": "Poradniki i prezentacje.",
+      "x": "Najświeższe wiadomości i ogłoszenia.",
+      "xCommunity": "Dołącz do dyskusji na X.",
+      "linkedin": "Aktualności zawodowe.",
+      "bsky": "Alternatywne aktualizacje społecznościowe."
+    },
+    "communitySpacesLinks": {
+      "discord": "Czat i współpraca.",
+      "discordCommunity": "Poznaj wydarzenia społecznościowe."
+    },
+    "contributionsLinks": {
+      "kofi": "Wspomóż nas bezpośrednio.",
+      "itch": "Pobierz i odkrywaj projekty.",
+      "github": "Główne projekty deweloperskie.",
+      "engineExperimental": "Eksperymentalne funkcje i projekty."
+    }
+  },
+  "underConstruction": {
+    "title": "Strona w budowie",
+    "description": "Pracujemy ciężko za kulisami. Może nawet więcej niż ekspres do kawy!",
+    "backButton": "Wróć"
   }
 }

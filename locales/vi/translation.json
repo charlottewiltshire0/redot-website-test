@@ -238,5 +238,36 @@
     "badge": "",
     "title": "Giấy phép",
     "description": "Redot Engine sử dụng các thư viện mã nguồn mở và phông chữ, mỗi thư viện có giấy phép riêng, được liệt kê trên trang này."
+  },
+  "community": {
+    "badge": "",
+    "title": "Cộng Đồng",
+    "description": "Redot Engine có một cộng đồng sôi động nơi các nhà phát triển chia sẻ ý tưởng.",
+    "socialPlatforms": "Nền Tảng Xã Hội",
+    "communitySpaces": "Không Gian Cộng Đồng",
+    "supportAndContributions": "Hỗ Trợ và Đóng Góp",
+    "socialLinks": {
+      "reddit": "Thảo luận và cập nhật.",
+      "youtube": "Hướng dẫn và giới thiệu.",
+      "x": "Tin tức và thông báo mới nhất.",
+      "xCommunity": "Tham gia thảo luận trên X.",
+      "linkedin": "Cập nhật chuyên môn.",
+      "bsky": "Cập nhật xã hội thay thế."
+    },
+    "communitySpacesLinks": {
+      "discord": "Trò chuyện và hợp tác.",
+      "discordCommunity": "Khám phá các sự kiện cộng đồng."
+    },
+    "contributionsLinks": {
+      "kofi": "Hỗ trợ chúng tôi trực tiếp.",
+      "itch": "Tải xuống và khám phá các dự án.",
+      "github": "Các dự án phát triển cốt lõi.",
+      "engineExperimental": "Các tính năng và dự án thử nghiệm."
+    }
+  },
+  "underConstruction": {
+    "title": "Trang đang xây dựng",
+    "description": "Chúng tôi đang làm việc chăm chỉ phía sau hậu trường. Có thể là nhiều hơn cả máy pha cà phê!",
+    "backButton": "Quay lại"
   }
 }

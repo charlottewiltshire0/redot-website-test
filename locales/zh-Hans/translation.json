@@ -238,5 +238,36 @@
     "badge": "",
     "title": "许可证",
     "description": "Redot引擎使用开源库和字体，每个都有自己的许可证，具体列在此页面上。"
+  },
+  "community": {
+    "badge": "",
+    "title": "社区",
+    "description": "Redot Engine 拥有一个充满活力的社区，开发者们在这里分享想法。",
+    "socialPlatforms": "社交平台",
+    "communitySpaces": "社区空间",
+    "supportAndContributions": "支持与贡献",
+    "socialLinks": {
+      "reddit": "讨论和更新。",
+      "youtube": "教程和展示。",
+      "x": "最新消息和公告。",
+      "xCommunity": "加入 X 上的讨论。",
+      "linkedin": "专业更新。",
+      "bsky": "替代社交更新。"
+    },
+    "communitySpacesLinks": {
+      "discord": "聊天和协作。",
+      "discordCommunity": "探索社区活动。"
+    },
+    "contributionsLinks": {
+      "kofi": "直接支持我们。",
+      "itch": "下载并探索项目。",
+      "github": "核心开发项目。",
+      "engineExperimental": "实验性功能和项目。"
+    }
+  },
+  "underConstruction": {
+    "title": "页面建设中",
+    "description": "我们正在幕后努力工作。也许比咖啡机还要努力！",
+    "backButton": "返回"
   }
 }

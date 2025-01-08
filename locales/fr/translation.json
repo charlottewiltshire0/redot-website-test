@@ -238,5 +238,36 @@
     "badge": "",
     "title": "Licences",
     "description": "Redot Engine utilise des bibliothèques open-source et des polices, chacune ayant sa propre licence, listée sur cette page."
+  },
+  "community": {
+    "badge": "",
+    "title": "Communauté",
+    "description": "Redot Engine dispose d'une communauté dynamique où les développeurs partagent leurs idées.",
+    "socialPlatforms": "Plateformes sociales",
+    "communitySpaces": "Espaces communautaires",
+    "supportAndContributions": "Soutien et contributions",
+    "socialLinks": {
+      "reddit": "Discussions et mises à jour.",
+      "youtube": "Tutoriels et présentations.",
+      "x": "Dernières nouvelles et annonces.",
+      "xCommunity": "Rejoignez les discussions sur X.",
+      "linkedin": "Mises à jour professionnelles.",
+      "bsky": "Mises à jour alternatives sociales."
+    },
+    "communitySpacesLinks": {
+      "discord": "Discutez et collaborez.",
+      "discordCommunity": "Découvrez les événements communautaires."
+    },
+    "contributionsLinks": {
+      "kofi": "Soutenez-nous directement.",
+      "itch": "Téléchargez et explorez des projets.",
+      "github": "Projets de développement principal.",
+      "engineExperimental": "Fonctionnalités et projets expérimentaux."
+    }
+  },
+  "underConstruction": {
+    "title": "Page en construction",
+    "description": "Nous travaillons dur en coulisses. Peut-être même plus que la machine à café !",
+    "backButton": "Retour"
   }
 }

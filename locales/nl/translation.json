@@ -238,5 +238,36 @@
     "badge": "",
     "title": "Licenties",
     "description": "Redot Engine maakt gebruik van open-source bibliotheken en lettertypen, elk met zijn eigen licentie, vermeld op deze pagina."
+  },
+  "community": {
+    "badge": "",
+    "title": "Gemeenschap",
+    "description": "Redot Engine heeft een levendige gemeenschap waar ontwikkelaars ideeën delen.",
+    "socialPlatforms": "Sociale platforms",
+    "communitySpaces": "Gemeenschapsruimtes",
+    "supportAndContributions": "Ondersteuning en bijdragen",
+    "socialLinks": {
+      "reddit": "Discussies en updates.",
+      "youtube": "Tutorials en showcases.",
+      "x": "Laatste nieuws en aankondigingen.",
+      "xCommunity": "Doe mee aan discussies op X.",
+      "linkedin": "Professionele updates.",
+      "bsky": "Alternatieve sociale updates."
+    },
+    "communitySpacesLinks": {
+      "discord": "Chatten en samenwerken.",
+      "discordCommunity": "Ontdek gemeenschapsevenementen."
+    },
+    "contributionsLinks": {
+      "kofi": "Steun ons direct.",
+      "itch": "Download en verken projecten.",
+      "github": "Core development projecten.",
+      "engineExperimental": "Experimentele functies en projecten."
+    }
+  },
+  "underConstruction": {
+    "title": "Pagina in aanbouw",
+    "description": "We werken hard achter de schermen. Misschien zelfs meer dan de koffiezetapparaat!",
+    "backButton": "Terug"
   }
 }
