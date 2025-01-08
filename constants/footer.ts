@@ -53,7 +53,7 @@ export const footer: Footer[] = [
       },
       {
         title: "betaPrograms.children.engineExperimental",
-        href: "https://github.com/Redot-Experimental",
+        href: links.engineExperimental,
       },
     ],
   },

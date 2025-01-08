@@ -1,5 +1,6 @@
 export const links = {
   github: "https://github.com/Redot-Engine",
+  engineExperimental: "https://github.com/Redot-Experimental",
   releasePage: "https://github.com/Redot-Engine/redot-engine/releases",
   status: "https://redotengine.instatus.com/",
   documentation: "https://docs.redotengine.org/",
