@@ -18,11 +18,10 @@
     "buttons": {
       "primary": "Holen Sie sich die Redot Engine für {os}",
       "secondary": "Redot Engine Dokumentation erkunden"
-    },
-    "bannerMessage": "🎉 Die stabile Version ist da"
+    }
   },
   "productShowcaseSection": {
-    "badge": "🪁 Unterstützt deine Spielentwicklung",
+    "badge": "⚡ Aufgeladen",
     "title": "Unterstützt deine<br />Spielentwicklung",
     "description": "Entfessle endlose Möglichkeiten mit unserer flexiblen und leistungsstarken Game Engine für jeden Entwickler."
   },
@@ -256,11 +255,13 @@
       "x": "Neueste Nachrichten und Ankündigungen.",
       "xCommunity": "Diskussionen auf X beitreten.",
       "linkedin": "Berufliche Updates.",
-      "bsky": "Alternative soziale Updates."
+      "bsky": "Alternative soziale Updates.",
+      "tiktok": "Schnelle Tipps und Highlights."
     },
     "communitySpacesLinks": {
       "discord": "Chatten und zusammenarbeiten.",
-      "discordCommunity": "Community-Events erkunden."
+      "discordCommunity": "Community-Events erkunden.",
+      "forum": "Teilen Sie Ideen und vernetzen Sie sich."
     },
     "contributionsLinks": {
       "kofi": "Unterstützen Sie uns direkt.",

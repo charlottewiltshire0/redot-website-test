@@ -18,11 +18,10 @@
     "buttons": {
       "primary": "Baixar Redot Engine para {os}",
       "secondary": "Explorar Documentação do Redot Engine"
-    },
-    "bannerMessage": "🎉 A versão estável chegou"
+    }
   },
   "productShowcaseSection": {
-    "badge": "🪁 Impulsionando Seu Desenvolvimento de Jogos",
+    "badge": "⚡ Impulsionado",
     "title": "Impulsionando Seu<br />Desenvolvimento de Jogos",
     "description": "Desbloqueie possibilidades infinitas com nosso motor de jogo flexível e de alto desempenho para todo criador."
   },
@@ -256,11 +255,13 @@
       "x": "Últimas notícias e anúncios.",
       "xCommunity": "Participe das discussões no X.",
       "linkedin": "Atualizações profissionais.",
-      "bsky": "Atualizações de redes sociais alternativas."
+      "bsky": "Atualizações de redes sociais alternativas.",
+      "tiktok": "Dicas rápidas e destaques."
     },
     "communitySpacesLinks": {
       "discord": "Converse e colabore.",
-      "discordCommunity": "Explore eventos da comunidade."
+      "discordCommunity": "Explore eventos da comunidade.",
+      "forum": "Compartilhe ideias e conecte-se."
     },
     "contributionsLinks": {
       "kofi": "Apoie-nos diretamente.",

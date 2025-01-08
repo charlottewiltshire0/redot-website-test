@@ -18,11 +18,10 @@
     "buttons": {
       "primary": "Redotエンジンを{os}用に取得",
       "secondary": "Redot Engineのドキュメントを探索"
-    },
-    "bannerMessage": "🎉 安定版が登場"
+    }
   },
   "productShowcaseSection": {
-    "badge": "🪁 あなたのゲーム開発をサポート",
+    "badge": "⚡ パワーアップ",
     "title": "あなたの<br />ゲーム開発をサポート",
     "description": "柔軟で高性能なゲームエンジンで、すべてのクリエイターに無限の可能性を開きます。"
   },
@@ -256,11 +255,13 @@
       "x": "最新のニュースとアナウンス。",
       "xCommunity": "Xでディスカッションに参加。",
       "linkedin": "プロフェッショナルな更新。",
-      "bsky": "代替のソーシャルアップデート。"
+      "bsky": "代替のソーシャルアップデート。",
+      "tiktok": "クイックヒントとハイライト。"
     },
     "communitySpacesLinks": {
       "discord": "チャットとコラボレーション。",
-      "discordCommunity": "コミュニティイベントを探る。"
+      "discordCommunity": "コミュニティイベントを探る。",
+      "forum": "アイデアを共有し、つながる。"
     },
     "contributionsLinks": {
       "kofi": "直接サポートする。",
