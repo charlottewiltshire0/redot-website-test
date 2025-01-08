@@ -18,11 +18,10 @@
     "buttons": {
       "primary": "Gaukite Redot Engine for {os}",
       "secondary": "Tyrinėti Redot Engine Dokumentaciją"
-    },
-    "bannerMessage": "🎉 Stabilioji versija čia"
+    }
   },
   "productShowcaseSection": {
-    "badge": "🪁 Skatina Jūsų Žaidimų Kūrybą",
+    "badge": "⚡ Sustiprinta",
     "title": "Skatina Jūsų<br />Žaidimų Kūrybą",
     "description": "Atraskite begalines galimybes su mūsų lanksčiu ir aukštos kokybės žaidimų varikliu kiekvienam kūrėjui."
   },
@@ -256,11 +255,13 @@
       "x": "Paskutinės naujienos ir pranešimai.",
       "xCommunity": "Prisijunkite prie diskusijų X platformoje.",
       "linkedin": "Profesionalūs atnaujinimai.",
-      "bsky": "Alternatyvūs socialiniai atnaujinimai."
+      "bsky": "Alternatyvūs socialiniai atnaujinimai.",
+      "tiktok": "Greiti patarimai ir akcentai."
     },
     "communitySpacesLinks": {
       "discord": "Bendraukite ir bendradarbiaukite.",
-      "discordCommunity": "Tyrinėkite bendruomenės renginius."
+      "discordCommunity": "Tyrinėkite bendruomenės renginius.",
+      "forum": "Dalinkitės idėjomis ir bendraukite."
     },
     "contributionsLinks": {
       "kofi": "Palaikykite mus tiesiogiai.",

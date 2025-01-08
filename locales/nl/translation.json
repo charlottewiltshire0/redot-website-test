@@ -18,11 +18,10 @@
     "buttons": {
       "primary": "Krijg de Redot Engine voor {os}",
       "secondary": "Verken Redot Engine Docs"
-    },
-    "bannerMessage": "🎉 Stabiele versie is hier"
+    }
   },
   "productShowcaseSection": {
-    "badge": "🪁 Je Game Ontwikkeling Aansteken",
+    "badge": "⚡ Opgevoerd",
     "title": "Aansteken Je<br />Game Ontwikkeling",
     "description": "Ontgrendel eindeloze mogelijkheden met onze flexibele en krachtige game engine voor elke maker."
   },
@@ -256,11 +255,13 @@
       "x": "Laatste nieuws en aankondigingen.",
       "xCommunity": "Doe mee aan discussies op X.",
       "linkedin": "Professionele updates.",
-      "bsky": "Alternatieve sociale updates."
+      "bsky": "Alternatieve sociale updates.",
+      "tiktok": "Snelle tips en hoogtepunten."
     },
     "communitySpacesLinks": {
       "discord": "Chatten en samenwerken.",
-      "discordCommunity": "Ontdek gemeenschapsevenementen."
+      "discordCommunity": "Ontdek gemeenschapsevenementen.",
+      "forum": "Deel ideeën en verbind."
     },
     "contributionsLinks": {
       "kofi": "Steun ons direct.",

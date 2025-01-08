@@ -18,11 +18,10 @@
     "buttons": {
       "primary": "Redot 엔진 가져오기 {os}",
       "secondary": "Redot Engine 문서 탐색"
-    },
-    "bannerMessage": "🎉 안정 버전이 출시되었습니다"
+    }
   },
   "productShowcaseSection": {
-    "badge": "🪁 게임 개발을 지원합니다",
+    "badge": "⚡ 강화됨",
     "title": "게임 개발을 지원합니다",
     "description": "모든 창작자를 위한 유연하고 고성능의 게임 엔진으로 무한한 가능성을 열어보세요."
   },
@@ -256,11 +255,13 @@
       "x": "최신 뉴스 및 공지사항.",
       "xCommunity": "X에서 토론에 참여하세요.",
       "linkedin": "전문적인 업데이트.",
-      "bsky": "대체 소셜 업데이트."
+      "bsky": "대체 소셜 업데이트.",
+      "tiktok": "빠른 팁과 하이라이트."
     },
     "communitySpacesLinks": {
       "discord": "채팅 및 협업.",
-      "discordCommunity": "커뮤니티 이벤트 탐색."
+      "discordCommunity": "커뮤니티 이벤트 탐색.",
+      "forum": "아이디어를 공유하고 소통하세요."
     },
     "contributionsLinks": {
       "kofi": "직접 지원하기.",

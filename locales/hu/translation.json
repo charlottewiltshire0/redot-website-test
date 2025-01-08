@@ -18,11 +18,10 @@
     "buttons": {
       "primary": "Szerezze be a Redot Engine-t a(z) {os} rendszerhez",
       "secondary": "Fedezd fel a Redot Engine dokumentációt"
-    },
-    "bannerMessage": "🎉 A stabil verzió itt van"
+    }
   },
   "productShowcaseSection": {
-    "badge": "🪁 A Te Játékfejlesztésedet Erősíti",
+    "badge": "⚡ Felturbózva",
     "title": "Erősíti A<br />Játékfejlesztésedet",
     "description": "Fedezd fel a végtelen lehetőségeket a rugalmas és nagy teljesítményű játék motorunkkal minden fejlesztő számára."
   },
@@ -253,11 +252,13 @@
       "x": "Legfrissebb hírek és bejelentések.",
       "xCommunity": "Csatlakozz a beszélgetésekhez az X-en.",
       "linkedin": "Professzionális frissítések.",
-      "bsky": "Alternatív közösségi frissítések."
+      "bsky": "Alternatív közösségi frissítések.",
+      "tiktok": "Gyors tippek és kiemelések."
     },
     "communitySpacesLinks": {
       "discord": "Csevegj és együttműködj.",
-      "discordCommunity": "Fedezd fel a közösségi eseményeket."
+      "discordCommunity": "Fedezd fel a közösségi eseményeket.",
+      "forum": "Ossza meg ötleteit és kapcsolódjon."
     },
     "contributionsLinks": {
       "kofi": "Támogass minket közvetlenül.",

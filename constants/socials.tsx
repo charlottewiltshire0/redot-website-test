@@ -41,6 +41,7 @@ export const socialsLinks = {
   kofi: "https://ko-fi.com/redotengine",
   bsky: "https://bsky.app/profile/redotengine.org",
   itch: "https://redotengine.itch.io/",
+  tiktok: "https://www.tiktok.com/@redotengine",
 };
 
 export const communityLinks: CommunityCardProps[] = [
@@ -80,6 +81,12 @@ export const communityLinks: CommunityCardProps[] = [
     description: "socialLinks.bsky",
     href: socialsLinks.bsky,
   },
+  {
+    imageUrl: "https://image.redotengine.org/socials/tiktok.png",
+    label: "Tiktok",
+    description: "socialLinks.tiktok",
+    href: socialsLinks.tiktok,
+  },
 ];
 
 export const communitySpaces: CommunityCardProps[] = [
@@ -94,6 +101,12 @@ export const communitySpaces: CommunityCardProps[] = [
     label: "Discord Community",
     description: "communitySpacesLinks.discord",
     href: socialsLinks.discordCommunity,
+  },
+  {
+    imageUrl: "https://image.redotengine.org/socials/forum.png",
+    label: "Forum",
+    description: "communitySpacesLinks.forum",
+    href: links.forum,
   },
 ];
 

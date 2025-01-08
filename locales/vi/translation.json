@@ -18,11 +18,10 @@
     "buttons": {
       "primary": "Tải Redot Engine cho {os}",
       "secondary": "Khám phá Tài liệu Redot Engine"
-    },
-    "bannerMessage": "🎉 Phiên bản ổn định đã có mặt"
+    }
   },
   "productShowcaseSection": {
-    "badge": "🪁 Tiếp Nối Sự Phát Triển Game Của Bạn",
+    "badge": "⚡ Tăng cường",
     "title": "Tiếp Nối Sự Phát Triển<br />Game Của Bạn",
     "description": "Mở khóa vô vàn khả năng với engine game linh hoạt và hiệu suất cao dành cho mọi nhà sáng tạo."
   },
@@ -256,11 +255,13 @@
       "x": "Tin tức và thông báo mới nhất.",
       "xCommunity": "Tham gia thảo luận trên X.",
       "linkedin": "Cập nhật chuyên môn.",
-      "bsky": "Cập nhật xã hội thay thế."
+      "bsky": "Cập nhật xã hội thay thế.",
+      "tiktok": "Mẹo nhanh và điểm nổi bật."
     },
     "communitySpacesLinks": {
       "discord": "Trò chuyện và hợp tác.",
-      "discordCommunity": "Khám phá các sự kiện cộng đồng."
+      "discordCommunity": "Khám phá các sự kiện cộng đồng.",
+      "forum": "Chia sẻ ý tưởng và kết nối."
     },
     "contributionsLinks": {
       "kofi": "Hỗ trợ chúng tôi trực tiếp.",

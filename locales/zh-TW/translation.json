@@ -18,11 +18,10 @@
     "buttons": {
       "primary": "獲取 Redot 引擎適用於 {os}",
       "secondary": "探索 Redot Engine 文件"
-    },
-    "bannerMessage": "🎉 穩定版已經來臨"
+    }
   },
   "productShowcaseSection": {
-    "badge": "🪁 驅動您的遊戲開發",
+    "badge": "⚡ 增強",
     "title": "驅動您的<br />遊戲開發",
     "description": "利用我們靈活且高效能的遊戲引擎，開啟無盡可能性，為每位創作者提供支持。"
   },
@@ -256,11 +255,13 @@
       "x": "最新消息與公告。",
       "xCommunity": "加入 X 上的討論。",
       "linkedin": "專業更新。",
-      "bsky": "替代社交更新。"
+      "bsky": "替代社交更新。",
+      "tiktok": "快速提示和亮點。"
     },
     "communitySpacesLinks": {
       "discord": "聊天與協作。",
-      "discordCommunity": "探索社群活動。"
+      "discordCommunity": "探索社群活動。",
+      "forum": "分享想法並進行交流。"
     },
     "contributionsLinks": {
       "kofi": "直接支持我們。",

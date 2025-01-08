@@ -18,11 +18,10 @@
     "buttons": {
       "primary": "Obține Redot Engine pentru {os}",
       "secondary": "Explorează Documentația Redot Engine"
-    },
-    "bannerMessage": "🎉 Versiunea stabilă este aici"
+    }
   },
   "productShowcaseSection": {
-    "badge": "🪁 Puterea dezvoltării jocurilor tale",
+    "badge": "⚡ Îmbunătățit",
     "title": "Puterea dezvoltării<br />Jocurilor tale",
     "description": "Deblochează posibilități infinite cu motorul nostru de jocuri flexibil și performant pentru fiecare creator."
   },
@@ -256,11 +255,13 @@
       "x": "Știri și anunțuri recente.",
       "xCommunity": "Alăturați-vă discuțiilor pe X.",
       "linkedin": "Actualizări profesionale.",
-      "bsky": "Actualizări alternative ale rețelelor sociale."
+      "bsky": "Actualizări alternative ale rețelelor sociale.",
+      "tiktok": "Sfaturi rapide și momente importante."
     },
     "communitySpacesLinks": {
       "discord": "Discuții și colaborare.",
-      "discordCommunity": "Explorați evenimentele comunității."
+      "discordCommunity": "Explorați evenimentele comunității.",
+      "forum": "Împărtășiți idei și conectați-vă."
     },
     "contributionsLinks": {
       "kofi": "Susține-ne direct.",

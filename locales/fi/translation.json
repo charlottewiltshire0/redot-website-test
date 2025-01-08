@@ -18,11 +18,10 @@
     "buttons": {
       "primary": "Hanki Redot Engine versiolle {os}",
       "secondary": "Tutustu Redot Engine -dokumentaatioon"
-    },
-    "bannerMessage": "🎉 Vakaa versio on täällä"
+    }
   },
   "productShowcaseSection": {
-    "badge": "🪁 Pelin kehityksesi voimaantulo",
+    "badge": "⚡ Täynnä virtaa",
     "title": "Pelisi kehitys<br />Voimaantulo",
     "description": "Avaa loputtomat mahdollisuudet joustavalla ja suorituskykyisellä pelimoottorilla kaikille luojille."
   },
@@ -256,11 +255,13 @@
       "x": "Viimeisimmät uutiset ja ilmoitukset.",
       "xCommunity": "Liity keskusteluihin X:ssä.",
       "linkedin": "Ammatilliset päivitykset.",
-      "bsky": "Vaihtoehtoiset sosiaaliset päivitykset."
+      "bsky": "Vaihtoehtoiset sosiaaliset päivitykset.",
+      "tiktok": "Nopeat vinkit ja kohokohdat."
     },
     "communitySpacesLinks": {
       "discord": "Keskustele ja tee yhteistyötä.",
-      "discordCommunity": "Tutustu yhteisötapahtumiin."
+      "discordCommunity": "Tutustu yhteisötapahtumiin.",
+      "forum": "Jaa ideoita ja yhdistä."
     },
     "contributionsLinks": {
       "kofi": "Tue meitä suoraan.",
