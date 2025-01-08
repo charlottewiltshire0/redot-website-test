@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "Visi įrašai",
-    "searchPlaceholder": "Ieškoti..."
+    "searchPlaceholder": "Ieškoti...",
+    "noPostsFound": {
+      "title": "Straipsnis nerastas",
+      "description": "Straipsnio, kurio ieškote, nepavyko rasti."
+    }
   },
   "tags": {
     "tagAllPosts": "Visi įrašai"
@@ -238,5 +242,36 @@
     "badge": "",
     "title": "Licencijos",
     "description": "Redot Engine naudoja atvirojo kodo bibliotekas ir šriftus, kiekvienas turi savo licenciją, kuri pateikta šioje puslapio dalyje."
+  },
+  "community": {
+    "badge": "",
+    "title": "Bendruomenė",
+    "description": "Redot Engine turi gyvybingą bendruomenę, kurioje kūrėjai dalijasi idėjomis.",
+    "socialPlatforms": "Socialinės platformos",
+    "communitySpaces": "Bendruomenės erdvės",
+    "supportAndContributions": "Parama ir indėliai",
+    "socialLinks": {
+      "reddit": "Diskusijos ir atnaujinimai.",
+      "youtube": "Pamokos ir demonstracijos.",
+      "x": "Paskutinės naujienos ir pranešimai.",
+      "xCommunity": "Prisijunkite prie diskusijų X platformoje.",
+      "linkedin": "Profesionalūs atnaujinimai.",
+      "bsky": "Alternatyvūs socialiniai atnaujinimai."
+    },
+    "communitySpacesLinks": {
+      "discord": "Bendraukite ir bendradarbiaukite.",
+      "discordCommunity": "Tyrinėkite bendruomenės renginius."
+    },
+    "contributionsLinks": {
+      "kofi": "Palaikykite mus tiesiogiai.",
+      "itch": "Atsisiųskite ir tyrinėkite projektus.",
+      "github": "Pagrindiniai kūrimo projektai.",
+      "engineExperimental": "Eksperimentinės funkcijos ir projektai."
+    }
+  },
+  "underConstruction": {
+    "title": "Puslapis kuriamas",
+    "description": "Mes sunkiai dirbame užkulisiuose. Galbūt net daugiau nei kavos aparatas!",
+    "backButton": "Atgal"
   }
 }

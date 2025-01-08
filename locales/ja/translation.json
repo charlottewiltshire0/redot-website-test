@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "すべての投稿",
-    "searchPlaceholder": "検索..."
+    "searchPlaceholder": "検索...",
+    "noPostsFound": {
+      "title": "記事が見つかりません",
+      "description": "お探しの記事が見つかりませんでした。"
+    }
   },
   "tags": {
     "tagAllPosts": "すべての投稿"
@@ -238,5 +242,36 @@
     "badge": "",
     "title": "ライセンス",
     "description": "Redot Engineはオープンソースのライブラリとフォントを使用しており、それぞれに独自のライセンスがあります。詳細はこのページに記載されています。"
+  },
+  "community": {
+    "badge": "",
+    "title": "コミュニティ",
+    "description": "Redot Engineには、開発者がアイデアを共有する活発なコミュニティがあります。",
+    "socialPlatforms": "ソーシャルプラットフォーム",
+    "communitySpaces": "コミュニティスペース",
+    "supportAndContributions": "サポートと貢献",
+    "socialLinks": {
+      "reddit": "ディスカッションと更新。",
+      "youtube": "チュートリアルとショーケース。",
+      "x": "最新のニュースとアナウンス。",
+      "xCommunity": "Xでディスカッションに参加。",
+      "linkedin": "プロフェッショナルな更新。",
+      "bsky": "代替のソーシャルアップデート。"
+    },
+    "communitySpacesLinks": {
+      "discord": "チャットとコラボレーション。",
+      "discordCommunity": "コミュニティイベントを探る。"
+    },
+    "contributionsLinks": {
+      "kofi": "直接サポートする。",
+      "itch": "プロジェクトをダウンロードして探求。",
+      "github": "コア開発プロジェクト。",
+      "engineExperimental": "実験的な機能とプロジェクト。"
+    }
+  },
+  "underConstruction": {
+    "title": "ページの作成中",
+    "description": "私たちは舞台裏で一生懸命働いています。おそらくコーヒーマシンよりも多く！",
+    "backButton": "戻る"
   }
 }

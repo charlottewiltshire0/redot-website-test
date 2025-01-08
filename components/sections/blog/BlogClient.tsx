@@ -12,6 +12,7 @@ import { motion } from "motion/react";
 import { getPosts } from "@/lib/blog";
 import { sanitizeInput } from "@/lib/utils";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 export default function BlogClient({
   posts: initialPosts,
@@ -105,51 +106,74 @@ export default function BlogClient({
         />
       </div>
       <div>
-        <div className="mb-28">
-          <LatestBlogHero latestBlog={latestBlog} isLoading={false} />
-        </div>
-
-        <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2">
-          {posts.slice(0, 4).map((post, index) => (
-            <motion.div
-              key={post.slug.current}
-              initial={{ opacity: 0 }}
-              animate={inView ? { opacity: 1 } : {}}
-              transition={{
-                duration: 0.6,
-                delay: index * 0.2,
-              }}
-            >
-              <div className="hidden h-full md:block">
-                <ArticleCard article={post} />
-              </div>
-              <div className="block md:hidden">
-                <ArticleCard article={post} size="small" />
-              </div>
-            </motion.div>
-          ))}
-        </div>
-
-        {posts.length > 4 && (
-          <div className="mt-8 grid w-full grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {posts.slice(4).map((post, index) => (
-              <motion.div
-                key={post.slug.current}
-                initial={{ opacity: 0 }}
-                animate={inView ? { opacity: 1 } : {}}
-                transition={{
-                  duration: 0.6,
-                  delay: (index + 4) * 0.2,
-                }}
-              >
-                <ArticleCard
-                  key={post.slug.current}
-                  size="small"
-                  article={post}
-                />
-              </motion.div>
-            ))}
+        {!selectedTag && !search && latestBlog && (
+          <div className="mb-28">
+            <LatestBlogHero latestBlog={latestBlog} isLoading={false} />
           </div>
+        )}
+
+        {posts.length === 0 ? (
+          <div className="mt-8 flex flex-col items-center justify-center gap-4 py-4">
+            <Image
+              src="https://image.redotengine.org/redotchan.png"
+              alt="Redotchan"
+              width={160}
+              height={160}
+            />
+            <div className="flex flex-col">
+              <h2 className="mt-5 text-center text-4xl font-bold tracking-tighter md:text-[54px] md:leading-[60px]">
+                {t("noPostsFound.title")}
+              </h2>
+              <p className="mt-5 text-center text-xl tracking-tighter text-black/60 md:text-[22px] md:leading-[30px]">
+                {t("noPostsFound.description")}
+              </p>
+            </div>
+          </div>
+        ) : (
+          <>
+            <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2">
+              {posts.slice(0, 4).map((post, index) => (
+                <motion.div
+                  key={post.slug.current}
+                  initial={{ opacity: 0 }}
+                  animate={inView ? { opacity: 1 } : {}}
+                  transition={{
+                    duration: 0.6,
+                    delay: index * 0.2,
+                  }}
+                >
+                  <div className="hidden h-full md:block">
+                    <ArticleCard article={post} />
+                  </div>
+                  <div className="block md:hidden">
+                    <ArticleCard article={post} size="small" />
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+
+            {posts.length > 4 && (
+              <div className="mt-8 grid w-full grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+                {posts.slice(4).map((post, index) => (
+                  <motion.div
+                    key={post.slug.current}
+                    initial={{ opacity: 0 }}
+                    animate={inView ? { opacity: 1 } : {}}
+                    transition={{
+                      duration: 0.6,
+                      delay: (index + 4) * 0.2,
+                    }}
+                  >
+                    <ArticleCard
+                      key={post.slug.current}
+                      size="small"
+                      article={post}
+                    />
+                  </motion.div>
+                ))}
+              </div>
+            )}
+          </>
         )}
       </div>
     </section>

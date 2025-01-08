@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "Tüm Yazılar",
-    "searchPlaceholder": "Ara..."
+    "searchPlaceholder": "Ara...",
+    "noPostsFound": {
+      "title": "Makale Bulunamadı",
+      "description": "Aradığınız makale bulunamadı."
+    }
   },
   "tags": {
     "tagAllPosts": "Tüm Yazılar"
@@ -238,5 +242,36 @@
     "badge": "",
     "title": "Lisanslar",
     "description": "Redot Engine, her biri kendi lisansına sahip açık kaynaklı kütüphaneler ve yazı tipleri kullanmaktadır. Bu sayfada listelenmiştir."
+  },
+  "community": {
+    "badge": "",
+    "title": "Topluluk",
+    "description": "Redot Engine, geliştiricilerin fikirlerini paylaştığı canlı bir topluluğa sahiptir.",
+    "socialPlatforms": "Sosyal Platformlar",
+    "communitySpaces": "Topluluk Alanları",
+    "supportAndContributions": "Destek ve Katkılar",
+    "socialLinks": {
+      "reddit": "Tartışmalar ve güncellemeler.",
+      "youtube": "Eğitimler ve sergiler.",
+      "x": "Son haberler ve duyurular.",
+      "xCommunity": "X'teki tartışmalara katılın.",
+      "linkedin": "Profesyonel güncellemeler.",
+      "bsky": "Alternatif sosyal güncellemeler."
+    },
+    "communitySpacesLinks": {
+      "discord": "Sohbet edin ve işbirliği yapın.",
+      "discordCommunity": "Topluluk etkinliklerini keşfedin."
+    },
+    "contributionsLinks": {
+      "kofi": "Bizi doğrudan destekleyin.",
+      "itch": "Projeleri indirin ve keşfedin.",
+      "github": "Temel geliştirme projeleri.",
+      "engineExperimental": "Deneysel özellikler ve projeler."
+    }
+  },
+  "underConstruction": {
+    "title": "Sayfa Yapım Aşamasında",
+    "description": "Perdelerin arkasında yoğun bir şekilde çalışıyoruz. Belki de kahve makinesinden daha fazla!",
+    "backButton": "Geri"
   }
 }

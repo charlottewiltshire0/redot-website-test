@@ -187,7 +187,11 @@
   },
   "blog": {
     "allPosts": "Minden bejegyzés",
-    "searchPlaceholder": "Keresés..."
+    "searchPlaceholder": "Keresés...",
+    "noPostsFound": {
+      "title": "Cikk nem található",
+      "description": "A keresett cikk nem található."
+    }
   },
   "tags": {
     "tagAllPosts": "Minden bejegyzés"
@@ -235,5 +239,36 @@
     "badge": "",
     "title": "Licenszek",
     "description": "A Redot Engine nyílt forráskódú könyvtárakat és betűtípusokat használ, mindegyik saját licenccel, amelyeket ezen az oldalon találhatsz."
+  },
+  "community": {
+    "badge": "",
+    "title": "Közösség",
+    "description": "A Redot Engine élénk közösséggel rendelkezik, ahol a fejlesztők megosztják ötleteiket.",
+    "socialPlatforms": "Közösségi Platformok",
+    "communitySpaces": "Közösségi Terek",
+    "supportAndContributions": "Támogatás és Hozzájárulások",
+    "socialLinks": {
+      "reddit": "Vita és frissítések.",
+      "youtube": "Útmutatók és bemutatók.",
+      "x": "Legfrissebb hírek és bejelentések.",
+      "xCommunity": "Csatlakozz a beszélgetésekhez az X-en.",
+      "linkedin": "Professzionális frissítések.",
+      "bsky": "Alternatív közösségi frissítések."
+    },
+    "communitySpacesLinks": {
+      "discord": "Csevegj és együttműködj.",
+      "discordCommunity": "Fedezd fel a közösségi eseményeket."
+    },
+    "contributionsLinks": {
+      "kofi": "Támogass minket közvetlenül.",
+      "itch": "Töltsd le és fedezd fel a projekteket.",
+      "github": "Alapvető fejlesztési projektek.",
+      "engineExperimental": "Kísérleti funkciók és projektek."
+    }
+  },
+  "underConstruction": {
+    "title": "Az oldal fejlesztés alatt",
+    "description": "Keményen dolgozunk a háttérben. Talán még többet is, mint a kávéfőző!",
+    "backButton": "Vissza"
   }
 }

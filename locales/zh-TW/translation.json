@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "所有文章",
-    "searchPlaceholder": "搜尋..."
+    "searchPlaceholder": "搜尋...",
+    "noPostsFound": {
+      "title": "文章未找到",
+      "description": "找不到您正在尋找的文章。"
+    }
   },
   "tags": {
     "tagAllPosts": "所有文章"
@@ -238,5 +242,36 @@
     "badge": "",
     "title": "許可證",
     "description": "Redot 引擎使用開源庫和字體，每個都有自己的許可證，詳情請見此頁面。"
+  },
+  "community": {
+    "badge": "",
+    "title": "社群",
+    "description": "Redot Engine 擁有一個充滿活力的社群，開發者在這裡分享想法。",
+    "socialPlatforms": "社交平台",
+    "communitySpaces": "社群空間",
+    "supportAndContributions": "支持與貢獻",
+    "socialLinks": {
+      "reddit": "討論與更新。",
+      "youtube": "教學與展示。",
+      "x": "最新消息與公告。",
+      "xCommunity": "加入 X 上的討論。",
+      "linkedin": "專業更新。",
+      "bsky": "替代社交更新。"
+    },
+    "communitySpacesLinks": {
+      "discord": "聊天與協作。",
+      "discordCommunity": "探索社群活動。"
+    },
+    "contributionsLinks": {
+      "kofi": "直接支持我們。",
+      "itch": "下載並探索專案。",
+      "github": "核心開發專案。",
+      "engineExperimental": "實驗性功能與專案。"
+    }
+  },
+  "underConstruction": {
+    "title": "頁面建設中",
+    "description": "我們正在幕後努力工作。或許比咖啡機還要努力！",
+    "backButton": "返回"
   }
 }

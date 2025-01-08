@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "Alle Beiträge",
-    "searchPlaceholder": "Suchen..."
+    "searchPlaceholder": "Suchen...",
+    "noPostsFound": {
+      "title": "Artikel Nicht Gefunden",
+      "description": "Der Artikel, den Sie suchen, konnte nicht gefunden werden."
+    }
   },
   "tags": {
     "tagAllPosts": "Alle Beiträge"
@@ -238,5 +242,36 @@
     "badge": "",
     "title": "Lizenzen",
     "description": "Die Redot Engine verwendet Open-Source-Bibliotheken und Schriftarten, die jeweils ihre eigene Lizenz haben, die auf dieser Seite aufgeführt ist."
+  },
+  "community": {
+    "badge": "",
+    "title": "Community",
+    "description": "Redot Engine hat eine lebendige Community, in der Entwickler Ideen austauschen.",
+    "socialPlatforms": "Soziale Plattformen",
+    "communitySpaces": "Community-Räume",
+    "supportAndContributions": "Unterstützung und Beiträge",
+    "socialLinks": {
+      "reddit": "Diskussionen und Updates.",
+      "youtube": "Tutorials und Präsentationen.",
+      "x": "Neueste Nachrichten und Ankündigungen.",
+      "xCommunity": "Diskussionen auf X beitreten.",
+      "linkedin": "Berufliche Updates.",
+      "bsky": "Alternative soziale Updates."
+    },
+    "communitySpacesLinks": {
+      "discord": "Chatten und zusammenarbeiten.",
+      "discordCommunity": "Community-Events erkunden."
+    },
+    "contributionsLinks": {
+      "kofi": "Unterstützen Sie uns direkt.",
+      "itch": "Projekte herunterladen und erkunden.",
+      "github": "Kernentwicklungsprojekte.",
+      "engineExperimental": "Experimentelle Funktionen und Projekte."
+    }
+  },
+  "underConstruction": {
+    "title": "Seite wird gerade gebaut",
+    "description": "Wir arbeiten hart im Hintergrund. Vielleicht sogar mehr als die Kaffeemaschine!",
+    "backButton": "Zurück"
   }
 }

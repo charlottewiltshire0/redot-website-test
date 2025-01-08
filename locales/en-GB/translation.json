@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "All Posts",
-    "searchPlaceholder": "Search..."
+    "searchPlaceholder": "Search...",
+    "noPostsFound": {
+      "title": "Article Not Found",
+      "description": "The article you are looking for could not be found."
+    }
   },
   "tags": {
     "tagAllPosts": "All Posts"
@@ -238,5 +242,36 @@
     "badge": "",
     "title": "Licenses",
     "description": "Redot Engine uses open-source libraries and fonts, each with its own licence, listed on this page."
+  },
+  "community": {
+    "badge": "",
+    "title": "Community",
+    "description": "Redot Engine boasts a vibrant community where developers exchange ideas.",
+    "socialPlatforms": "Social Platforms",
+    "communitySpaces": "Community Spaces",
+    "supportAndContributions": "Support and Contributions",
+    "socialLinks": {
+      "reddit": "Discussions and updates.",
+      "youtube": "Tutorials and showcases.",
+      "x": "Latest news and announcements.",
+      "xCommunity": "Join discussions on X.",
+      "linkedin": "Professional updates.",
+      "bsky": "Alternative social updates."
+    },
+    "communitySpacesLinks": {
+      "discord": "Chat and collaborate.",
+      "discordCommunity": "Explore community events."
+    },
+    "contributionsLinks": {
+      "kofi": "Support us directly.",
+      "itch": "Download and explore projects.",
+      "github": "Core development projects.",
+      "engineExperimental": "Experimental features and projects."
+    }
+  },
+  "underConstruction": {
+    "title": "Page Under Construction",
+    "description": "We're working hard behind the scenes. Maybe even more than the coffee machine!",
+    "backButton": "Back"
   }
 }

@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "Kaikki artikkelit",
-    "searchPlaceholder": "Etsi..."
+    "searchPlaceholder": "Etsi...",
+    "noPostsFound": {
+      "title": "Artikkelia ei löytynyt",
+      "description": "Etsimääsi artikkelia ei löytynyt."
+    }
   },
   "tags": {
     "tagAllPosts": "Kaikki artikkelit"
@@ -238,5 +242,36 @@
     "badge": "",
     "title": "Lisenssit",
     "description": "Redot Engine käyttää avoimen lähdekoodin kirjastoja ja fontteja, joilla kaikilla on oma lisenssinsä, jotka on lueteltu tällä sivulla."
+  },
+  "community": {
+    "badge": "",
+    "title": "Yhteisö",
+    "description": "Redot Engineillä on elinvoimainen yhteisö, jossa kehittäjät jakavat ideoitaan.",
+    "socialPlatforms": "Sosiaaliset alustat",
+    "communitySpaces": "Yhteisötilat",
+    "supportAndContributions": "Tuki ja osallistuminen",
+    "socialLinks": {
+      "reddit": "Keskusteluja ja päivityksiä.",
+      "youtube": "Ohjeita ja esittelyjä.",
+      "x": "Viimeisimmät uutiset ja ilmoitukset.",
+      "xCommunity": "Liity keskusteluihin X:ssä.",
+      "linkedin": "Ammatilliset päivitykset.",
+      "bsky": "Vaihtoehtoiset sosiaaliset päivitykset."
+    },
+    "communitySpacesLinks": {
+      "discord": "Keskustele ja tee yhteistyötä.",
+      "discordCommunity": "Tutustu yhteisötapahtumiin."
+    },
+    "contributionsLinks": {
+      "kofi": "Tue meitä suoraan.",
+      "itch": "Lataa ja tutustu projekteihin.",
+      "github": "Ydinkehitysprojekteja.",
+      "engineExperimental": "Kokeelliset ominaisuudet ja projektit."
+    }
+  },
+  "underConstruction": {
+    "title": "Sivu on rakenteilla",
+    "description": "Työskentelemme ahkerasti kulissien takana. Ehkä jopa enemmän kuin kahvinkeitin!",
+    "backButton": "Takaisin"
   }
 }

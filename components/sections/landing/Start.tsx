@@ -11,6 +11,7 @@ export const Start = () => {
         {
           href: links.documentation,
           labelKey: "startSection.buttons.documentation",
+          variant: "link",
         },
       ]}
     />

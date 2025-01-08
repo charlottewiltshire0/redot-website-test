@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "Todos os Posts",
-    "searchPlaceholder": "Pesquisar..."
+    "searchPlaceholder": "Pesquisar...",
+    "noPostsFound": {
+      "title": "Artigo não encontrado",
+      "description": "O artigo que você está procurando não pôde ser encontrado."
+    }
   },
   "tags": {
     "tagAllPosts": "Todos os Posts"
@@ -238,5 +242,36 @@
     "badge": "",
     "title": "Licenças",
     "description": "O Redot Engine usa bibliotecas e fontes open-source, cada uma com sua própria licença, listada nesta página."
+  },
+  "community": {
+    "badge": "",
+    "title": "Comunidade",
+    "description": "O Redot Engine tem uma comunidade vibrante onde desenvolvedores compartilham ideias.",
+    "socialPlatforms": "Plataformas Sociais",
+    "communitySpaces": "Espaços da Comunidade",
+    "supportAndContributions": "Apoio e Contribuições",
+    "socialLinks": {
+      "reddit": "Discussões e atualizações.",
+      "youtube": "Tutoriais e demonstrações.",
+      "x": "Últimas notícias e anúncios.",
+      "xCommunity": "Participe das discussões no X.",
+      "linkedin": "Atualizações profissionais.",
+      "bsky": "Atualizações de redes sociais alternativas."
+    },
+    "communitySpacesLinks": {
+      "discord": "Converse e colabore.",
+      "discordCommunity": "Explore eventos da comunidade."
+    },
+    "contributionsLinks": {
+      "kofi": "Apoie-nos diretamente.",
+      "itch": "Baixe e explore projetos.",
+      "github": "Projetos de desenvolvimento principal.",
+      "engineExperimental": "Recursos e projetos experimentais."
+    }
+  },
+  "underConstruction": {
+    "title": "Página em construção",
+    "description": "Estamos trabalhando arduamente nos bastidores. Talvez até mais do que a máquina de café!",
+    "backButton": "Voltar"
   }
 }

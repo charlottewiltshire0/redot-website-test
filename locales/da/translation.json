@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "Alle indlæg",
-    "searchPlaceholder": "Søg..."
+    "searchPlaceholder": "Søg...",
+    "noPostsFound": {
+      "title": "Artikel ikke fundet",
+      "description": "Den artikel, du leder efter, kunne ikke findes."
+    }
   },
   "tags": {
     "tagAllPosts": "Alle indlæg"
@@ -238,5 +242,36 @@
     "badge": "",
     "title": "Licenser",
     "description": "Redot Engine bruger open-source biblioteker og skrifttyper, hver med deres egen licens, som er angivet på denne side."
+  },
+  "community": {
+    "badge": "",
+    "title": "Fællesskab",
+    "description": "Redot Engine har et levende fællesskab, hvor udviklere deler idéer.",
+    "socialPlatforms": "Sociale Platforme",
+    "communitySpaces": "Fællesskabsrum",
+    "supportAndContributions": "Støtte og Bidrag",
+    "socialLinks": {
+      "reddit": "Diskussioner og opdateringer.",
+      "youtube": "Vejledninger og præsentationer.",
+      "x": "Seneste nyheder og annonceringer.",
+      "xCommunity": "Deltag i diskussioner på X.",
+      "linkedin": "Professionelle opdateringer.",
+      "bsky": "Alternative sociale opdateringer."
+    },
+    "communitySpacesLinks": {
+      "discord": "Chat og samarbejd.",
+      "discordCommunity": "Udforsk fællesskabsbegivenheder."
+    },
+    "contributionsLinks": {
+      "kofi": "Støt os direkte.",
+      "itch": "Download og udforsk projekter.",
+      "github": "Kerneudviklingsprojekter.",
+      "engineExperimental": "Eksperimentelle funktioner og projekter."
+    }
+  },
+  "underConstruction": {
+    "title": "Siden er under opbygning",
+    "description": "Vi arbejder hårdt bag kulisserne. Måske endda mere end kaffemaskinen!",
+    "backButton": "Tilbage"
   }
 }

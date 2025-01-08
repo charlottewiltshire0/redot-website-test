@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "Svi postovi",
-    "searchPlaceholder": "Pretraži..."
+    "searchPlaceholder": "Pretraži...",
+    "noPostsFound": {
+      "title": "Članak nije pronađen",
+      "description": "Članak koji tražite nije pronađen."
+    }
   },
   "tags": {
     "tagAllPosts": "Svi postovi"
@@ -238,5 +242,36 @@
     "badge": "",
     "title": "Licence",
     "description": "Redot Engine koristi open-source biblioteke i fontove, svaki s vlastitom licencom, navedenim na ovoj stranici."
+  },
+  "community": {
+    "badge": "",
+    "title": "Zajednica",
+    "description": "Redot Engine ima živahnu zajednicu u kojoj programeri dijele ideje.",
+    "socialPlatforms": "Društvene platforme",
+    "communitySpaces": "Prostori zajednice",
+    "supportAndContributions": "Podrška i doprinosi",
+    "socialLinks": {
+      "reddit": "Rasprave i ažuriranja.",
+      "youtube": "Tutoriali i prikazi.",
+      "x": "Najnovije vijesti i najave.",
+      "xCommunity": "Pridruži se raspravama na X-u.",
+      "linkedin": "Profesionalna ažuriranja.",
+      "bsky": "Alternativna društvena ažuriranja."
+    },
+    "communitySpacesLinks": {
+      "discord": "Razgovaraj i surađuj.",
+      "discordCommunity": "Istraži događaje zajednice."
+    },
+    "contributionsLinks": {
+      "kofi": "Podrži nas izravno.",
+      "itch": "Preuzmi i istraži projekte.",
+      "github": "Glavni razvojni projekti.",
+      "engineExperimental": "Eksperimentalne značajke i projekti."
+    }
+  },
+  "underConstruction": {
+    "title": "Stranica u izradi",
+    "description": "Naporno radimo iza kulisa. Možda čak više od aparata za kavu!",
+    "backButton": "Natrag"
   }
 }

@@ -11,6 +11,14 @@ import { cn } from "@/lib/utils";
 interface ButtonLink {
   readonly href: string;
   readonly labelKey: string;
+  readonly variant?:
+    | "default"
+    | "link"
+    | "destructive"
+    | "outline"
+    | "secondary"
+    | "ghost"
+    | null;
 }
 
 interface SectionWithButtonsProps {
@@ -67,7 +75,7 @@ export const SectionWithButtons = ({
           </motion.p>
 
           <div className="mt-[38px] flex flex-col items-center justify-center gap-1 md:flex-row">
-            {buttonLinks.map(({ href, labelKey }, index) => (
+            {buttonLinks.map(({ href, labelKey, variant }, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
@@ -75,7 +83,7 @@ export const SectionWithButtons = ({
                 transition={{ duration: 0.6, delay: 0.1 * (index + 1) }}
                 className="w-full md:w-auto"
               >
-                <Button className="w-full md:w-auto" asChild>
+                <Button className="w-full md:w-auto" variant={variant} asChild>
                   <Link href={href}>
                     {t(labelKey)}
                     {index === 1 && <IconArrowRight className="h-5 w-5" />}

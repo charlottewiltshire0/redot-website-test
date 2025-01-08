@@ -190,7 +190,11 @@
   },
   "blog": {
     "allPosts": "Toate Postările",
-    "searchPlaceholder": "Căutare..."
+    "searchPlaceholder": "Căutare...",
+    "noPostsFound": {
+      "title": "Articolul nu a fost găsit",
+      "description": "Articolul pe care îl căutați nu a fost găsit."
+    }
   },
   "tags": {
     "tagAllPosts": "Toate Postările"
@@ -238,5 +242,36 @@
     "badge": "",
     "title": "Licențe",
     "description": "Redot Engine folosește biblioteci și fonturi open-source, fiecare cu licența sa proprie, listată pe această pagină."
+  },
+  "community": {
+    "badge": "",
+    "title": "Comunitate",
+    "description": "Redot Engine are o comunitate vibrantă unde dezvoltatorii împărtășesc idei.",
+    "socialPlatforms": "Platforme Sociale",
+    "communitySpaces": "Spații Comunitare",
+    "supportAndContributions": "Suport și Contribuții",
+    "socialLinks": {
+      "reddit": "Discuții și actualizări.",
+      "youtube": "Tutoriale și prezentări.",
+      "x": "Știri și anunțuri recente.",
+      "xCommunity": "Alăturați-vă discuțiilor pe X.",
+      "linkedin": "Actualizări profesionale.",
+      "bsky": "Actualizări alternative ale rețelelor sociale."
+    },
+    "communitySpacesLinks": {
+      "discord": "Discuții și colaborare.",
+      "discordCommunity": "Explorați evenimentele comunității."
+    },
+    "contributionsLinks": {
+      "kofi": "Susține-ne direct.",
+      "itch": "Descarcă și explorează proiectele.",
+      "github": "Proiecte de dezvoltare principală.",
+      "engineExperimental": "Funcționalități și proiecte experimentale."
+    }
+  },
+  "underConstruction": {
+    "title": "Pagina în construcție",
+    "description": "Lucrăm din greu în spatele scenei. Poate chiar mai mult decât mașina de cafea!",
+    "backButton": "Înapoi"
   }
 }
