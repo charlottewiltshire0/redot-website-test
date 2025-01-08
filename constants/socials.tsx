@@ -41,7 +41,7 @@ export const socialsLinks = {
   kofi: "https://ko-fi.com/redotengine",
   bsky: "https://bsky.app/profile/redotengine.org",
   itch: "https://redotengine.itch.io/",
-  tiktok: "https://www.tiktok.com/@redotengine"
+  tiktok: "https://www.tiktok.com/@redotengine",
 };
 
 export const communityLinks: CommunityCardProps[] = [

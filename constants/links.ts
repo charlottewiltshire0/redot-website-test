@@ -12,5 +12,5 @@ export const links = {
   donation: "https://ko-fi.com/redotengine",
   feedback: "https://forum.redotengine.org/t/feedback",
   academy: "https://academy.redotengine.com/",
-  forum: "https://forum.redotengine.org/"
+  forum: "https://forum.redotengine.org/",
 };
