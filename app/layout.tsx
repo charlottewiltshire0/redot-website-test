@@ -34,7 +34,11 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} suppressHydrationWarning>
+    <html
+      lang={locale}
+      suppressHydrationWarning
+      className="scrollbar-thin scrollbar-thumb-zinc-700 scrollbar-track-transparent overflow-y-scroll"
+    >
       <head>
         <link rel="preconnect" href="https://image.redotengine.org" />
       </head>
