@@ -179,6 +179,7 @@
   box-sizing: content-box;
   border-radius: 0.5rem;
   aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 .article code,
