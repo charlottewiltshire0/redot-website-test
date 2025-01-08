@@ -42,6 +42,7 @@ export default async function DownloadPlatform({
           {
             href: links.documentation,
             labelKey: "downloadHelp.buttons.documentation",
+            variant: "link",
           },
         ]}
       />
