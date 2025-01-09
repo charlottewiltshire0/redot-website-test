@@ -39,24 +39,24 @@ export const footer: Footer[] = [
       { title: "resources.children.contact", href: "/contact" },
     ],
   },
-  {
-    title: "betaPrograms.title",
-    children: [
-      {
-        title: "betaPrograms.children.launcher",
-        href: "https://github.com/Redot-Experimental/launcher",
-      },
-      {
-        title: "betaPrograms.children.academy",
-        href: links.academy,
-        newTab: true,
-      },
-      {
-        title: "betaPrograms.children.engineExperimental",
-        href: links.engineExperimental,
-      },
-    ],
-  },
+  // {
+  //   title: "betaPrograms.title",
+  //   children: [
+  //     {
+  //       title: "betaPrograms.children.launcher",
+  //       href: "https://github.com/Redot-Experimental/launcher",
+  //     },
+  //     {
+  //       title: "betaPrograms.children.academy",
+  //       href: links.academy,
+  //       newTab: true,
+  //     },
+  //     {
+  //       title: "betaPrograms.children.engineExperimental",
+  //       href: links.engineExperimental,
+  //     },
+  //   ],
+  // },
   {
     title: "policies.title",
     children: [
