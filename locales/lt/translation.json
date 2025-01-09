@@ -274,5 +274,15 @@
     "title": "Puslapis kuriamas",
     "description": "Mes sunkiai dirbame užkulisiuose. Galbūt net daugiau nei kavos aparatas!",
     "backButton": "Atgal"
+  },
+  "privacy": {
+    "badge": "",
+    "title": "Privatumo politika",
+    "description": "Sužinokite, kaip mes saugome jūsų duomenis ir užtikriname jūsų privatumą su aiškia politika."
+  },
+  "terms": {
+    "badge": "",
+    "title": "Paslaugų teikimo sąlygos",
+    "description": "Supraskite taisykles ir gaires, kaip naudotis mūsų paslaugomis mūsų Paslaugų teikimo sąlygose."
   }
 }

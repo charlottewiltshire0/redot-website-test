@@ -274,5 +274,15 @@
     "title": "Page en construction",
     "description": "Nous travaillons dur en coulisses. Peut-être même plus que la machine à café !",
     "backButton": "Retour"
+  },
+  "privacy": {
+    "badge": "",
+    "title": "Politique de confidentialité",
+    "description": "Découvrez comment nous protégeons vos données et garantissons votre confidentialité grâce à notre politique claire."
+  },
+  "terms": {
+    "badge": "",
+    "title": "Conditions d'utilisation",
+    "description": "Comprenez les règles et les directives d'utilisation de nos services dans nos Conditions d'utilisation."
   }
 }

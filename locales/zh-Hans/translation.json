@@ -274,5 +274,15 @@
     "title": "页面建设中",
     "description": "我们正在幕后努力工作。也许比咖啡机还要努力！",
     "backButton": "返回"
+  },
+  "privacy": {
+    "badge": "",
+    "title": "隐私政策",
+    "description": "了解我们如何保护您的数据并通过明确的政策确保您的隐私。"
+  },
+  "terms": {
+    "badge": "",
+    "title": "服务条款",
+    "description": "了解如何使用我们的服务以及我们的服务条款中的规则和指南。"
   }
 }

@@ -274,5 +274,15 @@
     "title": "Siden er under bygging",
     "description": "Vi jobber hardt bak kulissene. Kanskje til og med mer enn kaffemaskinen!",
     "backButton": "Tilbake"
+  },
+  "privacy": {
+    "badge": "",
+    "title": "Personvernpolicy",
+    "description": "Lær hvordan vi beskytter dataene dine og sikrer personvernet ditt med vår tydelige policy."
+  },
+  "terms": {
+    "badge": "",
+    "title": "Tjenestevilkår",
+    "description": "Forstå reglene og retningslinjene for bruk av våre tjenester i våre Tjenestevilkår."
   }
 }

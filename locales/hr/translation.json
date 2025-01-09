@@ -274,5 +274,15 @@
     "title": "Stranica u izradi",
     "description": "Naporno radimo iza kulisa. Možda čak više od aparata za kavu!",
     "backButton": "Natrag"
+  },
+  "privacy": {
+    "badge": "",
+    "title": "Politika privatnosti",
+    "description": "Saznajte kako štitimo vaše podatke i osiguravamo vašu privatnost s našom jasnom politikom."
+  },
+  "terms": {
+    "badge": "",
+    "title": "Uvjeti usluge",
+    "description": "Razumite pravila i smjernice za korištenje naših usluga u našim Uvjetima usluge."
   }
 }

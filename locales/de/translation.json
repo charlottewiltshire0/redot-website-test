@@ -274,5 +274,15 @@
     "title": "Seite wird gerade gebaut",
     "description": "Wir arbeiten hart im Hintergrund. Vielleicht sogar mehr als die Kaffeemaschine!",
     "backButton": "Zurück"
+  },
+  "privacy": {
+    "badge": "",
+    "title": "Datenschutzrichtlinie",
+    "description": "Erfahren Sie, wie wir Ihre Daten schützen und Ihre Privatsphäre mit unserer klaren Richtlinie gewährleisten."
+  },
+  "terms": {
+    "badge": "",
+    "title": "Nutzungsbedingungen",
+    "description": "Verstehen Sie die Regeln und Richtlinien für die Nutzung unserer Dienste in unseren Nutzungsbedingungen."
   }
 }

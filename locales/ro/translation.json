@@ -274,5 +274,15 @@
     "title": "Pagina în construcție",
     "description": "Lucrăm din greu în spatele scenei. Poate chiar mai mult decât mașina de cafea!",
     "backButton": "Înapoi"
+  },
+  "privacy": {
+    "badge": "",
+    "title": "Politica de confidențialitate",
+    "description": "Aflați cum protejăm datele dumneavoastră și vă asigurăm confidențialitatea cu politica noastră clară."
+  },
+  "terms": {
+    "badge": "",
+    "title": "Termeni și condiții",
+    "description": "Înțelegeți regulile și ghidurile pentru utilizarea serviciilor noastre în Termenii și condițiile noastre."
   }
 }

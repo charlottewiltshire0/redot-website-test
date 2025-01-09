@@ -274,5 +274,15 @@
     "title": "Sayfa Yapım Aşamasında",
     "description": "Perdelerin arkasında yoğun bir şekilde çalışıyoruz. Belki de kahve makinesinden daha fazla!",
     "backButton": "Geri"
+  },
+  "privacy": {
+    "badge": "",
+    "title": "Gizlilik Politikası",
+    "description": "Verilerinizi nasıl koruduğumuzu ve açık politikamızla gizliliğinizi nasıl sağladığımızı öğrenin."
+  },
+  "terms": {
+    "badge": "",
+    "title": "Hizmet Şartları",
+    "description": "Hizmetlerimizi kullanmak için kurallar ve yönergeleri Hizmet Şartlarımızda anlayın."
   }
 }

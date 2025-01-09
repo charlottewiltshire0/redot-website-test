@@ -274,5 +274,15 @@
     "title": "Stránka je ve výstavbě",
     "description": "Usilovně pracujeme v pozadí. Možná více než kávovar!",
     "backButton": "Zpět"
+  },
+  "privacy": {
+    "badge": "",
+    "title": "Zásady ochrany osobních údajů",
+    "description": "Zjistěte, jak chráníme vaše data a zajišťujeme vaše soukromí našimi jasnými zásadami."
+  },
+  "terms": {
+    "badge": "",
+    "title": "Podmínky služby",
+    "description": "Pochopte pravidla a pokyny pro používání našich služeb v našich Podmínkách služby."
   }
 }
