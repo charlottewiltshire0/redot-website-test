@@ -9,13 +9,17 @@ export const ArticleContent = ({ article }: { article: Post }) => {
   const [contentHtml, setContentHtml] = useState("");
 
   useEffect(() => {
-    const processContent = async () => {
-      const processedContent = await remark().use(html).process(article.body);
-      setContentHtml(processedContent.toString());
-    };
+    if (typeof window !== "undefined") {
+      // Now we are sure the code runs only in the browser
+      const processContent = async () => {
+        const processedContent = await remark().use(html).process(article.body);
+        setContentHtml(processedContent.toString());
+      };
 
-    processContent();
+      processContent();
+    }
   }, [article]);
+
   return (
     <div>
       <article
