@@ -18,11 +18,10 @@
     "buttons": {
       "primary": "Stáhněte si Redot Engine pro {os}",
       "secondary": "Prozkoumat dokumentaci Redot Engine"
-    },
-    "bannerMessage": "🎉 Stabilní verze je zde"
+    }
   },
   "productShowcaseSection": {
-    "badge": "🪁 Pohání váš herní vývoj",
+    "badge": "⚡ Nabito",
     "title": "Pohání váš<br />herní vývoj",
     "description": "Odemkněte nekonečné možnosti s naším flexibilním a výkonným herním enginem pro každého tvůrce."
   },
@@ -256,11 +255,13 @@
       "x": "Nejnovější zprávy a oznámení.",
       "xCommunity": "Připojte se k diskuzím na X.",
       "linkedin": "Profesní novinky.",
-      "bsky": "Alternativní sociální novinky."
+      "bsky": "Alternativní sociální novinky.",
+      "tiktok": "Rychlé tipy a zajímavosti."
     },
     "communitySpacesLinks": {
       "discord": "Chatujte a spolupracujte.",
-      "discordCommunity": "Prozkoumejte komunitní akce."
+      "discordCommunity": "Prozkoumejte komunitní akce.",
+      "forum": "Sdílejte nápady a propojte se."
     },
     "contributionsLinks": {
       "kofi": "Podpořte nás přímo.",

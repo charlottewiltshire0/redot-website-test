@@ -18,11 +18,10 @@
     "buttons": {
       "primary": "Hent Redot Engine for {os}",
       "secondary": "Utforsk Redot Engine Docs"
-    },
-    "bannerMessage": "🎉 Den stabile versjonen er her"
+    }
   },
   "productShowcaseSection": {
-    "badge": "🪁 Driver spillutviklingen din",
+    "badge": "⚡ Oppgradert",
     "title": "Driver spillutviklingen din",
     "description": "Åpne uendelige muligheter med vår fleksible og høyytelses spillmotor for hver skaper."
   },
@@ -256,11 +255,13 @@
       "x": "Nyheter og kunngjøringer.",
       "xCommunity": "Bli med i diskusjoner på X.",
       "linkedin": "Profesjonelle oppdateringer.",
-      "bsky": "Alternative sosiale oppdateringer."
+      "bsky": "Alternative sosiale oppdateringer.",
+      "tiktok": "Raske tips og høydepunkter."
     },
     "communitySpacesLinks": {
       "discord": "Chat og samarbeid.",
-      "discordCommunity": "Utforsk samfunnsarrangementer."
+      "discordCommunity": "Utforsk samfunnsarrangementer.",
+      "forum": "Del ideer og knytt kontakter."
     },
     "contributionsLinks": {
       "kofi": "Støtt oss direkte.",

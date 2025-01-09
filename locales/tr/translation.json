@@ -18,11 +18,10 @@
     "buttons": {
       "primary": "Redot Engine'ı {os} için al",
       "secondary": "Redot Engine Dokümanlarını Keşfet"
-    },
-    "bannerMessage": "🎉 Stabil sürüm geldi"
+    }
   },
   "productShowcaseSection": {
-    "badge": "🪁 Oyun Geliştirmenizi Güçlendiriyor",
+    "badge": "⚡ Güçlendirilmiş",
     "title": "Oyun Geliştirmenizi<br />Güçlendiriyor",
     "description": "Esnek ve yüksek performanslı oyun motorumuzla her yaratıcı için sonsuz olasılıklar açın."
   },
@@ -256,11 +255,13 @@
       "x": "Son haberler ve duyurular.",
       "xCommunity": "X'teki tartışmalara katılın.",
       "linkedin": "Profesyonel güncellemeler.",
-      "bsky": "Alternatif sosyal güncellemeler."
+      "bsky": "Alternatif sosyal güncellemeler.",
+      "tiktok": "Hızlı ipuçları ve öne çıkanlar."
     },
     "communitySpacesLinks": {
       "discord": "Sohbet edin ve işbirliği yapın.",
-      "discordCommunity": "Topluluk etkinliklerini keşfedin."
+      "discordCommunity": "Topluluk etkinliklerini keşfedin.",
+      "forum": "Fikirlerinizi paylaşın ve bağlantı kurun."
     },
     "contributionsLinks": {
       "kofi": "Bizi doğrudan destekleyin.",

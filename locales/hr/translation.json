@@ -18,11 +18,10 @@
     "buttons": {
       "primary": "Preuzmi Redot Engine za {os}",
       "secondary": "Istraži Redot Engine Dokumentaciju"
-    },
-    "bannerMessage": "🎉 Stabilna verzija je tu"
+    }
   },
   "productShowcaseSection": {
-    "badge": "🪁 Pokreće Vaš Razvoj Igra",
+    "badge": "⚡ Pojačano",
     "title": "Pokreće Vaš<br />Razvoj Igra",
     "description": "Otključajte beskrajne mogućnosti s našim fleksibilnim i visokoučinkovitim game engineom za svakog kreatora."
   },
@@ -256,11 +255,13 @@
       "x": "Najnovije vijesti i najave.",
       "xCommunity": "Pridruži se raspravama na X-u.",
       "linkedin": "Profesionalna ažuriranja.",
-      "bsky": "Alternativna društvena ažuriranja."
+      "bsky": "Alternativna društvena ažuriranja.",
+      "tiktok": "Brzi savjeti i naglasci."
     },
     "communitySpacesLinks": {
       "discord": "Razgovaraj i surađuj.",
-      "discordCommunity": "Istraži događaje zajednice."
+      "discordCommunity": "Istraži događaje zajednice.",
+      "forum": "Podijelite ideje i povežite se."
     },
     "contributionsLinks": {
       "kofi": "Podrži nas izravno.",
