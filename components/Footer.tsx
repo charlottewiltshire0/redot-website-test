@@ -42,7 +42,7 @@ export const Footer = () => {
                 ))}
               </div>
             </div>
-            <div className="grid grid-cols-2 gap-16 lg:grid-cols-4">
+            <div className="grid grid-cols-2 gap-16 lg:grid-cols-3">
               {footer.map((category) => (
                 <div key={category.title} className="text-sm">
                   <h3 className="font-medium text-white/80">
