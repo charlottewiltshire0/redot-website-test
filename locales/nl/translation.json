@@ -274,5 +274,15 @@
     "title": "Pagina in aanbouw",
     "description": "We werken hard achter de schermen. Misschien zelfs meer dan de koffiezetapparaat!",
     "backButton": "Terug"
+  },
+  "privacy": {
+    "badge": "",
+    "title": "Privacybeleid",
+    "description": "Leer hoe wij uw gegevens beschermen en uw privacy waarborgen met ons duidelijke beleid."
+  },
+  "terms": {
+    "badge": "",
+    "title": "Servicevoorwaarden",
+    "description": "Begrijp de regels en richtlijnen voor het gebruik van onze diensten in onze Servicevoorwaarden."
   }
 }

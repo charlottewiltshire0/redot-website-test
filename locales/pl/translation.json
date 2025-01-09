@@ -274,5 +274,15 @@
     "title": "Strona w budowie",
     "description": "Pracujemy ciężko za kulisami. Może nawet więcej niż ekspres do kawy!",
     "backButton": "Wróć"
+  },
+  "privacy": {
+    "badge": "",
+    "title": "Polityka prywatności",
+    "description": "Dowiedz się, jak chronimy Twoje dane i zapewniamy prywatność za pomocą naszej jasnej polityki."
+  },
+  "terms": {
+    "badge": "",
+    "title": "Warunki korzystania z usług",
+    "description": "Zrozum zasady i wytyczne dotyczące korzystania z naszych usług w naszych Warunkach korzystania z usług."
   }
 }

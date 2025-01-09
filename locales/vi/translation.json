@@ -274,5 +274,15 @@
     "title": "Trang đang xây dựng",
     "description": "Chúng tôi đang làm việc chăm chỉ phía sau hậu trường. Có thể là nhiều hơn cả máy pha cà phê!",
     "backButton": "Quay lại"
+  },
+  "privacy": {
+    "badge": "",
+    "title": "Chính sách bảo mật",
+    "description": "Tìm hiểu cách chúng tôi bảo vệ dữ liệu của bạn và đảm bảo quyền riêng tư của bạn với chính sách rõ ràng của chúng tôi."
+  },
+  "terms": {
+    "badge": "",
+    "title": "Điều khoản dịch vụ",
+    "description": "Hiểu các quy tắc và hướng dẫn sử dụng dịch vụ của chúng tôi trong Điều khoản dịch vụ."
   }
 }

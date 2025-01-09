@@ -274,5 +274,15 @@
     "title": "頁面建設中",
     "description": "我們正在幕後努力工作。或許比咖啡機還要努力！",
     "backButton": "返回"
+  },
+  "privacy": {
+    "badge": "",
+    "title": "隱私政策",
+    "description": "了解我們如何保護您的數據並透過清晰的政策確保您的隱私。"
+  },
+  "terms": {
+    "badge": "",
+    "title": "服務條款",
+    "description": "了解如何使用我們的服務以及我們的服務條款中的規則和指南。"
   }
 }

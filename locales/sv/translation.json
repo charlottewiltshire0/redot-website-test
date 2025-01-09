@@ -274,5 +274,15 @@
     "title": "Sidan är under konstruktion",
     "description": "Vi arbetar hårt bakom kulisserna. Kanske till och med mer än kaffemaskinen!",
     "backButton": "Tillbaka"
+  },
+  "privacy": {
+    "badge": "",
+    "title": "Integritetspolicy",
+    "description": "Lär dig hur vi skyddar dina uppgifter och säkerställer din integritet med vår tydliga policy."
+  },
+  "terms": {
+    "badge": "",
+    "title": "Tjänstevillkor",
+    "description": "Förstå reglerna och riktlinjerna för att använda våra tjänster i våra Tjänstevillkor."
   }
 }

@@ -271,5 +271,15 @@
     "title": "Az oldal fejlesztés alatt",
     "description": "Keményen dolgozunk a háttérben. Talán még többet is, mint a kávéfőző!",
     "backButton": "Vissza"
+  },
+  "privacy": {
+    "badge": "",
+    "title": "Adatvédelmi irányelvek",
+    "description": "Tudja meg, hogyan védjük meg adatait, és biztosítjuk a magánéletét világos irányelveinkkel."
+  },
+  "terms": {
+    "badge": "",
+    "title": "Szolgáltatási feltételek",
+    "description": "Értse meg szolgáltatásaink használatára vonatkozó szabályokat és irányelveket Szolgáltatási feltételeinkben."
   }
 }

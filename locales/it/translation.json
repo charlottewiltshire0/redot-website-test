@@ -274,5 +274,15 @@
     "title": "Pagina in costruzione",
     "description": "Stiamo lavorando duramente dietro le quinte. Forse anche più della macchina del caffè!",
     "backButton": "Indietro"
+  },
+  "privacy": {
+    "badge": "",
+    "title": "Politica sulla privacy",
+    "description": "Scopri come proteggiamo i tuoi dati e garantiamo la tua privacy con la nostra politica chiara."
+  },
+  "terms": {
+    "badge": "",
+    "title": "Termini di servizio",
+    "description": "Comprendi le regole e le linee guida per l'utilizzo dei nostri servizi nei nostri Termini di servizio."
   }
 }

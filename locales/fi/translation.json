@@ -274,5 +274,15 @@
     "title": "Sivu on rakenteilla",
     "description": "Työskentelemme ahkerasti kulissien takana. Ehkä jopa enemmän kuin kahvinkeitin!",
     "backButton": "Takaisin"
+  },
+  "privacy": {
+    "badge": "",
+    "title": "Tietosuojakäytäntö",
+    "description": "Opettele, miten suojaamme tietosi ja varmistamme yksityisyytesi selkeällä politiikallamme."
+  },
+  "terms": {
+    "badge": "",
+    "title": "Palveluehdot",
+    "description": "Ymmärrä palvelujemme käyttöä koskevat säännöt ja ohjeet Palveluehdoissamme."
   }
 }

@@ -274,5 +274,15 @@
     "title": "Siden er under opbygning",
     "description": "Vi arbejder hårdt bag kulisserne. Måske endda mere end kaffemaskinen!",
     "backButton": "Tilbage"
+  },
+  "privacy": {
+    "badge": "",
+    "title": "Privatlivspolitik",
+    "description": "Lær, hvordan vi beskytter dine data og sikrer dit privatliv med vores klare politik."
+  },
+  "terms": {
+    "badge": "",
+    "title": "Brugsvilkår",
+    "description": "Forstå reglerne og retningslinjerne for brug af vores tjenester i vores Brugsvilkår."
   }
 }

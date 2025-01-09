@@ -275,5 +275,15 @@
     "title": "Page Under Construction",
     "description": "We're working hard behind the scenes. Maybe even more than the coffee machine!",
     "backButton": "Back"
+  },
+  "privacy": {
+    "badge": "",
+    "title": "Privacy Policy",
+    "description": "Learn how we protect your data and ensure your privacy with our clear policy."
+  },
+  "terms": {
+    "badge": "",
+    "title": "Terms of Service",
+    "description": "Understand the rules and guidelines for using our services in our Terms of Service."
   }
 }
