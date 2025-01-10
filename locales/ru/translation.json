@@ -68,9 +68,9 @@
       "noResults": "Язык не найден."
     },
     "copyright": {
-      "text": "© 2024-настоящее время сообщество Redot.",
+      "text": "© 2024-настоящее время от участников сообщества Redot.",
       "website": "Вебсайт",
-      "sourceCode": "Исходный код на Github"
+      "sourceCode": "исходный код на Github"
     },
     "buttons": {
       "settings": "Настройки"
