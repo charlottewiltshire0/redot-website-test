@@ -67,9 +67,9 @@
       "noResults": "Nem található nyelv."
     },
     "copyright": {
-      "text": "© 2024-jelen a Redot közösség által.",
+      "text": "© 2024-jelen a Redot közösség hozzájárulóitól.",
       "website": "Weboldal",
-      "sourceCode": "Forráskód a Github-on"
+      "sourceCode": "forráskód a Github-on"
     },
     "buttons": {
       "settings": "Beállítások"
