@@ -114,9 +114,23 @@
     }
   },
   "notFound": {
-    "title": "Ups! Strona nie znaleziona",
-    "description": "Wygląda na to, że udało Ci się wejść w nieznane... nie wiemy, gdzie ta strona poszła!",
-    "goBack": "Wróć"
+    "code": "Błąd 404",
+    "title": "Nie możemy znaleźć tej strony",
+    "description": "Strona, którą szukasz, jest niedostępna lub została przeniesiona.",
+    "goBack": "Wróć",
+    "goHome": "Przejdź do strony głównej",
+    "documentation": {
+      "title": "Dokumentacja",
+      "description": "Zanurz się i dowiedz się wszystkiego o naszej silniku."
+    },
+    "ourBlog": {
+      "title": "Nasz blog",
+      "description": "Przeczytaj najnowsze posty na naszym blogu."
+    },
+    "contactUs": {
+      "title": "Skontaktuj się z nami",
+      "description": "Skontaktuj się z nami w sprawie zapytań lub wsparcia."
+    }
   },
   "downloadHero": {
     "downloadForOS": "Pobierz redot dla {platform}",

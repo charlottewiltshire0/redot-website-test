@@ -114,9 +114,23 @@
     }
   },
   "notFound": {
-    "title": "Ups! Stranica nije pronađena",
-    "description": "Izgleda da ste zalutali... nismo sigurni kamo je otišla ova stranica!",
-    "goBack": "Vrati se"
+    "code": "Greška 404",
+    "title": "Ne možemo pronaći ovu stranicu",
+    "description": "Stranica koju tražite nije dostupna ili je premještena.",
+    "goBack": "Natrag",
+    "goHome": "Idite na početnu stranicu",
+    "documentation": {
+      "title": "Dokumentacija",
+      "description": "Zaronite i saznajte sve o našem engineu."
+    },
+    "ourBlog": {
+      "title": "Naš blog",
+      "description": "Pročitajte najnovije objave na našem blogu."
+    },
+    "contactUs": {
+      "title": "Kontaktirajte nas",
+      "description": "Kontaktirajte nas za upite ili podršku."
+    }
   },
   "downloadHero": {
     "downloadForOS": "Preuzmi redot za {platform}",

@@ -114,9 +114,23 @@
     }
   },
   "notFound": {
-    "title": "Hups! Sivua ei löydy",
-    "description": "Näyttää siltä, että olet päätynyt tuntemattomaan paikkaan... emme ole varmoja, mihin tämä sivu meni!",
-    "goBack": "Palaa takaisin"
+    "code": "404-virhe",
+    "title": "Emme voi löytää tätä sivua",
+    "description": "Etsimääsi sivua ei ole saatavilla tai se on siirretty.",
+    "goBack": "Mene takaisin",
+    "goHome": "Mene etusivulle",
+    "documentation": {
+      "title": "Dokumentaatio",
+      "description": "Sukella sisään ja opi kaikki moottoristamme."
+    },
+    "ourBlog": {
+      "title": "Blogimme",
+      "description": "Lue uusimmat julkaisut blogistamme."
+    },
+    "contactUs": {
+      "title": "Ota yhteyttä",
+      "description": "Ota yhteyttä kyselyihin tai tukeen."
+    }
   },
   "downloadHero": {
     "downloadForOS": "Lataa Redot {platform}lle",

@@ -114,9 +114,23 @@
     }
   },
   "notFound": {
-    "title": "Oho! Puslapis nerastas",
-    "description": "Atrodo, kad nukeliavote į nežinomą vietą... mes taip pat nežinome, kur šis puslapis dingo!",
-    "goBack": "Grįžti"
+    "code": "404 klaida",
+    "title": "Negalime rasti šios svetainės",
+    "description": "Puslapis, kurio ieškote, nėra pasiekiamas arba buvo perkeltas.",
+    "goBack": "Grįžti",
+    "goHome": "Eiti į pagrindinį puslapį",
+    "documentation": {
+      "title": "Dokumentacija",
+      "description": "Gilinkitės ir sužinokite viską apie mūsų variklį."
+    },
+    "ourBlog": {
+      "title": "Mūsų blogas",
+      "description": "Skaitykite naujausius įrašus mūsų bloge."
+    },
+    "contactUs": {
+      "title": "Susisiekite su mumis",
+      "description": "Susisiekite su mumis dėl klausimų arba pagalbos."
+    }
   },
   "downloadHero": {
     "downloadForOS": "Atsisiųsti redot už {platform}",

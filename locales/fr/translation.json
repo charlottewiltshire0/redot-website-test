@@ -114,9 +114,23 @@
     }
   },
   "notFound": {
-    "title": "Oups ! Page non trouvée",
-    "description": "On dirait que vous vous êtes aventuré dans l'inconnu... nous ne savons pas où cette page est allée non plus !",
-    "goBack": "Retourner"
+    "code": "Erreur 404",
+    "title": "Nous ne pouvons pas trouver cette page",
+    "description": "La page que vous recherchez est soit indisponible, soit déplacée.",
+    "goBack": "Retourner",
+    "goHome": "Aller à la page d'accueil",
+    "documentation": {
+      "title": "Documentation",
+      "description": "Plongez et apprenez tout sur notre moteur."
+    },
+    "ourBlog": {
+      "title": "Notre blog",
+      "description": "Lisez les derniers articles de notre blog."
+    },
+    "contactUs": {
+      "title": "Contactez-nous",
+      "description": "Contactez-nous pour toute demande ou support."
+    }
   },
   "downloadHero": {
     "downloadForOS": "Télécharger Redot pour {platform}",

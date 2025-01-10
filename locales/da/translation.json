@@ -114,9 +114,23 @@
     }
   },
   "notFound": {
-    "title": "Ups! Siden blev ikke fundet",
-    "description": "Det ser ud til, at du har været på en ukendt sti... vi er ikke sikre på, hvor denne side er hen!",
-    "goBack": "Gå tilbage"
+    "code": "404-fejl",
+    "title": "Vi kan ikke finde denne side",
+    "description": "Siden, du leder efter, er enten utilgængelig eller blevet flyttet.",
+    "goBack": "Gå tilbage",
+    "goHome": "Gå til forsiden",
+    "documentation": {
+      "title": "Dokumentation",
+      "description": "Dyk ned og lær alt om vores motor."
+    },
+    "ourBlog": {
+      "title": "Vores blog",
+      "description": "Læs de nyeste indlæg på vores blog."
+    },
+    "contactUs": {
+      "title": "Kontakt os",
+      "description": "Kom i kontakt for forespørgsler eller support."
+    }
   },
   "downloadHero": {
     "downloadForOS": "Download redot til {platform}",

@@ -114,9 +114,23 @@
     }
   },
   "notFound": {
-    "title": "Oops! Siden ble ikke funnet",
-    "description": "Ser ut som du har kommet til et ukjent sted... vi er ikke helt sikre på hvor denne siden gikk heller!",
-    "goBack": "Gå tilbake"
+    "code": "404-feil",
+    "title": "Vi kan ikke finne denne siden",
+    "description": "Siden du leter etter er enten utilgjengelig eller har blitt flyttet.",
+    "goBack": "Gå tilbake",
+    "goHome": "Gå til forsiden",
+    "documentation": {
+      "title": "Dokumentasjon",
+      "description": "Dykk ned og lær alt om vår motor."
+    },
+    "ourBlog": {
+      "title": "Vår blogg",
+      "description": "Les de siste innleggene på bloggen vår."
+    },
+    "contactUs": {
+      "title": "Kontakt oss",
+      "description": "Kom i kontakt for henvendelser eller støtte."
+    }
   },
   "downloadHero": {
     "downloadForOS": "Last ned Redot for {platform}",

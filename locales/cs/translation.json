@@ -114,9 +114,23 @@
     }
   },
   "notFound": {
-    "title": "Oops! Stránka nenalezena",
-    "description": "Vypadá to, že jste se dostali do neznámé oblasti... ani my nevíme, kam tato stránka zmizela!",
-    "goBack": "Zpět"
+    "code": "Chyba 404",
+    "title": "Tuto stránku nemůžeme najít",
+    "description": "Stránka, kterou hledáte, je buď nedostupná, nebo byla přesunuta.",
+    "goBack": "Zpět",
+    "goHome": "Domů",
+    "documentation": {
+      "title": "Dokumentace",
+      "description": "Ponořte se a naučte se vše o našem enginu."
+    },
+    "ourBlog": {
+      "title": "Náš blog",
+      "description": "Přečtěte si nejnovější příspěvky na našem blogu."
+    },
+    "contactUs": {
+      "title": "Kontaktujte nás",
+      "description": "Kontaktujte nás pro dotazy nebo podporu."
+    }
   },
   "downloadHero": {
     "downloadForOS": "Stáhnout Redot pro {platform}",
