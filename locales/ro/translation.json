@@ -115,9 +115,23 @@
     }
   },
   "notFound": {
-    "title": "Oops! Pagina nu a fost găsită",
-    "description": "Se pare că ai ajuns într-o zonă necunoscută... nici noi nu știm unde a dispărut această pagină!",
-    "goBack": "Înapoi"
+    "code": "Eroare 404",
+    "title": "Nu putem găsi această pagină",
+    "description": "Pagina pe care o căutați nu este disponibilă sau a fost mutată.",
+    "goBack": "Înapoi",
+    "goHome": "Mergi la pagina principală",
+    "documentation": {
+      "title": "Documentație",
+      "description": "Aflați totul despre motorul nostru."
+    },
+    "ourBlog": {
+      "title": "Blogul nostru",
+      "description": "Citiți cele mai recente postări pe blogul nostru."
+    },
+    "contactUs": {
+      "title": "Contactați-ne",
+      "description": "Contactați-ne pentru întrebări sau asistență."
+    }
   },
   "downloadHero": {
     "downloadForOS": "Descarcă redot pentru {platform}",

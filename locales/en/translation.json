@@ -116,9 +116,23 @@
     }
   },
   "notFound": {
-    "title": "Oops! Page Not Found",
-    "description": "Looks like you’ve ventured into the unknown... we’re not sure where this page went either!",
-    "goBack": "Go Back"
+    "code": "404 error",
+    "title": "We can't find this page",
+    "description": "The page you're looking for is either unavailable or has been relocated.",
+    "goBack": "Go back",
+    "goHome": "Go home",
+    "documentation": {
+      "title": "Documentation",
+      "description": "Dive in to learn all about our engine."
+    },
+    "ourBlog": {
+      "title": "Our blog",
+      "description": "Read the latest posts on our blog."
+    },
+    "contactUs": {
+      "title": "Contact Us",
+      "description": "Get in touch for inquiries or support."
+    }
   },
   "downloadHero": {
     "downloadForOS": "Download redot for {platform}",

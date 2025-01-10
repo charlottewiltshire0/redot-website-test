@@ -115,9 +115,23 @@
     }
   },
   "notFound": {
-    "title": "Ops! Sayfa Bulunamadı",
-    "description": "Görünüşe göre bilinmeyen bir yere gitmişsiniz... Bu sayfanın nereye gittiğinden biz de emin değiliz!",
-    "goBack": "Geri Git"
+    "code": "404 hatası",
+    "title": "Bu sayfa bulunamadı",
+    "description": "Aradığınız sayfa kullanılamaz veya taşınmış olabilir.",
+    "goBack": "Geri git",
+    "goHome": "Ana sayfaya git",
+    "documentation": {
+      "title": "Dokümantasyon",
+      "description": "Motorumuz hakkında her şeyi öğrenin."
+    },
+    "ourBlog": {
+      "title": "Blogumuz",
+      "description": "Blogumuzdaki en son gönderileri okuyun."
+    },
+    "contactUs": {
+      "title": "Bize Ulaşın",
+      "description": "Sorular veya destek için bizimle iletişime geçin."
+    }
   },
   "downloadHero": {
     "downloadForOS": "{platform} için Redot İndir",

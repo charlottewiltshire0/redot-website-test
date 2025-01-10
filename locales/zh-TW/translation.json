@@ -115,9 +115,23 @@
     }
   },
   "notFound": {
-    "title": "哎呀！找不到頁面",
-    "description": "看來您已經進入了未知領域……我們也不確定這個頁面去哪裡了！",
-    "goBack": "返回"
+    "code": "404 錯誤",
+    "title": "我們找不到此頁面",
+    "description": "您正在尋找的頁面無法使用或已被移動。",
+    "goBack": "返回",
+    "goHome": "回到首頁",
+    "documentation": {
+      "title": "文檔",
+      "description": "深入了解我們的引擎。"
+    },
+    "ourBlog": {
+      "title": "我們的部落格",
+      "description": "閱讀我們部落格中的最新文章。"
+    },
+    "contactUs": {
+      "title": "聯繫我們",
+      "description": "如有問題或需要協助，請聯繫我們。"
+    }
   },
   "downloadHero": {
     "downloadForOS": "下載 Redot 於 {platform}",

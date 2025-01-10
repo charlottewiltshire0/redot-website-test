@@ -115,9 +115,23 @@
     }
   },
   "notFound": {
-    "title": "Rất tiếc! Trang không tìm thấy",
-    "description": "Có vẻ như bạn đã đi vào một nơi chưa biết... chúng tôi cũng không biết trang này đã đi đâu!",
-    "goBack": "Quay lại"
+    "code": "Lỗi 404",
+    "title": "Chúng tôi không thể tìm thấy trang này",
+    "description": "Trang bạn đang tìm kiếm không có sẵn hoặc đã bị di chuyển.",
+    "goBack": "Quay lại",
+    "goHome": "Về trang chủ",
+    "documentation": {
+      "title": "Tài liệu",
+      "description": "Tìm hiểu tất cả về động cơ của chúng tôi."
+    },
+    "ourBlog": {
+      "title": "Blog của chúng tôi",
+      "description": "Đọc các bài đăng mới nhất trên blog của chúng tôi."
+    },
+    "contactUs": {
+      "title": "Liên hệ với chúng tôi",
+      "description": "Liên hệ với chúng tôi để hỏi đáp hoặc hỗ trợ."
+    }
   },
   "downloadHero": {
     "downloadForOS": "Tải Redot cho {platform}",

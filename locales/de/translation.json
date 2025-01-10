@@ -115,9 +115,23 @@
     }
   },
   "notFound": {
-    "title": "Ups! Seite nicht gefunden",
-    "description": "Sieht so aus, als ob du ins Unbekannte vorgedrungen bist... Wir wissen auch nicht, wo diese Seite geblieben ist!",
-    "goBack": "Zurück"
+    "code": "404 Fehler",
+    "title": "Wir können diese Seite nicht finden",
+    "description": "Die Seite, die Sie suchen, ist entweder nicht verfügbar oder wurde verschoben.",
+    "goBack": "Zurück",
+    "goHome": "Zur Startseite",
+    "documentation": {
+      "title": "Dokumentation",
+      "description": "Tauchen Sie ein, um alles über unsere Engine zu erfahren."
+    },
+    "ourBlog": {
+      "title": "Unser Blog",
+      "description": "Lesen Sie die neuesten Beiträge in unserem Blog."
+    },
+    "contactUs": {
+      "title": "Kontaktieren Sie uns",
+      "description": "Kontaktieren Sie uns für Anfragen oder Support."
+    }
   },
   "downloadHero": {
     "downloadForOS": "Redot für {platform} herunterladen",

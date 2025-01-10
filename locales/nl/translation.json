@@ -115,9 +115,23 @@
     }
   },
   "notFound": {
-    "title": "Oeps! Pagina Niet Gevonden",
-    "description": "Het lijkt erop dat je het onbekende bent ingegaan... we weten niet waar deze pagina heen is!",
-    "goBack": "Teruggaan"
+    "code": "404 fout",
+    "title": "We kunnen deze pagina niet vinden",
+    "description": "De pagina die je zoekt is niet beschikbaar of is verplaatst.",
+    "goBack": "Terug",
+    "goHome": "Ga naar de homepagina",
+    "documentation": {
+      "title": "Documentatie",
+      "description": "Duik in en leer alles over onze engine."
+    },
+    "ourBlog": {
+      "title": "Onze blog",
+      "description": "Lees de laatste berichten op onze blog."
+    },
+    "contactUs": {
+      "title": "Neem contact op",
+      "description": "Neem contact met ons op voor vragen of ondersteuning."
+    }
   },
   "downloadHero": {
     "downloadForOS": "Download redot voor {platform}",

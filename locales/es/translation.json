@@ -115,9 +115,23 @@
     }
   },
   "notFound": {
-    "title": "¡Ups! Página no encontrada",
-    "description": "Parece que has entrado en lo desconocido... ¡nosotros tampoco sabemos a dónde fue esta página!",
-    "goBack": "Regresar"
+    "code": "Error 404",
+    "title": "No podemos encontrar esta página",
+    "description": "La página que buscas está fuera de servicio o ha sido trasladada.",
+    "goBack": "Volver atrás",
+    "goHome": "Ir a inicio",
+    "documentation": {
+      "title": "Documentación",
+      "description": "Sumérgete y aprende todo sobre nuestro motor."
+    },
+    "ourBlog": {
+      "title": "Nuestro blog",
+      "description": "Lee las últimas publicaciones en nuestro blog."
+    },
+    "contactUs": {
+      "title": "Contáctanos",
+      "description": "Ponte en contacto para consultas o soporte."
+    }
   },
   "downloadHero": {
     "downloadForOS": "Descargar Redot para {platform}",

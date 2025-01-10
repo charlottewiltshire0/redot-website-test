@@ -115,9 +115,23 @@
     }
   },
   "notFound": {
-    "title": "哎呀！页面未找到",
-    "description": "看来您进入了未知区域...我们也不知道这页去哪儿了！",
-    "goBack": "返回"
+    "code": "404 错误",
+    "title": "我们找不到此页面",
+    "description": "您正在寻找的页面不可用或已被移动。",
+    "goBack": "返回",
+    "goHome": "返回首页",
+    "documentation": {
+      "title": "文档",
+      "description": "深入了解我们的引擎。"
+    },
+    "ourBlog": {
+      "title": "我们的博客",
+      "description": "阅读我们博客中的最新帖子。"
+    },
+    "contactUs": {
+      "title": "联系我们",
+      "description": "如有问题或需要帮助，请联系我们。"
+    }
   },
   "downloadHero": {
     "downloadForOS": "为 {platform} 下载 Redot",

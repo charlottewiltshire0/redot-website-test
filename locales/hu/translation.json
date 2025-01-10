@@ -115,9 +115,23 @@
     }
   },
   "notFound": {
-    "title": "Oops! Az oldal nem található",
-    "description": "Úgy tűnik, hogy a nem ismert területre kalandoztál... nem vagyunk biztosak, hová tűnt ez az oldal!",
-    "goBack": "Vissza"
+    "code": "404 hiba",
+    "title": "Nem találjuk ezt az oldalt",
+    "description": "Az oldal, amelyet keres, vagy nem érhető el, vagy áthelyezték.",
+    "goBack": "Vissza",
+    "goHome": "Haza",
+    "documentation": {
+      "title": "Dokumentáció",
+      "description": "Merüljön el és tudjon meg mindent a motorunkról."
+    },
+    "ourBlog": {
+      "title": "Blogunk",
+      "description": "Olvassa el a legújabb bejegyzéseinket a blogunkon."
+    },
+    "contactUs": {
+      "title": "Lépjen kapcsolatba velünk",
+      "description": "Lépjen kapcsolatba velünk kérdésekkel vagy támogatással."
+    }
   },
   "downloadHero": {
     "downloadForOS": "Töltsd le a Redot-ot {platform} rendszeren",

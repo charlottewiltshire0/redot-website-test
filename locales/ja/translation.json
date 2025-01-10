@@ -115,9 +115,23 @@
     }
   },
   "notFound": {
-    "title": "おっと！ページが見つかりません",
-    "description": "どうやら未知の領域に足を踏み入れてしまったようです...このページはどこに行ったのか私たちも分かりません！",
-    "goBack": "戻る"
+    "code": "404 エラー",
+    "title": "このページを見つけられません",
+    "description": "お探しのページは利用できないか、移動された可能性があります。",
+    "goBack": "戻る",
+    "goHome": "ホームに戻る",
+    "documentation": {
+      "title": "ドキュメント",
+      "description": "私たちのエンジンについて学びましょう。"
+    },
+    "ourBlog": {
+      "title": "私たちのブログ",
+      "description": "私たちのブログの最新の投稿を読みましょう。"
+    },
+    "contactUs": {
+      "title": "お問い合わせ",
+      "description": "お問い合わせやサポートのためにご連絡ください。"
+    }
   },
   "downloadHero": {
     "downloadForOS": "{platform} 用Redotをダウンロード",

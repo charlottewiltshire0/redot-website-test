@@ -115,9 +115,23 @@
     }
   },
   "notFound": {
-    "title": "Oj! Sidan hittades inte",
-    "description": "Ser ut som du har kommit till en okänd plats... vi är inte säkra på var denna sida tagit vägen heller!",
-    "goBack": "Tillbaka"
+    "code": "404-fel",
+    "title": "Vi kan inte hitta denna sida",
+    "description": "Sidan du letar efter är antingen otillgänglig eller har flyttats.",
+    "goBack": "Gå tillbaka",
+    "goHome": "Gå till startsidan",
+    "documentation": {
+      "title": "Dokumentation",
+      "description": "Dyk ner och lär dig allt om vår motor."
+    },
+    "ourBlog": {
+      "title": "Vår blogg",
+      "description": "Läs de senaste inläggen på vår blogg."
+    },
+    "contactUs": {
+      "title": "Kontakta oss",
+      "description": "Kontakta oss för förfrågningar eller support."
+    }
   },
   "downloadHero": {
     "downloadForOS": "Ladda ner Redot för {platform}",
