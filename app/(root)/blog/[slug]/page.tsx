@@ -31,11 +31,11 @@ export async function generateMetadata(props: {
   const postData = post[0];
 
   return {
-    title: postData.title.value ?? "Untitled Post",
-    description: postData.excerpt.value ?? "No description provided.",
+    title: postData.title ?? "Untitled Post",
+    description: postData.excerpt ?? "No description provided.",
     openGraph: {
       title: postData.title.value,
-      description: postData.excerpt.value,
+      description: postData.excerpt,
       images: postData.imageUrl ? [{ url: postData.imageUrl }] : [],
       url: `https://www.redotengine.org//blog/${slug}`,
       type: "article",
@@ -48,7 +48,7 @@ export async function generateMetadata(props: {
     twitter: {
       card: "summary_large_image",
       title: postData.title.value,
-      description: postData.excerpt.value,
+      description: postData.excerpt,
       images: postData.imageUrl ? [postData.imageUrl] : [],
     },
   };
