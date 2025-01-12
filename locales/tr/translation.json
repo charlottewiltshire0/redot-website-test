@@ -221,9 +221,6 @@
     "description": "Aradığınız makale bulunamadı.",
     "backButton": "Geri"
   },
-  "articleSplash": {
-    "backButton": "Geri"
-  },
   "contact": {
     "badge": "",
     "title": "Bize Ulaşın",

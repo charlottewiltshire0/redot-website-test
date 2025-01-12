@@ -221,9 +221,6 @@
     "description": "Статтю, яку ви шукаєте, не вдалося знайти.",
     "backButton": "Назад"
   },
-  "articleSplash": {
-    "backButton": "Назад"
-  },
   "contact": {
     "badge": "",
     "title": "Зв'язатися з нами",

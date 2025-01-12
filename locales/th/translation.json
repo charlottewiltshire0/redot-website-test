@@ -222,9 +222,6 @@
     "description": "ไม่พบบทความที่คุณกำลังค้นหา",
     "backButton": "กลับ"
   },
-  "articleSplash": {
-    "backButton": "กลับ"
-  },
   "contact": {
     "badge": "",
     "title": "ติดต่อเรา",

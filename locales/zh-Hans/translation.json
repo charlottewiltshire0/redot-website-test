@@ -221,9 +221,6 @@
     "description": "您正在寻找的文章未能找到。",
     "backButton": "返回"
   },
-  "articleSplash": {
-    "backButton": "返回"
-  },
   "contact": {
     "badge": "",
     "title": "联系我们",

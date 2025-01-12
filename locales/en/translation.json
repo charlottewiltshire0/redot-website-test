@@ -19,8 +19,7 @@
     "buttons": {
       "primary": "Get Redot Engine for {os}",
       "secondary": "Explore Redot Engine Docs"
-    },
-    "bannerMessage": "🎉 Stable version is here"
+    }
   },
   "productShowcaseSection": {
     "badge": "⚡ Powered Up",
@@ -220,9 +219,6 @@
   "articleNotFound": {
     "title": "Article Not Found",
     "description": "The article you are looking for could not be found.",
-    "backButton": "Back"
-  },
-  "articleSplash": {
     "backButton": "Back"
   },
   "contact": {

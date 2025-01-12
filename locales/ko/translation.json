@@ -221,9 +221,6 @@
     "description": "찾고 있는 게시물을 찾을 수 없습니다.",
     "backButton": "뒤로 가기"
   },
-  "articleSplash": {
-    "backButton": "뒤로 가기"
-  },
   "contact": {
     "badge": "",
     "title": "연락하기",

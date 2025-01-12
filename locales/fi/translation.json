@@ -221,9 +221,6 @@
     "description": "Etsimääsi artikkelia ei löydy.",
     "backButton": "Takaisin"
   },
-  "articleSplash": {
-    "backButton": "Takaisin"
-  },
   "contact": {
     "badge": "",
     "title": "Ota yhteyttä",

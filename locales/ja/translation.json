@@ -221,9 +221,6 @@
     "description": "お探しの記事は見つかりませんでした。",
     "backButton": "戻る"
   },
-  "articleSplash": {
-    "backButton": "戻る"
-  },
   "contact": {
     "badge": "",
     "title": "お問い合わせ",
