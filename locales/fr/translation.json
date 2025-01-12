@@ -221,9 +221,6 @@
     "description": "L'article que vous recherchez est introuvable.",
     "backButton": "Retour"
   },
-  "articleSplash": {
-    "backButton": "Retour"
-  },
   "contact": {
     "badge": "",
     "title": "Contactez-nous",

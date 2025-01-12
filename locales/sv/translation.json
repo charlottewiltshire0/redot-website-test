@@ -221,9 +221,6 @@
     "description": "Artikeln du söker kunde inte hittas.",
     "backButton": "Tillbaka"
   },
-  "articleSplash": {
-    "backButton": "Tillbaka"
-  },
   "contact": {
     "badge": "",
     "title": "Kom i kontakt",

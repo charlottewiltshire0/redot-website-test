@@ -221,9 +221,6 @@
     "description": "Den artikel, du leder efter, kunne ikke findes.",
     "backButton": "Tilbage"
   },
-  "articleSplash": {
-    "backButton": "Tilbage"
-  },
   "contact": {
     "badge": "",
     "title": "Kom i kontakt",

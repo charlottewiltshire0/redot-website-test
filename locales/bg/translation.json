@@ -221,9 +221,6 @@
     "description": "Статията, която търсите, не може да бъде намерена.",
     "backButton": "Назад"
   },
-  "articleSplash": {
-    "backButton": "Назад"
-  },
   "contact": {
     "badge": "",
     "title": "Свържете се с нас",

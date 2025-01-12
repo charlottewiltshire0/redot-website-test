@@ -221,9 +221,6 @@
     "description": "Статья, которую вы ищете, не найдена.",
     "backButton": "Назад"
   },
-  "articleSplash": {
-    "backButton": "Назад"
-  },
   "contact": {
     "badge": "",
     "title": "Свяжитесь с нами",

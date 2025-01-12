@@ -221,9 +221,6 @@
     "description": "Het artikel dat je zoekt kon niet gevonden worden.",
     "backButton": "Terug"
   },
-  "articleSplash": {
-    "backButton": "Terug"
-  },
   "contact": {
     "badge": "",
     "title": "Neem contact op",

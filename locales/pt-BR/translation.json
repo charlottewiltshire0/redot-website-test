@@ -221,9 +221,6 @@
     "description": "O artigo que você está procurando não pôde ser encontrado.",
     "backButton": "Voltar"
   },
-  "articleSplash": {
-    "backButton": "Voltar"
-  },
   "contact": {
     "badge": "",
     "title": "Entre em Contato",

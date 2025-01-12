@@ -70,10 +70,10 @@ export default async function Article({
   const postData = post[0];
 
   return (
-    <div className="mb-24 px-5 lg:px-40">
+    <div className="px-5 py-12 lg:px-40">
       <div className="flex flex-col items-center justify-center">
-        <div className="max-w-[800px] md:w-[800px]">
-          <ArticleSplash article={postData} />
+        <ArticleSplash article={postData} />
+        <div className="max-w-[720px] md:w-[720px]">
           <ArticleContent article={postData} />
         </div>
       </div>
