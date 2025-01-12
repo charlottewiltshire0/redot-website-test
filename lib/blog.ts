@@ -4,14 +4,14 @@ import { client } from "@/sanity/lib/client";
 import { sanitizeInput } from "@/lib/utils";
 import { Post } from "@/sanity/schemaTypes/postType";
 
-export async function getLatestArticle() {
+export async function getLatestArticle(language: string) {
   const query = `*[_type == "post"] | order(publishedAt desc) [0] {
-    "title": title[_key == "en"][0].value,
+    "title": coalesce(title[_key == "${language}"][0].value, title[_key == "en"][0].value),
     slug,
     image,
     "imageUrl": image.asset->url,
     publishedAt,
-    "excerpt": excerpt[_key == "en"][0].value,
+    "excerpt": coalesce(excerpt[_key == "${language}"][0].value, excerpt[_key == "en"][0].value),
     author,
     tags[]->{name, slug}
   }`;
@@ -106,13 +106,13 @@ export async function getPosts(tag: string = "", search: string = "") {
 
 export async function getPostBySlug(slug: string, language: string) {
   const query = `*[_type == "post" && slug.current == "${slug}"] {
-    "title": title[_key == "${language}"][0].value,
+    "title": coalesce(title[_key == "${language}"][0].value, title[_key == "en"][0].value),
     slug,
     image,
     "imageUrl": image.asset->url,
     publishedAt,
-    "excerpt": excerpt[_key == "${language}"][0].value,
-    "body": body[_key == "${language}"][0].value,
+    "excerpt": coalesce(excerpt[_key == "${language}"][0].value, excerpt[_key == "en"][0].value),
+    "body": coalesce(body[_key == "${language}"][0].value, body[_key == "en"][0].value),
     author-> {
       _id,
       name,
