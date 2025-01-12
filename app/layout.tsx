@@ -37,7 +37,7 @@ export default async function RootLayout({
     <html
       lang={locale}
       suppressHydrationWarning
-      className="overflow-y-scroll scrollbar-thin scrollbar-track-transparent scrollbar-thumb-zinc-700"
+      className="overflow-y-scroll scrollbar-thin scrollbar-track-transparent scrollbar-thumb-zinc-700 selection:bg-zinc-700/60 selection:text-white"
     >
       <head>
         <link rel="preconnect" href="https://image.redotengine.org" />

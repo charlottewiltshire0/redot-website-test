@@ -28,7 +28,7 @@ export const ProductShowcase = () => {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={inView ? { opacity: 1, scale: 1 } : {}}
           transition={{ duration: 0.6, delay: 0.8 }}
-          className="relative mx-5 mt-10 aspect-video h-full lg:mx-24"
+          className="relative mx-5 mt-10 aspect-video h-full select-none lg:mx-24"
         >
           <Image
             src="https://image.redotengine.org/productImage.webp"
