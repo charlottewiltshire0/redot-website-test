@@ -1,6 +1,7 @@
 import { getUsedTags, getLatestArticle, getPosts } from "@/lib/blog";
 import BlogClient from "@/components/sections/blog/BlogClient";
 import type { Metadata } from "next";
+import { getLanguage } from "@/actions/language";
 
 export const metadata: Metadata = {
   title: "Blog",
@@ -14,7 +15,7 @@ export default async function Blog() {
   const search = searchParams.get("search") ?? "";
 
   const posts = await getPosts(selectedTag, search);
-  const latestBlog = await getLatestArticle();
+  const latestBlog = await getLatestArticle(await getLanguage());
 
   return <BlogClient posts={posts} latestBlog={latestBlog} tags={tags} />;
 }
