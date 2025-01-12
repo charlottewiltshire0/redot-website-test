@@ -37,7 +37,7 @@ export const Features = () => {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="mt-10"
         >
-          <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
+          <div className="relative flex w-full select-none flex-col items-center justify-center overflow-hidden">
             <Marquee pauseOnHover className="[--duration:15s]">
               {firstRow.map((feature) => (
                 <FeatureItem key={feature.label} {...feature} />
