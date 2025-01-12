@@ -4,6 +4,7 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArticleContent } from "@/components/blog/ArticleContent";
 import { Post } from "@/sanity/schemaTypes/postType";
+import { getLanguage } from "@/actions/language";
 
 export async function generateStaticParams() {
   const posts = await getPosts();
@@ -18,7 +19,7 @@ export async function generateMetadata(props: {
 }): Promise<Metadata> {
   const params = await props.params;
   const slug = await params.slug;
-  const post = await getPostBySlug(slug);
+  const post = await getPostBySlug(slug, "en");
 
   if (!post || post.length === 0) {
     return {
@@ -30,11 +31,11 @@ export async function generateMetadata(props: {
   const postData = post[0];
 
   return {
-    title: postData.title ?? "Untitled Post",
-    description: postData.excerpt ?? "No description provided.",
+    title: postData.title.value ?? "Untitled Post",
+    description: postData.excerpt.value ?? "No description provided.",
     openGraph: {
-      title: postData.title,
-      description: postData.excerpt,
+      title: postData.title.value,
+      description: postData.excerpt.value,
       images: postData.imageUrl ? [{ url: postData.imageUrl }] : [],
       url: `https://www.redotengine.org//blog/${slug}`,
       type: "article",
@@ -46,8 +47,8 @@ export async function generateMetadata(props: {
     },
     twitter: {
       card: "summary_large_image",
-      title: postData.title,
-      description: postData.excerpt,
+      title: postData.title.value,
+      description: postData.excerpt.value,
       images: postData.imageUrl ? [postData.imageUrl] : [],
     },
   };
@@ -60,7 +61,7 @@ export default async function Article({
 }) {
   const slug = (await params).slug;
 
-  const post = await getPostBySlug(slug);
+  const post = await getPostBySlug(slug, await getLanguage());
 
   if (!post || post.length === 0) {
     notFound();
