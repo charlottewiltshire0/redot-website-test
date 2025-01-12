@@ -1,5 +1,8 @@
+"use client";
+
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import CookieConsent from "@/components/CookieConsent";
 
 export default function MainLayout({
   children,
@@ -8,6 +11,13 @@ export default function MainLayout({
 }>) {
   return (
     <section>
+      <div className="absolute">
+        <CookieConsent
+          onAcceptCallback={() => {}}
+          onDeclineCallback={() => {}}
+        />
+      </div>
+
       <Header />
       {children}
       <Footer />
