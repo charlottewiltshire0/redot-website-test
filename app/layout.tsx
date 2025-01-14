@@ -14,7 +14,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL),
+  metadataBase: new URL("https://www.redotengine.org"),
   title: {
     default: "Redot Engine: Open source game engine for everyone.",
     template: "%s - Redot Engine",
