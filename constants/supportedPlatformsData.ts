@@ -1,16 +1,15 @@
-import { getPlatformDownloadLink } from "@/lib/platformDownloadLink";
-
 export const supportedPlatformsData = [
   {
     label: "Android",
     href: "/download/android",
     icon: "/platform/android.svg",
   },
-  {
-    label: "Web Editor",
-    href: getPlatformDownloadLink("webEditor"),
-    icon: "/platform/web-editor.svg",
-  },
+  // Uncomment this section when Web Editor support is added.
+  // {
+  //   label: "Web Editor",
+  //   href: getPlatformDownloadLink("webEditor"),
+  //   icon: "/platform/web-editor.svg",
+  // },
   {
     label: "Windows",
     href: "/download/windows",
