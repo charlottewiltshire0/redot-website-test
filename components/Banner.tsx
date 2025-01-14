@@ -1,13 +1,10 @@
-"use client";
-
 import { IconArrowRight } from "@tabler/icons-react";
 import Link from "next/link";
-import { motion } from "motion/react";
 
 interface BannerProps {
   readonly mainMessage?: string;
   readonly subMessage?: string;
-  readonly link?: string;
+  readonly link: string;
 }
 
 export default function Banner({
@@ -18,30 +15,12 @@ export default function Banner({
   if (!mainMessage) return null;
 
   return (
-    <div className="flex items-center justify-center gap-3 bg-black py-3 text-sm font-medium text-white">
-      <p className="hidden text-white/60 md:block">{subMessage}</p>
-      {subMessage && (
-        <div>
-          {link ? (
-            <Link
-              href={link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1"
-            >
-              <p>{mainMessage}</p>
-              <motion.div
-                whileHover={{ scale: 1.1 }}
-                transition={{ ease: "easeOut", duration: 0.3 }}
-              >
-                <IconArrowRight className="inline-flex h-4 w-4 items-center justify-center" />
-              </motion.div>
-            </Link>
-          ) : (
-            <p>{mainMessage}</p>
-          )}
-        </div>
-      )}
-    </div>
+    <Link href={link} target="_blank" rel="noopener noreferrer">
+      <div className="group flex select-none items-center justify-center gap-2 bg-gradient-to-r from-pink-500 via-amber-500 to-orange-500 py-2 font-sans text-sm font-medium tracking-tight text-white">
+        <p className="hidden md:block">{subMessage}</p>
+        <p>{mainMessage}</p>
+        <IconArrowRight className="h-4 w-4 items-center justify-center transition-transform duration-300 group-hover:translate-x-1" />
+      </div>
+    </Link>
   );
 }
