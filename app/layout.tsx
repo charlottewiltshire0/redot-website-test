@@ -21,9 +21,6 @@ export const metadata: Metadata = {
   },
   description:
     "Redot Engine is an open-source game engine that enables developers to create stunning games with ease, offering powerful features, an active community, and a seamless development experience.",
-  twitter: {
-    card: "summary_large_image",
-  },
 };
 
 export default async function RootLayout({
