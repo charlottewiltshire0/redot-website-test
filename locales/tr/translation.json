@@ -55,7 +55,7 @@
     "description": "Redot Engine geliştiricilere esneklik ve yüksek performans sunarak harika oyunlar yapmalarını sağlıyor."
   },
   "startSection": {
-    "title": "Yaratmaya hazır mısın?",
+    "title": "Yaratmaya hazır mısınız?",
     "description": "Redot Engine ile etkileyici 2D ve 3D oyunlar oluşturun, çapraz platformda benzersiz deneyimler yaşayın.",
     "buttons": {
       "download": "İndir",
@@ -268,7 +268,7 @@
       "xCommunity": "X'teki tartışmalara katılın.",
       "linkedin": "Profesyonel güncellemeler.",
       "bsky": "Alternatif sosyal güncellemeler.",
-      "tiktok": "Kısa ipuçları ve öne çıkanlar noktalar."
+      "tiktok": "Kısa ipuçları ve öne çıkan noktalar."
     },
     "communitySpacesLinks": {
       "discord": "Sohbet ve işbirliği",
