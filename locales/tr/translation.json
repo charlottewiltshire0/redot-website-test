@@ -1,76 +1,76 @@
 {
   "header": {
     "banner": {
-      "subMessage": "En son sürüme geçin.",
-      "mainMessage": "Redot Engine artık stabil!"
+      "subMessage": "En yeni sürüme geçiş yapın.",
+      "mainMessage": "Redot Engine artık kararlı!"
     },
     "downloadButton": "İndir",
     "discordButton": "Discord'a Katıl",
     "links": {
       "documentation": "Dokümantasyon",
       "blog": "Blog",
-      "proposals": "Teklifler",
+      "proposals": "Öneriler",
       "community": "Topluluk"
     }
   },
   "heroSection": {
-    "heading": "Oyun Motoru,<br />Oyun Değiştirici",
-    "description": "Redot Engine ile 2D ve 3D oyunlarınızı, çapraz platform projelerinizi oluşturun veya XR teknolojilerinde yenilikçi fikirleri keşfedin!",
+    "heading": "Oyun Motoru,<br />Kuralları Baştan Yazıyor",
+    "description": "Redot Engine ile 2D ve 3D oyunlar tasarlayın, çapraz platform projeler geliştirin ya da XR teknolojisinde yenilikçi fikirlerinizi hayata geçirin!",
     "buttons": {
-      "primary": "Redot Engine'ı {os} için al",
-      "secondary": "Redot Engine Dokümanlarını Keşfet"
+      "primary": "Redot Engine'i {os} için İndirin",
+      "secondary": "Redot Engine Dokümantasyonunu Keşfedin"
     }
   },
   "productShowcaseSection": {
-    "badge": "⚡ Güçlendirilmiş",
-    "title": "Oyun Geliştirmenizi<br />Güçlendiriyor",
-    "description": "Esnek ve yüksek performanslı oyun motorumuzla her yaratıcı için sonsuz olasılıklar açın."
+    "badge": "⚡ Güçlü Teknoloji",
+    "title": "Oyun Geliştirme Sürecinizde<br />Fark Yaratın",
+    "description": "Esnek ve yüksek performanslı oyun motorumuzla sınırsız potansiyelin kapılarını aralayın."
   },
   "featuresSection": {
     "badge": "🤖 Yeni Nesil Oyun Tasarımı",
-    "title": "Redot Engine'in <br />Güçlü Özellikleri",
-    "description": "Oyun fikirlerinizi zahmetsizce hayata geçirmek için tasarlanmış ileri düzey araçlar ve yetenekler keşfedin.",
+    "title": "Redot Engine'in<br />Etkileyici Özellikleri",
+    "description": "Oyun fikirlerinizi zahmetsizce hayata geçirmek için tasarlanmış son teknoloji araçları ve potansiyeli keşfedin.",
     "highlights": {
       "sceneDrivenDesign": {
         "header": "Sahne odaklı tasarım",
-        "description": "Düğümler, scriptler ve açık oyun mantığı ile yeniden kullanılabilir sahneler oluşturun."
+        "description": "Düğüm hiyerarşisi ile yeniden kullanılabilir sahneler oluşturun ve açık oyun mantığıyla çalışın."
       },
       "crossPlatform": {
         "header": "Çapraz platform",
-        "description": "Farklı platformlarda geliştirin. Oyununuzu masaüstü, mobil ve webde hızlıca yayınlayın."
+        "description": "Farklı platformlar için geliştirin. Oyunlarınızı masaüstü, mobil ya da web üzerinde kolayca yayınlayın."
       },
       "2D3DEngines": {
-        "header": "2D ve 3D motorları",
-        "description": "Redot'un 2D motoruyla performanslı 2D oyunlar oluşturun ve kolayca zengin 3D dünyalar inşa edin."
+        "header": "2D ve 3D Motorlar",
+        "description": "Redot'un 2D motoru ile performanslı 2D oyunlar yaratın ve zengin 3D dünyalar tasarlayın."
       },
       "openSource": {
-        "header": "Açık kaynak",
-        "description": "Redot Engine ile açık geliştirme deneyimi yaşayın, tüm katılımcılar eşit şekilde katkıda bulunur."
+        "header": "Açık Kaynak",
+        "description": "Redot Engine'in açık geliştirme sürecine katılın ve katkıda bulunanlarla eşit bir topluluk oluşturun."
       }
     }
   },
   "reviewSection": {
-    "badge": "🎉 Stabil sürüm geldi",
-    "title": "Kullanıcılarımız Ne Diyor",
-    "description": "Redot Engine, geliştiricilere oyun yaparken esneklik ve performans sağlar."
+    "badge": "🎉 Kararlı sürüm çıktı",
+    "title": "Kullanıcılarımız ne diyor?",
+    "description": "Redot Engine geliştiricilere esneklik ve yüksek performans sunarak harika oyunlar yapmalarını sağlıyor."
   },
   "startSection": {
-    "title": "Yaratmaya Hazır Mısınız?",
-    "description": "Redot Engine ile 2D ve 3D oyunlar yaratın ve çapraz platform sürükleyici deneyimler elde edin.",
+    "title": "Yaratmaya hazır mısın?",
+    "description": "Redot Engine ile etkileyici 2D ve 3D oyunlar oluşturun, çapraz platformda benzersiz deneyimler yaşayın.",
     "buttons": {
       "download": "İndir",
-      "documentation": "Redot Engine Dokümanlarını Keşfet"
+      "documentation": "Redot Engine Dokümantasyonunu Keşfedin"
     }
   },
   "footer": {
     "languageSelector": {
-      "searchPlaceholder": "Dil arayın...",
+      "searchPlaceholder": "Dil ara...",
       "noResults": "Dil bulunamadı."
     },
     "copyright": {
-      "text": "© 2024-günümüz Redot topluluğu katkıcıları tarafından.",
+      "text": "© 2024-günümüz Redot topluluğunun katkılarıyla.",
       "website": "Web Sitesi",
-      "sourceCode": "GitHub'daki kaynak kodu"
+      "sourceCode": "GitHub'da kaynak kodu"
     },
     "buttons": {
       "settings": "Ayarlar"
@@ -81,14 +81,14 @@
         "download": "İndir",
         "status": "Durum",
         "donate": "Bağış Yap",
-        "documentation": "Doküman",
+        "documentation": "Dokümantasyon",
         "sourceCode": "Kaynak Kodu"
       }
     },
     "resources": {
       "title": "Kaynaklar",
       "children": {
-        "blog": "Haberler",
+        "blog": "Blog",
         "feedback": "Geri Bildirim",
         "community": "Topluluk",
         "pressKit": "Basın Kiti",
@@ -98,78 +98,78 @@
     "betaPrograms": {
       "title": "Beta Programları",
       "children": {
-        "launcher": "Başlatıcı",
+        "launcher": "Launcher",
         "academy": "Akademi",
-        "engineExperimental": "Motor Deneysel"
+        "engineExperimental": "Deneysel Motor"
       }
     },
     "policies": {
       "title": "Politikalar",
       "children": {
-        "terms": "Şartlar",
+        "terms": "Kullanım Şartları",
         "privacy": "Gizlilik",
         "cookieSettings": "Çerez Ayarları",
         "licenses": "Lisanslar",
-        "contributionGuidelines": "Katkı Kuralları"
+        "contributionGuidelines": "Katkı Rehberi"
       }
     }
   },
   "notFound": {
-    "code": "404 hatası",
+    "code": "404 hata",
     "title": "Bu sayfa bulunamadı",
-    "description": "Aradığınız sayfa kullanılamaz veya taşınmış olabilir.",
-    "goBack": "Geri git",
-    "goHome": "Ana sayfaya git",
+    "description": "Aradığınız sayfa ya mevcut değil ya da taşınmış.",
+    "goBack": "Geri dön",
+    "goHome": "Ana sayfaya dön",
     "documentation": {
       "title": "Dokümantasyon",
       "description": "Motorumuz hakkında her şeyi öğrenin."
     },
     "ourBlog": {
       "title": "Blogumuz",
-      "description": "Blogumuzdaki en son gönderileri okuyun."
+      "description": "Blogumuzdaki en son yazıları okuyun."
     },
     "contactUs": {
       "title": "Bize Ulaşın",
-      "description": "Sorular veya destek için bizimle iletişime geçin."
+      "description": "Sorularınız veya destek için bizimle iletişime geçin."
     }
   },
   "downloadHero": {
-    "downloadForOS": "{platform} için Redot İndir",
-    "igniteYourImagination": "Hayal Gücünüzü Ateşleyin",
-    "downloadDescription": "Redot Engine'i indirerek, 2D ve 3D çapraz platform oyunlar ve etkileşimli deneyimler oluşturun.",
+    "downloadForOS": "Redot'u {platform} için indir",
+    "igniteYourImagination": "Hayal Gücünüzü Harekete Geçirin",
+    "downloadDescription": "2D ve 3D çapraz platform oyunlar ve interaktif deneyimler oluşturmak için güçlü bir platform olan Redot Engine'i indirin.",
     "buttons": {
-      "downloadLatest": "Son sürümü indir",
-      "downloadMono": "Mono'yu indir",
-      "moreDownloadOptions": "Daha fazla indirme seçeneği"
+      "downloadLatest": "Son Sürümü İndir",
+      "downloadMono": "Mono Sürümünü İndir",
+      "moreDownloadOptions": "Daha Fazla İndirme Seçeneği"
     }
   },
   "downloadThreeSteps": {
     "badge": "",
-    "title": "Redot ile Yarat",
-    "description": "Redot Engine ile oyununuza hızlı, esnek ve açık kaynaklı bir şekilde başlayın.",
+    "title": "Redot ile Üretin",
+    "description": "Redot Engine ile oyununuzu kolayca oluşturun: hızlı, esnek ve tüm geliştiricilere açık.",
     "steps": {
       "step1": {
-        "title": "1. Redot Sürümünü Seçin",
-        "description": "En son Redot Engine sürümünü, eski bir sürümü veya beta sürümünü seçebilirsiniz.",
+        "title": "1. Redot Sürümünüzü Seçin",
+        "description": "En son Redot Engine’i, eski bir sürümü veya beta versiyonunu seçebilirsiniz.",
         "links": {
           "archive": "İndirme arşivini ziyaret edin"
         }
       },
       "step2": {
-        "title": "2. Redot Engine'i İndirin",
-        "description": "Yükleme ve kurulum talimatlarını takip edin.",
+        "title": "2. Redot Engine’i İndirin",
+        "description": "Kurulum ve yapılandırmayı tamamlamak için talimatları takip edin.",
         "links": {
-          "windows": "Windows için indir",
-          "mac": "Mac için indir",
-          "linux": "Linux için indir",
-          "android": "Android için indir"
+          "windows": "Windows için İndir",
+          "mac": "Mac için İndir",
+          "linux": "Linux için İndir",
+          "android": "Android için İndir"
         }
       },
       "step3": {
         "title": "3. Projenize Başlayın",
-        "description": "Projenizi sıfırdan başlatın veya bir şablon seçin. Topluluğumuza katılmak için Discord'a katılın!",
+        "description": "Projenizi sıfırdan başlatın veya bir şablon seçin. Bağlantı kurmak için Discord topluluğumuza katılın!",
         "links": {
-          "discord": "Discord Topluluğumuza Katıl"
+          "discord": "Discord Topluluğumuza Katılın"
         }
       }
     }
@@ -177,33 +177,33 @@
   "downloadSupportedPlatform": {
     "badge": "",
     "title": "Desteklenen platformlar",
-    "description": "Redot Engine çeşitli platformlarda sorunsuz çalışır ve uyumluluğu garanti eder."
+    "description": "Redot Engine, çeşitli platformlarda sorunsuz çalışır ve uyumluluk sağlar."
   },
   "downloadInformation": {
     "systemRequirements": {
       "title": "Redot Engine Sistem Gereksinimleri",
       "description": {
-        "general": "Tavsiye edilen: Vulkan 1.0 uyumlu donanım. Minimum: OpenGL 3.3 / OpenGL ES 3.0 uyumlu donanım.",
+        "general": "Önerilen: Vulkan 1.0 uyumlu donanım. Minimum: OpenGL 3.3 / OpenGL ES 3.0 uyumlu donanım.",
         "dotnet": ".NET sürümü için ek gereksinimler:",
         "dotnetLink": ".NET SDK"
       }
     },
     "about": {
       "title": "Redot Engine Nedir?",
-      "description": "Redot Engine, 2D ve 3D projeler için ücretsiz, açık kaynaklı bir oyun geliştirme platformudur. Godot'tan türetilmiş olup, geliştiricilerin her seviyesine esneklik ve kullanım kolaylığı sunar, çapraz platform desteği ve bir işbirliği topluluğu ile.",
-      "learnMoreButton": "Redot Engine hakkında daha fazla bilgi"
+      "description": "Redot Engine, 2D ve 3D projeler için ücretsiz ve açık kaynaklı bir oyun geliştirme platformudur. Godot’a dayalı olan Redot, geliştiricilere esneklik ve kolaylık sağlar, çapraz platform desteği ve işbirliğine dayalı bir topluluk sunar.",
+      "learnMoreButton": "Redot Engine Hakkında Daha Fazla Bilgi Edinin"
     }
   },
   "downloadHelp": {
-    "title": "Yardım mı gerekiyor?",
-    "description": "Yardım almak, fikir paylaşmak ve topluluğumuzla bağlantı kurmak için Discord sunucumuza katılın!",
+    "title": "Yardıma mı ihtiyacınız var?",
+    "description": "Discord sunucumuza katılarak yardım alın, fikirlerinizi paylaşın ve topluluğumuzla bağlantı kurun!",
     "buttons": {
       "discord": "Discord'a Katıl",
-      "documentation": "Redot Engine Dokümanlarını Keşfet"
+      "documentation": "Redot Engine Dokümantasyonunu Keşfedin"
     }
   },
   "blog": {
-    "allPosts": "Tüm Yazılar",
+    "allPosts": "Tüm Gönderiler",
     "searchPlaceholder": "Ara...",
     "noPostsFound": {
       "title": "Makale Bulunamadı",
@@ -211,7 +211,7 @@
     }
   },
   "tags": {
-    "tagAllPosts": "Tüm Yazılar"
+    "tagAllPosts": "Tüm Gönderiler"
   },
   "latestBlogHero": {
     "readMore": "Daha fazla oku"
@@ -224,11 +224,11 @@
   "contact": {
     "badge": "",
     "title": "Bize Ulaşın",
-    "description": "Sizden haber almak isteriz! Sorularınız, geri bildirimleriniz veya iş birliği fikirlerinizle bizimle iletişime geçin.",
-    "faqTitle": "Sıkça Sorulan Sorular",
+    "description": "Sizden haber almak isteriz! Sorularınız, geri bildirimleriniz veya işbirliği fikirleriniz için bize ulaşın.",
+    "faqTitle": "Sıkça sorulan sorular",
     "faq": {
       "whatIsRedot": "Redot nedir?",
-      "redotExplanation": "Redot, motorun kararlılığını ve performansını iyileştirmeye odaklanmış bir Godot çatallamasıdır.",
+      "redotExplanation": "Redot, motorun kararlılığını ve performansını iyileştirmeye odaklanmış bir Godot çatalıdır.",
       "whyWasRedotMade": "Redot neden yapıldı?",
       "redotMadeExplanation": "Redot, bazı geliştiricilerin, Godot'un motoru ve oyun geliştirme topluluğunu nasıl ele aldığına dair tam olarak karşılanmayan ihtiyaçları ele almak için yaratıldı.",
       "antiWoke": "Redot, anti-woke bir proje veya sunucu mudur?",
@@ -240,19 +240,19 @@
     },
     "contactCard": {
       "emailUs": "Bize E-posta Gönderin",
-      "emailDescription": "E-posta ile hızlı destek.",
+      "emailDescription": "E-posta yoluyla hızlı destek.",
       "joinDiscord": "Discord'a Katılın",
-      "discordDescription": "Bizimle gerçek zamanlı sohbet.",
+      "discordDescription": "Bizimle gerçek zamanlı sohbet edin.",
       "followUs": "Bizi Takip Edin",
       "followDescription": "Güncellemeler, haberler ve ipuçları.",
       "forum": "Forum",
-      "forumDescription": "Katılın, paylaşın ve yardım alın."
+      "forumDescription": "Katılım sağlayın, paylaşın ve yardım alın."
     }
   },
   "licenses": {
     "badge": "",
     "title": "Lisanslar",
-    "description": "Redot Engine, her biri kendi lisansına sahip açık kaynaklı kütüphaneler ve yazı tipleri kullanmaktadır. Bu sayfada listelenmiştir."
+    "description": "Redot Engine, her biri bu sayfada listelenen kendi lisansına sahip açık kaynaklı kütüphaneler ve yazı tipleri kullanır."
   },
   "community": {
     "badge": "",
@@ -263,22 +263,22 @@
     "supportAndContributions": "Destek ve Katkılar",
     "socialLinks": {
       "reddit": "Tartışmalar ve güncellemeler.",
-      "youtube": "Eğitimler ve sergiler.",
+      "youtube": "Eğitimler ve gösterimler.",
       "x": "Son haberler ve duyurular.",
       "xCommunity": "X'teki tartışmalara katılın.",
       "linkedin": "Profesyonel güncellemeler.",
       "bsky": "Alternatif sosyal güncellemeler.",
-      "tiktok": "Hızlı ipuçları ve öne çıkanlar."
+      "tiktok": "Kısa ipuçları ve öne çıkanlar noktalar."
     },
     "communitySpacesLinks": {
-      "discord": "Sohbet edin ve işbirliği yapın.",
+      "discord": "Sohbet ve işbirliği",
       "discordCommunity": "Topluluk etkinliklerini keşfedin.",
       "forum": "Fikirlerinizi paylaşın ve bağlantı kurun."
     },
     "contributionsLinks": {
       "kofi": "Bizi doğrudan destekleyin.",
       "itch": "Projeleri indirin ve keşfedin.",
-      "github": "Temel geliştirme projeleri.",
+      "github": "Çekirdek geliştirme projeleri.",
       "engineExperimental": "Deneysel özellikler ve projeler."
     }
   },
@@ -290,11 +290,11 @@
   "privacy": {
     "badge": "",
     "title": "Gizlilik Politikası",
-    "description": "Verilerinizi nasıl koruduğumuzu ve açık politikamızla gizliliğinizi nasıl sağladığımızı öğrenin."
+    "description": "Açık politikamızla verilerinizi nasıl koruduğumuzu ve gizliliğinizi nasıl sağladığımızı öğrenin."
   },
   "terms": {
     "badge": "",
     "title": "Hizmet Şartları",
-    "description": "Hizmetlerimizi kullanmak için kurallar ve yönergeleri Hizmet Şartlarımızda anlayın."
+    "description": "Hizmet Şartlarımızda yer alan hizmetlerimizi kullanmaya ilişkin kural ve yönergeleri anlayın."
   }
 }
