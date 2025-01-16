@@ -15,15 +15,15 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.redotengine.org"),
+  verification: {
+    google: process.env.GOOGLE_VERIFICATION_CODE,
+  },
   title: {
     default: "Redot Engine: Open source game engine for everyone.",
     template: "%s - Redot Engine",
   },
   description:
     "Redot Engine is an open-source game engine that enables developers to create stunning games with ease, offering powerful features, an active community, and a seamless development experience.",
-  twitter: {
-    card: "summary_large_image",
-  },
 };
 
 export default async function RootLayout({
