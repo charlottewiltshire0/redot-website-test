@@ -15,6 +15,9 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.redotengine.org"),
+  verification: {
+    google: process.env.GOOGLE_VERIFICATION_CODE,
+  },
   title: {
     default: "Redot Engine: Open source game engine for everyone.",
     template: "%s - Redot Engine",
