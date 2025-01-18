@@ -24,6 +24,15 @@ export const AppearanceForm = () => {
     await saveSettingsBlogLayout(value);
   };
 
+  const handleKeyDown = (
+    event: React.KeyboardEvent<HTMLDivElement>,
+    value: string
+  ) => {
+    if (event.key === "Enter" || event.key === " ") {
+      handleLayoutChange(value);
+    }
+  };
+
   return (
     <div className="space-y-8">
       <div className="space-y-1">
@@ -37,8 +46,11 @@ export const AppearanceForm = () => {
           onValueChange={handleLayoutChange}
         >
           <div
+            role="button"
+            tabIndex={0}
             className="[&:has([data-state=checked])>div]:border-primary"
             onClick={() => handleLayoutChange("new")}
+            onKeyDown={(event) => handleKeyDown(event, "new")}
           >
             <RadioGroupItem value="new" className="sr-only" />
             <div className="items-center rounded-md border-2 border-muted p-1 hover:border-accent">
@@ -67,8 +79,11 @@ export const AppearanceForm = () => {
             </span>
           </div>
           <div
+            role="button"
+            tabIndex={0}
             className="[&:has([data-state=checked])>div]:border-primary"
             onClick={() => handleLayoutChange("old")}
+            onKeyDown={(event) => handleKeyDown(event, "old")}
           >
             <RadioGroupItem value="old" className="sr-only" />
             <div className="items-center rounded-md border-2 border-muted p-1 hover:border-accent">
