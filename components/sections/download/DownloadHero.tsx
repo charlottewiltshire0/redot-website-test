@@ -137,6 +137,9 @@ export const DownloadHero = ({ platform }: { platform: string }) => {
           </div>
         </motion.div>
       </section>
+      <p className="mt-2 text-right text-sm text-muted-foreground hover:underline">
+        <Link href="https://runegamedev.itch.io/biograde">Biograde</Link>
+      </p>
     </div>
   );
 };

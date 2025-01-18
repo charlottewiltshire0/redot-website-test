@@ -84,7 +84,7 @@ export const Hero = () => {
               preload="none"
             >
               <source
-                src="https://image.redotengine.org/Games%20are%20made%20with%20Redot%20Engine%202024%20Without%20outro.mp4"
+                src="https://image.redotengine.org/showcase_2024.mp4"
                 type="video/mp4"
               />
               Your browser does not support the video tag.
