@@ -1,9 +1,9 @@
-interface SettingsSidebarItems {
+interface SettingsSidebarItem {
   title: string;
   href: string;
 }
 
-export const settingsSidebarItems: SettingsSidebarItems[] = [
+export const settingsSidebarItems: SettingsSidebarItem[] = [
   {
     title: "Appearance",
     href: "/settings",

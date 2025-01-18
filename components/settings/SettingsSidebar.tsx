@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
 import Link from "next/link";
-import { settingsSidebarItems } from "@/constants/settingsSidebarItems";
+import { settingsSidebarItems } from "@/constants/settingsSidebarItem";
 
 export const SettingsSidebar = () => {
   const pathname = usePathname();
@@ -15,6 +15,7 @@ export const SettingsSidebar = () => {
         <Link
           key={navItem.href}
           href={navItem.href}
+          aria-current={pathname === navItem.href ? "page" : undefined}
           className={cn(
             buttonVariants({ variant: "ghost" }),
             pathname === navItem.href
