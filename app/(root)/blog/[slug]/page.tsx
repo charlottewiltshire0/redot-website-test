@@ -1,10 +1,12 @@
 import { getPostBySlug, getPosts } from "@/lib/blog";
-import { ArticleSplash } from "@/components/blog/ArticleSplash";
+import { ArticleSplashNew } from "@/components/blog/ArticleSplashNew";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArticleContent } from "@/components/blog/ArticleContent";
 import { Post } from "@/sanity/schemaTypes/postType";
 import { getLanguage } from "@/actions/language";
+import { getSettingsBlogLayout } from "@/actions/settings";
+import { ArticleSplashOld } from "@/components/blog/ArticleSplashOld";
 
 export async function generateStaticParams() {
   const posts = await getPosts();
@@ -68,11 +70,16 @@ export default async function Article({
   }
 
   const postData = post[0];
+  const layout = await getSettingsBlogLayout();
 
   return (
     <div className="px-5 py-12 lg:px-40">
       <div className="flex flex-col items-center justify-center">
-        <ArticleSplash article={postData} />
+        {layout === "new" ? (
+          <ArticleSplashNew article={postData} />
+        ) : (
+          <ArticleSplashOld article={postData} />
+        )}
         <div className="max-w-[720px] md:w-[720px]">
           <ArticleContent article={postData} />
         </div>

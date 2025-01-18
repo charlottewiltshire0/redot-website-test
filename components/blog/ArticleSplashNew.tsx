@@ -5,7 +5,7 @@ import { formatDate } from "@/lib/utils";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Post } from "@/sanity/schemaTypes/postType";
 
-export const ArticleSplash = ({ article }: { article: Post }) => {
+export const ArticleSplashNew = ({ article }: { article: Post }) => {
   return (
     <div className="flex w-full flex-col items-center gap-8 pb-24">
       <div className="flex max-w-[768px] flex-col items-center gap-6 text-center md:w-[768px]">
