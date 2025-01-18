@@ -1,7 +1,29 @@
+"use client";
+
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
+import { useEffect, useState } from "react";
+import {
+  getSettingsBlogLayout,
+  saveSettingsBlogLayout,
+} from "@/actions/settings";
 
 export const AppearanceForm = () => {
+  const [selectedLayout, setSelectedLayout] = useState<string>("new");
+
+  useEffect(() => {
+    const fetchLayout = async () => {
+      const layout = await getSettingsBlogLayout();
+      setSelectedLayout(layout);
+    };
+    fetchLayout();
+  }, []);
+
+  const handleLayoutChange = async (value: string) => {
+    setSelectedLayout(value);
+    await saveSettingsBlogLayout(value);
+  };
+
   return (
     <div className="space-y-8">
       <div className="space-y-1">
@@ -9,8 +31,15 @@ export const AppearanceForm = () => {
         <p className="text-sm text-muted-foreground">
           Choose how your blog posts are displayed
         </p>
-        <RadioGroup className="grid max-w-md grid-cols-2 gap-8 pt-2">
-          <div className="[&:has([data-state=checked])>div]:border-primary">
+        <RadioGroup
+          className="grid max-w-md grid-cols-2 gap-8 pt-2"
+          value={selectedLayout}
+          onValueChange={handleLayoutChange}
+        >
+          <div
+            className="[&:has([data-state=checked])>div]:border-primary"
+            onClick={() => handleLayoutChange("new")}
+          >
             <RadioGroupItem value="new" className="sr-only" />
             <div className="items-center rounded-md border-2 border-muted p-1 hover:border-accent">
               <div className="space-y-2 rounded-sm bg-white p-2 shadow-sm">
@@ -37,7 +66,10 @@ export const AppearanceForm = () => {
               New
             </span>
           </div>
-          <div className="[&:has([data-state=checked])>div]:border-primary">
+          <div
+            className="[&:has([data-state=checked])>div]:border-primary"
+            onClick={() => handleLayoutChange("old")}
+          >
             <RadioGroupItem value="old" className="sr-only" />
             <div className="items-center rounded-md border-2 border-muted p-1 hover:border-accent">
               <div className="space-y-2 rounded-sm bg-white p-2 shadow-sm">
