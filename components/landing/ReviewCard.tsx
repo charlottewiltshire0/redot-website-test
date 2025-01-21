@@ -1,20 +1,16 @@
 import { cn } from "@/lib/utils";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
-interface ReviewsProps {
+interface ReviewsProps extends InterfaceReview {
   className?: string;
-  avatar: string;
-  name: string;
-  username: string;
-  body: string;
 }
 
 export const ReviewCard = ({
-  avatar,
+  className,
   name,
   username,
+  imageUrl,
   body,
-  className,
 }: ReviewsProps) => {
   return (
     <div
@@ -26,14 +22,14 @@ export const ReviewCard = ({
       <div className="flex flex-row items-center">
         <div className="flex items-center space-x-2">
           <Avatar>
-            <AvatarImage src={avatar} alt={name} />
+            <AvatarImage src={imageUrl} alt={name} />
             <AvatarFallback>
               {name ? name.charAt(0).toUpperCase() : ""}
             </AvatarFallback>
           </Avatar>
           <div className="flex flex-col space-y-1">
             <p className="text-sm font-medium leading-none">{name}</p>
-            <p className="text-xs text-muted-foreground">{username}</p>
+            <p className="text-xs text-muted-foreground">{username.current}</p>
           </div>
         </div>
       </div>
