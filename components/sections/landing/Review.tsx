@@ -4,14 +4,27 @@ import { motion } from "motion/react";
 import { useInView } from "react-intersection-observer";
 import { ReviewCard } from "@/components/landing/ReviewCard";
 import Marquee from "@/components/ui/marquee";
-import { reviews } from "@/constants/reviews";
 import SectionHeader from "@/components/SectionHeader";
+import { useEffect, useState } from "react";
+import { fetchAllReviews } from "@/lib/review";
+import { InterfaceReview } from "@/sanity/schemaTypes/reviewType";
 
 export const Review = () => {
   const { ref, inView } = useInView({
     threshold: 0.1,
     triggerOnce: true,
   });
+
+  const [reviews, setReviews] = useState([]);
+
+  useEffect(() => {
+    const getReviews = async () => {
+      const data = await fetchAllReviews();
+      setReviews(data);
+    };
+
+    getReviews();
+  }, []);
 
   const firstRow = reviews.slice(0, reviews.length / 2);
   const secondRow = reviews.slice(reviews.length / 2);
@@ -35,18 +48,18 @@ export const Review = () => {
           <div className="hidden md:block">
             <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
               <Marquee pauseOnHover className="[--duration:20s]">
-                {firstRow.map((review) => (
+                {firstRow.map((review: InterfaceReview) => (
                   <ReviewCard
-                    key={review.username}
+                    key={review.username.current}
                     className="w-64"
                     {...review}
                   />
                 ))}
               </Marquee>
               <Marquee reverse pauseOnHover className="[--duration:20s]">
-                {secondRow.map((review) => (
+                {secondRow.map((review: InterfaceReview) => (
                   <ReviewCard
-                    key={review.username}
+                    key={review.username.current}
                     className="w-64"
                     {...review}
                   />
@@ -63,9 +76,9 @@ export const Review = () => {
                 vertical
                 className="h-[30rem] w-full [--duration:20s]"
               >
-                {firstRow.map((review) => (
+                {firstRow.map((review: InterfaceReview) => (
                   <ReviewCard
-                    key={review.username}
+                    key={review.username.current}
                     className="w-full"
                     {...review}
                   />
