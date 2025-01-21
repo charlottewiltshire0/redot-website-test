@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { InterfaceReview } from "@/sanity/schemaTypes/reviewType";
 
 interface ReviewsProps extends InterfaceReview {
   className?: string;
