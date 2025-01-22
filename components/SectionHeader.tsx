@@ -84,7 +84,7 @@ export default function SectionHeader({
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="flex h-9 items-center rounded-md border border-input bg-background px-3 text-sm font-medium hover:bg-accent"
+            className="flex h-8 items-center rounded-md border border-input bg-background px-3 font-sans text-sm font-medium"
           >
             {badgeContent}
           </motion.div>
@@ -110,7 +110,7 @@ export default function SectionHeader({
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5, delay: 0.6 }}
           className={cn(
-            "mt-5 text-xl tracking-tighter text-black/60 md:text-[22px] md:leading-[30px]",
+            "mt-5 text-xl tracking-tighter text-muted-foreground md:text-[22px] md:leading-[30px]",
             descriptionTextAlignClass
           )}
         >

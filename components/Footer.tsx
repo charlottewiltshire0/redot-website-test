@@ -12,6 +12,7 @@ import { footer } from "@/constants/footer";
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { IconArrowUpRight } from "@tabler/icons-react";
+import { ModeToggle } from "@/components/ModeToggle";
 
 export const Footer = () => {
   const t = useTranslations("footer");
@@ -96,9 +97,12 @@ export const Footer = () => {
                 </span>
               </span>
 
-              <Button variant="secondary" asChild>
-                <Link href="/settings">{t("buttons.settings")}</Link>
-              </Button>
+              <div className="flex flex-row gap-4">
+                <ModeToggle />
+                <Button variant="secondary" asChild>
+                  <Link href="/settings">{t("buttons.settings")}</Link>
+                </Button>
+              </div>
             </div>
           </div>
         </div>

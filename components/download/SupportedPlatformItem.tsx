@@ -18,7 +18,7 @@ export const SupportedPlatformItem = ({
   return (
     <Link
       className={cn(
-        "flex cursor-pointer flex-row items-center justify-center gap-4 overflow-hidden rounded-xl border border-gray-950/[.1] bg-gray-950/[.01] p-4 hover:bg-gray-950/[.05]",
+        "flex cursor-pointer flex-row items-center justify-center gap-4 overflow-hidden rounded-xl border border-border bg-background p-4 transition-colors duration-200 hover:bg-accent/60",
         className
       )}
       href={href}
@@ -28,7 +28,7 @@ export const SupportedPlatformItem = ({
         alt={`${label} icon`}
         width={32}
         height={32}
-        style={{ filter: "invert(100%)" }}
+        className="invert dark:invert-0"
       />
       <p className="text-lg font-medium">{label}</p>
     </Link>
