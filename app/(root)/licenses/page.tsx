@@ -47,9 +47,8 @@ export default function License() {
 
   return (
     <div>
-      <div className="relative flex w-full items-start justify-center bg-white bg-grid-black/[0.1] dark:bg-black dark:bg-grid-white/[0.1]">
-        {/* Radial gradient for the container to give a faded look */}
-        <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black"></div>
+      <div className="relative flex w-full items-start justify-center bg-white bg-grid-black/[0.1] dark:bg-background dark:bg-grid-white/[0.1]">
+        <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-background"></div>
         <div className="relative z-20 px-5 pb-5 pt-10 lg:px-40">
           <SectionHeader section="licenses" />
         </div>
