@@ -4,7 +4,7 @@ import { DownloadSupportedPlatform } from "@/components/sections/download/Downlo
 import { DownloadInformation } from "@/components/sections/download/DownloadInformation";
 import { Metadata } from "next";
 import { links } from "@/constants/links";
-import { SectionWithButtons } from "@/components/SectionWithButtons";
+import { CTA } from "@/components/CTA";
 
 const capitalizeFirstLetter = (string: string) => {
   return string.charAt(0).toUpperCase() + string.slice(1);
@@ -34,7 +34,7 @@ export default async function DownloadPlatform({
       <DownloadThreeSteps />
       <DownloadSupportedPlatform />
       <DownloadInformation />
-      <SectionWithButtons
+      <CTA
         titleKey="downloadHelp.title"
         descriptionKey="downloadHelp.description"
         buttonLinks={[
