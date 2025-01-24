@@ -14,9 +14,9 @@ export const ReviewCard = ({
   body,
 }: ReviewsProps) => {
   return (
-    <div
+    <figure
       className={cn(
-        "relative cursor-pointer overflow-hidden rounded-xl border border-border bg-card p-4 transition-colors duration-200 hover:bg-accent/60",
+        "relative cursor-pointer overflow-hidden rounded-xl border border-border bg-card bg-zinc-50/[.05] p-4 transition-colors duration-300 ease-in-out hover:bg-accent/60",
         className
       )}
     >
@@ -29,14 +29,16 @@ export const ReviewCard = ({
             </AvatarFallback>
           </Avatar>
           <div className="flex flex-col space-y-1">
-            <p className="text-sm font-medium leading-none">{name}</p>
+            <figcaption className="text-sm font-medium leading-none">
+              {name}
+            </figcaption>
             <p className="text-xs text-muted-foreground">{username.current}</p>
           </div>
         </div>
       </div>
-      <p className="mt-2 line-clamp-3 overflow-hidden text-ellipsis text-sm">
+      <blockquote className="mt-2 line-clamp-4 overflow-hidden text-ellipsis text-sm">
         {body}
-      </p>
-    </div>
+      </blockquote>
+    </figure>
   );
 };
