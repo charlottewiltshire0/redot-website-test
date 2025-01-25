@@ -54,6 +54,12 @@
     "title": "Ce spun utilizatorii noștri",
     "description": "Redot Engine oferă dezvoltatorilor flexibilitate și performanță pentru crearea de jocuri uimitoare."
   },
+  "blogSection": {
+    "badge": "📰 Blogul nostru",
+    "title": "Cele mai recente postări pe blog",
+    "description": "Fii la curent cu ultimele noutăți, tutoriale și perspective din comunitatea Redot.",
+    "viewAll": "Vezi toate postările"
+  },
   "startSection": {
     "title": "Pregătit să creezi?",
     "description": "Creează jocuri captivante 2D și 3D cu Redot Engine pentru experiențe cross-platform imersive.",

@@ -54,6 +54,12 @@
     "title": "我們的用戶怎麼說",
     "description": "Redot Engine 賦予開發者彈性和效能，創造出令人驚艷的遊戲。"
   },
+  "blogSection": {
+    "badge": "📰 我們的部落格",
+    "title": "最新部落格文章",
+    "description": "隨時了解來自Redot社群的最新消息、教程和見解。",
+    "viewAll": "查看所有文章"
+  },
   "startSection": {
     "title": "準備好創建了嗎？",
     "description": "使用 Redot Engine 創建引人入勝的 2D 和 3D 遊戲，實現跨平台沉浸式體驗。",

@@ -54,6 +54,12 @@
     "title": "Vad våra användare säger",
     "description": "Redot Engine ger utvecklare flexibilitet och prestanda för att skapa fantastiska spel."
   },
+  "blogSection": {
+    "badge": "📰 Vår Blogg",
+    "title": "Senaste blogginläggen",
+    "description": "Håll dig uppdaterad med de senaste nyheterna, handledningarna och insikterna från Redot-communityt.",
+    "viewAll": "Visa alla inlägg"
+  },
   "startSection": {
     "title": "Redo att skapa?",
     "description": "Skapa fängslande 2D- och 3D-spel med Redot Engine för plattformsoberoende, uppslukande upplevelser.",

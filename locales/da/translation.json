@@ -54,6 +54,12 @@
     "title": "Hvad siger vores brugere",
     "description": "Redot Engine giver udviklere fleksibilitet og ydeevne til at skabe fantastiske spil."
   },
+  "blogSection": {
+    "badge": "📰 Náš blog",
+    "title": "Nejnovější příspěvky na blogu",
+    "description": "Sledujte nejnovější zprávy, návody a poznatky z komunity Redot.",
+    "viewAll": "Zobrazit všechny příspěvky"
+  },
   "startSection": {
     "title": "Klar til at skabe?",
     "description": "Skab fængslende 2D og 3D spil med Redot Engine til tværplatform immersive oplevelser.",

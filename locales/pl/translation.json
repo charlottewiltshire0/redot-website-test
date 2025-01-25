@@ -54,6 +54,12 @@
     "title": "Co mówią nasi użytkownicy",
     "description": "Redot Engine umożliwia twórcom elastyczność i wydajność w tworzeniu niesamowitych gier."
   },
+  "blogSection": {
+    "badge": "📰 Nasz Blog",
+    "title": "Najnowsze wpisy na blogu",
+    "description": "Bądź na bieżąco z najnowszymi wiadomościami, samouczkami i spostrzeżeniami z społeczności Redot.",
+    "viewAll": "Zobacz wszystkie wpisy"
+  },
   "startSection": {
     "title": "Gotowy do tworzenia?",
     "description": "Twórz fascynujące gry 2D i 3D z Redot Engine dla krzyżowych, wciągających doświadczeń.",

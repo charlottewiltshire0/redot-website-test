@@ -54,6 +54,12 @@
     "title": "Ką sako mūsų vartotojai",
     "description": "Redot Engine suteikia kūrėjams lankstumo ir našumo kuriant nuostabius žaidimus."
   },
+  "blogSection": {
+    "badge": "📰 Mūsų tinklaraštis",
+    "title": "Naujausi tinklaraščio įrašai",
+    "description": "Sekite naujausias naujienas, pamokas ir įžvalgas iš Redot bendruomenės.",
+    "viewAll": "Peržiūrėti visus įrašus"
+  },
   "startSection": {
     "title": "Pasiruošę kurti?",
     "description": "Kurkite įdomius 2D ir 3D žaidimus su Redot Engine kryžminiams įtraukiančiais projektais.",

@@ -54,6 +54,12 @@
     "title": "Was unsere Nutzer sagen",
     "description": "Die Redot Engine ermöglicht Entwicklern Flexibilität und Leistung, um erstaunliche Spiele zu schaffen."
   },
+  "blogSection": {
+    "badge": "📰 Unser Blog",
+    "title": "Neueste Blogbeiträge",
+    "description": "Bleiben Sie auf dem Laufenden mit den neuesten Nachrichten, Tutorials und Einblicken aus der Redot-Community.",
+    "viewAll": "Alle Beiträge ansehen"
+  },
   "startSection": {
     "title": "Bereit zum Erstellen?",
     "description": "Erstelle fesselnde 2D- und 3D-Spiele mit der Redot Engine für plattformübergreifende immersive Erlebnisse.",

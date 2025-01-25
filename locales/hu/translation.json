@@ -54,6 +54,12 @@
     "title": "Mit mondanak a felhasználóink",
     "description": "A Redot Engine lehetővé teszi a fejlesztők számára, hogy rugalmasan és nagy teljesítménnyel hozzanak létre lenyűgöző játékokat."
   },
+  "blogSection": {
+    "badge": "📰 Blogunk",
+    "title": "Legfrissebb blogbejegyzések",
+    "description": "Legyen naprakész a Redot közösség legújabb híreivel, oktatóanyagaival és betekintéseivel.",
+    "viewAll": "Összes bejegyzés megtekintése"
+  },
   "startSection": {
     "title": "Készen állsz a kezdésre?",
     "description": "Hozz létre lenyűgöző 2D és 3D játékokat a Redot Engine segítségével keresztplatformos interaktív élményekhez.",

@@ -54,6 +54,12 @@
     "title": "Co říkají naši uživatelé",
     "description": "Redot Engine dává vývojářům flexibilitu a výkon pro vytváření úžasných her."
   },
+  "blogSection": {
+    "badge": "📰 Náš blog",
+    "title": "Nejnovější příspěvky na blogu",
+    "description": "Sledujte nejnovější zprávy, návody a poznatky z komunity Redot.",
+    "viewAll": "Zobrazit všechny příspěvky"
+  },
   "startSection": {
     "title": "Jste připraveni začít?",
     "description": "Vytvářejte poutavé 2D a 3D hry s Redot Engine pro platformy s pohlcujícími zážitky.",

@@ -54,6 +54,12 @@
     "title": "Wat zeggen onze gebruikers",
     "description": "Redot Engine geeft ontwikkelaars de flexibiliteit en prestaties om geweldige games te maken."
   },
+  "blogSection": {
+    "badge": "📰 Onze Blog",
+    "title": "Laatste blogposts",
+    "description": "Blijf op de hoogte van het laatste nieuws, tutorials en inzichten van de Redot-community.",
+    "viewAll": "Bekijk alle berichten"
+  },
   "startSection": {
     "title": "Klaar om te maken?",
     "description": "Maak boeiende 2D- en 3D-games met Redot Engine voor cross-platform meeslepende ervaringen.",

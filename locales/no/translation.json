@@ -54,6 +54,12 @@
     "title": "Hva våre brukere sier",
     "description": "Redot Engine gir utviklere fleksibilitet og ytelse for å lage fantastiske spill."
   },
+  "blogSection": {
+    "badge": "📰 Vår Blogg",
+    "title": "Siste blogginnlegg",
+    "description": "Hold deg oppdatert med de siste nyhetene, veiledningene og innsiktene fra Redot-fellesskapet.",
+    "viewAll": "Se alle innlegg"
+  },
   "startSection": {
     "title": "Klar til å lage?",
     "description": "Lag fengslende 2D- og 3D-spill med Redot Engine for tverrplattform immersive opplevelser.",

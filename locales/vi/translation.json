@@ -54,6 +54,12 @@
     "title": "Người Dùng Nói Gì Về Chúng Tôi",
     "description": "Redot Engine trao quyền cho các nhà phát triển với sự linh hoạt và hiệu suất để tạo ra những trò chơi tuyệt vời."
   },
+  "blogSection": {
+    "badge": "📰 Blog của chúng tôi",
+    "title": "Bài viết blog mới nhất",
+    "description": "Cập nhật những tin tức, hướng dẫn và thông tin mới nhất từ cộng đồng Redot.",
+    "viewAll": "Xem tất cả bài viết"
+  },
   "startSection": {
     "title": "Sẵn Sàng Để Tạo Ra?",
     "description": "Tạo ra những trò chơi 2D và 3D hấp dẫn với Redot Engine cho các trải nghiệm đa nền tảng nhập vai.",

@@ -54,6 +54,12 @@
     "title": "Cosa dicono i nostri utenti",
     "description": "Redot Engine dà ai sviluppatori flessibilità e prestazioni per creare giochi straordinari."
   },
+  "blogSection": {
+    "badge": "📰 Il nostro Blog",
+    "title": "Ultimi post del blog",
+    "description": "Rimani aggiornato con le ultime notizie, tutorial e approfondimenti dalla community di Redot.",
+    "viewAll": "Vedi tutti i post"
+  },
   "startSection": {
     "title": "Pronto a creare?",
     "description": "Crea giochi 2D e 3D accattivanti con Redot Engine per esperienze immersive cross-platform.",

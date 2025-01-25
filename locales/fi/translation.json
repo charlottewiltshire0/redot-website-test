@@ -54,6 +54,12 @@
     "title": "Mitä käyttäjämme sanovat",
     "description": "Redot Engine antaa kehittäjille joustavuutta ja suorituskykyä upeiden pelien luomiseen."
   },
+  "blogSection": {
+    "badge": "📰 Blogimme",
+    "title": "Viimeisimmät blogikirjoitukset",
+    "description": "Pysy ajan tasalla uusimmista uutisista, oppaista ja näkemyksistä Redot-yhteisöstä.",
+    "viewAll": "Näytä kaikki julkaisut"
+  },
   "startSection": {
     "title": "Valmis luomaan?",
     "description": "Luo kiehtovia 2D- ja 3D-pelejä Redot Engine -moottorilla monialustaisiin immersiivisiin kokemuksiin.",

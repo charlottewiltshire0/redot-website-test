@@ -54,6 +54,12 @@
     "title": "用户评价",
     "description": "Redot Engine 为开发者提供了灵活性和性能，助力创造出色的游戏。"
   },
+  "blogSection": {
+    "badge": "📰 我们的博客",
+    "title": "最新博客文章",
+    "description": "随时了解来自Redot社区的最新新闻、教程和见解。",
+    "viewAll": "查看所有文章"
+  },
   "startSection": {
     "title": "准备好创作了吗？",
     "description": "使用 Redot Engine 创建引人入胜的 2D 和 3D 游戏，带来跨平台的沉浸式体验。",

@@ -54,6 +54,12 @@
     "title": "Što naši korisnici kažu",
     "description": "Redot Engine osnažuje programere s fleksibilnošću i performansama za kreiranje nevjerojatnih igara."
   },
+  "blogSection": {
+    "badge": "📰 Naš Blog",
+    "title": "Najnoviji blog postovi",
+    "description": "Budite u toku s najnovijim vijestima, tutorijalima i uvidima iz Redot zajednice.",
+    "viewAll": "Pogledaj sve postove"
+  },
   "startSection": {
     "title": "Spremni za stvaranje?",
     "description": "Kreirajte privlačne 2D i 3D igre s Redot Engine za cross-platform immersivne doživljaje.",

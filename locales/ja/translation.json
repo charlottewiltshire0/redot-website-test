@@ -54,6 +54,12 @@
     "title": "ユーザーの声",
     "description": "Redot Engineは、素晴らしいゲームを作るための柔軟性とパフォーマンスを開発者に提供します。"
   },
+  "blogSection": {
+    "badge": "📰 私たちのブログ",
+    "title": "最新のブログ投稿",
+    "description": "Redotコミュニティからの最新ニュース、チュートリアル、洞察をチェックしてください。",
+    "viewAll": "すべての投稿を見る"
+  },
   "startSection": {
     "title": "作成準備はできましたか？",
     "description": "Redot Engineで魅力的な2Dおよび3Dゲームを作成し、クロスプラットフォームの没入型体験を提供しよう。",
