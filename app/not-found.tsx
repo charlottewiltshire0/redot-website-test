@@ -42,11 +42,11 @@ export default function NotFound() {
                       <IconPointFilled className="h-4 w-4 text-rose-600" />
                       {t("code")}
                     </div>
-                    <h2 className="text-4xl font-bold tracking-tighter text-zinc-900 dark:text-white md:text-6xl">
+                    <h2 className="text-4xl font-bold tracking-tighter text-primary md:text-6xl">
                       {t("title")}
                     </h2>
                   </div>
-                  <p className="text-lg text-zinc-500 dark:text-zinc-400 md:text-xl">
+                  <p className="text-lg text-muted-foreground md:text-xl">
                     {t("description")}
                   </p>
                 </div>

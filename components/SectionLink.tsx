@@ -24,13 +24,11 @@ export const SectionLink = ({
           </div>
         </div>
         <div className="flex w-full flex-col gap-2">
-          <h3 className="text-xl font-medium text-zinc-900 dark:text-white">
-            {title}
-          </h3>
-          <p className="text-zinc-500 dark:text-zinc-400">{description}</p>
+          <h3 className="text-xl font-medium text-primary">{title}</h3>
+          <p className="text-muted-foreground">{description}</p>
         </div>
       </div>
-      <IconArrowRight className="text-zinc-400 transition-all duration-300 group-hover:text-zinc-900" />
+      <IconArrowRight className="text-muted-foreground transition-all duration-300 group-hover:text-primary" />
     </div>
   </Link>
 );
