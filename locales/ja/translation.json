@@ -26,6 +26,9 @@
     "title": "あなたの<br />ゲーム開発をサポート",
     "description": "柔軟で高性能なゲームエンジンで、すべてのクリエイターに無限の可能性を開きます。"
   },
+  "textRevealSection": {
+    "body": "Redot Engineは、あなたの想像力に命を吹き込む革新的なゲームエンジンです。 比類のない自由で正確でインタラクティブなゲームを作成してください！"
+  },
   "featuresSection": {
     "badge": "🤖 次世代のゲームデザイン",
     "title": "Redot Engineの<br />強力な機能",
@@ -140,14 +143,9 @@
     }
   },
   "downloadHero": {
-    "downloadForOS": "{platform} 用Redotをダウンロード",
-    "igniteYourImagination": "想像力を燃やせ",
-    "downloadDescription": "2Dおよび3Dクロスプラットフォームゲームやインタラクティブな体験を作成するための強力なプラットフォーム、Redot Engineをダウンロード。",
-    "buttons": {
-      "downloadLatest": "最新をダウンロード",
-      "downloadMono": "Monoをダウンロード",
-      "moreDownloadOptions": "さらにダウンロードオプション"
-    }
+    "title": "想像力を燃やそう",
+    "description": "Redot Engineをダウンロードして、2Dおよび3Dのクロスプラットフォームゲームやインタラクティブな体験を作成しましょう。",
+    "downloadButton": "今すぐダウンロード"
   },
   "downloadThreeSteps": {
     "badge": "",

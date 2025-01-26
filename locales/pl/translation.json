@@ -26,6 +26,9 @@
     "title": "Napędza Twój<br />Rozwój gier",
     "description": "Odkryj nieskończone możliwości z naszym elastycznym i wydajnym silnikiem gier dla każdego twórcy."
   },
+  "textRevealSection": {
+    "body": "Redot Engine to innowacyjny silnik gier, który ożywia twoją wyobraźnię. Twórz precyzyjne i interaktywne gry z niezrównaną swobodą!"
+  },
   "featuresSection": {
     "badge": "🤖 Projektowanie gier nowej generacji",
     "title": "Potężne funkcje<br />Redot Engine",
@@ -140,14 +143,9 @@
     }
   },
   "downloadHero": {
-    "downloadForOS": "Pobierz redot dla {platform}",
-    "igniteYourImagination": "Rozpal swoją wyobraźnię",
-    "downloadDescription": "Pobierz Redot Engine, potężną platformę do tworzenia gier 2D i 3D oraz interaktywnych doświadczeń cross-platformowych.",
-    "buttons": {
-      "downloadLatest": "Pobierz najnowszą wersję",
-      "downloadMono": "Pobierz Mono",
-      "moreDownloadOptions": "Więcej opcji pobierania"
-    }
+    "title": "Rozpal swoją wyobraźnię",
+    "description": "Pobierz Redot Engine, potężną platformę do tworzenia gier i interaktywnych doświadczeń 2D i 3D na wielu platformach.",
+    "downloadButton": "Pobierz teraz"
   },
   "downloadThreeSteps": {
     "badge": "",

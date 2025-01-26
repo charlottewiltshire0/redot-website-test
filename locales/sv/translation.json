@@ -26,6 +26,9 @@
     "title": "Driver din<br />spelutveckling",
     "description": "Lås upp oändliga möjligheter med vår flexibla och högpresterande spelmotor för alla skapare."
   },
+  "textRevealSection": {
+    "body": "Redot Engine är en innovativ spelmotor som ger liv åt din fantasi. Skapa precisa och interaktiva spel med oöverträffad frihet!"
+  },
   "featuresSection": {
     "badge": "🤖 Nästa generations speldesign",
     "title": "Redot Engines <br />kraftfulla funktioner",
@@ -140,14 +143,9 @@
     }
   },
   "downloadHero": {
-    "downloadForOS": "Ladda ner Redot för {platform}",
-    "igniteYourImagination": "Tänd din fantasi",
-    "downloadDescription": "Ladda ner Redot Engine, den kraftfulla plattformen för att bygga 2D- och 3D-plattformsoberoende spel och interaktiva upplevelser.",
-    "buttons": {
-      "downloadLatest": "Ladda ner senaste",
-      "downloadMono": "Ladda ner Mono",
-      "moreDownloadOptions": "Fler nedladdningsalternativ"
-    }
+    "title": "Tänd din fantasi",
+    "description": "Ladda ner Redot Engine, den kraftfulla plattformen för att skapa 2D- och 3D-spel och interaktiva upplevelser över flera plattformar.",
+    "downloadButton": "Ladda ner nu"
   },
   "downloadThreeSteps": {
     "badge": "",

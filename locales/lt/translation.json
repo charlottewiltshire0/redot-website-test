@@ -26,6 +26,9 @@
     "title": "Skatina Jūsų<br />Žaidimų Kūrybą",
     "description": "Atraskite begalines galimybes su mūsų lanksčiu ir aukštos kokybės žaidimų varikliu kiekvienam kūrėjui."
   },
+  "textRevealSection": {
+    "body": "Redot Engine yra novatoriškas žaidimų variklis, kuris suteikia gyvybės jūsų vaizduotei. Kurkite tikslius ir interaktyvius žaidimus su neprilygstama laisve!"
+  },
   "featuresSection": {
     "badge": "🤖 Ateities Žaidimų Dizainas",
     "title": "Redot Engine's <br /> Galingos Funkcijos",
@@ -140,14 +143,9 @@
     }
   },
   "downloadHero": {
-    "downloadForOS": "Atsisiųsti redot už {platform}",
-    "igniteYourImagination": "Įžiebkite savo vaizduotę",
-    "downloadDescription": "Atsisiųskite Redot Engine, galingą platformą kuriant 2D ir 3D kryžminius žaidimus ir interaktyvias patirtis.",
-    "buttons": {
-      "downloadLatest": "Atsisiųsti naujausią",
-      "downloadMono": "Atsisiųsti Mono",
-      "moreDownloadOptions": "Daugiau atsisiuntimo variantų"
-    }
+    "title": "Įžiebkite savo vaizduotę",
+    "description": "Atsisiųskite Redot Engine - galingą platformą, skirtą kurti 2D ir 3D kryžminės platformos žaidimus bei interaktyvias patirtis.",
+    "downloadButton": "Atsisiųsti dabar"
   },
   "downloadThreeSteps": {
     "badge": "",

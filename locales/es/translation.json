@@ -26,6 +26,9 @@
     "title": "Impulsando tu<br />Desarrollo de Juegos",
     "description": "Desbloquea infinitas posibilidades con nuestro motor de juegos flexible y de alto rendimiento para cada creador."
   },
+  "textRevealSection": {
+    "body": "El motor Redot es un innovador motor de juegos que da vida a tu imaginación. ¡Crea juegos precisos e interactivos con una libertad incomparable!"
+  },
   "featuresSection": {
     "badge": "🤖 Diseño de juegos de próxima generación",
     "title": "Potentes características de Redot Engine",
@@ -140,14 +143,9 @@
     }
   },
   "downloadHero": {
-    "downloadForOS": "Descargar Redot para {platform}",
-    "igniteYourImagination": "Despierta tu Imaginación",
-    "downloadDescription": "Descarga Redot Engine, la poderosa plataforma para construir juegos 2D y 3D multiplataforma y experiencias interactivas.",
-    "buttons": {
-      "downloadLatest": "Descargar última versión",
-      "downloadMono": "Descargar Mono",
-      "moreDownloadOptions": "Más opciones de descarga"
-    }
+    "title": "Enciende tu imaginación",
+    "description": "Descarga Redot Engine, la poderosa plataforma para crear juegos multiplataforma en 2D y 3D y experiencias interactivas.",
+    "downloadButton": "Descargar ahora"
   },
   "downloadThreeSteps": {
     "badge": "",

@@ -26,6 +26,9 @@
     "title": "Tiếp Nối Sự Phát Triển<br />Game Của Bạn",
     "description": "Mở khóa vô vàn khả năng với engine game linh hoạt và hiệu suất cao dành cho mọi nhà sáng tạo."
   },
+  "textRevealSection": {
+    "body": "Redot Engine là một công cụ game sáng tạo mang trí tưởng tượng của bạn trở thành hiện thực. Tạo các trò chơi chính xác và tương tác với tự do vô song!"
+  },
   "featuresSection": {
     "badge": "🤖 Thiết Kế Game Thế Hệ Mới",
     "title": "Các Tính Năng Mạnh Mẽ Của Redot Engine",
@@ -140,14 +143,9 @@
     }
   },
   "downloadHero": {
-    "downloadForOS": "Tải Redot cho {platform}",
-    "igniteYourImagination": "Khơi Dậy Sự Tưởng Tượng Của Bạn",
-    "downloadDescription": "Tải Redot Engine, nền tảng mạnh mẽ để xây dựng các trò chơi 2D và 3D đa nền tảng và trải nghiệm tương tác.",
-    "buttons": {
-      "downloadLatest": "Tải bản mới nhất",
-      "downloadMono": "Tải Mono",
-      "moreDownloadOptions": "Thêm lựa chọn tải xuống"
-    }
+    "title": "Thắp sáng trí tưởng tượng của bạn",
+    "description": "Tải xuống Redot Engine, nền tảng mạnh mẽ để tạo trò chơi 2D và 3D đa nền tảng và trải nghiệm tương tác.",
+    "downloadButton": "Tải ngay"
   },
   "downloadThreeSteps": {
     "badge": "",

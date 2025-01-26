@@ -26,6 +26,9 @@
     "title": "Erősíti A<br />Játékfejlesztésedet",
     "description": "Fedezd fel a végtelen lehetőségeket a rugalmas és nagy teljesítményű játék motorunkkal minden fejlesztő számára."
   },
+  "textRevealSection": {
+    "body": "A Redot Engine egy innovatív játékmotor, amely életre kelti a képzeletedet. Hozzon létre pontos és interaktív játékokat páratlan szabadsággal!"
+  },
   "featuresSection": {
     "badge": "🤖 Következő Generációs Játék Tervezés",
     "title": "A Redot Engine<br />Erőteljes Funkciói",
@@ -140,14 +143,9 @@
     }
   },
   "downloadHero": {
-    "downloadForOS": "Töltsd le a Redot-ot {platform} rendszeren",
-    "igniteYourImagination": "Gyújtsd meg a Képzeleted",
-    "downloadDescription": "Töltsd le a Redot Engine-t, az erőteljes platformot, amellyel 2D és 3D keresztplatformos játékokat és interaktív élményeket készíthetsz.",
-    "buttons": {
-      "downloadLatest": "Legújabb letöltése",
-      "downloadMono": "Mono letöltése",
-      "moreDownloadOptions": "További letöltési lehetőségek"
-    }
+    "title": "Gyújtsd be a képzeleted",
+    "description": "Töltse le a Redot Engine-t, a hatékony platformot 2D és 3D keresztplatformos játékok és interaktív élmények létrehozásához.",
+    "downloadButton": "Töltse le most"
   },
   "downloadThreeSteps": {
     "badge": "",

@@ -26,6 +26,9 @@
     "title": "Pelisi kehitys<br />Voimaantulo",
     "description": "Avaa loputtomat mahdollisuudet joustavalla ja suorituskykyisellä pelimoottorilla kaikille luojille."
   },
+  "textRevealSection": {
+    "body": "Redot Engine on innovatiivinen pelimoottori, joka herättää mielikuvituksesi eloon. Luo tarkkoja ja interaktiivisia pelejä vertaansa vailla olevalla vapaudella!"
+  },
   "featuresSection": {
     "badge": "🤖 Seuraavan sukupolven pelisuunnittelu",
     "title": "Redot Enginen <br />Tehokkaat ominaisuudet",
@@ -140,14 +143,9 @@
     }
   },
   "downloadHero": {
-    "downloadForOS": "Lataa Redot {platform}lle",
-    "igniteYourImagination": "Sytytä mielikuvituksesi",
-    "downloadDescription": "Lataa Redot Engine, tehokas alusta 2D- ja 3D-monialustapelien ja interaktiivisten kokemusten luomiseen.",
-    "buttons": {
-      "downloadLatest": "Lataa uusin",
-      "downloadMono": "Lataa Mono",
-      "moreDownloadOptions": "Lisää latausvaihtoehtoja"
-    }
+    "title": "Sytytä mielikuvituksesi",
+    "description": "Lataa Redot Engine, tehokas alusta 2D- ja 3D-monialustapelien ja interaktiivisten kokemusten luomiseen.",
+    "downloadButton": "Lataa nyt"
   },
   "downloadThreeSteps": {
     "badge": "",

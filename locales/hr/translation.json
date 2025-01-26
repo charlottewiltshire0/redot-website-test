@@ -26,6 +26,9 @@
     "title": "Pokreće Vaš<br />Razvoj Igra",
     "description": "Otključajte beskrajne mogućnosti s našim fleksibilnim i visokoučinkovitim game engineom za svakog kreatora."
   },
+  "textRevealSection": {
+    "body": "Redot Engine je inovativni game engine koji oživljava vašu maštu. Izradite precizne i interaktivne igre s neusporedivom slobodom!"
+  },
   "featuresSection": {
     "badge": "🤖 Next-Gen Dizajn Igra",
     "title": "Redot Engine's <br /> Moćne Karakteristike",
@@ -140,14 +143,9 @@
     }
   },
   "downloadHero": {
-    "downloadForOS": "Preuzmi redot za {platform}",
-    "igniteYourImagination": "Upalite Svoju Maštu",
-    "downloadDescription": "Preuzmite Redot Engine, moćnu platformu za izradu 2D i 3D cross-platform igara i interaktivnih iskustava.",
-    "buttons": {
-      "downloadLatest": "Preuzmi najnoviju verziju",
-      "downloadMono": "Preuzmi Mono",
-      "moreDownloadOptions": "Više opcija za preuzimanje"
-    }
+    "title": "Zapalite svoju maštu",
+    "description": "Preuzmite Redot Engine, moćnu platformu za izradu 2D i 3D međusobnih igara i interaktivnih iskustava.",
+    "downloadButton": "Preuzmite sada"
   },
   "downloadThreeSteps": {
     "badge": "",
