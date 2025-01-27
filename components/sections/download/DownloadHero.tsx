@@ -67,8 +67,8 @@ export const DownloadHero = ({ platform }: { platform: string }) => {
         </motion.div>
       </motion.div>
       <motion.div
-        initial={{ opacity: 0, y: 40 }}
-        animate={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
         transition={{ duration: 0.7, delay: 0.2 }}
         className="relative mx-10 mt-10 hidden h-[250px] select-none md:block lg:mx-24"
       >
