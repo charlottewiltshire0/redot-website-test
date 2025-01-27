@@ -26,6 +26,9 @@
     "title": "驅動您的<br />遊戲開發",
     "description": "利用我們靈活且高效能的遊戲引擎，開啟無盡可能性，為每位創作者提供支持。"
   },
+  "textRevealSection": {
+    "body": "Redot Engine 是一個創新的遊戲引擎，讓您的想像力栩栩如生。以無與倫比的自由構建精確和互動的遊戲！"
+  },
   "featuresSection": {
     "badge": "🤖 下一代遊戲設計",
     "title": "Redot Engine 的 <br /> 強大功能",
@@ -50,9 +53,15 @@
     }
   },
   "reviewSection": {
-    "badge": "🎉 穩定版已經來臨",
+    "badge": "🤝 我們的用戶",
     "title": "我們的用戶怎麼說",
     "description": "Redot Engine 賦予開發者彈性和效能，創造出令人驚艷的遊戲。"
+  },
+  "blogSection": {
+    "badge": "📰 我們的部落格",
+    "title": "最新部落格文章",
+    "description": "隨時了解來自Redot社群的最新消息、教程和見解。",
+    "viewAll": "查看所有文章"
   },
   "startSection": {
     "title": "準備好創建了嗎？",
@@ -134,14 +143,9 @@
     }
   },
   "downloadHero": {
-    "downloadForOS": "下載 Redot 於 {platform}",
-    "igniteYourImagination": "點燃您的想像力",
-    "downloadDescription": "下載 Redot Engine，這個強大的平台可用於建立 2D 和 3D 跨平台遊戲及互動體驗。",
-    "buttons": {
-      "downloadLatest": "下載最新版本",
-      "downloadMono": "下載 Mono",
-      "moreDownloadOptions": "更多下載選項"
-    }
+    "title": "點燃你的想像力",
+    "description": "下載 Redot Engine，這是一個功能強大的平台，用於構建 2D 和 3D 跨平台遊戲和互動體驗。",
+    "downloadButton": "立即下載"
   },
   "downloadThreeSteps": {
     "badge": "",

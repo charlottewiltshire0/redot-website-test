@@ -26,6 +26,9 @@
     "title": "Driver spillutviklingen din",
     "description": "Åpne uendelige muligheter med vår fleksible og høyytelses spillmotor for hver skaper."
   },
+  "textRevealSection": {
+    "body": "Redot Engine er en innovativ spillmotor som gir liv til fantasien din. Lag presise og interaktive spill med enestående frihet!"
+  },
   "featuresSection": {
     "badge": "🤖 Neste generasjon spilldesign",
     "title": "Redot Engines<br />kraftige funksjoner",
@@ -50,9 +53,15 @@
     }
   },
   "reviewSection": {
-    "badge": "🎉 Den stabile versjonen er her",
+    "badge": "🤝 Våre brukere",
     "title": "Hva våre brukere sier",
     "description": "Redot Engine gir utviklere fleksibilitet og ytelse for å lage fantastiske spill."
+  },
+  "blogSection": {
+    "badge": "📰 Vår Blogg",
+    "title": "Siste blogginnlegg",
+    "description": "Hold deg oppdatert med de siste nyhetene, veiledningene og innsiktene fra Redot-fellesskapet.",
+    "viewAll": "Se alle innlegg"
   },
   "startSection": {
     "title": "Klar til å lage?",
@@ -134,14 +143,9 @@
     }
   },
   "downloadHero": {
-    "downloadForOS": "Last ned Redot for {platform}",
-    "igniteYourImagination": "Tenn din fantasi",
-    "downloadDescription": "Last ned Redot Engine, den kraftige plattformen for å lage 2D- og 3D-tverrplattformspill og interaktive opplevelser.",
-    "buttons": {
-      "downloadLatest": "Last ned nyeste",
-      "downloadMono": "Last ned Mono",
-      "moreDownloadOptions": "Flere nedlastingsalternativer"
-    }
+    "title": "Tenn fantasien din",
+    "description": "Last ned Redot Engine, den kraftige plattformen for å lage 2D- og 3D-plattformspill og interaktive opplevelser.",
+    "downloadButton": "Last ned nå"
   },
   "downloadThreeSteps": {
     "badge": "",

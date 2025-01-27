@@ -26,6 +26,9 @@
     "title": "Potenzia lo sviluppo del tuo<br />gioco",
     "description": "Sblocca infinite possibilità con il nostro motore di gioco flessibile e ad alte prestazioni per ogni creatore."
   },
+  "textRevealSection": {
+    "body": "Redot Engine è un motore di gioco innovativo che dà vita alla tua immaginazione. Crea giochi precisi e interattivi con una libertà senza pari!"
+  },
   "featuresSection": {
     "badge": "🤖 Game Design di nuova generazione",
     "title": "Le potenti funzionalità di Redot Engine",
@@ -50,9 +53,15 @@
     }
   },
   "reviewSection": {
-    "badge": "🎉 La versione stabile è arrivata",
+    "badge": "🤝 I nostri utenti",
     "title": "Cosa dicono i nostri utenti",
     "description": "Redot Engine dà ai sviluppatori flessibilità e prestazioni per creare giochi straordinari."
+  },
+  "blogSection": {
+    "badge": "📰 Il nostro Blog",
+    "title": "Ultimi post del blog",
+    "description": "Rimani aggiornato con le ultime notizie, tutorial e approfondimenti dalla community di Redot.",
+    "viewAll": "Vedi tutti i post"
   },
   "startSection": {
     "title": "Pronto a creare?",
@@ -134,14 +143,9 @@
     }
   },
   "downloadHero": {
-    "downloadForOS": "Scarica Redot per {platform}",
-    "igniteYourImagination": "Accendi la tua immaginazione",
-    "downloadDescription": "Scarica Redot Engine, la potente piattaforma per costruire giochi e esperienze interattive 2D e 3D cross-platform.",
-    "buttons": {
-      "downloadLatest": "Scarica l'ultima versione",
-      "downloadMono": "Scarica Mono",
-      "moreDownloadOptions": "Altre opzioni di download"
-    }
+    "title": "Accendi la tua immaginazione",
+    "description": "Scarica Redot Engine, la potente piattaforma per creare giochi 2D e 3D multipiattaforma ed esperienze interattive.",
+    "downloadButton": "Scarica ora"
   },
   "downloadThreeSteps": {
     "badge": "",

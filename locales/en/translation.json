@@ -26,6 +26,9 @@
     "title": "Powering Your<br />Game Development",
     "description": "Unlock endless possibilities with our flexible and high-performance game engine for every creator."
   },
+  "textRevealSection": {
+    "body": "The Redot Engine is an innovative game engine that gives life to your imagination. Build precise and interactive games with unmatched liberty!"
+  },
   "featuresSection": {
     "badge": "🤖 Next-Gen Game Design",
     "title": "Redot Engine's <br /> Powerful Features",
@@ -50,9 +53,15 @@
     }
   },
   "reviewSection": {
-    "badge": "🎉 Stable version is here",
+    "badge": "🤝 Our Users",
     "title": "What our users say",
     "description": "Redot Engine empowers developers with flexibility and performance for creating amazing games."
+  },
+  "blogSection": {
+    "badge": "📰 Our Blog",
+    "title": "Latest blog posts",
+    "description": "Stay updated with the latest news, tutorials, and insights from the Redot community.",
+    "viewAll": "View all posts"
   },
   "startSection": {
     "title": "Ready to create?",
@@ -134,14 +143,9 @@
     }
   },
   "downloadHero": {
-    "downloadForOS": "Download redot for {platform}",
-    "igniteYourImagination": "Ignite Your Imagination",
-    "downloadDescription": "Download Redot Engine, the powerful platform for building 2D and 3D cross-platform games and interactive experiences.",
-    "buttons": {
-      "downloadLatest": "Download latest",
-      "downloadMono": "Download Mono",
-      "moreDownloadOptions": "More download options"
-    }
+    "title": "Ignite Your Imagination",
+    "description": "Download Redot Engine, the powerful platform for building 2D and 3D cross-platform games and interactive experiences.",
+    "downloadButton": "Download now"
   },
   "downloadThreeSteps": {
     "badge": "",

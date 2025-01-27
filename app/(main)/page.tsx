@@ -3,6 +3,8 @@
 import dynamic from "next/dynamic";
 import { Hero } from "@/components/sections/landing/Hero";
 import { ProductShowcase } from "@/components/sections/landing/ProductShowcase";
+import { TextReveal } from "@/components/ui/text-reveal";
+import { useTranslations } from "next-intl";
 
 const Features = dynamic(
   () =>
@@ -22,8 +24,8 @@ const Review = dynamic(
   }
 );
 
-const News = dynamic(
-  () => import("@/components/sections/landing/News").then((mod) => mod.News),
+const Blog = dynamic(
+  () => import("@/components/sections/landing/Blog").then((mod) => mod.Blog),
   {
     ssr: false,
   }
@@ -37,12 +39,15 @@ const Start = dynamic(
 );
 
 export default function Landing() {
+  const t = useTranslations("textRevealSection");
+
   return (
     <div>
       <Hero />
       <ProductShowcase />
+      <TextReveal text={t("body")} />
       <Features />
-      <News />
+      <Blog />
       <Review />
       <Start />
     </div>

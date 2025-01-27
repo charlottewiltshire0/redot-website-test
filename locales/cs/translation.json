@@ -26,6 +26,9 @@
     "title": "Pohání váš<br />herní vývoj",
     "description": "Odemkněte nekonečné možnosti s naším flexibilním a výkonným herním enginem pro každého tvůrce."
   },
+  "textRevealSection": {
+    "body": "Redot Engine je inovativní herní engine, který oživí vaši představivost. Vytvářejte přesné a interaktivní hry s nepřekonatelnou svobodou!"
+  },
   "featuresSection": {
     "badge": "🤖 Herní design nové generace",
     "title": "Výkonné funkce Redot Engine",
@@ -50,9 +53,15 @@
     }
   },
   "reviewSection": {
-    "badge": "🎉 Stabilní verze je zde",
+    "badge": "🤝 Naši uživatelé",
     "title": "Co říkají naši uživatelé",
     "description": "Redot Engine dává vývojářům flexibilitu a výkon pro vytváření úžasných her."
+  },
+  "blogSection": {
+    "badge": "📰 Náš blog",
+    "title": "Nejnovější příspěvky na blogu",
+    "description": "Sledujte nejnovější zprávy, návody a poznatky z komunity Redot.",
+    "viewAll": "Zobrazit všechny příspěvky"
   },
   "startSection": {
     "title": "Jste připraveni začít?",
@@ -134,14 +143,9 @@
     }
   },
   "downloadHero": {
-    "downloadForOS": "Stáhnout Redot pro {platform}",
-    "igniteYourImagination": "Rozzářte svou představivost",
-    "downloadDescription": "Stáhněte Redot Engine, výkonnou platformu pro tvorbu 2D a 3D her a interaktivních zážitků napříč platformami.",
-    "buttons": {
-      "downloadLatest": "Stáhnout nejnovější verzi",
-      "downloadMono": "Stáhnout Mono",
-      "moreDownloadOptions": "Další možnosti stažení"
-    }
+    "title": "Rozpalte svou představivost",
+    "description": "Stáhněte si Redot Engine, výkonnou platformu pro tvorbu 2D a 3D multiplatformních her a interaktivních zážitků.",
+    "downloadButton": "Stáhnout nyní"
   },
   "downloadThreeSteps": {
     "badge": "",

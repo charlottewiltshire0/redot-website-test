@@ -47,7 +47,7 @@ export const Review = () => {
         >
           <div className="hidden md:block">
             <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
-              <Marquee pauseOnHover className="[--duration:20s]">
+              <Marquee pauseOnHover className="[--duration:30s]">
                 {firstRow.map((review: InterfaceReview) => (
                   <ReviewCard
                     key={review.username.current}
@@ -56,7 +56,7 @@ export const Review = () => {
                   />
                 ))}
               </Marquee>
-              <Marquee reverse pauseOnHover className="[--duration:20s]">
+              <Marquee reverse pauseOnHover className="[--duration:30s]">
                 {secondRow.map((review: InterfaceReview) => (
                   <ReviewCard
                     key={review.username.current}
@@ -67,6 +67,8 @@ export const Review = () => {
               </Marquee>
               <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white dark:from-background"></div>
               <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-white dark:from-background"></div>
+              <div className="-z-5 absolute left-1/4 top-1/4 h-28 w-28 rounded-full bg-rose-500/80 blur-[6rem]"></div>
+              <div className="-z-5 absolute right-1/4 top-1/4 h-28 w-28 rounded-full bg-rose-500/80 blur-[6rem]"></div>
             </div>
           </div>
           <div className="block md:hidden">
@@ -74,7 +76,7 @@ export const Review = () => {
               <Marquee
                 pauseOnHover
                 vertical
-                className="h-[30rem] w-full [--duration:20s]"
+                className="h-[30rem] w-full [--duration:30s]"
               >
                 {firstRow.map((review: InterfaceReview) => (
                   <ReviewCard

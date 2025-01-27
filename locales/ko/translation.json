@@ -26,6 +26,9 @@
     "title": "게임 개발을 지원합니다",
     "description": "모든 창작자를 위한 유연하고 고성능의 게임 엔진으로 무한한 가능성을 열어보세요."
   },
+  "textRevealSection": {
+    "body": "Redot Engine은 상상력을 생생하게 구현하는 혁신적인 게임 엔진입니다. 비교할 수 없는 자유로 정밀하고 상호작용적인 게임을 만드세요!"
+  },
   "featuresSection": {
     "badge": "🤖 차세대 게임 디자인",
     "title": "Redot Engine의 <br />강력한 기능",
@@ -50,9 +53,15 @@
     }
   },
   "reviewSection": {
-    "badge": "🎉 안정 버전이 출시되었습니다",
+    "badge": "🤝 우리의 사용자",
     "title": "사용자 의견",
     "description": "Redot Engine은 개발자에게 유연성과 성능을 제공하여 놀라운 게임을 만들 수 있도록 합니다."
+  },
+  "blogSection": {
+    "badge": "📰 우리의 블로그",
+    "title": "최신 블로그 게시물",
+    "description": "Redot 커뮤니티의 최신 뉴스, 튜토리얼 및 통찰력을 확인하세요.",
+    "viewAll": "모든 게시물 보기"
   },
   "startSection": {
     "title": "창작할 준비가 되셨나요?",
@@ -134,14 +143,9 @@
     }
   },
   "downloadHero": {
-    "downloadForOS": "{platform}용 Redot 다운로드",
-    "igniteYourImagination": "상상력을 불태우세요",
-    "downloadDescription": "2D 및 3D 크로스 플랫폼 게임과 인터랙티브 경험을 만들 수 있는 강력한 플랫폼인 Redot Engine을 다운로드하세요.",
-    "buttons": {
-      "downloadLatest": "최신 버전 다운로드",
-      "downloadMono": "Mono 다운로드",
-      "moreDownloadOptions": "더 많은 다운로드 옵션"
-    }
+    "title": "상상력을 불태우세요",
+    "description": "Redot Engine을 다운로드하여 2D 및 3D 크로스 플랫폼 게임과 인터랙티브 경험을 만들어 보세요.",
+    "downloadButton": "지금 다운로드"
   },
   "downloadThreeSteps": {
     "badge": "",

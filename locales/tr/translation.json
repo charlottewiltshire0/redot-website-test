@@ -26,6 +26,9 @@
     "title": "Oyun Geliştirme Sürecinizde<br />Fark Yaratın",
     "description": "Esnek ve yüksek performanslı oyun motorumuzla sınırsız potansiyelin kapılarını aralayın."
   },
+  "textRevealSection": {
+    "body": "Redot Engine, hayal gücünüze hayat veren yenilikçi bir oyun motorudur. Eşi benzeri görülmemiş bir özgürlükle hassas ve etkileşimli oyunlar oluşturun!"
+  },
   "featuresSection": {
     "badge": "🤖 Yeni Nesil Oyun Tasarımı",
     "title": "Redot Engine'in<br />Etkileyici Özellikleri",
@@ -50,9 +53,15 @@
     }
   },
   "reviewSection": {
-    "badge": "🎉 Kararlı sürüm çıktı",
+    "badge": "🤝 Kullanıcılarımız",
     "title": "Kullanıcılarımız ne diyor?",
     "description": "Redot Engine geliştiricilere esneklik ve yüksek performans sunarak harika oyunlar yapmalarını sağlıyor."
+  },
+  "blogSection": {
+    "badge": "📰 Blogumuz",
+    "title": "Son Blog Yazıları",
+    "description": "Redot topluluğundan en son haberler, eğitimler ve içgörülerle güncel kalın.",
+    "viewAll": "Tüm yazıları görüntüle"
   },
   "startSection": {
     "title": "Yaratmaya hazır mısınız?",
@@ -134,14 +143,9 @@
     }
   },
   "downloadHero": {
-    "downloadForOS": "Redot'u {platform} için indir",
-    "igniteYourImagination": "Hayal Gücünüzü Harekete Geçirin",
-    "downloadDescription": "2D ve 3D çapraz platform oyunlar ve interaktif deneyimler oluşturmak için güçlü bir platform olan Redot Engine'i indirin.",
-    "buttons": {
-      "downloadLatest": "Son Sürümü İndir",
-      "downloadMono": "Mono Sürümünü İndir",
-      "moreDownloadOptions": "Daha Fazla İndirme Seçeneği"
-    }
+    "title": "Hayal gücünüzü ateşleyin",
+    "description": "Redot Engine'i indirin, 2D ve 3D platformlar arası oyunlar ve etkileşimli deneyimler oluşturmak için güçlü bir platform.",
+    "downloadButton": "Hemen indir"
   },
   "downloadThreeSteps": {
     "badge": "",

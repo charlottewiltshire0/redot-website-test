@@ -9,12 +9,15 @@ import { Post } from "@/sanity/schemaTypes/postType";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
-export const News = () => {
+export const Blog = () => {
   const { ref, inView } = useInView({
     threshold: 0.1,
     triggerOnce: true,
   });
+
+  const t = useTranslations("blogSection");
 
   const [posts, setPosts] = useState<Post[] | null>(null);
   const [loading, setLoading] = useState(true);
@@ -47,12 +50,21 @@ export const News = () => {
         transition={{ duration: 0.6 }}
         className="px-5 lg:px-40"
       >
-        <div className="flex items-center justify-between">
-          <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">
-            Blog
-          </h2>
-          <Button variant="outline" asChild>
-            <Link href="/blog">View all</Link>
+        <div className="flex items-start justify-between">
+          <div className="max-w-[768px] space-y-4">
+            <div className="flex h-8 w-fit items-center rounded-md border border-input bg-background px-3 font-sans text-sm font-medium">
+              {t("badge")}
+            </div>
+            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">
+              {t("title")}
+            </h2>
+            <p className="text-left text-lg tracking-tighter text-muted-foreground md:text-xl">
+              {t("description")}
+            </p>
+          </div>
+
+          <Button asChild>
+            <Link href="/blog">{t("viewAll")}</Link>
           </Button>
         </div>
 

@@ -2,6 +2,8 @@
 
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { remark } from "remark";
+import html from "remark-html";
 
 interface TextFetcherProps {
   readonly url: string;
@@ -26,7 +28,10 @@ const TextFetcher = ({
         });
 
         if (response.status === 200) {
-          setTextContent(response.data);
+          const processedContent = await remark()
+            .use(html)
+            .process(response.data);
+          setTextContent(processedContent.toString());
         } else {
           console.error(
             `Failed to fetch content. Status: ${response.status} for URL: ${url}`
@@ -34,13 +39,8 @@ const TextFetcher = ({
         }
       } catch (error) {
         console.error("Error during axios request:", error);
-        if (axios.isAxiosError(error)) {
-          console.error("Axios error details:", error.toJSON());
-          if (error.response) {
-            console.error("Response data:", error.response.data);
-            console.error("Response status:", error.response.status);
-            console.error("Response headers:", error.response.headers);
-          }
+        if (axios.isAxiosError(error) && error.response) {
+          console.error("Response data:", error.response.data);
         }
       }
     };
@@ -56,7 +56,7 @@ const TextFetcher = ({
     <div
       className={className}
       dangerouslySetInnerHTML={{
-        __html: textContent.replace(/\n/g, "<br>"),
+        __html: textContent,
       }}
     />
   );

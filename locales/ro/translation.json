@@ -26,6 +26,9 @@
     "title": "Puterea dezvoltării<br />Jocurilor tale",
     "description": "Deblochează posibilități infinite cu motorul nostru de jocuri flexibil și performant pentru fiecare creator."
   },
+  "textRevealSection": {
+    "body": "Redot Engine este un motor de jocuri inovator care dă viață imaginației tale. Creează jocuri precise și interactive cu o libertate de neegalat!"
+  },
   "featuresSection": {
     "badge": "🤖 Design de jocuri de nouă generație",
     "title": "Caracteristicile <br />Puternice ale Redot Engine",
@@ -50,9 +53,15 @@
     }
   },
   "reviewSection": {
-    "badge": "🎉 Versiunea stabilă este aici",
+    "badge": "🤝 Utilizatorii noștri",
     "title": "Ce spun utilizatorii noștri",
     "description": "Redot Engine oferă dezvoltatorilor flexibilitate și performanță pentru crearea de jocuri uimitoare."
+  },
+  "blogSection": {
+    "badge": "📰 Blogul nostru",
+    "title": "Cele mai recente postări pe blog",
+    "description": "Fii la curent cu ultimele noutăți, tutoriale și perspective din comunitatea Redot.",
+    "viewAll": "Vezi toate postările"
   },
   "startSection": {
     "title": "Pregătit să creezi?",
@@ -134,14 +143,9 @@
     }
   },
   "downloadHero": {
-    "downloadForOS": "Descarcă redot pentru {platform}",
-    "igniteYourImagination": "Aprinde-ți Imaginația",
-    "downloadDescription": "Descarcă Redot Engine, platforma puternică pentru construirea de jocuri 2D și 3D cross-platform și experiențe interactive.",
-    "buttons": {
-      "downloadLatest": "Descarcă ultima versiune",
-      "downloadMono": "Descarcă Mono",
-      "moreDownloadOptions": "Mai multe opțiuni de descărcare"
-    }
+    "title": "Aprinde-ți imaginația",
+    "description": "Descarcă Redot Engine, platforma puternică pentru construirea jocurilor 2D și 3D pe mai multe platforme și experiențe interactive.",
+    "downloadButton": "Descarcă acum"
   },
   "downloadThreeSteps": {
     "badge": "",

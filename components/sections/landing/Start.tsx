@@ -1,9 +1,9 @@
-import { SectionWithButtons } from "@/components/SectionWithButtons";
+import { CTA } from "@/components/CTA";
 import { links } from "@/constants/links";
 
 export const Start = () => {
   return (
-    <SectionWithButtons
+    <CTA
       titleKey="startSection.title"
       descriptionKey="startSection.description"
       buttonLinks={[

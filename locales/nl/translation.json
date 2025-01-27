@@ -26,6 +26,9 @@
     "title": "Aansteken Je<br />Game Ontwikkeling",
     "description": "Ontgrendel eindeloze mogelijkheden met onze flexibele en krachtige game engine voor elke maker."
   },
+  "textRevealSection": {
+    "body": "De Redot Engine is een innovatieve game-engine die je verbeelding tot leven brengt. Maak nauwkeurige en interactieve games met ongeëvenaarde vrijheid!"
+  },
   "featuresSection": {
     "badge": "🤖 Volgende Generatie Game Design",
     "title": "Redot Engine's <br /> Krachtige Kenmerken",
@@ -50,9 +53,15 @@
     }
   },
   "reviewSection": {
-    "badge": "🎉 Stabiele versie is hier",
+    "badge": "🤝 Onze gebruikers",
     "title": "Wat zeggen onze gebruikers",
     "description": "Redot Engine geeft ontwikkelaars de flexibiliteit en prestaties om geweldige games te maken."
+  },
+  "blogSection": {
+    "badge": "📰 Onze Blog",
+    "title": "Laatste blogposts",
+    "description": "Blijf op de hoogte van het laatste nieuws, tutorials en inzichten van de Redot-community.",
+    "viewAll": "Bekijk alle berichten"
   },
   "startSection": {
     "title": "Klaar om te maken?",
@@ -134,14 +143,9 @@
     }
   },
   "downloadHero": {
-    "downloadForOS": "Download redot voor {platform}",
-    "igniteYourImagination": "Ontsteek Je Verbeelding",
-    "downloadDescription": "Download Redot Engine, het krachtige platform voor het bouwen van 2D- en 3D-cross-platformgames en interactieve ervaringen.",
-    "buttons": {
-      "downloadLatest": "Download laatste",
-      "downloadMono": "Download Mono",
-      "moreDownloadOptions": "Meer downloadopties"
-    }
+    "title": "Ontsteek je verbeelding",
+    "description": "Download Redot Engine, het krachtige platform voor het bouwen van 2D- en 3D-platformoverschrijdende games en interactieve ervaringen.",
+    "downloadButton": "Nu downloaden"
   },
   "downloadThreeSteps": {
     "badge": "",

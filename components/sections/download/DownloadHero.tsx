@@ -1,17 +1,14 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { IconArrowRight } from "@tabler/icons-react";
+import { IconDownload } from "@tabler/icons-react";
 import Link from "next/link";
-import { links } from "@/constants/links";
 import { useInView } from "react-intersection-observer";
 import { motion } from "motion/react";
 import { useTranslations } from "next-intl";
+import { getPlatformDownloadLink } from "@/lib/platformDownloadLink";
+import React from "react";
 import Image from "next/image";
-import {
-  getMonoPlatformDownloadLink,
-  getPlatformDownloadLink,
-} from "@/lib/platformDownloadLink";
 
 export const DownloadHero = ({ platform }: { platform: string }) => {
   const { ref, inView } = useInView({
@@ -21,124 +18,68 @@ export const DownloadHero = ({ platform }: { platform: string }) => {
 
   const t = useTranslations("downloadHero");
 
-  const platformIcons = {
-    windows: "windows",
-    mac: "apple",
-    apple: "apple",
-    linux: "linux",
-    android: "android",
-    ios: "apple",
-  };
-
   return (
-    <div className="px-5 lg:px-40">
-      <section
-        ref={ref}
-        className="rounded-xl bg-[url('https://image.redotengine.org/darkCover.png')] bg-cover bg-center text-white"
+    <section
+      ref={ref}
+      className="relative mx-5 space-y-16 rounded-md bg-[url('https://image.redotengine.org/background.png')] bg-cover bg-center py-20 md:mx-10 md:py-0 md:pt-24 lg:mx-40"
+    >
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        animate={inView ? { opacity: 1, y: 0 } : {}}
+        transition={{ duration: 0.6 }}
+        className="relative mx-auto flex flex-col items-center space-y-8 md:space-y-12"
       >
+        <div className="mx-5 flex flex-col items-center gap-4 text-center md:gap-8">
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="text-4xl font-bold tracking-tighter text-primary-foreground dark:text-primary md:text-6xl lg:text-7xl"
+          >
+            {t("title")}
+          </motion.h2>
+
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.5, delay: 0.4 }}
+            className="mx-auto max-w-xl text-base text-muted dark:text-muted-foreground md:text-lg"
+          >
+            {t("description")}
+          </motion.p>
+        </div>
         <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.6 }}
-          className="max-w-9xl mx-auto flex flex-col justify-center gap-8 px-8 py-16 md:px-12"
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={inView ? { opacity: 1, scale: 1 } : {}}
+          transition={{ duration: 0.5, delay: 0.6 }}
         >
-          <div className="flex max-w-[700px] flex-col gap-4">
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.5 }}
-              className="text-sm font-light uppercase tracking-[0.15em] text-white/80 md:text-base"
-            >
-              {t("downloadForOS", { platform })}
-            </motion.p>
-            <motion.h2
-              initial={{ opacity: 0, y: 20 }}
-              animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              className="text-xl font-bold md:text-3xl"
-            >
-              {t("igniteYourImagination")}
-            </motion.h2>
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.5, delay: 0.4 }}
-              className="text-sm text-white/80 md:text-base"
-            >
-              {t("downloadDescription")}
-            </motion.p>
-          </div>
-          <div className="flex flex-col items-center gap-3 md:flex-row">
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={inView ? { opacity: 1, scale: 1 } : {}}
-              transition={{ duration: 0.5, delay: 0.6 }}
-              className="w-full md:w-auto"
-            >
-              <Button size="sm" className="dark w-full md:w-auto" asChild>
-                <div className="flex items-center">
-                  <Link href={getPlatformDownloadLink(platform)}>
-                    {t("buttons.downloadLatest")}
-                  </Link>
-                  <Image
-                    src={`/platform/${platformIcons[platform as keyof typeof platformIcons]}.svg`}
-                    alt="OS Logo"
-                    width={16}
-                    height={16}
-                    className="invert-0 dark:invert"
-                  />
-                </div>
-              </Button>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={inView ? { opacity: 1, scale: 1 } : {}}
-              transition={{ duration: 0.5, delay: 0.8 }}
-              className="w-full md:w-auto"
-            >
-              <Button
-                className="dark w-full md:w-auto"
-                variant="secondary"
-                size="sm"
+          <Button size="lg" className="dark w-auto" asChild>
+            <div className="flex items-center">
+              <IconDownload />
+              <Link
+                href={getPlatformDownloadLink(platform)}
+                className="text-wrap"
               >
-                <Link href={getMonoPlatformDownloadLink(platform)}>
-                  {t("buttons.downloadMono")}
-                </Link>
-                <Image
-                  src={`/platform/${platformIcons[platform as keyof typeof platformIcons]}.svg`}
-                  alt="OS Logo"
-                  width={16}
-                  height={16}
-                />
-              </Button>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={inView ? { opacity: 1, scale: 1 } : {}}
-              transition={{ duration: 0.5, delay: 1 }}
-              className="w-full md:w-auto"
-            >
-              <Button
-                size="sm"
-                variant="link"
-                className="dark w-full md:w-auto"
-              >
-                <Link
-                  href={links.releasePage}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {t("buttons.moreDownloadOptions")}
-                </Link>
-                <IconArrowRight className="h-5 w-5" />
-              </Button>
-            </motion.div>
-          </div>
+                {t("downloadButton")}
+              </Link>
+            </div>
+          </Button>
         </motion.div>
-      </section>
-      <p className="mt-2 text-right text-sm text-muted-foreground hover:underline">
-        <Link href="https://runegamedev.itch.io/biograde">Biograde</Link>
-      </p>
-    </div>
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.7, delay: 0.2 }}
+        className="relative mx-10 mt-10 hidden h-[250px] select-none md:block lg:mx-24"
+      >
+        <Image
+          src="https://image.redotengine.org/downloadProduct.png"
+          alt="Product Image"
+          className="h-auto w-full rounded-t-lg object-cover object-top sm:w-auto"
+          priority
+          fill
+        />
+      </motion.div>
+    </section>
   );
 };

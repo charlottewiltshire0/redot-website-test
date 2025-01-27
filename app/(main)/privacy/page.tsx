@@ -1,24 +1,26 @@
-import SectionHeader from "@/components/SectionHeader";
-import TextFetcher from "@/components/TextFetcher";
-import { Start } from "@/components/sections/landing/Start";
+"use client";
 
-export default function Terms() {
-  const termsUrl =
-    "https://raw.githubusercontent.com/Redot-Experimental/policies/refs/heads/master/terms.txt";
+import SectionHeader from "@/components/SectionHeader";
+import { Start } from "@/components/sections/landing/Start";
+import TextFetcher from "@/components/TextFetcher";
+
+export default function Privacy() {
+  const privacyUrl =
+    "https://raw.githubusercontent.com/Redot-Experimental/policies/refs/heads/master/privacy.txt";
 
   return (
     <div>
       <div className="relative flex w-full items-start justify-center bg-white bg-grid-black/[0.1] dark:bg-background dark:bg-grid-white/[0.1]">
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-background"></div>
         <div className="relative z-20 px-5 pb-5 pt-10 lg:px-40">
-          <SectionHeader section="terms" />
+          <SectionHeader section="privacy" />
         </div>
       </div>
 
       <div className="mt-24 flex flex-col gap-8 px-5 lg:px-40">
         <TextFetcher
-          url={termsUrl}
-          className="prose dark:prose-invert max-w-none"
+          url={privacyUrl}
+          className="prose dark:prose-invert article max-w-none"
           loadingComponent={
             <div className="py-10 text-center">
               <svg
