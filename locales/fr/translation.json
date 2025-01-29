@@ -147,6 +147,23 @@
     "description": "Téléchargez Redot Engine, la plateforme puissante pour créer des jeux 2D et 3D multiplateformes et des expériences interactives.",
     "downloadButton": "Télécharger maintenant"
   },
+  "downloadDialog": {
+    "downloadButton": "Télécharger maintenant",
+    "title": "Choisissez une version à télécharger",
+    "description": "Sélectionnez la version qui correspond le mieux à vos besoins.",
+    "stable": {
+      "name": "Version stable",
+      "description": "Recommandé pour la plupart des utilisateurs"
+    },
+    "latest": {
+      "name": "Dernière version",
+      "description": "Fonctionnalités de pointe, peut contenir des bugs"
+    },
+    "mono": {
+      "name": "Version Mono",
+      "description": "Inclut le support pour C#"
+    }
+  },
   "downloadThreeSteps": {
     "badge": "",
     "title": "Créez avec Redot",

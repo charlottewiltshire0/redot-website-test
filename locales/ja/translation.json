@@ -147,6 +147,23 @@
     "description": "Redot Engineをダウンロードして、2Dおよび3Dのクロスプラットフォームゲームやインタラクティブな体験を作成しましょう。",
     "downloadButton": "今すぐダウンロード"
   },
+  "downloadDialog": {
+    "downloadButton": "今すぐダウンロード",
+    "title": "ダウンロードバージョンを選択",
+    "description": "ニーズに最も適したバージョンを選択してください。",
+    "stable": {
+      "name": "安定版",
+      "description": "ほとんどのユーザーに推奨されます"
+    },
+    "latest": {
+      "name": "最新バージョン",
+      "description": "最先端の機能、不具合がある可能性があります"
+    },
+    "mono": {
+      "name": "モノバージョン",
+      "description": "C# のサポートを含みます"
+    }
+  },
   "downloadThreeSteps": {
     "badge": "",
     "title": "Redotで作成",

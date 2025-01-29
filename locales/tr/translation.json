@@ -147,6 +147,23 @@
     "description": "Redot Engine'i indirin, 2D ve 3D platformlar arası oyunlar ve etkileşimli deneyimler oluşturmak için güçlü bir platform.",
     "downloadButton": "Hemen indir"
   },
+  "downloadDialog": {
+    "downloadButton": "Şimdi indir",
+    "title": "İndirilecek sürümü seçin",
+    "description": "İhtiyaçlarınıza en uygun sürümü seçin.",
+    "stable": {
+      "name": "Kararlı sürüm",
+      "description": "Çoğu kullanıcı için önerilir"
+    },
+    "latest": {
+      "name": "En son sürüm",
+      "description": "Öncü özellikler, hatalar içerebilir"
+    },
+    "mono": {
+      "name": "Mono sürümü",
+      "description": "C# desteği içerir"
+    }
+  },
   "downloadThreeSteps": {
     "badge": "",
     "title": "Redot ile Üretin",

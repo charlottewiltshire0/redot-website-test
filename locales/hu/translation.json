@@ -147,6 +147,23 @@
     "description": "Töltse le a Redot Engine-t, a hatékony platformot 2D és 3D keresztplatformos játékok és interaktív élmények létrehozásához.",
     "downloadButton": "Töltse le most"
   },
+  "downloadDialog": {
+    "downloadButton": "Letöltés most",
+    "title": "Válassza ki a letölthető verziót",
+    "description": "Válassza ki az Ön igényeinek leginkább megfelelő verziót.",
+    "stable": {
+      "name": "Stabil verzió",
+      "description": "Ajánlott a legtöbb felhasználó számára"
+    },
+    "latest": {
+      "name": "Legújabb verzió",
+      "description": "Legújabb funkciók, lehetnek hibák"
+    },
+    "mono": {
+      "name": "Mono verzió",
+      "description": "Tartalmazza a C# támogatást"
+    }
+  },
   "downloadThreeSteps": {
     "badge": "",
     "title": "Készíts a Redot-tal",

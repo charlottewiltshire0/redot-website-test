@@ -147,6 +147,23 @@
     "description": "Tải xuống Redot Engine, nền tảng mạnh mẽ để tạo trò chơi 2D và 3D đa nền tảng và trải nghiệm tương tác.",
     "downloadButton": "Tải ngay"
   },
+  "downloadDialog": {
+    "downloadButton": "Tải xuống ngay",
+    "title": "Chọn phiên bản tải xuống",
+    "description": "Chọn phiên bản phù hợp nhất với nhu cầu của bạn.",
+    "stable": {
+      "name": "Phiên bản ổn định",
+      "description": "Khuyến nghị cho hầu hết người dùng"
+    },
+    "latest": {
+      "name": "Phiên bản mới nhất",
+      "description": "Tính năng tiên tiến, có thể có lỗi"
+    },
+    "mono": {
+      "name": "Phiên bản Mono",
+      "description": "Bao gồm hỗ trợ C#"
+    }
+  },
   "downloadThreeSteps": {
     "badge": "",
     "title": "Tạo Ra Với Redot",

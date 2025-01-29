@@ -144,8 +144,24 @@
   },
   "downloadHero": {
     "title": "Ignite Your Imagination",
-    "description": "Download Redot Engine, the powerful platform for building 2D and 3D cross-platform games and interactive experiences.",
-    "downloadButton": "Download now"
+    "description": "Download Redot Engine, the powerful platform for building 2D and 3D cross-platform games and interactive experiences."
+  },
+  "downloadDialog": {
+    "downloadButton": "Download now",
+    "title": "Choose Download Version",
+    "description": "Select the version that best suits your needs.",
+    "stable": {
+      "name": "Stable Version",
+      "description": "Recommended for most users"
+    },
+    "latest": {
+      "name": "Latest Version",
+      "description": "Cutting-edge features, may have bugs"
+    },
+    "mono": {
+      "name": "Mono Version",
+      "description": "Includes support for C#"
+    }
   },
   "downloadThreeSteps": {
     "badge": "",

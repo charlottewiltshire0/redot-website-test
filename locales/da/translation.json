@@ -147,6 +147,23 @@
     "description": "Download Redot Engine, den kraftfulde platform til at skabe 2D- og 3D-platformsspil og interaktive oplevelser.",
     "downloadButton": "Download nu"
   },
+  "downloadDialog": {
+    "downloadButton": "Download nu",
+    "title": "Vælg downloadversion",
+    "description": "Vælg den version, der passer bedst til dine behov.",
+    "stable": {
+      "name": "Stabil version",
+      "description": "Anbefales til de fleste brugere"
+    },
+    "latest": {
+      "name": "Seneste version",
+      "description": "Nyeste funktioner, kan indeholde fejl"
+    },
+    "mono": {
+      "name": "Mono version",
+      "description": "Inkluderer support til C#"
+    }
+  },
   "downloadThreeSteps": {
     "badge": "",
     "title": "Skab med Redot",

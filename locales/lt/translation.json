@@ -147,6 +147,23 @@
     "description": "Atsisiųskite Redot Engine - galingą platformą, skirtą kurti 2D ir 3D kryžminės platformos žaidimus bei interaktyvias patirtis.",
     "downloadButton": "Atsisiųsti dabar"
   },
+  "downloadDialog": {
+    "downloadButton": "Atsisiųsti dabar",
+    "title": "Pasirinkite atsisiuntimo versiją",
+    "description": "Pasirinkite versiją, kuri geriausiai atitinka jūsų poreikius.",
+    "stable": {
+      "name": "Stabili versija",
+      "description": "Rekomenduojama daugeliui vartotojų"
+    },
+    "latest": {
+      "name": "Naujausia versija",
+      "description": "Pirmaujančios funkcijos, gali turėti klaidų"
+    },
+    "mono": {
+      "name": "Mono versija",
+      "description": "Apima C# palaikymą"
+    }
+  },
   "downloadThreeSteps": {
     "badge": "",
     "title": "Kurkite su Redot",

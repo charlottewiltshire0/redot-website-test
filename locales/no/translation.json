@@ -147,6 +147,23 @@
     "description": "Last ned Redot Engine, den kraftige plattformen for å lage 2D- og 3D-plattformspill og interaktive opplevelser.",
     "downloadButton": "Last ned nå"
   },
+  "downloadDialog": {
+    "downloadButton": "Last ned nå",
+    "title": "Velg nedlastingsversjon",
+    "description": "Velg versjonen som passer best til dine behov.",
+    "stable": {
+      "name": "Stabil versjon",
+      "description": "Anbefales for de fleste brukere"
+    },
+    "latest": {
+      "name": "Nyeste versjon",
+      "description": "Banebrytende funksjoner, kan inneholde feil"
+    },
+    "mono": {
+      "name": "Mono versjon",
+      "description": "Inkluderer støtte for C#"
+    }
+  },
   "downloadThreeSteps": {
     "badge": "",
     "title": "Lag med Redot",

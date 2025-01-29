@@ -147,6 +147,23 @@
     "description": "Lataa Redot Engine, tehokas alusta 2D- ja 3D-monialustapelien ja interaktiivisten kokemusten luomiseen.",
     "downloadButton": "Lataa nyt"
   },
+  "downloadDialog": {
+    "downloadButton": "Lataa nyt",
+    "title": "Valitse ladattava versio",
+    "description": "Valitse versio, joka parhaiten vastaa tarpeitasi.",
+    "stable": {
+      "name": "Vakaa versio",
+      "description": "Suositellaan useimmille käyttäjille"
+    },
+    "latest": {
+      "name": "Uusin versio",
+      "description": "Uusimmat ominaisuudet, voi sisältää virheitä"
+    },
+    "mono": {
+      "name": "Mono-versio",
+      "description": "Sisältää tuen C#:lle"
+    }
+  },
   "downloadThreeSteps": {
     "badge": "",
     "title": "Luo Redotilla",

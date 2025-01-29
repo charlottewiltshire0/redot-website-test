@@ -147,6 +147,23 @@
     "description": "Redot Engine을 다운로드하여 2D 및 3D 크로스 플랫폼 게임과 인터랙티브 경험을 만들어 보세요.",
     "downloadButton": "지금 다운로드"
   },
+  "downloadDialog": {
+    "downloadButton": "지금 다운로드",
+    "title": "다운로드 버전 선택",
+    "description": "귀하의 요구에 가장 적합한 버전을 선택하십시오.",
+    "stable": {
+      "name": "안정 버전",
+      "description": "대부분의 사용자에게 권장됨"
+    },
+    "latest": {
+      "name": "최신 버전",
+      "description": "최신 기능, 버그가 있을 수 있음"
+    },
+    "mono": {
+      "name": "모노 버전",
+      "description": "C# 지원 포함"
+    }
+  },
   "downloadThreeSteps": {
     "badge": "",
     "title": "Redot로 만들기",
