@@ -14,9 +14,7 @@ function getAssetPattern(
   }
 
   if (platform === "android") {
-    return channel === "mono"
-      ? /_android_editor\.apk$/i
-      : /_android_editor\.apk$/i;
+    return /_android_editor\.apk$/i;
   }
 
   if (channel === "mono") {
