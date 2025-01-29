@@ -147,6 +147,23 @@
     "description": "Stáhněte si Redot Engine, výkonnou platformu pro tvorbu 2D a 3D multiplatformních her a interaktivních zážitků.",
     "downloadButton": "Stáhnout nyní"
   },
+  "downloadDialog": {
+    "downloadButton": "Stáhnout nyní",
+    "title": "Vyberte verzi ke stažení",
+    "description": "Vyberte verzi, která nejlépe vyhovuje vašim potřebám.",
+    "stable": {
+      "name": "Stabilní verze",
+      "description": "Doporučeno pro většinu uživatelů"
+    },
+    "latest": {
+      "name": "Nejnovější verze",
+      "description": "Nejnovější funkce, může obsahovat chyby"
+    },
+    "mono": {
+      "name": "Mono verze",
+      "description": "Obsahuje podporu pro C#"
+    }
+  },
   "downloadThreeSteps": {
     "badge": "",
     "title": "Vytvářejte s Redot",

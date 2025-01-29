@@ -147,6 +147,23 @@
     "description": "Download Redot Engine, het krachtige platform voor het bouwen van 2D- en 3D-platformoverschrijdende games en interactieve ervaringen.",
     "downloadButton": "Nu downloaden"
   },
+  "downloadDialog": {
+    "downloadButton": "Nu downloaden",
+    "title": "Kies downloadversie",
+    "description": "Kies de versie die het beste bij uw behoeften past.",
+    "stable": {
+      "name": "Stabiele versie",
+      "description": "Aanbevolen voor de meeste gebruikers"
+    },
+    "latest": {
+      "name": "Laatste versie",
+      "description": "Nieuwste functies, kunnen bugs bevatten"
+    },
+    "mono": {
+      "name": "Mono versie",
+      "description": "Bevat ondersteuning voor C#"
+    }
+  },
   "downloadThreeSteps": {
     "badge": "",
     "title": "Maak met Redot",

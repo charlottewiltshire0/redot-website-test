@@ -147,6 +147,23 @@
     "description": "Preuzmite Redot Engine, moćnu platformu za izradu 2D i 3D međusobnih igara i interaktivnih iskustava.",
     "downloadButton": "Preuzmite sada"
   },
+  "downloadDialog": {
+    "downloadButton": "Preuzmi sada",
+    "title": "Odaberite verziju za preuzimanje",
+    "description": "Odaberite verziju koja najbolje odgovara vašim potrebama.",
+    "stable": {
+      "name": "Stabilna verzija",
+      "description": "Preporučuje se za većinu korisnika"
+    },
+    "latest": {
+      "name": "Najnovija verzija",
+      "description": "Najnovije značajke, moguće greške"
+    },
+    "mono": {
+      "name": "Mono verzija",
+      "description": "Uključuje podršku za C#"
+    }
+  },
   "downloadThreeSteps": {
     "badge": "",
     "title": "Kreirajte s Redot",

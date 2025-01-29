@@ -147,6 +147,23 @@
     "description": "下載 Redot Engine，這是一個功能強大的平台，用於構建 2D 和 3D 跨平台遊戲和互動體驗。",
     "downloadButton": "立即下載"
   },
+  "downloadDialog": {
+    "downloadButton": "立即下載",
+    "title": "選擇下載版本",
+    "description": "選擇最適合您需求的版本。",
+    "stable": {
+      "name": "穩定版本",
+      "description": "推薦給大多數用戶"
+    },
+    "latest": {
+      "name": "最新版本",
+      "description": "前沿功能，可能有錯誤"
+    },
+    "mono": {
+      "name": "Mono版本",
+      "description": "包括對C#的支持"
+    }
+  },
   "downloadThreeSteps": {
     "badge": "",
     "title": "用 Redot 創建",

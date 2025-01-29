@@ -147,6 +147,23 @@
     "description": "Descarcă Redot Engine, platforma puternică pentru construirea jocurilor 2D și 3D pe mai multe platforme și experiențe interactive.",
     "downloadButton": "Descarcă acum"
   },
+  "downloadDialog": {
+    "downloadButton": "Descarcă acum",
+    "title": "Alege versiunea de descărcat",
+    "description": "Selectează versiunea care se potrivește cel mai bine nevoilor tale.",
+    "stable": {
+      "name": "Versiune stabilă",
+      "description": "Recomandat pentru majoritatea utilizatorilor"
+    },
+    "latest": {
+      "name": "Ultima versiune",
+      "description": "Funcții de ultimă oră, poate conține erori"
+    },
+    "mono": {
+      "name": "Versiune Mono",
+      "description": "Include suport pentru C#"
+    }
+  },
   "downloadThreeSteps": {
     "badge": "",
     "title": "Creează cu Redot",
