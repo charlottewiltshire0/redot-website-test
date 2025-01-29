@@ -1,6 +1,8 @@
 import { type NextRequest, NextResponse } from "next/server";
 import axios from "axios";
 
+export const runtime = "edge";
+
 const GITHUB_OWNER = "Redot-Engine";
 const GITHUB_REPO = "redot-engine";
 
