@@ -1,20 +1,50 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import { IconDownload } from "@tabler/icons-react";
-import Link from "next/link";
 import { useInView } from "react-intersection-observer";
 import { motion } from "motion/react";
 import { useTranslations } from "next-intl";
-import { getPlatformDownloadLink } from "@/lib/platformDownloadLink";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
+import DownloadDialog from "@/components/download/DownloadDialog";
 
 export const DownloadHero = ({ platform }: { platform: string }) => {
   const { ref, inView } = useInView({
     threshold: 0.1,
     triggerOnce: true,
   });
+
+  const [arch, setArch] = useState("");
+
+  useEffect(() => {
+    const detectArchitecture = () => {
+      let detectedArch = "";
+      const userAgent = navigator.userAgent;
+
+      if (platform === "windows") {
+        if (userAgent.includes("WOW64") || userAgent.includes("Win64")) {
+          detectedArch = "64";
+        } else {
+          detectedArch = "32";
+        }
+      } else if (platform === "linux") {
+        if (userAgent.includes("x86_64")) {
+          detectedArch = "x86_64";
+        } else if (userAgent.includes("i686")) {
+          detectedArch = "x86_32";
+        } else if (userAgent.includes("arm64")) {
+          detectedArch = "arm64";
+        } else {
+          detectedArch = "x86_64";
+        }
+      } else {
+        detectedArch = "universal";
+      }
+
+      setArch(detectedArch);
+    };
+
+    detectArchitecture();
+  }, []);
 
   const t = useTranslations("downloadHero");
 
@@ -43,7 +73,7 @@ export const DownloadHero = ({ platform }: { platform: string }) => {
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="mx-auto max-w-xl text-base text-muted dark:text-muted-foreground md:text-lg"
+            className="mx-auto max-w-xl text-base text-white/80 md:text-lg"
           >
             {t("description")}
           </motion.p>
@@ -53,17 +83,7 @@ export const DownloadHero = ({ platform }: { platform: string }) => {
           animate={inView ? { opacity: 1, scale: 1 } : {}}
           transition={{ duration: 0.5, delay: 0.6 }}
         >
-          <Button size="lg" className="dark w-auto" asChild>
-            <div className="flex items-center">
-              <IconDownload />
-              <Link
-                href={getPlatformDownloadLink(platform)}
-                className="text-wrap"
-              >
-                {t("downloadButton")}
-              </Link>
-            </div>
-          </Button>
+          <DownloadDialog platform={platform} arch={arch} />
         </motion.div>
       </motion.div>
       <motion.div
