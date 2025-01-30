@@ -19,6 +19,9 @@ jobs:
 
       - name: Cache dependencies and Next.js build
         uses: actions/cache@v4
+
+      - name: Install Tools & Dependencies
+        uses: ./.github/actions/install
         with:
           path: |
             ~/.bun/install/cache
