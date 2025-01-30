@@ -10,11 +10,8 @@ jobs:
       - name: Check out Git repository
         uses: actions/checkout@v4
 
-      - name: Install Bun
-        uses: oven-sh/setup-bun@v2
-
-      - name: Install dependencies
-        run: bun install
+      - name: Install Tools & Dependencies
+        uses: ./.github/actions/install
 
       - name: Validate current commit (last commit) with commitlint
         run: bunx commitlint --last --verbose
