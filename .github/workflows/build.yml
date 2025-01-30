@@ -14,8 +14,8 @@ jobs:
       - name: Check out Git repository
         uses: actions/checkout@v4
 
-      - name: Install Bun
-        uses: oven-sh/setup-bun@v2
+      - name: Install Tools & Dependencies
+        uses: ./.github/actions/install
 
       - name: Cache dependencies and Next.js build
         uses: actions/cache@v4
@@ -26,9 +26,6 @@ jobs:
           key: ${{ runner.os }}-nextjs-${{ hashFiles('**/bun.lockb') }}-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx') }}
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/bun.lockb') }}-
-
-      - name: Install dependencies
-        run: bun install
 
       - name: Build Next.js App
         run: bun run build
