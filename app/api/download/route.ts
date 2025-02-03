@@ -11,7 +11,7 @@ function getAssetPattern(
   arch: string,
   channel: string
 ): RegExp {
-  if (platform === "macos") {
+  if (platform === "mac") {
     return channel === "mono" ? /_mono_macos\.zip$/i : /_macos\.zip$/i;
   }
 
@@ -20,7 +20,7 @@ function getAssetPattern(
   }
 
   if (channel === "mono") {
-    if (platform === "win") {
+    if (platform === "windows") {
       const winPart = {
         "32": "win32",
         "64": "win64",
@@ -31,7 +31,7 @@ function getAssetPattern(
     return new RegExp(`_mono_${platform}_${arch}\\.zip$`, "i");
   }
 
-  if (platform === "win") {
+  if (platform === "windows") {
     const winPart = {
       "32": "win32",
       "64": "win64",
@@ -57,9 +57,21 @@ export async function GET(request: NextRequest) {
     let release;
     if (channel === "latest") {
       const response = await axios.get(
-        `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases/latest`
+        `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases`
       );
-      release = response.data;
+      const allReleases = response.data;
+
+      if (!allReleases.length) {
+        return new NextResponse("No releases found", { status: 404 });
+      }
+
+      allReleases.sort(
+        (a: any, b: any) =>
+          new Date(b.published_at).getTime() -
+          new Date(a.published_at).getTime()
+      );
+
+      release = allReleases[0];
     } else {
       const response = await axios.get(
         `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases`
