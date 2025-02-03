@@ -26,7 +26,7 @@ interface DownloadDialogProps {
 export default function DownloadDialog({
   platform,
   arch,
-}: DownloadDialogProps) {
+}: Readonly<DownloadDialogProps>) {
   const [open, setOpen] = useState(false);
   const [version, setVersion] = useState("stable");
 
