@@ -4,9 +4,15 @@
   "description": "This repository contains the code for the official Redot website.",
   "license": "MIT",
   "author": "charlottewiltshire0",
-  "homepage": "https://www.redotengine.org/",
+  "bugs": {
+    "url": "https://github.com/Redot-Engine/redot-website/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Redot-Engine/redot-website.git"
+  },
+  "homepage": "https://github.com/Redot-Engine/redot-website#readme",
   "type": "module",
-  "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -14,8 +20,8 @@
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "lint:strict": "next lint '*/**/*.{js,jsx,ts,tsx}'",
-    "format": "prettier --check --ignore-path .gitignore .",
-    "format:fix": "prettier --write --ignore-path .gitignore .",
+    "format": "prettier -c --cache .",
+    "format:fix": "prettier -w . --cache",
     "prepare": "husky"
   },
   "dependencies": {
