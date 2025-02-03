@@ -32,25 +32,9 @@ export default function DownloadDialog({
 
   const t = useTranslations("downloadDialog");
 
-  const mapPlatform = (platform: string) => {
-    switch (platform.toLowerCase()) {
-      case "windows":
-        return "win";
-      case "mac":
-        return "macos";
-      case "linux":
-        return "linux";
-      case "android":
-        return "android";
-      default:
-        console.error("Unsupported platform");
-    }
-  };
-
   const fetchDownloadUrl = async () => {
-    const mappedPlatform = mapPlatform(platform);
     const response = await fetch(
-      `/api/download?platform=${mappedPlatform}&arch=${arch}&channel=${version}`
+      `/api/download?platform=${platform}&arch=${arch}&channel=${version}`
     );
     if (!response.ok) {
       console.error("Failed to fetch download URL");
@@ -71,7 +55,7 @@ export default function DownloadDialog({
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <Button size="lg" className="px-8">
+        <Button size="lg" className="dark px-8">
           <IconDownload className="mr-2 h-5 w-5" />
           {t("downloadButton")}
         </Button>
@@ -87,28 +71,34 @@ export default function DownloadDialog({
             onValueChange={setVersion}
             className="space-y-4"
           >
-            {versions.map((v) => (
-              <Card
-                key={v.id}
-                className={`transition-all ${version === v.id ? "border-primary" : "hover:border-primary/50"}`}
-              >
-                <CardContent className="flex items-center space-x-4 p-4">
-                  <RadioGroupItem value={v.id} id={v.id} className="sr-only" />
-                  <v.icon
-                    className={`h-6 w-6 ${version === v.id ? "text-primary" : "text-muted-foreground"}`}
-                  />
-                  <Label
-                    htmlFor={v.id}
-                    className="flex-grow cursor-pointer space-y-1"
-                  >
-                    <div className="font-semibold">{t(`${v.id}.name`)}</div>
-                    <div className="text-sm text-muted-foreground">
-                      {t(`${v.id}.description`)}
-                    </div>
-                  </Label>
-                </CardContent>
-              </Card>
-            ))}
+            {versions
+              .filter((v) => !(platform === "android" && v.id === "mono"))
+              .map((v) => (
+                <Card
+                  key={v.id}
+                  className={`transition-all ${version === v.id ? "border-primary" : "hover:border-primary/50"}`}
+                >
+                  <CardContent className="flex items-center space-x-4 p-4">
+                    <RadioGroupItem
+                      value={v.id}
+                      id={v.id}
+                      className="sr-only"
+                    />
+                    <v.icon
+                      className={`h-6 w-6 ${version === v.id ? "text-primary" : "text-muted-foreground"}`}
+                    />
+                    <Label
+                      htmlFor={v.id}
+                      className="flex-grow cursor-pointer space-y-1"
+                    >
+                      <div className="font-semibold">{t(`${v.id}.name`)}</div>
+                      <div className="text-sm text-muted-foreground">
+                        {t(`${v.id}.description`)}
+                      </div>
+                    </Label>
+                  </CardContent>
+                </Card>
+              ))}
           </RadioGroup>
         </div>
         <DialogFooter>
