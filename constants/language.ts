@@ -5,6 +5,7 @@ interface Language {
 }
 
 export const language: Language[] = [
+  { value: "ar", label: "العربية", code: "AR" },
   { value: "cs", label: "Čeština", code: "CZ" },
   { value: "da", label: "Dansk", code: "DK" },
   { value: "de", label: "Deutsch", code: "DE" },

@@ -28,6 +28,7 @@ export default defineConfig({
     internationalizedArray({
       // Required configuration
       languages: [
+        { id: "ar", title: "العربية"},
         { id: "cs", title: "Čeština" },
         { id: "da", title: "Dansk" },
         { id: "de", title: "Deutsch" },
