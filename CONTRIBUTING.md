@@ -72,3 +72,13 @@ feature/#1-init
 #### References:
 
 - https://gist.github.com/seunggabi/87f8c722d35cd07deb3f649d45a31082
+
+## Development Environmental Variables
+
+Place .env file in the root of project. File content:
+
+```
+NEXT_PUBLIC_SANITY_DATASET=test
+NEXT_PUBLIC_SANITY_PROJECT_ID=qqvmmpgb
+NEXT_PUBLIC_BASE_URL=https://www.redotengine.org
+```

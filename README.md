@@ -44,6 +44,10 @@ cd redot-website
 bun install
 ```
 
+### Read CONTRIBUTING.md and Setting up .env for development
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) before you start your contribution development.
+
 ## Running
 
 Once everything is set up, you can run the following command to start the Next.js development server:
