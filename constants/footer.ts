@@ -37,7 +37,7 @@ export const footer: Footer[] = [
       { title: "resources.children.community", href: "/community" },
       { title: "resources.children.pressKit", href: links.pressKit },
       { title: "resources.children.contact", href: "/contact" },
-      { title: "resources.children.rss", href: "/api/feed.xml" },
+      { title: "resources.children.rss", href: "/api/feed.xml", newTab: true },
     ],
   },
   // {
