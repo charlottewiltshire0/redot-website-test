@@ -8,7 +8,8 @@ const cspHeader = `
     default-src 'self';
     script-src 'self' 'unsafe-eval' 'unsafe-inline';
     style-src 'self' 'unsafe-inline';
-    img-src 'self' blob: data:;
+    img-src 'self' blob: data: https://*.sanity.io https://*.cloudflare.com https://image.redotengine.org;
+    connect-src 'self' https://*.sanity.io https://*.cloudflare.com;
     font-src 'self';
     object-src 'none';
     base-uri 'self';
@@ -64,10 +65,11 @@ const nextConfig: NextConfig = {
             key: "X-Content-Type-Options",
             value: "nosniff",
           },
-          {
-            key: "Content-Security-Policy",
-            value: cspHeader.replace(/\n/g, ""),
-          },
+          // TODO: Implement a robust Content-Security-Policy (CSP) header to enhance application security.
+          // {
+          //   key: "Content-Security-Policy",
+          //   value: cspHeader.replace(/\n/g, ""),
+          // },
           {
             key: "Permissions-Policy",
             value:
