@@ -17,7 +17,7 @@ jobs:
       - uses: zephyrproject-rtos/action-first-interaction@1d8459ca65b335265f1285568221e229d45a995e
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-1          pr-message: |
+pr-message: |
             Hello, and thank you for contributing to the Redot website! 🎉
 
             Here’s what will happen next:
