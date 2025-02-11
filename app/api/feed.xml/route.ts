@@ -38,6 +38,7 @@ export async function GET() {
   return new NextResponse(feed, {
     headers: {
       "Content-Type": "application/xml",
+      "Cache-Control": "public, max-age=3600, s-maxage=86400",
     },
   });
 }
