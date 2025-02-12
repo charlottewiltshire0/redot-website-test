@@ -42,7 +42,7 @@ export default function Landing() {
   const t = useTranslations("textRevealSection");
 
   return (
-    <div>
+    <main>
       <Hero />
       <ProductShowcase />
       <TextReveal text={t("body")} />
@@ -50,6 +50,6 @@ export default function Landing() {
       <Blog />
       <Review />
       <Start />
-    </div>
+    </main>
   );
 }
