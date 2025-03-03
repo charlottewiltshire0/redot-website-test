@@ -14,5 +14,5 @@
 **Screenshots (if applicable):**
 <!-- Include any relevant screenshots to help explain your changes. -->
 
-### **Additional notes:**
+**Additional notes:**
 <!-- Any other information or context that might be helpful for the maintainers. -->

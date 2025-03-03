@@ -17,10 +17,6 @@ This is the official website for the **Redot Engine**, providing information, re
 
 ## Build from source
 
-### Install Node.js
-
-Make sure Node.js is installed on your machine. If it's not, you can download and install it from [nodejs.org](https://nodejs.org/).
-
 ### Install Bun
 
 Bun is a fast JavaScript runtime like Node.js, but with a built-in package manager. If you haven't installed it yet, you can do so by running:
