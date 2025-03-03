@@ -20,7 +20,7 @@ export default function Privacy() {
       <div className="mt-24 flex flex-col gap-8 px-5 lg:px-40">
         <TextFetcher
           url={privacyUrl}
-          className="prose dark:prose-invert article max-w-none"
+          className="article prose max-w-none dark:prose-invert"
           loadingComponent={
             <div className="py-10 text-center">
               <svg

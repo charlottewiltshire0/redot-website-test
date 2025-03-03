@@ -7,7 +7,7 @@ import { Post } from "@/sanity/schemaTypes/postType";
 
 export const ArticleSplashOld = ({ article }: { article: Post }) => {
   return (
-    <div className="flex max-w-[800px] flex-col gap-5 md:w-[800px]">
+    <div className="flex max-w-[800px] flex-col gap-5 pb-24 md:w-[800px]">
       {article.imageUrl && (
         <div className="relative aspect-video w-full">
           <Image
