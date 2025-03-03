@@ -36,7 +36,7 @@ jobs:
   build:
     name: Build the project
     runs-on: ubuntu-24.04
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v4
@@ -48,6 +48,6 @@ jobs:
         run: bun run build
         env:
           NEXT_PUBLIC_GTM_ID: ${{ secrets.NEXT_PUBLIC_GTM_ID }}
-          NEXT_PUBLIC_SANITY_PROJECT_ID: qqvmmpgb
-          NEXT_PUBLIC_SANITY_DATASET: test
-          NEXT_PUBLIC_BASE_URL: https://www.redotengine.org
+          NEXT_PUBLIC_SANITY_PROJECT_ID: ${{ vars.NEXT_PUBLIC_SANITY_PROJECT_ID }}
+          NEXT_PUBLIC_SANITY_DATASET: ${{ vars.NEXT_PUBLIC_SANITY_DATASET }}
+          NEXT_PUBLIC_BASE_URL: ${{ vars.NEXT_PUBLIC_BASE_URL }}
