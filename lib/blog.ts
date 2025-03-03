@@ -62,7 +62,11 @@ export async function getUsedTags() {
   return await client.fetch(tagQuery);
 }
 
-export async function getPosts(tag: string = "", search: string = "") {
+export async function getPosts(
+  tag: string = "",
+  search: string = "",
+  language: string = "en"
+) {
   let query = `*[_type == "post"`;
   const inputSearch = sanitizeInput(search);
   const filters: string[] = [];
@@ -73,7 +77,7 @@ export async function getPosts(tag: string = "", search: string = "") {
 
   if (search) {
     filters.push(
-      `title match "*${inputSearch}*" || excerpt match "*${inputSearch}*"`
+      `title[_key == "${language}"][0].value match "*${inputSearch}*" || excerpt[_key == "${language}"][0].value match "*${inputSearch}*"`
     );
   }
 
@@ -82,12 +86,12 @@ export async function getPosts(tag: string = "", search: string = "") {
   }
 
   query += `] | order(publishedAt desc) {
-    "title": title[_key == "en"][0].value,
+    "title": title[_key == "${language}"][0].value,
     slug,
     image,
     "imageUrl": image.asset->url,
     publishedAt,
-    "excerpt": excerpt[_key == "en"][0].value,
+    "excerpt": excerpt[_key == "${language}"][0].value,
     author-> {
       _id,
       name,
