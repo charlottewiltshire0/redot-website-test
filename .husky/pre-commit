@@ -16,5 +16,11 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
+# Skip hook if only whitespace changes
+if git diff --cached --quiet --ignore-space-change; then
+  echo "✈️ Skipping pre-commit hook for whitespace changes"
+  exit 1
+fi
+
 echo "✅ All pre-commit checks passed! 🎉"
 exit 0
