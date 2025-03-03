@@ -22,6 +22,11 @@ export const header: HeaderLink[] = [
     newTab: true,
   },
   {
+    label: "links.forum",
+    href: links.forum,
+    newTab: true,
+  },
+  {
     label: "links.community",
     href: "/community/",
   },
