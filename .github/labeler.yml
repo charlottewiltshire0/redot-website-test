@@ -4,3 +4,6 @@ translation: locales/**
 
 feature:
   - head-branch: ['^feature', 'feature']
+
+fix:
+  - head-branch: ['^fix', 'fix']
