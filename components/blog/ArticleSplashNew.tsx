@@ -21,7 +21,9 @@ export const ArticleSplashNew = ({ article }: { article: Post }) => {
               ))}
             </div>
           )}
-          <h2 className="text-4xl font-bold md:text-6xl">{article.title}</h2>
+          <h2 className="text-pretty text-4xl font-bold md:text-6xl">
+            {article.title}
+          </h2>
         </div>
         <p className="text-pretty text-lg text-muted-foreground md:text-xl">
           {article.excerpt}
