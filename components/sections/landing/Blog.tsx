@@ -87,7 +87,7 @@ export const Blog = () => {
                     <ArticleCard article={post} />
                   </div>
                   <div className="block md:hidden">
-                    <ArticleCard article={post} size="small" />
+                    <ArticleCard article={post} />
                   </div>
                 </motion.div>
               ))}
