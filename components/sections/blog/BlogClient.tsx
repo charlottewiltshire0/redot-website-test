@@ -119,6 +119,7 @@ export default function BlogClient({
               alt="Redotchan"
               width={160}
               height={160}
+              priority
             />
             <div className="flex flex-col">
               <h2 className="mt-5 text-center text-4xl font-bold tracking-tighter md:text-[54px] md:leading-[60px]">
@@ -142,18 +143,13 @@ export default function BlogClient({
                     delay: index * 0.2,
                   }}
                 >
-                  <div className="hidden h-full md:block">
-                    <ArticleCard article={post} />
-                  </div>
-                  <div className="block md:hidden">
-                    <ArticleCard article={post} size="small" />
-                  </div>
+                  <ArticleCard article={post} />
                 </motion.div>
               ))}
             </div>
 
             {posts.length > 4 && (
-              <div className="mt-8 grid w-full grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+              <div className="mt-12 grid w-full grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
                 {posts.slice(4).map((post, index) => (
                   <motion.div
                     key={post.slug.current}
@@ -164,11 +160,7 @@ export default function BlogClient({
                       delay: (index + 4) * 0.2,
                     }}
                   >
-                    <ArticleCard
-                      key={post.slug.current}
-                      size="small"
-                      article={post}
-                    />
+                    <ArticleCard key={post.slug.current} article={post} />
                   </motion.div>
                 ))}
               </div>
