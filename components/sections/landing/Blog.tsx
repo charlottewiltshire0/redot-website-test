@@ -83,12 +83,7 @@ export const Blog = () => {
                     delay: index * 0.2,
                   }}
                 >
-                  <div className="hidden h-full md:block">
-                    <ArticleCard article={post} />
-                  </div>
-                  <div className="block md:hidden">
-                    <ArticleCard article={post} />
-                  </div>
+                  <ArticleCard article={post} />
                 </motion.div>
               ))}
         </div>
