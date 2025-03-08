@@ -107,7 +107,7 @@ export default function BlogClient({
       </div>
       <div>
         {!selectedTag && !search && latestBlog && (
-          <div className="mb-28">
+          <div className="mb-8 md:mb-28">
             <LatestBlogHero latestBlog={latestBlog} isLoading={false} />
           </div>
         )}
