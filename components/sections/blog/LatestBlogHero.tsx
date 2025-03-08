@@ -57,7 +57,7 @@ export const LatestBlogHero = ({
               initial={{ opacity: 0, scale: 0.9 }}
               animate={inView ? { opacity: 1, scale: 1 } : {}}
               transition={{ duration: 0.6 }}
-              className="relative col-span-12 flex h-full w-full flex-col items-center md:col-span-6 md:col-start-7"
+              className="relative col-span-12 mb-4 flex h-full w-full flex-col items-center md:col-span-6 md:col-start-7"
             >
               <div className="relative order-first aspect-video w-full overflow-hidden md:order-none">
                 <Image
@@ -75,25 +75,27 @@ export const LatestBlogHero = ({
               transition={{ duration: 0.6 }}
               className="relative col-span-12 w-full px-0 pb-6 md:col-span-5 md:col-start-1 md:pb-0"
             >
-              <div className="flex flex-col justify-center gap-4">
-                <div className="flex flex-row items-center gap-4">
-                  <div className="flex flex-wrap items-center gap-2">
-                    {latestBlog.tags?.map((tag: SchemaTag) => (
-                      <Tag
-                        key={tag.slug.current}
-                        className="hover:bg-background"
-                        name={tag.name}
-                      />
-                    ))}
+              <div className="flex flex-col justify-center gap-6">
+                <div className="flex flex-col gap-3">
+                  <div className="flex flex-row items-center gap-4">
+                    <div className="flex flex-wrap items-center gap-2">
+                      {latestBlog.tags?.map((tag: SchemaTag) => (
+                        <Tag
+                          key={tag.slug.current}
+                          className="hover:bg-background"
+                          name={tag.name}
+                        />
+                      ))}
+                    </div>
+                    <p className="text-xs font-medium text-muted-foreground md:text-sm">
+                      {formatDate(latestBlog.publishedAt)}
+                    </p>
                   </div>
-                  <p className="text-xs font-medium text-muted-foreground md:text-sm">
-                    {formatDate(latestBlog.publishedAt)}
-                  </p>
+                  <h3 className="text-pretty text-4xl font-bold md:text-6xl">
+                    {latestBlog.title}
+                  </h3>
                 </div>
-                <h3 className="text-3xl font-bold md:text-5xl">
-                  {latestBlog.title}
-                </h3>
-                <p className="line-clamp-3 text-base text-muted-foreground md:text-xl">
+                <p className="line-clamp-3 text-balance text-base text-muted-foreground md:text-xl">
                   {latestBlog.excerpt}
                 </p>
                 <motion.div

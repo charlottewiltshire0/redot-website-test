@@ -18,7 +18,7 @@ export default function Terms() {
       <div className="mt-24 flex flex-col gap-8 px-5 lg:px-40">
         <TextFetcher
           url={termsUrl}
-          className="article prose max-w-none dark:prose-invert"
+          className="prose max-w-none dark:prose-invert"
           loadingComponent={
             <div className="py-10 text-center">
               <svg
