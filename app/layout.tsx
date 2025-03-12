@@ -13,8 +13,11 @@ const inter = Inter({
   display: "swap",
 });
 
+const baseUrl =
+  process.env.NEXT_PUBLIC_BASE_URL || "https://www.redotengine.org";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.redotengine.org"),
+  metadataBase: new URL(baseUrl),
   title: {
     default: "Redot Engine: Open source game engine for everyone.",
     template: "%s - Redot Engine",
@@ -24,7 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.redotengine.org",
+    url: baseUrl,
     siteName: "Redot Engine",
     title: "Redot Engine: Open source game engine for everyone.",
     description:
@@ -44,7 +47,7 @@ export const metadata: Metadata = {
     description:
       "Redot Engine is an open-source game engine that enables developers to create stunning games with ease, offering powerful features, an active community, and a seamless development experience.",
     images: ["/homepage.webp"], //! change image path here to the actual image
-    creator: "@redotengine",
+    creator: "@Redot_Engine",
   },
   icons: {
     icon: "/logo.svg",
