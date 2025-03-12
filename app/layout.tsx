@@ -21,6 +21,36 @@ export const metadata: Metadata = {
   },
   description:
     "Redot Engine is an open-source game engine that enables developers to create stunning games with ease, offering powerful features, an active community, and a seamless development experience.",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://www.redotengine.org",
+    siteName: "Redot Engine",
+    title: "Redot Engine: Open source game engine for everyone.",
+    description:
+      "Redot Engine is an open-source game engine that enables developers to create stunning games with ease, offering powerful features, an active community, and a seamless development experience.",
+    images: [
+      {
+        url: "/homepage.webp", //! change image path here to the actual image
+        width: 1200,
+        height: 630,
+        alt: "Redot Engine - Open source game engine for everyone",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Redot Engine: Open source game engine for everyone.",
+    description:
+      "Redot Engine is an open-source game engine that enables developers to create stunning games with ease, offering powerful features, an active community, and a seamless development experience.",
+    images: ["/homepage.webp"], //! change image path here to the actual image
+    creator: "@redotengine",
+  },
+  icons: {
+    icon: "/logo.svg",
+    shortcut: "/logo.svg",
+    apple: "/logo.webp",
+  },
 };
 
 export default async function RootLayout({
