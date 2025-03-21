@@ -28,11 +28,16 @@ jobs:
         with:
           node-version: lts/*
 
-      - name: Install step
-        run: "bun install"
+      - name: Install Tools & Dependencies
+        uses: ./.github/actions/install
 
-      - name: Build step
-        run: "bunrun build"
+      - name: Build Next.js App
+        run: bun run build
+        env:
+          NEXT_PUBLIC_GTM_ID: ${{ secrets.NEXT_PUBLIC_GTM_ID }}
+          NEXT_PUBLIC_SANITY_PROJECT_ID: ${{ vars.NEXT_PUBLIC_SANITY_PROJECT_ID }}
+          NEXT_PUBLIC_SANITY_DATASET: ${{ vars.NEXT_PUBLIC_SANITY_DATASET }}
+          NEXT_PUBLIC_BASE_URL: ${{ vars.NEXT_PUBLIC_BASE_URL }}
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
