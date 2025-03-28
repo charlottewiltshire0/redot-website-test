@@ -1,9 +1,6 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { Hero } from "@/components/sections/landing/Hero";
-import { ProductShowcase } from "@/components/sections/landing/ProductShowcase";
-import { TextReveal } from "@/components/ui/text-reveal";
 import { useTranslations } from "next-intl";
 
 const Features = dynamic(
@@ -43,9 +40,6 @@ export default function Landing() {
 
   return (
     <main>
-      <Hero />
-      <ProductShowcase />
-      <TextReveal text={t("body")} />
       <Features />
       <Blog />
       <Review />
