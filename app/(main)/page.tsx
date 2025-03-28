@@ -1,7 +1,6 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { useTranslations } from "next-intl";
 
 const Review = dynamic(
   () =>
@@ -20,8 +19,6 @@ const Start = dynamic(
 );
 
 export default function Landing() {
-  const t = useTranslations("textRevealSection");
-
   return (
     <main>
       <Review />
