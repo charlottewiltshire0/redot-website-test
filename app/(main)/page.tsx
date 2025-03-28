@@ -1,20 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { Hero } from "@/components/sections/landing/Hero";
-import { ProductShowcase } from "@/components/sections/landing/ProductShowcase";
-import { TextReveal } from "@/components/ui/text-reveal";
 import { useTranslations } from "next-intl";
-
-const Features = dynamic(
-  () =>
-    import("@/components/sections/landing/Features").then(
-      (mod) => mod.Features
-    ),
-  {
-    ssr: false,
-  }
-);
 
 const Review = dynamic(
   () =>
@@ -24,12 +11,6 @@ const Review = dynamic(
   }
 );
 
-const Blog = dynamic(
-  () => import("@/components/sections/landing/Blog").then((mod) => mod.Blog),
-  {
-    ssr: false,
-  }
-);
 
 const Start = dynamic(
   () => import("@/components/sections/landing/Start").then((mod) => mod.Start),
@@ -43,11 +24,6 @@ export default function Landing() {
 
   return (
     <main>
-      <Hero />
-      <ProductShowcase />
-      <TextReveal text={t("body")} />
-      <Features />
-      <Blog />
       <Review />
       <Start />
     </main>
