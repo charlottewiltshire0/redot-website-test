@@ -43,7 +43,6 @@ export default function Landing() {
 
   return (
     <main>
-      <Hero />
       <ProductShowcase />
       <TextReveal text={t("body")} />
       <Features />
