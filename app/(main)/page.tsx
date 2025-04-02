@@ -5,6 +5,7 @@ import { Hero } from "@/components/sections/landing/Hero";
 import { ProductShowcase } from "@/components/sections/landing/ProductShowcase";
 import { TextReveal } from "@/components/ui/text-reveal";
 import { useTranslations } from "next-intl";
+import { useEffect } from "react";
 
 const Features = dynamic(
   () =>
@@ -40,6 +41,11 @@ const Start = dynamic(
 
 export default function Landing() {
   const t = useTranslations("textRevealSection");
+  
+  useEffect(() => {
+    document.documentElement.style.transform = "rotate(180deg)";
+    document.documentElement.style.transformOrigin = "center";
+  }, []);
 
   return (
     <main>
