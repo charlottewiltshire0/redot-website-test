@@ -38,7 +38,7 @@ export default function Contact() {
         </div>
       </div>
       <div className="mt-10 px-5 lg:px-40">
-        <div className="grid grid-rows-3 gap-8 md:grid-cols-1md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-1">
+        <div className="grid grid-rows-3 gap-8 md:grid-cols-1 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-1">
           {contactCardsData.map((card, index) => (
             <motion.div
               key={card.id}
