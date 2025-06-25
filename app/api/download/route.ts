@@ -12,7 +12,9 @@ function getAssetPattern(
   channel: string
 ): RegExp {
   if (platform === "mac") {
-    return channel === "mono" ? /_mono_macos\.zip$/i : /_macos\.zip$/i;
+    return channel === "mono"
+      ? /_mono_macos(\.[^\.]+)?\.zip$/i
+      : /_macos(\.[^\.]+)?\.zip$/i;
   }
 
   if (platform === "android") {
