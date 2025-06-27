@@ -18,8 +18,6 @@ import { links } from "@/constants/links";
 import { useRouter } from "next/navigation";
 import { SectionLink } from "@/components/SectionLink";
 
-export const runtime = "edge";
-
 export default function NotFound() {
   const router = useRouter();
   const t = useTranslations("notFound");
